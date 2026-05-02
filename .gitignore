@@ -1,0 +1,46 @@
+# ========================
+# 中国历史年表 · .gitignore
+# 只公开 index.html + 必要的 JSON 数据文件
+# ========================
+
+# 默认忽略一切
+/*
+
+# ===== 允许的文件 =====
+!index.html
+!chronology.json
+!dict/
+!dict/*.json
+
+# ===== 允许的元数据 =====
+!.gitignore
+!README.md
+
+# ===== 明确排除 =====
+# 独立版（数据内嵌，体积大）
+index-standalone.html
+
+# 构建脚本（非运行必需）
+js/
+
+# 归档与备份
+archive/
+backup/
+release/
+
+# AI 工作目录
+.workbuddy/
+
+# Node.js 依赖
+node_modules/
+
+# Vite 构建产物
+dist/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器配置
+.vscode/
+.idea/

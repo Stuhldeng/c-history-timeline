@@ -1,0 +1,1772 @@
+{
+  "_meta": {
+    "name": "polity-map",
+    "version": "1.0.0",
+    "description": "全量政权字典（从中国政权.md解析）",
+    "periods": [
+      "先秦",
+      "秦汉",
+      "三国两晋南北朝",
+      "隋唐五代",
+      "宋辽金",
+      "元明清"
+    ],
+    "mergeGroups": [
+      "周",
+      "秦",
+      "楚",
+      "齐",
+      "晋",
+      "鲁",
+      "燕",
+      "宋",
+      "卫",
+      "陈",
+      "蔡",
+      "曹",
+      "郑",
+      "吴",
+      "越",
+      "韩",
+      "赵",
+      "魏",
+      "汉",
+      "曹魏",
+      "蜀汉",
+      "东吴",
+      "汉赵",
+      "成汉",
+      "后赵",
+      "前凉",
+      "前燕",
+      "前秦",
+      "后秦",
+      "西秦",
+      "后燕",
+      "南燕",
+      "北燕",
+      "西燕",
+      "后凉",
+      "南凉",
+      "西凉",
+      "北凉",
+      "胡夏",
+      "冉魏",
+      "吐谷浑",
+      "柔然",
+      "刘宋",
+      "南齐",
+      "萧梁",
+      "南陈",
+      "北魏",
+      "东魏",
+      "西魏",
+      "北齐",
+      "北周",
+      "高句丽",
+      "隋",
+      "唐",
+      "突厥",
+      "西突厥",
+      "后突厥",
+      "回鹘",
+      "吐蕃",
+      "南诏",
+      "渤海",
+      "后梁",
+      "后唐",
+      "后晋",
+      "后汉",
+      "后周",
+      "杨吴",
+      "南唐",
+      "吴越",
+      "闽",
+      "马楚",
+      "南汉",
+      "前蜀",
+      "后蜀",
+      "荆南",
+      "北汉",
+      "辽",
+      "西夏",
+      "金",
+      "于阗",
+      "喀喇汗",
+      "大理",
+      "蒙古元",
+      "明",
+      "大顺",
+      "大西",
+      "清"
+    ],
+    "total": 109,
+    "generatedAt": "2026-05-01T04:29:57.642Z",
+    "lastUpdated": "2026-05-01T06:08:14.458Z"
+  },
+  "polities": [
+    {
+      "id": "pol-西周",
+      "period": "先秦",
+      "mergeGroup": "周",
+      "selfName": "周",
+      "name": "西周",
+      "aliases": [
+        "宗周",
+        "成周",
+        "周"
+      ],
+      "isCentral": true,
+      "startYear": -1046,
+      "endYear": -771,
+      "durationRaw": "前1046—前771年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-姜齐",
+      "period": "先秦",
+      "mergeGroup": "齐",
+      "selfName": "齐",
+      "name": "姜齐",
+      "aliases": [
+        "齐国",
+        "姜姓齐",
+        "齐（姜/田）"
+      ],
+      "isCentral": false,
+      "startYear": -1046,
+      "endYear": -386,
+      "durationRaw": "前1046—前386年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-燕",
+      "period": "先秦",
+      "mergeGroup": "燕",
+      "selfName": "燕",
+      "name": "燕",
+      "aliases": [
+        "燕国",
+        "北燕"
+      ],
+      "isCentral": false,
+      "startYear": -1046,
+      "endYear": -222,
+      "durationRaw": "？—前222年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-卫",
+      "period": "先秦",
+      "mergeGroup": "卫",
+      "selfName": "卫",
+      "name": "卫",
+      "aliases": [
+        "卫国"
+      ],
+      "isCentral": false,
+      "startYear": -1046,
+      "endYear": -209,
+      "durationRaw": "？—前209年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-蔡",
+      "period": "先秦",
+      "mergeGroup": "蔡",
+      "selfName": "蔡",
+      "name": "蔡",
+      "aliases": [
+        "蔡国"
+      ],
+      "isCentral": false,
+      "startYear": -1046,
+      "endYear": -447,
+      "durationRaw": "前1046—前447年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-曹",
+      "period": "先秦",
+      "mergeGroup": "曹",
+      "selfName": "曹",
+      "name": "曹",
+      "aliases": [
+        "曹国"
+      ],
+      "isCentral": false,
+      "startYear": -1046,
+      "endYear": -487,
+      "durationRaw": "前1046—前487年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-吴",
+      "period": "先秦",
+      "mergeGroup": "吴",
+      "selfName": "吴",
+      "name": "吴",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": -1046,
+      "endYear": -473,
+      "durationRaw": "？—前473年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-越",
+      "period": "先秦",
+      "mergeGroup": "越",
+      "selfName": "越",
+      "name": "越",
+      "aliases": [
+        "越国",
+        "于越"
+      ],
+      "isCentral": false,
+      "startYear": -1046,
+      "endYear": -306,
+      "durationRaw": "？—前306年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-陈",
+      "period": "先秦",
+      "mergeGroup": "陈",
+      "selfName": "陈",
+      "name": "陈",
+      "aliases": [
+        "陈国"
+      ],
+      "isCentral": false,
+      "startYear": -1045,
+      "endYear": -478,
+      "durationRaw": "前1045—前478年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-鲁",
+      "period": "先秦",
+      "mergeGroup": "鲁",
+      "selfName": "鲁",
+      "name": "鲁",
+      "aliases": [
+        "鲁国"
+      ],
+      "isCentral": false,
+      "startYear": -1043,
+      "endYear": -256,
+      "durationRaw": "前1043—前256年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-楚",
+      "period": "先秦",
+      "mergeGroup": "楚",
+      "selfName": "楚",
+      "name": "楚",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": -1042,
+      "endYear": -223,
+      "durationRaw": "前1042年—前223年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-宋",
+      "period": "先秦",
+      "mergeGroup": "宋",
+      "selfName": "宋",
+      "name": "宋",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": -1040,
+      "endYear": -286,
+      "durationRaw": "前1040—前286年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-晋",
+      "period": "先秦",
+      "mergeGroup": "晋",
+      "selfName": "晋",
+      "name": "晋",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": -1033,
+      "endYear": -376,
+      "durationRaw": "前1033—前376年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-秦",
+      "period": "先秦",
+      "mergeGroup": "秦",
+      "selfName": "秦",
+      "name": "秦",
+      "aliases": [],
+      "isCentral": true,
+      "startYear": -905,
+      "endYear": -221,
+      "durationRaw": "前905年—前221年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-郑",
+      "period": "先秦",
+      "mergeGroup": "郑",
+      "selfName": "郑",
+      "name": "郑",
+      "aliases": [
+        "郑国"
+      ],
+      "isCentral": false,
+      "startYear": -806,
+      "endYear": -375,
+      "durationRaw": "前806—前375年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-东周",
+      "period": "先秦",
+      "mergeGroup": "周",
+      "selfName": "周",
+      "name": "东周",
+      "aliases": [
+        "周"
+      ],
+      "isCentral": true,
+      "startYear": -770,
+      "endYear": -256,
+      "durationRaw": "前770—前256年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-韩",
+      "period": "先秦",
+      "mergeGroup": "韩",
+      "selfName": "韩",
+      "name": "韩",
+      "aliases": [
+        "韩国"
+      ],
+      "isCentral": false,
+      "startYear": -403,
+      "endYear": -230,
+      "durationRaw": "前403—前230年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-赵",
+      "period": "先秦",
+      "mergeGroup": "赵",
+      "selfName": "赵",
+      "name": "赵",
+      "aliases": [
+        "赵国"
+      ],
+      "isCentral": false,
+      "startYear": -403,
+      "endYear": -222,
+      "durationRaw": "前403—前222年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-魏",
+      "period": "先秦",
+      "mergeGroup": "魏",
+      "selfName": "魏",
+      "name": "魏",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": -403,
+      "endYear": -225,
+      "durationRaw": "前403—前225年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-田齐",
+      "period": "先秦",
+      "mergeGroup": "齐",
+      "selfName": "齐",
+      "name": "田齐",
+      "aliases": [
+        "齐国",
+        "田氏齐",
+        "齐（姜/田）"
+      ],
+      "isCentral": false,
+      "startYear": -386,
+      "endYear": -221,
+      "durationRaw": "前386—前221年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-于阗",
+      "period": "宋辽金",
+      "mergeGroup": "于阗",
+      "selfName": "于阗",
+      "name": "于阗",
+      "aliases": [
+        "于阗国",
+        "和阗"
+      ],
+      "isCentral": false,
+      "startYear": -232,
+      "endYear": 1006,
+      "durationRaw": "前232—1006年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-秦朝",
+      "period": "秦汉",
+      "mergeGroup": "秦",
+      "selfName": "秦",
+      "name": "秦朝",
+      "aliases": [
+        "秦帝国",
+        "嬴秦"
+      ],
+      "isCentral": true,
+      "startYear": -221,
+      "endYear": -207,
+      "durationRaw": "前221—前207年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-匈奴",
+      "period": "秦汉",
+      "mergeGroup": "匈奴",
+      "selfName": "匈奴",
+      "name": "匈奴",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": -209,
+      "endYear": 48,
+      "isBorder": true
+    },
+    {
+      "id": "pol-汉王",
+      "period": "秦汉",
+      "mergeGroup": "汉",
+      "selfName": "汉王",
+      "name": "汉王",
+      "aliases": [
+        "汉王刘邦"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "startYear": -207,
+      "endYear": -203
+    },
+    {
+      "id": "pol-西汉",
+      "period": "秦汉",
+      "mergeGroup": "汉",
+      "selfName": "汉",
+      "name": "西汉",
+      "aliases": [
+        "前汉"
+      ],
+      "isCentral": true,
+      "startYear": -202,
+      "endYear": 8,
+      "durationRaw": "前206—8年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-高句丽",
+      "period": "隋唐五代",
+      "mergeGroup": "高句丽",
+      "selfName": "高句丽",
+      "name": "高句丽",
+      "aliases": [
+        "高丽"
+      ],
+      "isCentral": false,
+      "startYear": -37,
+      "endYear": 668,
+      "durationRaw": "前37—668年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-新朝",
+      "period": "秦汉",
+      "mergeGroup": "汉",
+      "selfName": "新",
+      "name": "新朝",
+      "aliases": [
+        "新莽",
+        "王莽新"
+      ],
+      "isCentral": true,
+      "startYear": 8,
+      "endYear": 23,
+      "durationRaw": "8—23年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-更始",
+      "period": "秦汉",
+      "mergeGroup": "汉",
+      "selfName": "汉",
+      "name": "更始",
+      "aliases": [
+        "更始政权"
+      ],
+      "isCentral": true,
+      "startYear": 23,
+      "endYear": 25,
+      "durationRaw": "23—25年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-东汉",
+      "period": "秦汉",
+      "mergeGroup": "汉",
+      "selfName": "汉",
+      "name": "东汉",
+      "aliases": [
+        "后汉"
+      ],
+      "isCentral": true,
+      "startYear": 25,
+      "endYear": 220,
+      "durationRaw": "25—220年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-曹魏",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "曹魏",
+      "selfName": "魏",
+      "name": "曹魏",
+      "aliases": [
+        "魏",
+        "魏朝"
+      ],
+      "isCentral": true,
+      "startYear": 220,
+      "endYear": 265,
+      "durationRaw": "220—265年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-蜀汉",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "蜀汉",
+      "selfName": "汉",
+      "name": "蜀汉",
+      "aliases": [
+        "蜀",
+        "季汉"
+      ],
+      "isCentral": true,
+      "startYear": 221,
+      "endYear": 263,
+      "durationRaw": "221—263年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-东吴",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "东吴",
+      "selfName": "吴",
+      "name": "东吴",
+      "aliases": [
+        "吴",
+        "孙吴"
+      ],
+      "isCentral": true,
+      "startYear": 222,
+      "endYear": 280,
+      "durationRaw": "222—280年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-西晋",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "晋",
+      "selfName": "晋",
+      "name": "西晋",
+      "aliases": [
+        "司马晋"
+      ],
+      "isCentral": true,
+      "startYear": 265,
+      "endYear": 316,
+      "durationRaw": "265—316年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-前赵汉",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "汉赵",
+      "selfName": "汉",
+      "name": "前赵（汉）",
+      "aliases": [
+        "汉赵"
+      ],
+      "isCentral": false,
+      "startYear": 304,
+      "endYear": 318,
+      "durationRaw": "304—318年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-成汉成",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "成汉",
+      "selfName": "成",
+      "name": "成汉（成）",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": 304,
+      "endYear": 338,
+      "durationRaw": "304—338年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-吐谷浑",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "吐谷浑",
+      "selfName": "吐谷浑",
+      "name": "吐谷浑",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": 313,
+      "endYear": 663,
+      "durationRaw": "约313—663年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-东晋",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "晋",
+      "selfName": "晋",
+      "name": "东晋",
+      "aliases": [],
+      "isCentral": true,
+      "startYear": 317,
+      "endYear": 420,
+      "durationRaw": "317—420年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-前赵赵",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "汉赵",
+      "selfName": "赵",
+      "name": "前赵（赵）",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": 318,
+      "endYear": 329,
+      "durationRaw": "318—329年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-后赵",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "后赵",
+      "selfName": "赵",
+      "name": "后赵",
+      "aliases": [
+        "石赵"
+      ],
+      "isCentral": false,
+      "startYear": 319,
+      "endYear": 351,
+      "durationRaw": "319—351年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-前凉",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "前凉",
+      "selfName": "凉",
+      "name": "前凉",
+      "aliases": [
+        "张凉"
+      ],
+      "isCentral": false,
+      "startYear": 320,
+      "endYear": 376,
+      "durationRaw": "320—376年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-前燕",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "前燕",
+      "selfName": "燕",
+      "name": "前燕",
+      "aliases": [
+        "慕容燕"
+      ],
+      "isCentral": false,
+      "startYear": 337,
+      "endYear": 370,
+      "durationRaw": "337—370年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-成汉汉",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "成汉",
+      "selfName": "汉",
+      "name": "成汉（汉）",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": 338,
+      "endYear": 347,
+      "durationRaw": "338—347年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-代国",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "北魏",
+      "selfName": "代",
+      "name": "代国",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": 338,
+      "endYear": 376,
+      "durationRaw": "338—376年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-前秦",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "前秦",
+      "selfName": "秦",
+      "name": "前秦",
+      "aliases": [
+        "苻秦"
+      ],
+      "isCentral": false,
+      "startYear": 350,
+      "endYear": 394,
+      "durationRaw": "350—394年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-冉魏",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "冉魏",
+      "selfName": "冉魏",
+      "name": "冉魏",
+      "aliases": [
+        "魏",
+        "冉魏"
+      ],
+      "isCentral": false,
+      "startYear": 350,
+      "endYear": 352,
+      "durationRaw": "350—352年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-后秦",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "后秦",
+      "selfName": "秦",
+      "name": "后秦",
+      "aliases": [
+        "姚秦"
+      ],
+      "isCentral": false,
+      "startYear": 384,
+      "endYear": 417,
+      "durationRaw": "384—417年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-后燕",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "后燕",
+      "selfName": "燕",
+      "name": "后燕",
+      "aliases": [
+        "慕容燕"
+      ],
+      "isCentral": false,
+      "startYear": 384,
+      "endYear": 409,
+      "durationRaw": "384—409年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-西燕",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "西燕",
+      "selfName": "燕",
+      "name": "西燕",
+      "aliases": [
+        "慕容燕"
+      ],
+      "isCentral": false,
+      "startYear": 384,
+      "endYear": 394,
+      "durationRaw": "384—394年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-西秦",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "西秦",
+      "selfName": "秦",
+      "name": "西秦",
+      "aliases": [
+        "乞伏秦"
+      ],
+      "isCentral": false,
+      "startYear": 385,
+      "endYear": 431,
+      "durationRaw": "385—431年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-后凉",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "后凉",
+      "selfName": "凉",
+      "name": "后凉",
+      "aliases": [
+        "吕凉"
+      ],
+      "isCentral": false,
+      "startYear": 386,
+      "endYear": 403,
+      "durationRaw": "386—403年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-北魏",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "北魏",
+      "selfName": "魏",
+      "name": "北魏",
+      "aliases": [
+        "后魏",
+        "拓跋魏"
+      ],
+      "isCentral": false,
+      "startYear": 386,
+      "endYear": 534,
+      "durationRaw": "386—534年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-南凉",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "南凉",
+      "selfName": "凉",
+      "name": "南凉",
+      "aliases": [
+        "秃发凉"
+      ],
+      "isCentral": false,
+      "startYear": 397,
+      "endYear": 414,
+      "durationRaw": "397—414年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-北凉",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "北凉",
+      "selfName": "凉",
+      "name": "北凉",
+      "aliases": [
+        "沮渠凉"
+      ],
+      "isCentral": false,
+      "startYear": 397,
+      "endYear": 439,
+      "durationRaw": "397—439年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-南燕",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "南燕",
+      "selfName": "燕",
+      "name": "南燕",
+      "aliases": [
+        "慕容燕"
+      ],
+      "isCentral": false,
+      "startYear": 398,
+      "endYear": 410,
+      "durationRaw": "398—410年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-西凉",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "西凉",
+      "selfName": "凉",
+      "name": "西凉",
+      "aliases": [
+        "李凉"
+      ],
+      "isCentral": false,
+      "startYear": 400,
+      "endYear": 421,
+      "durationRaw": "400—421年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-柔然",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "柔然",
+      "selfName": "柔然",
+      "name": "柔然",
+      "aliases": [
+        "蠕蠕",
+        "茹茹"
+      ],
+      "isCentral": false,
+      "startYear": 402,
+      "endYear": 555,
+      "durationRaw": "约402—555年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-胡夏",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "胡夏",
+      "selfName": "夏",
+      "name": "胡夏",
+      "aliases": [
+        "夏",
+        "赫连夏"
+      ],
+      "isCentral": false,
+      "startYear": 407,
+      "endYear": 431,
+      "durationRaw": "407—431年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-北燕",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "北燕",
+      "selfName": "燕",
+      "name": "北燕",
+      "aliases": [
+        "冯燕"
+      ],
+      "isCentral": false,
+      "startYear": 409,
+      "endYear": 436,
+      "durationRaw": "409—436年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-刘宋",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "刘宋",
+      "selfName": "宋",
+      "name": "刘宋",
+      "aliases": [
+        "宋",
+        "南朝宋"
+      ],
+      "isCentral": false,
+      "startYear": 420,
+      "endYear": 479,
+      "durationRaw": "420—479年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-南齐",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "南齐",
+      "selfName": "齐",
+      "name": "南齐",
+      "aliases": [
+        "齐",
+        "南朝齐"
+      ],
+      "isCentral": false,
+      "startYear": 479,
+      "endYear": 502,
+      "durationRaw": "479—502年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-萧梁",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "萧梁",
+      "selfName": "梁",
+      "name": "萧梁",
+      "aliases": [
+        "梁",
+        "南朝梁"
+      ],
+      "isCentral": false,
+      "startYear": 502,
+      "endYear": 557,
+      "durationRaw": "502—557年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-东魏",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "东魏",
+      "selfName": "魏",
+      "name": "东魏",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": 534,
+      "endYear": 550,
+      "durationRaw": "534—550年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-西魏",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "西魏",
+      "selfName": "魏",
+      "name": "西魏",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": 535,
+      "endYear": 557,
+      "durationRaw": "535—557年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-北齐",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "北齐",
+      "selfName": "齐",
+      "name": "北齐",
+      "aliases": [
+        "高齐"
+      ],
+      "isCentral": false,
+      "startYear": 550,
+      "endYear": 577,
+      "durationRaw": "550—577年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-突厥汗国",
+      "period": "隋唐五代",
+      "mergeGroup": "突厥",
+      "selfName": "突厥",
+      "name": "突厥汗国",
+      "aliases": [
+        "东突厥",
+        "突厥"
+      ],
+      "isCentral": false,
+      "startYear": 552,
+      "endYear": 630,
+      "durationRaw": "552—630年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-南陈",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "南陈",
+      "selfName": "陈",
+      "name": "南陈",
+      "aliases": [
+        "陈",
+        "南朝陈"
+      ],
+      "isCentral": false,
+      "startYear": 557,
+      "endYear": 589,
+      "durationRaw": "557—589年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-北周",
+      "period": "三国两晋南北朝",
+      "mergeGroup": "北周",
+      "selfName": "周",
+      "name": "北周",
+      "aliases": [
+        "宇文周"
+      ],
+      "isCentral": false,
+      "startYear": 557,
+      "endYear": 581,
+      "durationRaw": "557—581年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-隋朝",
+      "period": "隋唐五代",
+      "mergeGroup": "隋",
+      "selfName": "隋",
+      "name": "隋朝",
+      "aliases": [
+        "隋"
+      ],
+      "isCentral": true,
+      "startYear": 581,
+      "endYear": 618,
+      "durationRaw": "581—618年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-西突厥",
+      "period": "隋唐五代",
+      "mergeGroup": "西突厥",
+      "selfName": "突厥",
+      "name": "西突厥",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": 583,
+      "endYear": 657,
+      "durationRaw": "583—657年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-唐朝",
+      "period": "隋唐五代",
+      "mergeGroup": "唐",
+      "selfName": "唐",
+      "name": "唐朝",
+      "aliases": [
+        "唐",
+        "李唐",
+        "大唐"
+      ],
+      "isCentral": true,
+      "startYear": 618,
+      "endYear": 907,
+      "durationRaw": "618—907年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-吐蕃",
+      "period": "隋唐五代",
+      "mergeGroup": "吐蕃",
+      "selfName": "吐蕃",
+      "name": "吐蕃",
+      "aliases": [
+        "大蕃",
+        "吐蕃王朝"
+      ],
+      "isCentral": false,
+      "startYear": 618,
+      "endYear": 842,
+      "durationRaw": "约618—842年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-南诏大蒙",
+      "period": "隋唐五代",
+      "mergeGroup": "南诏",
+      "selfName": "大蒙",
+      "name": "南诏（大蒙）",
+      "aliases": [
+        "南诏"
+      ],
+      "isCentral": false,
+      "startYear": 649,
+      "endYear": 779,
+      "durationRaw": "约649—779年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-后突厥汗国",
+      "period": "隋唐五代",
+      "mergeGroup": "后突厥",
+      "selfName": "突厥",
+      "name": "后突厥汗国",
+      "aliases": [
+        "后突厥"
+      ],
+      "isCentral": false,
+      "startYear": 682,
+      "endYear": 745,
+      "durationRaw": "682—745年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-武周",
+      "period": "隋唐五代",
+      "mergeGroup": "唐",
+      "selfName": "周",
+      "name": "武周",
+      "aliases": [
+        "周",
+        "武则天周"
+      ],
+      "isCentral": true,
+      "startYear": 690,
+      "endYear": 705,
+      "durationRaw": "690—705年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-渤海国",
+      "period": "隋唐五代",
+      "mergeGroup": "渤海",
+      "selfName": "渤海",
+      "name": "渤海国",
+      "aliases": [
+        "渤海",
+        "震国"
+      ],
+      "isCentral": false,
+      "startYear": 698,
+      "endYear": 926,
+      "durationRaw": "698—926年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-回鹘汗国",
+      "period": "隋唐五代",
+      "mergeGroup": "回鹘",
+      "selfName": "回鹘",
+      "name": "回鹘汗国",
+      "aliases": [
+        "回纥"
+      ],
+      "isCentral": false,
+      "startYear": 744,
+      "endYear": 840,
+      "durationRaw": "744—840年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-南诏大礼",
+      "period": "隋唐五代",
+      "mergeGroup": "南诏",
+      "selfName": "大礼",
+      "name": "南诏（大礼）",
+      "aliases": [
+        "南诏"
+      ],
+      "isCentral": false,
+      "startYear": 779,
+      "endYear": 902,
+      "durationRaw": "779—902年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-喀喇汗国",
+      "period": "宋辽金",
+      "mergeGroup": "喀喇汗",
+      "selfName": "喀喇汗",
+      "name": "喀喇汗国",
+      "aliases": [
+        "黑汗",
+        "喀喇汗"
+      ],
+      "isCentral": false,
+      "startYear": 840,
+      "endYear": 1212,
+      "durationRaw": "840—1212年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-杨吴",
+      "period": "隋唐五代",
+      "mergeGroup": "杨吴",
+      "selfName": "吴",
+      "name": "杨吴",
+      "aliases": [
+        "吴",
+        "杨氏吴"
+      ],
+      "isCentral": false,
+      "startYear": 902,
+      "endYear": 937,
+      "durationRaw": "902—937年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-后梁",
+      "period": "隋唐五代",
+      "mergeGroup": "后梁",
+      "selfName": "梁",
+      "name": "后梁",
+      "aliases": [
+        "朱梁"
+      ],
+      "isCentral": false,
+      "startYear": 907,
+      "endYear": 923,
+      "durationRaw": "907—923年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-吴越",
+      "period": "隋唐五代",
+      "mergeGroup": "吴越",
+      "selfName": "越",
+      "name": "吴越",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": 907,
+      "endYear": 978,
+      "durationRaw": "907—978年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-楚",
+      "period": "隋唐五代",
+      "mergeGroup": "马楚",
+      "selfName": "楚",
+      "name": "楚",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": 907,
+      "endYear": 951,
+      "durationRaw": "907—951年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-前蜀",
+      "period": "隋唐五代",
+      "mergeGroup": "前蜀",
+      "selfName": "蜀",
+      "name": "前蜀",
+      "aliases": [
+        "王蜀"
+      ],
+      "isCentral": false,
+      "startYear": 907,
+      "endYear": 925,
+      "durationRaw": "907—925年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-契丹",
+      "period": "宋辽金",
+      "mergeGroup": "辽",
+      "selfName": "大契丹",
+      "name": "契丹",
+      "aliases": [
+        "辽（前期）"
+      ],
+      "isCentral": false,
+      "startYear": 907,
+      "endYear": 947,
+      "durationRaw": "907—947年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-闽",
+      "period": "隋唐五代",
+      "mergeGroup": "闽",
+      "selfName": "闽",
+      "name": "闽",
+      "aliases": [
+        "闽国"
+      ],
+      "isCentral": false,
+      "startYear": 909,
+      "endYear": 945,
+      "durationRaw": "909—945年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-南汉",
+      "period": "隋唐五代",
+      "mergeGroup": "南汉",
+      "selfName": "汉",
+      "name": "南汉",
+      "aliases": [
+        "刘汉"
+      ],
+      "isCentral": false,
+      "startYear": 917,
+      "endYear": 971,
+      "durationRaw": "917—971年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-后唐",
+      "period": "隋唐五代",
+      "mergeGroup": "后唐",
+      "selfName": "唐",
+      "name": "后唐",
+      "aliases": [
+        "李唐（代指）"
+      ],
+      "isCentral": false,
+      "startYear": 923,
+      "endYear": 936,
+      "durationRaw": "923—936年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-南平",
+      "period": "隋唐五代",
+      "mergeGroup": "荆南",
+      "selfName": "南平",
+      "name": "南平",
+      "aliases": [
+        "荆南"
+      ],
+      "isCentral": false,
+      "startYear": 924,
+      "endYear": 963,
+      "durationRaw": "924—963年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-后蜀",
+      "period": "隋唐五代",
+      "mergeGroup": "后蜀",
+      "selfName": "蜀",
+      "name": "后蜀",
+      "aliases": [
+        "孟蜀"
+      ],
+      "isCentral": false,
+      "startYear": 934,
+      "endYear": 965,
+      "durationRaw": "934—965年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-后晋",
+      "period": "隋唐五代",
+      "mergeGroup": "后晋",
+      "selfName": "晋",
+      "name": "后晋",
+      "aliases": [
+        "石晋"
+      ],
+      "isCentral": false,
+      "startYear": 936,
+      "endYear": 947,
+      "durationRaw": "936—947年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-南唐",
+      "period": "隋唐五代",
+      "mergeGroup": "南唐",
+      "selfName": "唐",
+      "name": "南唐",
+      "aliases": [
+        "李唐（代指）"
+      ],
+      "isCentral": false,
+      "startYear": 937,
+      "endYear": 975,
+      "durationRaw": "937—975年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-大理",
+      "period": "宋辽金",
+      "mergeGroup": "大理",
+      "selfName": "大理",
+      "name": "大理",
+      "aliases": [
+        "大理国"
+      ],
+      "isCentral": false,
+      "startYear": 937,
+      "endYear": 1254,
+      "durationRaw": "937—1254年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-后汉",
+      "period": "隋唐五代",
+      "mergeGroup": "后汉",
+      "selfName": "汉",
+      "name": "后汉",
+      "aliases": [
+        "刘汉"
+      ],
+      "isCentral": false,
+      "startYear": 947,
+      "endYear": 950,
+      "durationRaw": "947—950年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-辽",
+      "period": "宋辽金",
+      "mergeGroup": "辽",
+      "selfName": "大辽",
+      "name": "辽",
+      "aliases": [
+        "契丹（后期）"
+      ],
+      "isCentral": false,
+      "startYear": 947,
+      "endYear": 1125,
+      "durationRaw": "947—1125年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-后周",
+      "period": "隋唐五代",
+      "mergeGroup": "后周",
+      "selfName": "周",
+      "name": "后周",
+      "aliases": [
+        "郭周",
+        "柴周"
+      ],
+      "isCentral": false,
+      "startYear": 951,
+      "endYear": 960,
+      "durationRaw": "951—960年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-北汉",
+      "period": "隋唐五代",
+      "mergeGroup": "北汉",
+      "selfName": "汉",
+      "name": "北汉",
+      "aliases": [
+        "刘汉"
+      ],
+      "isCentral": false,
+      "startYear": 951,
+      "endYear": 979,
+      "durationRaw": "951—979年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-北宋",
+      "period": "宋辽金",
+      "mergeGroup": "宋",
+      "selfName": "宋",
+      "name": "北宋",
+      "aliases": [
+        "宋",
+        "赵宋"
+      ],
+      "isCentral": true,
+      "startYear": 960,
+      "endYear": 1127,
+      "durationRaw": "960—1127年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-西夏",
+      "period": "宋辽金",
+      "mergeGroup": "西夏",
+      "selfName": "大白高国（大夏）",
+      "name": "西夏",
+      "aliases": [
+        "大夏",
+        "夏"
+      ],
+      "isCentral": false,
+      "startYear": 1038,
+      "endYear": 1227,
+      "durationRaw": "1038—1227年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-金",
+      "period": "宋辽金",
+      "mergeGroup": "金",
+      "selfName": "大金",
+      "name": "金",
+      "aliases": [
+        "大金",
+        "女真"
+      ],
+      "isCentral": false,
+      "startYear": 1115,
+      "endYear": 1234,
+      "durationRaw": "1115—1234年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-南宋",
+      "period": "宋辽金",
+      "mergeGroup": "宋",
+      "selfName": "宋",
+      "name": "南宋",
+      "aliases": [
+        "宋"
+      ],
+      "isCentral": true,
+      "startYear": 1127,
+      "endYear": 1279,
+      "durationRaw": "1127—1279年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-西辽",
+      "period": "隋唐五代",
+      "mergeGroup": "辽",
+      "selfName": "大辽（哈剌契丹）",
+      "name": "西辽",
+      "aliases": [
+        "哈剌契丹",
+        "黑契丹"
+      ],
+      "isCentral": false,
+      "startYear": 1132,
+      "endYear": 1218,
+      "durationRaw": "1132—1218年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-蒙古",
+      "period": "元明清",
+      "mergeGroup": "蒙古元",
+      "selfName": "大蒙古国",
+      "name": "蒙古",
+      "aliases": [
+        "大蒙古国",
+        "蒙古帝国"
+      ],
+      "isCentral": false,
+      "startYear": 1206,
+      "endYear": 1271,
+      "durationRaw": "1206—1271年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-后西辽",
+      "period": "宋辽金",
+      "mergeGroup": "辽",
+      "selfName": "大辽（起儿漫）",
+      "name": "后西辽",
+      "aliases": [
+        "起儿漫"
+      ],
+      "isCentral": false,
+      "startYear": 1220,
+      "endYear": 1309,
+      "durationRaw": "约1220—1309年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-元",
+      "period": "元明清",
+      "mergeGroup": "蒙古元",
+      "selfName": "大元",
+      "name": "元",
+      "aliases": [
+        "大元",
+        "元朝"
+      ],
+      "isCentral": true,
+      "startYear": 1271,
+      "endYear": 1368,
+      "durationRaw": "1271—1368年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-北元",
+      "period": "元明清",
+      "mergeGroup": "蒙古元",
+      "selfName": "大元",
+      "name": "北元",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": 1368,
+      "endYear": 1388,
+      "durationRaw": "1368—约1388年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-明",
+      "period": "元明清",
+      "mergeGroup": "明",
+      "selfName": "大明",
+      "name": "明",
+      "aliases": [
+        "大明",
+        "明朝"
+      ],
+      "isCentral": true,
+      "startYear": 1368,
+      "endYear": 1644,
+      "durationRaw": "1368—1644年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-后金",
+      "period": "元明清",
+      "mergeGroup": "清",
+      "selfName": "大金",
+      "name": "后金",
+      "aliases": [
+        "金（后金）"
+      ],
+      "isCentral": true,
+      "startYear": 1616,
+      "endYear": 1636,
+      "durationRaw": "1616—1636年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-清",
+      "period": "元明清",
+      "mergeGroup": "清",
+      "selfName": "大清",
+      "name": "清",
+      "aliases": [
+        "大清",
+        "清朝",
+        "满清"
+      ],
+      "isCentral": true,
+      "startYear": 1636,
+      "endYear": 1912,
+      "durationRaw": "1636—1912年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-南明",
+      "period": "元明清",
+      "mergeGroup": "明",
+      "selfName": "大明",
+      "name": "南明",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": 1644,
+      "endYear": 1662,
+      "durationRaw": "1644—1662年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-大顺",
+      "period": "元明清",
+      "mergeGroup": "大顺",
+      "selfName": "大顺",
+      "name": "大顺",
+      "aliases": [
+        "李顺"
+      ],
+      "isCentral": false,
+      "startYear": 1644,
+      "endYear": 1645,
+      "durationRaw": "1644—1645年",
+      "isBorder": false
+    },
+    {
+      "id": "pol-大西",
+      "period": "元明清",
+      "mergeGroup": "大西",
+      "selfName": "大西",
+      "name": "大西",
+      "aliases": [
+        "张献忠政权"
+      ],
+      "isCentral": false,
+      "startYear": 1644,
+      "endYear": 1646,
+      "durationRaw": "1644—1646年",
+      "isBorder": false
+    }
+  ]
+}
