@@ -16,7 +16,10 @@
   --tl-dyn:#1D4C50; --tl-cur:#D3A488;
   --tip-bg:#fff; --tip-border:#1D4C50;
   --search-bg:#c8e8d8;
-  --tag-era:#1D4C50; --tag-polity:#2d5a4e; --tag-ruler:#4a5a6e;
+  /* 标签颜色（可主题化） */
+  --tag-era:#5A8AAA;   --tag-era-bg:rgba(90,138,170,.15);
+  --tag-polity:#2d5a4e; --tag-polity-bg:rgba(45,90,78,.15);
+  --tag-ruler:#C0808A; --tag-ruler-bg:rgba(192,128,138,.15);
   --panel-border:#1D4C50;
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -32,6 +35,8 @@ body{font-family:"Noto Serif SC","Source Han Serif SC","SimSun","STSong",serif;b
 .search-box .btn{padding:1px 5px;border:1px solid var(--topbar-text);border-radius:2px;background:transparent;color:var(--topbar-text);cursor:pointer;font-size:.65rem}
 .search-box .btn:hover{background:rgba(255,255,255,.15)}
 .lock-switch{display:flex;align-items:center;gap:3px;cursor:pointer;font-size:.65rem;user-select:none}.lock-switch input{display:none}
+.chk-box{display:inline-flex;align-items:center;gap:2px;cursor:pointer;font-size:.62rem;user-select:none;margin:0 1px;color:var(--topbar-text);opacity:.85}
+.chk-box input{width:10px;height:10px;border-radius:2px;accent-color:#D3A488;cursor:pointer}
 .lock-switch .track{width:24px;height:12px;border-radius:6px;background:#6a5a4a;transition:.2s;position:relative}
 .lock-switch .track::after{content:'';position:absolute;left:1px;top:1px;width:10px;height:10px;border-radius:50%;background:var(--topbar-text);transition:.2s}
 .lock-switch input:checked+.track{background:var(--tl-cur)}.lock-switch input:checked+.track::after{left:13px}
@@ -75,8 +80,7 @@ body{font-family:"Noto Serif SC","Source Han Serif SC","SimSun","STSong",serif;b
 .tooltip{position:fixed;z-index:9999;pointer-events:none;background:var(--tip-bg);border:1px solid var(--tip-border);border-radius:5px;padding:6px 10px;font-size:.72rem;color:var(--text);box-shadow:0 2px 12px rgba(0,0,0,.15);max-width:260px;display:none;line-height:1.5}
 .tooltip.show{display:block}.tooltip .tp-polity{font-weight:700;color:var(--tl-dot)}.tooltip .tp-ruler{color:#4a5a4e}.tooltip .tp-era{color:#7a8a6e;font-size:.68rem}.tooltip .tp-year{color:#7a8a6e}.tooltip .tp-event{color:var(--text)}
 .search-panel{position:fixed;top:50%;left:55%;transform:translate(-50%,-50%);z-index:999;background:var(--tip-bg);border:2px solid var(--panel-border);border-radius:8px;box-shadow:0 4px 24px rgba(0,0,0,.3);max-width:400px;width:80%;height:65vh;padding:10px 10px 0;display:none;flex-direction:column}
-.search-panel.open{display:flex}.search-panel .panel-header{flex-shrink:0}.search-panel .panel-body{flex:1 1 auto;overflow-y:auto;min-height:0}
-.search-panel.open{display:block}.search-panel h3{font-size:.78rem;color:var(--panel-border);margin-bottom:4px}.search-panel .close-btn{float:right;cursor:pointer;font-size:.95rem;color:var(--border)}.search-panel .result-item{padding:3px 6px;border-bottom:1px solid #e8dcc8;cursor:pointer;font-size:.72rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.search-panel .result-item:hover{background:var(--row-hover)}
+.search-panel.open{display:flex;flex-direction:column}.search-panel .panel-header{flex-shrink:0}.search-panel .panel-body{flex:1 1 auto;overflow-y:auto;min-height:0}.search-panel h3{font-size:.78rem;color:var(--panel-border);margin-bottom:4px}.search-panel .close-btn{float:right;cursor:pointer;font-size:.95rem;color:var(--border)}.search-panel .result-item{padding:3px 6px;border-bottom:1px solid #e8dcc8;cursor:pointer;font-size:.72rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.search-panel .result-item:hover{background:var(--row-hover)}
 body.help-open #helpPanel{display:block}
 #helpPanel{display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:1000;width:520px;max-width:90%;max-height:80vh;overflow-y:auto;background:#fff;border:2px solid var(--panel-border);border-radius:10px;box-shadow:0 6px 30px rgba(0,0,0,.35);padding:24px 28px;color:var(--text);font-size:.78rem;line-height:1.7}
 #helpPanel h2{font-size:1rem;color:var(--panel-border);margin:0 0 8px}
@@ -86,16 +90,23 @@ body.help-open #helpPanel{display:block}
 .help-close{float:right;cursor:pointer;font-size:1.1rem;color:var(--border);line-height:1}
 .help-close:hover{color:var(--panel-border)}
 body.help-open #searchPanel,body.help-open #tooltip{z-index:998!important}
-.tag{display:inline-block;font-size:.55rem;padding:0 3px;border-radius:2px;margin-right:2px;font-weight:600}.tag.era{background:var(--tag-era);color:#fff}.tag.polity{background:var(--tag-polity);color:#fff}.tag.ruler{background:var(--tag-ruler);color:#fff}
+.tag{display:inline-block;font-size:.55rem;padding:0 5px;border-radius:3px;margin-right:2px;font-weight:600}
+.tag.era{color:var(--tag-era);background:var(--tag-era-bg);border:1px solid var(--tag-era)}
+.tag.polity{color:var(--tag-polity);background:var(--tag-polity-bg);border:1px solid var(--tag-polity)}
+.tag.ruler{color:var(--tag-ruler);background:var(--tag-ruler-bg);border:1px solid var(--tag-ruler)}
 @media(max-width:768px){.timeline{width:40px}.main{margin-left:42px}.top-bar h1{font-size:.75rem}}
 </style></head><body>
 <div class="top-bar">
-  <h1>中国历史年表 v0.5</h1><span class="sub" id="statusLabel">加载中...</span>
+  <h1>中国历史年表 v0.6</h1><span class="sub" id="statusLabel">加载中...</span>
   <label class="lock-switch"><input type="checkbox" id="lockToggle" checked onchange="toggleLock(this.checked)"><span class="track"></span><span class="lock-label" id="lockLabel">锁</span></label>
   <label>N=</label><input type="range" id="nSlider" min="0" max="10" step="1" value="5" oninput="updateN(this.value)"><span class="n-val" id="nVal">5</span>
   <div class="search-box">
     <input type="number" id="yearSearch" placeholder="年份" style="width:55px"><button class="btn" onclick="jumpYear()">→</button>
     <input type="text" id="keywordSearch" placeholder="政权/年号/君主" style="width:90px"><button class="btn" onclick="searchKeyword()">搜</button>
+    <label class="chk-box"><input type="checkbox" id="chkPolity" checked><span>政权</span></label>
+    <label class="chk-box"><input type="checkbox" id="chkRuler" checked><span>君主</span></label>
+    <label class="chk-box"><input type="checkbox" id="chkEra" checked><span>年号</span></label>
+    <span id="chkWarn" style="display:none;font-size:.6rem;color:#D3A488;margin-left:2px">请勾选搜索范围</span>
   </div>
   <button class="btn" onclick="showHelp()" style="margin-left:auto;padding:1px 6px;border:1px solid var(--topbar-text);border-radius:2px;background:transparent;color:var(--topbar-text);cursor:pointer;font-size:.65rem">说明</button>
 </div>
@@ -109,10 +120,10 @@ body.help-open #searchPanel,body.help-open #tooltip{z-index:998!important}
 <div class="search-panel" id="searchPanel"><div class="panel-header"><span class="close-btn" onclick="closePanel()">✕</span><h3 id="panelTitle">搜索结果</h3></div><div class="panel-body" id="panelItems"></div></div>
 <div class="help-panel" id="helpPanel">
   <span class="help-close" onclick="closeHelp()">✕</span>
-  <h2>中国历史年表 v0.5 · 说明</h2>
+  <h2>中国历史年表 v0.6 · 说明</h2>
   <hr>
   <h3>数据声明</h3>
-  <p>本页面所有数据由 AI 生成，包括政权信息、君主在位时间、年号等，<b>不保证完全准确</b>。如有疑问请以权威史料为准。</p>
+  <p>本页面为作者自用，所有数据由 AI 生成，包括政权信息、君主在位时间、年号等，<b>不保证完全准确</b>。如有疑问请以权威史料为准。</p>
   <hr>
   <h3>功能指南</h3>
   <p><b>· 基准年份查询：</b>在顶部输入框中输入年份（负数表示公元前，如 -841），或直接点击表格中的某一行，即可将该年设为基准年份。</p>
@@ -124,7 +135,7 @@ body.help-open #searchPanel,body.help-open #tooltip{z-index:998!important}
   <p><b>· 时间轴跳转：</b>鼠标悬停于左侧时间轴上可预览年份，点击任意刻度即可跳转。</p>
   <p><b>· 悬浮信息卡：</b>鼠标悬停在表格单元格上，会显示当前政权名称、君主信息、年号等详情。</p>
   <hr>
-  <p>本页面由 <b>七毛</b> 制作。<br>最近更新时间：2026-05-01</p>
+  <p>本页面由 <b>七毛</b> 制作。<br>最近更新时间：2026-05-02</p>
 </div>
 <script>
 const PARSE_SRC="chronology.json";
@@ -137,6 +148,7 @@ let YEAR_DATA={},EVENT_DATA={},ALL_YEARS=[];
 let BASE_YEAR=null,N_VAL=5,LOCKED=true,SEARCH_HIGHLIGHT=null,SEARCH_KEYWORD='';
 let RULER_BY_POLITY={},TOOLTIP_TIMER=null,LABEL_IDX={},TIME_AXIS_TOTAL=2000;
 let COL_TEMPLATE='';
+let SORT_RULES = null;
 
 // ===== 标签→政权ID =====
 function buildLabelIndex(){
@@ -183,6 +195,7 @@ async function loadAll(){
     fetch(ERA_MAP).then(r=>r.json()),
   ]);
   POLITIES=pMap.polities;RULERS=rMap.rulers;ERAS=eMap.eras;
+  SORT_RULES = (pMap._meta && pMap._meta.sortRules) || null;
   CHRONOLOGY=parsed;
   for(const r of RULERS){if(!RULER_BY_POLITY[r.polityId])RULER_BY_POLITY[r.polityId]=[];RULER_BY_POLITY[r.polityId].push(r)}
 
@@ -281,10 +294,31 @@ function getMergeGroups(){
       g[p.mergeGroup].members.push(p);
     }
   }
+  // 找到当前年份的排序规则
+  let activeRule = null;
+  if (SORT_RULES) {
+    activeRule = SORT_RULES.find(r => BASE_YEAR >= r.yearStart && BASE_YEAR <= r.yearEnd);
+  }
   return Object.values(g).sort((a,b)=>{
-    function cat(m){return m.some(p=>p.isCentral)?0:(m.some(p=>p.isBorder)?2:1);}
-    const aC=cat(a.members),bC=cat(b.members);
-    return aC!==bC?aC-bC:Math.min(...a.members.map(p=>p.startYear))-Math.min(...b.members.map(p=>p.startYear));
+    if(activeRule){
+      // 有活跃规则时：按 sortRule 优先级排序
+      // 不再用 cat 分类（避免含后世王朝的 mergeGroup 被误归为中央）
+      const getPrio=(g)=>{
+        if(activeRule.priority && activeRule.priority[g.name] !== undefined) return activeRule.priority[g.name];
+        if(activeRule.northernGroups && activeRule.northernGroups.includes(g.name)) return 100;
+        if(activeRule.southernGroups && activeRule.southernGroups.includes(g.name)) return 200;
+        return 999;
+      };
+      const aP=getPrio(a),bP=getPrio(b);
+      if(aP!==bP) return aP-bP;
+    }else{
+      // 无活跃规则时：中央→一般→边疆→startYear
+      function cat(m){return m.some(p=>p.isCentral)?0:(m.some(p=>p.isBorder)?2:1);}
+      const aC=cat(a.members),bC=cat(b.members);
+      if(aC!==bC) return aC-bC;
+    }
+    // 同优先级/同类别内按 startYear 排序
+    return Math.min(...a.members.map(p=>p.startYear))-Math.min(...b.members.map(p=>p.startYear));
   });
 }
 // ===== 全量渲染 =====
@@ -345,7 +379,7 @@ function updateStatus(){
 // ===== 交互事件 =====
 function onRowClick(y){BASE_YEAR=y;LOCKED=true;SEARCH_HIGHLIGHT=null;document.getElementById('lockToggle').checked=true;renderAll();updateTimeline();updateStatus();scrollToYear(y);}
 function onTimelineClick(y){BASE_YEAR=y;LOCKED=true;SEARCH_HIGHLIGHT=null;document.getElementById('lockToggle').checked=true;renderAll();scrollToYear(y);updateTimeline();updateStatus();}
-function scrollToYear(y){const r=document.querySelector('.row[data-year="'+y+'"]');if(r) r.scrollIntoView({behavior:'smooth',block:'center'});}
+function scrollToYear(y){const r=document.querySelector('.row[data-year="'+y+'"]');if(r){const rect=r.getBoundingClientRect();window.scrollTo({top:window.scrollY+rect.top-window.innerHeight/3+rect.height/2,behavior:'smooth'});}}
 function updateN(v){N_VAL=parseInt(v);document.getElementById('nVal').textContent=N_VAL;if(LOCKED&&BASE_YEAR!==null){renderAll();updateStatus();}}
 function toggleLock(c){LOCKED=c;document.getElementById('lockLabel').textContent=c?'锁':'随';if(BASE_YEAR!==null){renderAll();updateStatus();}}
 function jumpYear(){const y=parseInt(document.getElementById('yearSearch').value);if(isNaN(y)||y<ALL_YEARS[0]||y>ALL_YEARS[ALL_YEARS.length-1])return;
@@ -355,51 +389,91 @@ function jumpYear(){const y=parseInt(document.getElementById('yearSearch').value
 function searchKeyword(){
   try{
   const q=document.getElementById('keywordSearch').value.trim();if(!q)return;
+  const ckPolity=document.getElementById('chkPolity').checked;
+  const ckRuler=document.getElementById('chkRuler').checked;
+  const ckEra=document.getElementById('chkEra').checked;
+  const warn=document.getElementById('chkWarn');
+  if(!ckPolity&&!ckRuler&&!ckEra){warn.style.display='inline';return;}
+  warn.style.display='none';
   const results=[],seen=new Set();
-  for(const p of POLITIES||[]){
-    if([p.name,p.selfName,...(p.aliases||[])].filter(Boolean).some(s=>s.includes(q))){
+  function yl(y){return y<0?'前'+(-y):''+y}
+  // ---- 1. 政权搜索 ----
+  if(ckPolity){
+    for(const p of POLITIES||[]){
+      let lv=0;const pn=p.name;
+      if(pn===q)lv=1;                              // Lv1:政权名精确
+      else if((p.aliases||[]).some(a=>a===q))lv=2;  // Lv2:政权别名精确
+      else if(pn.includes(q))lv=3;                   // Lv3:政权名包含
+      else if(p.selfName&&p.selfName===q)lv=2;
+      else if(p.selfName&&p.selfName.includes(q))lv=3;
+      if(lv===0)continue;
       const key='p-'+p.id;if(!seen.has(key)){seen.add(key);
         const dur=(p.startYear<0?'前'+(-p.startYear):p.startYear)+'~'+(p.endYear<0?'前'+(-p.endYear):p.endYear)+'年';
-        results.push({t:'polity',id:p.id,pid:p.id,label:p.name,dur:dur,sy:p.startYear,ey:p.endYear});}
+        results.push({t:'polity',id:p.id,pid:p.id,label:p.name,dur:dur,sy:p.startYear,ey:p.endYear,lv:lv});}
     }
   }
-  function yl(y){return y<0?'前'+(-y):''+y}
-  for(const r of RULERS||[]){
-    const pn=(POLITIES.find(x=>x.id===r.polityId)?.name)||'';
-    const rulerFields=[r.personalName,r.templeTitle,r.posthumousTitle,r.displayTitle,...(r.searchLabels||[]),pn].filter(Boolean);
-    if(rulerFields.some(s=>s&&s.includes(q))){
+  // ---- 2. 君主搜索（Lv4/5/7/8）----
+  if(ckRuler){
+    for(const r of RULERS||[]){
+      const pn=(POLITIES.find(x=>x.id===r.polityId)?.name)||'';
+      let lv=0;const dt=r.displayTitle,na=r.personalName;
+      if(dt===q||na===q)lv=4;                       // Lv4:君主名精确
+      else if((r.aliases||[]).some(a=>a===q))lv=5;  // Lv5:君主别名精准
+      else if(pn.includes(q)||pn===q)lv=7;           // Lv7:君主政权匹配
+      else if(dt&&dt.includes(q))lv=8;               // Lv8:君主名包含
+      else if(na&&na.includes(q))lv=8;
+      else if([r.templeTitle,r.posthumousTitle,...(r.searchLabels||[]),pn].filter(Boolean).some(f=>f===q))lv=7;
+      else if([r.templeTitle,r.posthumousTitle,...(r.searchLabels||[]),pn].filter(Boolean).some(f=>f.includes(q)))lv=8;
+      if(lv===0)continue;
       const key='r-'+r.id;if(!seen.has(key)){seen.add(key);
         const reign=yl(r.reignStartYear)+'~'+yl(r.reignEndYear)+'年';
         const detail=[r.templeTitle,r.posthumousTitle,r.personalName].filter(Boolean).join(' · ');
-        results.push({t:'ruler',id:r.id,pid:r.polityId,label:r.displayTitle||r.personalName,hint:pn+' · '+reign,dur:detail,sy:r.reignStartYear,ey:r.reignEndYear});}
+        results.push({t:'ruler',id:r.id,pid:r.polityId,label:r.displayTitle||r.personalName,hint:pn+' · '+reign,dur:detail,sy:r.reignStartYear,ey:r.reignEndYear,lv:lv});}
     }
   }
-  for(const e of ERAS||[]){
-    const pn=(POLITIES.find(x=>x.id===e.polityId)?.name)||'';
-    const eraFields=[e.name,...(e.searchLabels||[]),pn].filter(Boolean);
-    if(eraFields.some(s=>s.includes(q))){
+  // ---- 3. 年号搜索（Lv6/9）----
+  if(ckEra){
+    for(const e of ERAS||[]){
+      const pn=(POLITIES.find(x=>x.id===e.polityId)?.name)||'';
+      let lv=0;const en=e.name;
+      if(en===q)lv=6;                                // Lv6:年号名精确
+      else if(en.includes(q))lv=9;                    // Lv9:年号名包含
+      else if((e.aliases||[]).some(a=>a===q))lv=7;
+      else if((e.searchLabels||[]).some(s=>s===q))lv=8;
+      else if((e.aliases||[]).some(a=>a.includes(q))||(e.searchLabels||[]).some(s=>s.includes(q)))lv=9;
+      if(lv===0)continue;
       const key='e-'+e.id;if(!seen.has(key)){seen.add(key);
         const period=yl(e.startYear)+'~'+yl(e.endYear)+'年';
-        // 找该政权下覆盖此年号起始年的君主
         let ruler='';
-        for(const r of RULERS||[]){
-          if(r.polityId===e.polityId&&r.reignStartYear<=e.startYear&&r.reignEndYear>=e.startYear){
-            ruler=(r.displayTitle||r.personalName);break;
-          }
-        }
+        for(const r of RULERS||[]){if(r.polityId===e.polityId&&r.reignStartYear<=e.startYear&&r.reignEndYear>=e.startYear){ruler=(r.displayTitle||r.personalName);break;}}
         const hint=pn+(ruler?' · '+ruler:'')+' · '+period;
-        results.push({t:'era',id:e.id,pid:e.polityId,label:e.name,hint:hint,sy:e.startYear,ey:e.endYear});}
+        results.push({t:'era',id:e.id,pid:e.polityId,label:e.name,hint:hint,sy:e.startYear,ey:e.endYear,lv:lv});}
     }
   }
   if(!results.length){alert('未找到 "'+q+'"');return;}
+  // 排序：先按lv升序（1最高），同lv按年代升序
+  results.sort((a,b)=>a.lv-b.lv||a.sy-b.sy);
   showSearchPanel(q,results);
   }catch(e){alert('搜索出错: '+e.message);}
 }
 function showSearchPanel(q,results){
-  const PAGE_SIZE=20;
-  let page=0,totalPages=Math.ceil(results.length/PAGE_SIZE);
   const panel=document.getElementById('searchPanel'),items=document.getElementById('panelItems');
   panel.classList.add('open');
+  items.innerHTML='';
+  // 测量单条结果高度
+  const tempItem=document.createElement('div');tempItem.className='result-item';
+  tempItem.innerHTML='<span class="tag polity">测</span> <b>测</b>';tempItem.style.visibility='hidden';
+  items.appendChild(tempItem);
+  const itemH=tempItem.getBoundingClientRect().height||22;
+  items.removeChild(tempItem);
+  // 计算可用高度：panel总高 - header高 - padding - 固定控件
+  const panelH=panel.getBoundingClientRect().height;
+  const headerEl=panel.querySelector('.panel-header');
+  const headerH=headerEl?headerEl.getBoundingClientRect().height:30;
+  const fixedInBody=42; // "共X条" + 页码控件 + margin
+  const availForItems=Math.max(panelH-headerH-10-fixedInBody,itemH*2);
+  const PAGE_SIZE=Math.max(Math.floor(availForItems/itemH),1);
+  let page=0,totalPages=Math.ceil(results.length/PAGE_SIZE);
   function renderPage(){
     const start=page*PAGE_SIZE,end=Math.min(start+PAGE_SIZE,results.length);
     const pageResults=results.slice(start,end);
@@ -435,8 +509,8 @@ function showSearchPanel(q,results){
       else if(e.key==='ArrowUp'){e.preventDefault();const p=(sel-1+els.length)%els.length;els.forEach(x=>x.style.background='');els[p].style.background='#f0e8d8';sel=p;els[p].focus();}
       else if(e.key==='Enter'&&sel>=0){e.preventDefault();nr(results[start+sel]);closePanel();}
       else if(e.key==='Escape'){closePanel();}
-      else if(e.key==='ArrowLeft'&&totalPages>1){e.preventDefault();if(page>0){page--;renderPage();}}
-      else if(e.key==='ArrowRight'&&totalPages>1){e.preventDefault();if(page<totalPages-1){page++;renderPage();}}
+      else if(e.key==='ArrowLeft'&&totalPages>1){e.preventDefault();page=page>0?page-1:totalPages-1;renderPage();}
+      else if(e.key==='ArrowRight'&&totalPages>1){e.preventDefault();page=page<totalPages-1?page+1:0;renderPage();}
     };
   }
   function nr(r){
@@ -453,7 +527,7 @@ function showSearchPanel(q,results){
   }
   renderPage();
 }
-function closePanel(){document.getElementById('searchPanel').classList.remove('open');}
+function closePanel(){document.getElementById('searchPanel').classList.remove('open');document.getElementById('keywordSearch').focus();}
 function showHelp(){document.body.classList.add('help-open');}
 function closeHelp(){document.body.classList.remove('help-open');}
 // ===== Tooltip =====
@@ -508,7 +582,21 @@ document.addEventListener('scroll',()=>{
 
 // ===== 事件绑定 =====
 document.getElementById('yearSearch').addEventListener('keydown',e=>{if(e.key==='Enter')jumpYear();});
-document.getElementById('keywordSearch').addEventListener('keydown',e=>{if(e.key==='Enter')searchKeyword();});
+document.getElementById('keywordSearch').addEventListener('keydown',e=>{if(e.key==='Enter'){searchKeyword();}});
+// 勾选框点击：面板打开时即时重搜；关闭时仅清除警告
+document.querySelectorAll('.chk-box input').forEach(cb=>{
+  cb.addEventListener('change',function(){
+    const warn=document.getElementById('chkWarn');
+    // 如果全部取消勾选，显示警告
+    if(!document.getElementById('chkPolity').checked&&!document.getElementById('chkRuler').checked&&!document.getElementById('chkEra').checked){
+      warn.style.display='inline';
+    }else{
+      warn.style.display='none';
+      const panel=document.getElementById('searchPanel');
+      if(panel.classList.contains('open'))searchKeyword();
+    }
+  });
+});
 document.addEventListener('keydown',e=>{
   if(e.target.tagName==='INPUT')return;
   if(document.getElementById('searchPanel').classList.contains('open'))return;

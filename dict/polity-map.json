@@ -1,7 +1,7 @@
 {
   "_meta": {
     "name": "polity-map",
-    "version": "1.0.0",
+    "version": "0.6.0",
     "description": "全量政权字典（从中国政权.md解析）",
     "periods": [
       "先秦",
@@ -13,96 +13,196 @@
     ],
     "mergeGroups": [
       "周",
-      "秦",
-      "楚",
       "齐",
-      "晋",
-      "鲁",
       "燕",
-      "宋",
       "卫",
-      "陈",
       "蔡",
       "曹",
-      "郑",
       "吴",
       "越",
+      "陈",
+      "鲁",
+      "楚",
+      "宋",
+      "晋",
+      "秦",
+      "郑",
       "韩",
       "赵",
       "魏",
+      "于阗",
+      "匈奴",
       "汉",
+      "高句丽",
       "曹魏",
       "蜀汉",
       "东吴",
+      "两晋",
       "汉赵",
       "成汉",
+      "吐谷浑",
       "后赵",
       "前凉",
       "前燕",
+      "北魏",
       "前秦",
+      "冉魏",
       "后秦",
-      "西秦",
       "后燕",
-      "南燕",
-      "北燕",
       "西燕",
+      "西秦",
       "后凉",
       "南凉",
-      "西凉",
       "北凉",
-      "胡夏",
-      "冉魏",
-      "吐谷浑",
+      "南燕",
+      "西凉",
       "柔然",
+      "胡夏",
+      "北燕",
       "刘宋",
       "南齐",
       "萧梁",
-      "南陈",
-      "北魏",
       "东魏",
       "西魏",
       "北齐",
-      "北周",
-      "高句丽",
-      "隋",
-      "唐",
       "突厥",
+      "南陈",
+      "北周",
+      "隋",
       "西突厥",
-      "后突厥",
-      "回鹘",
+      "唐",
       "吐蕃",
-      "南诏",
+      "后突厥",
       "渤海",
+      "回鹘",
+      "喀喇汗",
+      "杨吴",
       "后梁",
+      "吴越",
+      "马楚",
+      "前蜀",
+      "辽",
+      "闽",
+      "南汉",
       "后唐",
+      "荆南",
+      "后蜀",
       "后晋",
+      "南唐",
+      "大理",
       "后汉",
       "后周",
-      "杨吴",
-      "南唐",
-      "吴越",
-      "闽",
-      "马楚",
-      "南汉",
-      "前蜀",
-      "后蜀",
-      "荆南",
       "北汉",
-      "辽",
+      "两宋",
       "西夏",
       "金",
-      "于阗",
-      "喀喇汗",
-      "大理",
       "蒙古元",
       "明",
+      "清",
       "大顺",
       "大西",
-      "清"
+      "南诏"
     ],
-    "total": 109,
+    "total": 113,
     "generatedAt": "2026-05-01T04:29:57.642Z",
-    "lastUpdated": "2026-05-01T06:08:14.458Z"
+    "lastUpdated": "2026-05-02T11:53:48.374Z",
+    "sortRules": [
+      {
+        "periodName": "先秦战国前",
+        "yearStart": -841,
+        "yearEnd": -454,
+        "priority": {
+          "周": 1,
+          "鲁": 2,
+          "齐": 3,
+          "晋": 4,
+          "秦": 5,
+          "楚": 6,
+          "宋": 7,
+          "郑": 8
+        }
+      },
+      {
+        "periodName": "先秦战国",
+        "yearStart": -453,
+        "yearEnd": -221,
+        "priority": {
+          "周": 1,
+          "秦": 2,
+          "齐": 3,
+          "楚": 4,
+          "魏": 5,
+          "韩": 6,
+          "赵": 7,
+          "燕": 8
+        }
+      },
+      {
+        "periodName": "三国两晋南北朝",
+        "yearStart": 220,
+        "yearEnd": 589,
+        "priority": {},
+        "northernGroups": [
+          "北魏",
+          "东魏",
+          "西魏",
+          "北齐",
+          "北周"
+        ],
+        "southernGroups": [
+          "刘宋",
+          "南齐",
+          "萧梁",
+          "南陈"
+        ]
+      },
+      {
+        "periodName": "五代十国",
+        "yearStart": 907,
+        "yearEnd": 960,
+        "priority": {},
+        "northernGroups": [
+          "后梁",
+          "后唐",
+          "后晋",
+          "后汉",
+          "后周"
+        ],
+        "southernGroups": [
+          "杨吴",
+          "南唐",
+          "吴越",
+          "闽",
+          "马楚",
+          "南汉",
+          "前蜀",
+          "后蜀",
+          "荆南",
+          "北汉"
+        ]
+      },
+      {
+        "periodName": "北宋",
+        "yearStart": 960,
+        "yearEnd": 1126,
+        "priority": {
+          "辽": 2,
+          "西夏": 3,
+          "两宋": 1
+        }
+      },
+      {
+        "periodName": "南宋",
+        "yearStart": 1127,
+        "yearEnd": 1279,
+        "priority": {
+          "金": 2,
+          "西夏": 3,
+          "蒙古元": 4,
+          "两宋": 1
+        }
+      }
+    ]
   },
   "polities": [
     {
@@ -452,12 +552,14 @@
       "selfName": "汉王",
       "name": "汉王",
       "aliases": [
-        "汉王刘邦"
+        "西汉",
+        "前汉"
       ],
       "isCentral": false,
       "isBorder": false,
-      "startYear": -207,
-      "endYear": -203
+      "startYear": -206,
+      "endYear": -203,
+      "durationRaw": "前206—前203年"
     },
     {
       "id": "pol-西汉",
@@ -466,10 +568,11 @@
       "selfName": "汉",
       "name": "西汉",
       "aliases": [
+        "汉王",
         "前汉"
       ],
       "isCentral": true,
-      "startYear": -202,
+      "startYear": -206,
       "endYear": 8,
       "durationRaw": "前206—8年",
       "isBorder": false
@@ -500,9 +603,9 @@
         "王莽新"
       ],
       "isCentral": true,
-      "startYear": 8,
+      "startYear": 9,
       "endYear": 23,
-      "durationRaw": "8—23年",
+      "durationRaw": "9—23年",
       "isBorder": false
     },
     {
@@ -586,7 +689,7 @@
     {
       "id": "pol-西晋",
       "period": "三国两晋南北朝",
-      "mergeGroup": "晋",
+      "mergeGroup": "两晋",
       "selfName": "晋",
       "name": "西晋",
       "aliases": [
@@ -642,7 +745,7 @@
     {
       "id": "pol-东晋",
       "period": "三国两晋南北朝",
-      "mergeGroup": "晋",
+      "mergeGroup": "两晋",
       "selfName": "晋",
       "name": "东晋",
       "aliases": [],
@@ -1163,21 +1266,6 @@
       "isBorder": true
     },
     {
-      "id": "pol-南诏大蒙",
-      "period": "隋唐五代",
-      "mergeGroup": "南诏",
-      "selfName": "大蒙",
-      "name": "南诏（大蒙）",
-      "aliases": [
-        "南诏"
-      ],
-      "isCentral": false,
-      "startYear": 649,
-      "endYear": 779,
-      "durationRaw": "约649—779年",
-      "isBorder": true
-    },
-    {
       "id": "pol-后突厥汗国",
       "period": "隋唐五代",
       "mergeGroup": "后突厥",
@@ -1237,21 +1325,6 @@
       "startYear": 744,
       "endYear": 840,
       "durationRaw": "744—840年",
-      "isBorder": true
-    },
-    {
-      "id": "pol-南诏大礼",
-      "period": "隋唐五代",
-      "mergeGroup": "南诏",
-      "selfName": "大礼",
-      "name": "南诏（大礼）",
-      "aliases": [
-        "南诏"
-      ],
-      "isCentral": false,
-      "startYear": 779,
-      "endYear": 902,
-      "durationRaw": "779—902年",
       "isBorder": true
     },
     {
@@ -1315,11 +1388,11 @@
       "isBorder": false
     },
     {
-      "id": "pol-楚",
+      "id": "pol-马楚",
       "period": "隋唐五代",
       "mergeGroup": "马楚",
       "selfName": "楚",
-      "name": "楚",
+      "name": "马楚",
       "aliases": [],
       "isCentral": false,
       "startYear": 907,
@@ -1398,8 +1471,8 @@
       ],
       "isCentral": false,
       "startYear": 923,
-      "endYear": 936,
-      "durationRaw": "923—936年",
+      "endYear": 937,
+      "durationRaw": "923—937年",
       "isBorder": false
     },
     {
@@ -1541,7 +1614,7 @@
     {
       "id": "pol-北宋",
       "period": "宋辽金",
-      "mergeGroup": "宋",
+      "mergeGroup": "两宋",
       "selfName": "宋",
       "name": "北宋",
       "aliases": [
@@ -1589,7 +1662,7 @@
     {
       "id": "pol-南宋",
       "period": "宋辽金",
-      "mergeGroup": "宋",
+      "mergeGroup": "两宋",
       "selfName": "宋",
       "name": "南宋",
       "aliases": [
@@ -1767,6 +1840,64 @@
       "endYear": 1646,
       "durationRaw": "1644—1646年",
       "isBorder": false
+    },
+    {
+      "id": "pol-蒙舍诏",
+      "period": "隋唐五代",
+      "mergeGroup": "南诏",
+      "selfName": "蒙舍诏",
+      "name": "蒙舍诏",
+      "aliases": [],
+      "isCentral": false,
+      "startYear": 649,
+      "endYear": 737,
+      "durationRaw": "649—737年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-大蒙",
+      "period": "隋唐五代",
+      "mergeGroup": "南诏",
+      "selfName": "大蒙",
+      "name": "大蒙",
+      "aliases": [
+        "南诏（大蒙）"
+      ],
+      "isCentral": false,
+      "startYear": 738,
+      "endYear": 859,
+      "durationRaw": "738—859年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-大礼",
+      "period": "隋唐五代",
+      "mergeGroup": "南诏",
+      "selfName": "大礼",
+      "name": "大礼",
+      "aliases": [
+        "南诏（大礼）"
+      ],
+      "isCentral": false,
+      "startYear": 860,
+      "endYear": 877,
+      "durationRaw": "860—877年",
+      "isBorder": true
+    },
+    {
+      "id": "pol-大封民",
+      "period": "隋唐五代",
+      "mergeGroup": "南诏",
+      "selfName": "大封民",
+      "name": "大封民",
+      "aliases": [
+        "南诏（大封民）"
+      ],
+      "isCentral": false,
+      "startYear": 878,
+      "endYear": 902,
+      "durationRaw": "878—902年",
+      "isBorder": true
     }
   ]
 }

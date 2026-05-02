@@ -28,9 +28,6 @@ archive/
 backup/
 release/
 
-# AI 工作目录
-.workbuddy/
-
 # Node.js 依赖
 node_modules/
 

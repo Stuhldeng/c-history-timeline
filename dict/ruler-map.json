@@ -1,133 +1,13 @@
 {
   "_meta": {
     "name": "ruler-map",
-    "version": "1.0.0",
+    "version": "0.6.0",
     "total": 1018,
     "generatedAt": "2026-05-01T02:41:35.397Z",
     "mergedAt": "2026-05-01T03:45:46.050Z",
-    "lastUpdated": "2026-05-01T07:38:06.953Z"
+    "lastUpdated": "2026-05-02T11:03:58.785Z"
   },
   "rulers": [
-    {
-      "id": "rn-越国-无余",
-      "polityId": "pol-越",
-      "personalName": null,
-      "templeTitle": null,
-      "posthumousTitle": null,
-      "displayTitle": "越无余",
-      "eraNames": [],
-      "reignStartYear": -2030,
-      "reignEndYear": -2000,
-      "aliases": [],
-      "searchLabels": [
-        "越无余",
-        "无余"
-      ],
-      "uncertain": false
-    },
-    {
-      "id": "rn-越国-无壬",
-      "polityId": "pol-越",
-      "personalName": null,
-      "templeTitle": null,
-      "posthumousTitle": null,
-      "displayTitle": "越无壬",
-      "eraNames": [],
-      "reignStartYear": -1999,
-      "reignEndYear": -1970,
-      "aliases": [],
-      "searchLabels": [
-        "越无壬",
-        "无壬"
-      ],
-      "uncertain": false
-    },
-    {
-      "id": "rn-越国-无瞫",
-      "polityId": "pol-越",
-      "personalName": null,
-      "templeTitle": null,
-      "posthumousTitle": null,
-      "displayTitle": "越无瞫",
-      "eraNames": [],
-      "reignStartYear": -1969,
-      "reignEndYear": -1910,
-      "aliases": [],
-      "searchLabels": [
-        "越无瞫",
-        "无瞫"
-      ],
-      "uncertain": false
-    },
-    {
-      "id": "rn-越国-夫谭",
-      "polityId": "pol-越",
-      "personalName": null,
-      "templeTitle": null,
-      "posthumousTitle": null,
-      "displayTitle": "越夫谭",
-      "eraNames": [],
-      "reignStartYear": -1909,
-      "reignEndYear": -1880,
-      "aliases": [],
-      "searchLabels": [
-        "越夫谭",
-        "夫谭"
-      ],
-      "uncertain": false
-    },
-    {
-      "id": "rn-越国-允常",
-      "polityId": "pol-越",
-      "personalName": "姒允常",
-      "templeTitle": null,
-      "posthumousTitle": null,
-      "displayTitle": "越允常",
-      "eraNames": [],
-      "reignStartYear": -1880,
-      "reignEndYear": -1850,
-      "aliases": [],
-      "searchLabels": [
-        "越允常",
-        "允常",
-        "姒允常"
-      ],
-      "uncertain": false
-    },
-    {
-      "id": "rn-吴国-太伯",
-      "polityId": "pol-吴",
-      "personalName": null,
-      "templeTitle": null,
-      "posthumousTitle": "太伯",
-      "displayTitle": "吴国太伯",
-      "eraNames": [],
-      "reignStartYear": -1100,
-      "reignEndYear": -1050,
-      "aliases": [],
-      "searchLabels": [
-        "吴太伯",
-        "太伯"
-      ],
-      "uncertain": false
-    },
-    {
-      "id": "rn-吴国-仲雍",
-      "polityId": "pol-吴",
-      "personalName": null,
-      "templeTitle": null,
-      "posthumousTitle": null,
-      "displayTitle": "吴国仲雍",
-      "eraNames": [],
-      "reignStartYear": -1049,
-      "reignEndYear": -1000,
-      "aliases": [],
-      "searchLabels": [
-        "吴仲雍",
-        "仲雍"
-      ],
-      "uncertain": false
-    },
     {
       "id": "rn-曹国-曹叔振铎",
       "polityId": "pol-曹",
@@ -453,23 +333,6 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-季简",
-      "polityId": "pol-吴",
-      "personalName": null,
-      "templeTitle": null,
-      "posthumousTitle": null,
-      "displayTitle": "吴国季简",
-      "eraNames": [],
-      "reignStartYear": -999,
-      "reignEndYear": -970,
-      "aliases": [],
-      "searchLabels": [
-        "吴季简",
-        "季简"
-      ],
-      "uncertain": false
-    },
-    {
       "id": "rn-鲁国-考公",
       "polityId": "pol-鲁",
       "personalName": "姬酋",
@@ -704,23 +567,6 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-叔达",
-      "polityId": "pol-吴",
-      "personalName": null,
-      "templeTitle": null,
-      "posthumousTitle": null,
-      "displayTitle": "吴国叔达",
-      "eraNames": [],
-      "reignStartYear": -969,
-      "reignEndYear": -940,
-      "aliases": [],
-      "searchLabels": [
-        "吴叔达",
-        "叔达"
-      ],
-      "uncertain": false
-    },
-    {
       "id": "rn-蔡国-宫侯",
       "polityId": "pol-蔡",
       "personalName": null,
@@ -806,23 +652,6 @@
         "曹孝伯",
         "孝伯",
         "姬云"
-      ],
-      "uncertain": false
-    },
-    {
-      "id": "rn-吴国-周章",
-      "polityId": "pol-吴",
-      "personalName": null,
-      "templeTitle": null,
-      "posthumousTitle": null,
-      "displayTitle": "吴国周章",
-      "eraNames": [],
-      "reignStartYear": -939,
-      "reignEndYear": -900,
-      "aliases": [],
-      "searchLabels": [
-        "吴周章",
-        "周章"
       ],
       "uncertain": false
     },
@@ -1037,23 +866,6 @@
       "searchLabels": [
         "蔡武侯",
         "武侯"
-      ],
-      "uncertain": false
-    },
-    {
-      "id": "rn-吴国-熊遂",
-      "polityId": "pol-吴",
-      "personalName": null,
-      "templeTitle": null,
-      "posthumousTitle": null,
-      "displayTitle": "吴国熊遂",
-      "eraNames": [],
-      "reignStartYear": -899,
-      "reignEndYear": -870,
-      "aliases": [],
-      "searchLabels": [
-        "吴熊遂",
-        "熊遂"
       ],
       "uncertain": false
     },
@@ -8585,7 +8397,9 @@
       "reignStartYear": -246,
       "reignEndYear": -210,
       "aliases": [
-        "秦始皇"
+        "秦始皇",
+        "嬴政",
+        "始皇帝"
       ],
       "searchLabels": [
         "嬴政",
@@ -8852,31 +8666,13 @@
       "reignStartYear": -207,
       "reignEndYear": -207,
       "aliases": [
-        "秦王子婴"
+        "秦王子婴",
+        "子婴"
       ],
       "searchLabels": [
         "嬴子婴",
-        "秦王子婴"
-      ],
-      "uncertain": false
-    },
-    {
-      "id": "rn-西汉-汉王",
-      "polityId": "pol-汉王",
-      "personalName": "刘邦",
-      "templeTitle": null,
-      "posthumousTitle": null,
-      "displayTitle": "汉",
-      "eraNames": [],
-      "reignStartYear": -207,
-      "reignEndYear": -203,
-      "aliases": [
-        "汉王刘邦"
-      ],
-      "searchLabels": [
-        "刘邦",
-        "汉王",
-        "汉王刘邦"
+        "秦王子婴",
+        "子婴"
       ],
       "uncertain": false
     },
@@ -8888,10 +8684,12 @@
       "posthumousTitle": null,
       "displayTitle": "汉王",
       "eraNames": [],
-      "reignStartYear": -207,
+      "reignStartYear": -206,
       "reignEndYear": -203,
       "aliases": [
-        "汉王刘邦"
+        "汉王刘邦",
+        "汉王",
+        "刘邦"
       ],
       "searchLabels": [
         "刘邦",
@@ -8908,15 +8706,20 @@
       "posthumousTitle": "高皇帝",
       "displayTitle": "高皇帝",
       "eraNames": [],
-      "reignStartYear": -202,
+      "reignStartYear": -206,
       "reignEndYear": -195,
       "aliases": [
-        "汉太祖"
+        "汉太祖",
+        "汉高帝",
+        "刘邦",
+        "高帝"
       ],
       "searchLabels": [
         "刘邦",
         "高皇帝",
-        "汉太祖"
+        "汉太祖",
+        "汉高帝",
+        "高帝"
       ],
       "uncertain": false
     },
@@ -8947,12 +8750,14 @@
       "reignStartYear": -195,
       "reignEndYear": -188,
       "aliases": [
-        "汉惠帝"
+        "汉惠帝",
+        "惠帝"
       ],
       "searchLabels": [
         "刘盈",
         "孝惠皇帝",
-        "汉惠帝"
+        "汉惠帝",
+        "惠帝"
       ],
       "uncertain": false
     },
@@ -8989,13 +8794,15 @@
       "reignStartYear": -180,
       "reignEndYear": -157,
       "aliases": [
-        "汉文帝"
+        "汉文帝",
+        "文帝"
       ],
       "searchLabels": [
         "刘恒",
         "太宗",
         "孝文皇帝",
-        "汉文帝"
+        "汉文帝",
+        "文帝"
       ],
       "uncertain": false
     },
@@ -9042,12 +8849,14 @@
       "reignStartYear": -157,
       "reignEndYear": -141,
       "aliases": [
-        "汉景帝"
+        "汉景帝",
+        "景帝"
       ],
       "searchLabels": [
         "刘启",
         "孝景皇帝",
-        "汉景帝"
+        "汉景帝",
+        "景帝"
       ],
       "uncertain": false
     },
@@ -9090,13 +8899,15 @@
       "reignStartYear": -141,
       "reignEndYear": -87,
       "aliases": [
-        "汉武帝"
+        "汉武帝",
+        "武帝"
       ],
       "searchLabels": [
         "刘彻",
         "世宗",
         "孝武皇帝",
-        "汉武帝"
+        "汉武帝",
+        "武帝"
       ],
       "uncertain": false
     },
@@ -9195,12 +9006,14 @@
       "reignStartYear": -87,
       "reignEndYear": -74,
       "aliases": [
-        "汉昭帝"
+        "汉昭帝",
+        "昭帝"
       ],
       "searchLabels": [
         "刘弗陵",
         "孝昭皇帝",
-        "汉昭帝"
+        "汉昭帝",
+        "昭帝"
       ],
       "uncertain": false
     },
@@ -9239,13 +9052,15 @@
       "reignStartYear": -74,
       "reignEndYear": -49,
       "aliases": [
-        "汉宣帝"
+        "汉宣帝",
+        "宣帝"
       ],
       "searchLabels": [
         "刘询",
         "中宗",
         "孝宣皇帝",
-        "汉宣帝"
+        "汉宣帝",
+        "宣帝"
       ],
       "uncertain": false
     },
@@ -9313,13 +9128,15 @@
       "reignStartYear": -49,
       "reignEndYear": -33,
       "aliases": [
-        "汉元帝"
+        "汉元帝",
+        "元帝"
       ],
       "searchLabels": [
         "刘奭",
         "高宗",
         "孝元皇帝",
-        "汉元帝"
+        "汉元帝",
+        "元帝"
       ],
       "uncertain": false
     },
@@ -9362,13 +9179,15 @@
       "reignStartYear": -33,
       "reignEndYear": -7,
       "aliases": [
-        "汉成帝"
+        "汉成帝",
+        "成帝"
       ],
       "searchLabels": [
         "刘骜",
         "统宗",
         "孝成皇帝",
-        "汉成帝"
+        "汉成帝",
+        "成帝"
       ],
       "uncertain": false
     },
@@ -9467,12 +9286,14 @@
       "reignStartYear": -7,
       "reignEndYear": -1,
       "aliases": [
-        "汉哀帝"
+        "汉哀帝",
+        "哀帝"
       ],
       "searchLabels": [
         "刘欣",
         "孝哀皇帝",
-        "汉哀帝"
+        "汉哀帝",
+        "哀帝"
       ],
       "uncertain": false
     },
@@ -9489,12 +9310,14 @@
       "reignStartYear": 1,
       "reignEndYear": 6,
       "aliases": [
-        "汉平帝"
+        "汉平帝",
+        "平帝"
       ],
       "searchLabels": [
         "刘衎",
         "孝平皇帝",
-        "汉平帝"
+        "汉平帝",
+        "平帝"
       ],
       "uncertain": false
     },
@@ -9510,13 +9333,15 @@
         "初始"
       ],
       "reignStartYear": 6,
-      "reignEndYear": 9,
+      "reignEndYear": 8,
       "aliases": [
-        "孺子婴"
+        "孺子婴",
+        "汉孺子婴"
       ],
       "searchLabels": [
         "刘婴",
-        "孺子婴"
+        "孺子婴",
+        "汉孺子婴"
       ],
       "uncertain": false
     },
@@ -9535,11 +9360,14 @@
       "reignStartYear": 9,
       "reignEndYear": 23,
       "aliases": [
-        "王莽新"
+        "王莽新",
+        "王莽",
+        "新帝王莽"
       ],
       "searchLabels": [
         "王莽",
-        "王莽新"
+        "王莽新",
+        "新帝王莽"
       ],
       "uncertain": false
     },
@@ -9605,7 +9433,8 @@
       "reignStartYear": 23,
       "reignEndYear": 25,
       "aliases": [
-        "更始帝"
+        "更始帝",
+        "刘玄"
       ],
       "searchLabels": [
         "刘玄",
@@ -9627,13 +9456,15 @@
       "reignStartYear": 25,
       "reignEndYear": 57,
       "aliases": [
-        "光武帝"
+        "光武帝",
+        "汉光武帝"
       ],
       "searchLabels": [
         "刘秀",
         "世祖",
         "光武皇帝",
-        "光武帝"
+        "光武帝",
+        "汉光武帝"
       ],
       "uncertain": false
     },
@@ -9686,13 +9517,15 @@
       "reignStartYear": 58,
       "reignEndYear": 75,
       "aliases": [
-        "汉明帝"
+        "汉明帝",
+        "明帝"
       ],
       "searchLabels": [
         "刘庄",
         "显宗",
         "孝明皇帝",
-        "汉明帝"
+        "汉明帝",
+        "明帝"
       ],
       "uncertain": false
     },
@@ -9711,13 +9544,15 @@
       "reignStartYear": 75,
       "reignEndYear": 88,
       "aliases": [
-        "汉章帝"
+        "汉章帝",
+        "章帝"
       ],
       "searchLabels": [
         "刘炟",
         "肃宗",
         "孝章皇帝",
-        "汉章帝"
+        "汉章帝",
+        "章帝"
       ],
       "uncertain": false
     },
@@ -9735,13 +9570,15 @@
       "reignStartYear": 88,
       "reignEndYear": 105,
       "aliases": [
-        "汉和帝"
+        "汉和帝",
+        "和帝"
       ],
       "searchLabels": [
         "刘肇",
         "穆宗",
         "孝和皇帝",
-        "汉和帝"
+        "汉和帝",
+        "和帝"
       ],
       "uncertain": false
     },
@@ -9762,13 +9599,15 @@
       "reignStartYear": 106,
       "reignEndYear": 125,
       "aliases": [
-        "汉安帝"
+        "汉安帝",
+        "安帝"
       ],
       "searchLabels": [
         "刘祜",
         "恭宗",
         "孝安皇帝",
-        "汉安帝"
+        "汉安帝",
+        "安帝"
       ],
       "uncertain": false
     },
@@ -9789,13 +9628,15 @@
       "reignStartYear": 125,
       "reignEndYear": 144,
       "aliases": [
-        "汉顺帝"
+        "汉顺帝",
+        "顺帝"
       ],
       "searchLabels": [
         "刘保",
         "敬宗",
         "孝顺皇帝",
-        "汉顺帝"
+        "汉顺帝",
+        "顺帝"
       ],
       "uncertain": false
     },
@@ -9818,13 +9659,15 @@
       "reignStartYear": 146,
       "reignEndYear": 167,
       "aliases": [
-        "汉桓帝"
+        "汉桓帝",
+        "桓帝"
       ],
       "searchLabels": [
         "刘志",
         "威宗",
         "孝桓皇帝",
-        "汉桓帝"
+        "汉桓帝",
+        "桓帝"
       ],
       "uncertain": false
     },
@@ -9844,12 +9687,14 @@
       "reignStartYear": 168,
       "reignEndYear": 189,
       "aliases": [
-        "汉灵帝"
+        "汉灵帝",
+        "灵帝"
       ],
       "searchLabels": [
         "刘宏",
         "孝灵皇帝",
-        "汉灵帝"
+        "汉灵帝",
+        "灵帝"
       ],
       "uncertain": false
     },
@@ -9886,33 +9731,14 @@
       "reignStartYear": 189,
       "reignEndYear": 220,
       "aliases": [
-        "汉献帝"
+        "汉献帝",
+        "献帝"
       ],
       "searchLabels": [
         "刘协",
         "孝献皇帝",
-        "汉献帝"
-      ],
-      "uncertain": false
-    },
-    {
-      "id": "rn-曹操",
-      "polityId": "pol-曹魏",
-      "personalName": "曹操",
-      "personalName2": null,
-      "templeTitle": "太祖",
-      "posthumousTitle": "武皇帝",
-      "eraNames": [],
-      "reignStartYear": 196,
-      "reignEndYear": 220,
-      "aliases": [
-        "魏武帝"
-      ],
-      "searchLabels": [
-        "曹操",
-        "太祖",
-        "武皇帝",
-        "魏武帝"
+        "汉献帝",
+        "献帝"
       ],
       "uncertain": false
     },
@@ -9962,13 +9788,15 @@
       "reignStartYear": 220,
       "reignEndYear": 226,
       "aliases": [
-        "魏文帝"
+        "魏文帝",
+        "文帝"
       ],
       "searchLabels": [
         "曹丕",
         "高祖",
         "文皇帝",
-        "魏文帝"
+        "魏文帝",
+        "文帝"
       ],
       "uncertain": false
     },
@@ -9985,13 +9813,15 @@
       "reignStartYear": 221,
       "reignEndYear": 223,
       "aliases": [
-        "蜀汉昭烈帝"
+        "蜀汉昭烈帝",
+        "昭烈帝"
       ],
       "searchLabels": [
         "刘备",
         "先主",
         "昭烈皇帝",
-        "蜀汉昭烈帝"
+        "蜀汉昭烈帝",
+        "昭烈帝"
       ],
       "uncertain": false
     },
@@ -10013,13 +9843,15 @@
       "reignStartYear": 222,
       "reignEndYear": 252,
       "aliases": [
-        "吴大帝"
+        "吴大帝",
+        "大帝"
       ],
       "searchLabels": [
         "孙权",
         "太祖",
         "大皇帝",
-        "吴大帝"
+        "吴大帝",
+        "大帝"
       ],
       "uncertain": false
     },
@@ -10039,12 +9871,15 @@
       "reignStartYear": 223,
       "reignEndYear": 263,
       "aliases": [
-        "蜀汉后主"
+        "蜀汉后主",
+        "后主",
+        "阿斗"
       ],
       "searchLabels": [
         "刘禅",
         "后主",
-        "蜀汉后主"
+        "蜀汉后主",
+        "阿斗"
       ],
       "uncertain": false
     },
@@ -10063,13 +9898,15 @@
       "reignStartYear": 226,
       "reignEndYear": 239,
       "aliases": [
-        "魏明帝"
+        "魏明帝",
+        "明帝"
       ],
       "searchLabels": [
         "曹叡",
         "烈祖",
         "明皇帝",
-        "魏明帝"
+        "魏明帝",
+        "明帝"
       ],
       "uncertain": false
     },
@@ -10096,7 +9933,7 @@
       "personalName": "曹芳",
       "personalName2": null,
       "templeTitle": null,
-      "posthumousTitle": null,
+      "posthumousTitle": "厉公",
       "eraNames": [
         "正始",
         "嘉平"
@@ -10104,11 +9941,16 @@
       "reignStartYear": 239,
       "reignEndYear": 254,
       "aliases": [
-        "魏齐王"
+        "魏齐王",
+        "魏厉公",
+        "邵陵厉公",
+        "曹芳"
       ],
       "searchLabels": [
         "曹芳",
-        "魏齐王"
+        "魏齐王",
+        "魏厉公",
+        "邵陵厉公"
       ],
       "uncertain": false
     },
@@ -10143,11 +9985,16 @@
       "reignStartYear": 252,
       "reignEndYear": 258,
       "aliases": [
-        "吴废帝"
+        "吴废帝",
+        "吴少帝",
+        "会稽王",
+        "孙亮"
       ],
       "searchLabels": [
         "孙亮",
-        "吴废帝"
+        "吴废帝",
+        "吴少帝",
+        "会稽王"
       ],
       "uncertain": false
     },
@@ -10165,11 +10012,14 @@
       "reignStartYear": 254,
       "reignEndYear": 260,
       "aliases": [
-        "魏高贵乡公"
+        "魏高贵乡公",
+        "高贵乡公",
+        "曹髦"
       ],
       "searchLabels": [
         "曹髦",
-        "魏高贵乡公"
+        "魏高贵乡公",
+        "高贵乡公"
       ],
       "uncertain": false
     },
@@ -10179,18 +10029,20 @@
       "personalName": "孙休",
       "personalName2": null,
       "templeTitle": null,
-      "posthumousTitle": null,
+      "posthumousTitle": "景皇帝",
       "eraNames": [
         "永安"
       ],
       "reignStartYear": 258,
       "reignEndYear": 264,
       "aliases": [
-        "吴景帝"
+        "吴景帝",
+        "景帝"
       ],
       "searchLabels": [
         "孙休",
-        "吴景帝"
+        "吴景帝",
+        "景帝"
       ],
       "uncertain": false
     },
@@ -10200,7 +10052,7 @@
       "personalName": "曹奂",
       "personalName2": null,
       "templeTitle": null,
-      "posthumousTitle": null,
+      "posthumousTitle": "元皇帝",
       "eraNames": [
         "景元",
         "咸熙"
@@ -10208,11 +10060,13 @@
       "reignStartYear": 260,
       "reignEndYear": 265,
       "aliases": [
-        "魏元帝"
+        "魏元帝",
+        "元帝"
       ],
       "searchLabels": [
         "曹奂",
-        "魏元帝"
+        "魏元帝",
+        "元帝"
       ],
       "uncertain": false
     },
@@ -10236,11 +10090,14 @@
       "reignStartYear": 264,
       "reignEndYear": 280,
       "aliases": [
-        "吴末帝"
+        "吴末帝",
+        "归命侯",
+        "孙皓"
       ],
       "searchLabels": [
         "孙皓",
-        "吴末帝"
+        "吴末帝",
+        "归命侯"
       ],
       "uncertain": false
     },
@@ -10260,13 +10117,15 @@
       "reignStartYear": 265,
       "reignEndYear": 290,
       "aliases": [
-        "晋武帝"
+        "晋武帝",
+        "武帝"
       ],
       "searchLabels": [
         "司马炎",
         "世祖",
         "武皇帝",
-        "晋武帝"
+        "晋武帝",
+        "武帝"
       ],
       "uncertain": false
     },
@@ -10292,12 +10151,14 @@
       "reignStartYear": 290,
       "reignEndYear": 306,
       "aliases": [
-        "晋惠帝"
+        "晋惠帝",
+        "惠帝"
       ],
       "searchLabels": [
         "司马衷",
         "孝惠皇帝",
-        "晋惠帝"
+        "晋惠帝",
+        "惠帝"
       ],
       "uncertain": false
     },
@@ -10427,12 +10288,14 @@
       "reignStartYear": 306,
       "reignEndYear": 313,
       "aliases": [
-        "晋怀帝"
+        "晋怀帝",
+        "怀帝"
       ],
       "searchLabels": [
         "司马炽",
         "孝怀皇帝",
-        "晋怀帝"
+        "晋怀帝",
+        "怀帝"
       ],
       "uncertain": false
     },
@@ -10485,12 +10348,14 @@
       "reignStartYear": 313,
       "reignEndYear": 316,
       "aliases": [
-        "晋愍帝"
+        "晋愍帝",
+        "愍帝"
       ],
       "searchLabels": [
         "司马邺",
         "孝愍皇帝",
-        "晋愍帝"
+        "晋愍帝",
+        "愍帝"
       ],
       "uncertain": false
     },
@@ -10545,13 +10410,15 @@
       "reignStartYear": 317,
       "reignEndYear": 322,
       "aliases": [
-        "晋元帝"
+        "晋元帝",
+        "元帝"
       ],
       "searchLabels": [
         "司马睿",
         "中宗",
         "元皇帝",
-        "晋元帝"
+        "晋元帝",
+        "元帝"
       ],
       "uncertain": false
     },
@@ -10656,13 +10523,15 @@
       "reignStartYear": 322,
       "reignEndYear": 325,
       "aliases": [
-        "晋明帝"
+        "晋明帝",
+        "明帝"
       ],
       "searchLabels": [
         "司马绍",
         "肃宗",
         "明皇帝",
-        "晋明帝"
+        "晋明帝",
+        "明帝"
       ],
       "uncertain": false
     },
@@ -10700,13 +10569,15 @@
       "reignStartYear": 325,
       "reignEndYear": 342,
       "aliases": [
-        "晋成帝"
+        "晋成帝",
+        "成帝"
       ],
       "searchLabels": [
         "司马衍",
         "显宗",
         "成皇帝",
-        "晋成帝"
+        "晋成帝",
+        "成帝"
       ],
       "uncertain": false
     },
@@ -10852,19 +10723,21 @@
       "reignStartYear": 338,
       "reignEndYear": 376,
       "aliases": [
-        "代昭成帝"
+        "代昭成帝",
+        "昭成帝"
       ],
       "searchLabels": [
         "拓跋什翼犍",
         "高祖",
         "昭成皇帝",
-        "代昭成帝"
+        "代昭成帝",
+        "昭成帝"
       ],
       "uncertain": false
     },
     {
-      "id": "rn-成汉-李寿",
-      "polityId": "pol-成汉成",
+      "id": "rn-成汉汉-李寿",
+      "polityId": "pol-成汉汉",
       "personalName": "李寿",
       "templeTitle": null,
       "posthumousTitle": "昭文帝",
@@ -10915,18 +10788,20 @@
       "reignStartYear": 342,
       "reignEndYear": 344,
       "aliases": [
-        "晋康帝"
+        "晋康帝",
+        "康帝"
       ],
       "searchLabels": [
         "司马岳",
         "康皇帝",
-        "晋康帝"
+        "晋康帝",
+        "康帝"
       ],
       "uncertain": false
     },
     {
-      "id": "rn-成汉-李势",
-      "polityId": "pol-成汉成",
+      "id": "rn-成汉汉-李势",
+      "polityId": "pol-成汉汉",
       "personalName": "李势",
       "templeTitle": null,
       "posthumousTitle": null,
@@ -10978,12 +10853,14 @@
       "reignStartYear": 344,
       "reignEndYear": 361,
       "aliases": [
-        "晋穆帝"
+        "晋穆帝",
+        "穆帝"
       ],
       "searchLabels": [
         "司马聃",
         "穆皇帝",
-        "晋穆帝"
+        "晋穆帝",
+        "穆帝"
       ],
       "uncertain": false
     },
@@ -11293,12 +11170,14 @@
       "reignStartYear": 361,
       "reignEndYear": 365,
       "aliases": [
-        "晋哀帝"
+        "晋哀帝",
+        "哀帝"
       ],
       "searchLabels": [
         "司马丕",
         "哀皇帝",
-        "晋哀帝"
+        "晋哀帝",
+        "哀帝"
       ],
       "uncertain": false
     },
@@ -11356,13 +11235,15 @@
       "reignStartYear": 371,
       "reignEndYear": 372,
       "aliases": [
-        "晋简文帝"
+        "晋简文帝",
+        "简文帝"
       ],
       "searchLabels": [
         "司马昱",
         "太宗",
         "简文皇帝",
-        "晋简文帝"
+        "晋简文帝",
+        "简文帝"
       ],
       "uncertain": false
     },
@@ -11396,13 +11277,17 @@
       "reignStartYear": 372,
       "reignEndYear": 396,
       "aliases": [
-        "晋孝武帝"
+        "晋孝武帝",
+        "晋武帝",
+        "武帝"
       ],
       "searchLabels": [
         "司马曜",
         "烈宗",
         "孝武皇帝",
-        "晋孝武帝"
+        "晋孝武帝",
+        "晋武帝",
+        "武帝"
       ],
       "uncertain": false
     },
@@ -11530,13 +11415,15 @@
       "reignStartYear": 386,
       "reignEndYear": 409,
       "aliases": [
-        "北魏道武帝"
+        "北魏道武帝",
+        "道武帝"
       ],
       "searchLabels": [
         "拓跋珪",
         "太祖",
         "道武皇帝",
-        "北魏道武帝"
+        "北魏道武帝",
+        "道武帝"
       ],
       "uncertain": false
     },
@@ -11748,12 +11635,14 @@
       "reignStartYear": 396,
       "reignEndYear": 418,
       "aliases": [
-        "晋安帝"
+        "晋安帝",
+        "安帝"
       ],
       "searchLabels": [
         "司马德宗",
         "安皇帝",
-        "晋安帝"
+        "晋安帝",
+        "安帝"
       ],
       "uncertain": false
     },
@@ -12096,13 +11985,15 @@
       "reignStartYear": 409,
       "reignEndYear": 423,
       "aliases": [
-        "北魏明元帝"
+        "北魏明元帝",
+        "明元帝"
       ],
       "searchLabels": [
         "拓跋嗣",
         "太宗",
         "明元皇帝",
-        "北魏明元帝"
+        "北魏明元帝",
+        "明元帝"
       ],
       "uncertain": false
     },
@@ -12274,12 +12165,14 @@
       "reignStartYear": 418,
       "reignEndYear": 420,
       "aliases": [
-        "晋恭帝"
+        "晋恭帝",
+        "恭帝"
       ],
       "searchLabels": [
         "司马德文",
         "恭皇帝",
-        "晋恭帝"
+        "晋恭帝",
+        "恭帝"
       ],
       "uncertain": false
     },
@@ -12296,13 +12189,15 @@
       "reignStartYear": 420,
       "reignEndYear": 422,
       "aliases": [
-        "宋武帝"
+        "宋武帝",
+        "武帝"
       ],
       "searchLabels": [
         "刘裕",
         "高祖",
         "武皇帝",
-        "宋武帝"
+        "宋武帝",
+        "武帝"
       ],
       "uncertain": false
     },
@@ -12340,13 +12235,35 @@
       "reignStartYear": 423,
       "reignEndYear": 452,
       "aliases": [
-        "北魏太武帝"
+        "北魏太武帝",
+        "太武帝"
       ],
       "searchLabels": [
         "拓跋焘",
         "世祖",
         "太武皇帝",
-        "北魏太武帝"
+        "北魏太武帝",
+        "太武帝"
+      ],
+      "uncertain": false
+    },
+    {
+      "id": "rn-刘宋-少帝",
+      "polityId": "pol-刘宋",
+      "personalName": "刘义符",
+      "templeTitle": null,
+      "posthumousTitle": null,
+      "displayTitle": "刘义符",
+      "reignStartYear": 423,
+      "reignEndYear": 423,
+      "aliases": [
+        "少帝",
+        "营阳王"
+      ],
+      "searchLabels": [
+        "刘义符",
+        "少帝",
+        "营阳王"
       ],
       "uncertain": false
     },
@@ -12363,13 +12280,15 @@
       "reignStartYear": 424,
       "reignEndYear": 453,
       "aliases": [
-        "宋文帝"
+        "宋文帝",
+        "文帝"
       ],
       "searchLabels": [
         "刘义隆",
         "太祖",
         "文皇帝",
-        "宋文帝"
+        "宋文帝",
+        "文帝"
       ],
       "uncertain": false
     },
@@ -12555,13 +12474,15 @@
       "reignStartYear": 452,
       "reignEndYear": 465,
       "aliases": [
-        "北魏文成帝"
+        "北魏文成帝",
+        "文成帝"
       ],
       "searchLabels": [
         "拓跋濬",
         "高宗",
         "文成皇帝",
-        "北魏文成帝"
+        "北魏文成帝",
+        "文成帝"
       ],
       "uncertain": false
     },
@@ -12595,13 +12516,17 @@
       "reignStartYear": 453,
       "reignEndYear": 464,
       "aliases": [
-        "宋孝武帝"
+        "宋孝武帝",
+        "宋武帝",
+        "武帝"
       ],
       "searchLabels": [
         "刘骏",
         "世祖",
         "孝武皇帝",
-        "宋孝武帝"
+        "宋孝武帝",
+        "宋武帝",
+        "武帝"
       ],
       "uncertain": false
     },
@@ -12658,13 +12583,15 @@
       "reignStartYear": 465,
       "reignEndYear": 472,
       "aliases": [
-        "宋明帝"
+        "宋明帝",
+        "明帝"
       ],
       "searchLabels": [
         "刘彧",
         "太宗",
         "明皇帝",
-        "宋明帝"
+        "宋明帝",
+        "明帝"
       ],
       "uncertain": false
     },
@@ -12682,13 +12609,15 @@
       "reignStartYear": 465,
       "reignEndYear": 471,
       "aliases": [
-        "北魏献文帝"
+        "北魏献文帝",
+        "献文帝"
       ],
       "searchLabels": [
         "拓跋弘",
         "显祖",
         "献文皇帝",
-        "北魏献文帝"
+        "北魏献文帝",
+        "献文帝"
       ],
       "uncertain": false
     },
@@ -12707,13 +12636,17 @@
       "reignStartYear": 471,
       "reignEndYear": 499,
       "aliases": [
-        "北魏孝文帝"
+        "北魏孝文帝",
+        "北魏文帝",
+        "文帝"
       ],
       "searchLabels": [
         "元宏",
         "高祖",
         "孝文皇帝",
-        "北魏孝文帝"
+        "北魏孝文帝",
+        "北魏文帝",
+        "文帝"
       ],
       "uncertain": false
     },
@@ -12772,13 +12705,15 @@
       "reignStartYear": 479,
       "reignEndYear": 482,
       "aliases": [
-        "齐高帝"
+        "齐高帝",
+        "高帝"
       ],
       "searchLabels": [
         "萧道成",
         "太祖",
         "高皇帝",
-        "齐高帝"
+        "齐高帝",
+        "高帝"
       ],
       "uncertain": false
     },
@@ -12811,13 +12746,15 @@
       "reignStartYear": 482,
       "reignEndYear": 493,
       "aliases": [
-        "齐武帝"
+        "齐武帝",
+        "武帝"
       ],
       "searchLabels": [
         "萧赜",
         "世祖",
         "武皇帝",
-        "齐武帝"
+        "齐武帝",
+        "武帝"
       ],
       "uncertain": false
     },
@@ -12889,6 +12826,28 @@
       "uncertain": true
     },
     {
+      "id": "rn-南齐-明帝",
+      "polityId": "pol-南齐",
+      "personalName": "萧鸾",
+      "templeTitle": "高宗",
+      "posthumousTitle": "明皇帝",
+      "displayTitle": "萧鸾",
+      "reignStartYear": 494,
+      "reignEndYear": 498,
+      "aliases": [
+        "齐明帝",
+        "明皇帝",
+        "萧鸾"
+      ],
+      "searchLabels": [
+        "萧鸾",
+        "高宗",
+        "齐明帝",
+        "明皇帝"
+      ],
+      "uncertain": false
+    },
+    {
       "id": "rn-萧宝卷",
       "polityId": "pol-南齐",
       "personalName": "萧宝卷",
@@ -12898,7 +12857,7 @@
       "eraNames": [
         "永元"
       ],
-      "reignStartYear": 498,
+      "reignStartYear": 499,
       "reignEndYear": 501,
       "aliases": [
         "东昏侯"
@@ -12925,13 +12884,15 @@
       "reignStartYear": 499,
       "reignEndYear": 515,
       "aliases": [
-        "北魏宣武帝"
+        "北魏宣武帝",
+        "宣武帝"
       ],
       "searchLabels": [
         "元恪",
         "世宗",
         "宣武皇帝",
-        "北魏宣武帝"
+        "北魏宣武帝",
+        "宣武帝"
       ],
       "uncertain": false
     },
@@ -12970,13 +12931,15 @@
       "reignStartYear": 502,
       "reignEndYear": 549,
       "aliases": [
-        "梁武帝"
+        "梁武帝",
+        "武帝"
       ],
       "searchLabels": [
         "萧衍",
         "高祖",
         "武皇帝",
-        "梁武帝"
+        "梁武帝",
+        "武帝"
       ],
       "uncertain": false
     },
@@ -13031,13 +12994,17 @@
       "reignStartYear": 515,
       "reignEndYear": 528,
       "aliases": [
-        "北魏孝明帝"
+        "北魏孝明帝",
+        "北魏明帝",
+        "明帝"
       ],
       "searchLabels": [
         "元诩",
         "肃宗",
         "孝明皇帝",
-        "北魏孝明帝"
+        "北魏孝明帝",
+        "北魏明帝",
+        "明帝"
       ],
       "uncertain": false
     },
@@ -13089,13 +13056,17 @@
       "reignStartYear": 528,
       "reignEndYear": 530,
       "aliases": [
-        "北魏孝庄帝"
+        "北魏孝庄帝",
+        "北魏庄帝",
+        "庄帝"
       ],
       "searchLabels": [
         "元子攸",
         "敬宗",
         "孝庄皇帝",
-        "北魏孝庄帝"
+        "北魏孝庄帝",
+        "北魏庄帝",
+        "庄帝"
       ],
       "uncertain": false
     },
@@ -13132,13 +13103,17 @@
       "reignEndYear": 534,
       "aliases": [
         "北魏孝武帝",
-        "魏出帝"
+        "魏出帝",
+        "北魏武帝",
+        "武帝"
       ],
       "searchLabels": [
         "元修",
         "孝武皇帝",
         "北魏孝武帝",
-        "魏出帝"
+        "魏出帝",
+        "北魏武帝",
+        "武帝"
       ],
       "uncertain": false
     },
@@ -13158,12 +13133,16 @@
       "reignStartYear": 534,
       "reignEndYear": 550,
       "aliases": [
-        "东魏孝静帝"
+        "东魏孝静帝",
+        "东魏静帝",
+        "静帝"
       ],
       "searchLabels": [
         "元善见",
         "孝静皇帝",
-        "东魏孝静帝"
+        "东魏孝静帝",
+        "东魏静帝",
+        "静帝"
       ],
       "uncertain": false
     },
@@ -13180,12 +13159,14 @@
       "reignStartYear": 535,
       "reignEndYear": 551,
       "aliases": [
-        "西魏文帝"
+        "西魏文帝",
+        "文帝"
       ],
       "searchLabels": [
         "元宝炬",
         "文皇帝",
-        "西魏文帝"
+        "西魏文帝",
+        "文帝"
       ],
       "uncertain": false
     },
@@ -13235,13 +13216,15 @@
       "reignStartYear": 549,
       "reignEndYear": 551,
       "aliases": [
-        "梁简文帝"
+        "梁简文帝",
+        "简文帝"
       ],
       "searchLabels": [
         "萧纲",
         "太宗",
         "简文皇帝",
-        "梁简文帝"
+        "梁简文帝",
+        "简文帝"
       ],
       "uncertain": false
     },
@@ -13258,13 +13241,15 @@
       "reignStartYear": 550,
       "reignEndYear": 559,
       "aliases": [
-        "北齐文宣帝"
+        "北齐文宣帝",
+        "文宣帝"
       ],
       "searchLabels": [
         "高洋",
         "显祖",
         "文宣皇帝",
-        "北齐文宣帝"
+        "北齐文宣帝",
+        "文宣帝"
       ],
       "uncertain": false
     },
@@ -13285,6 +13270,26 @@
       "uncertain": true
     },
     {
+      "id": "rn-西魏-废帝",
+      "polityId": "pol-西魏",
+      "personalName": "元钦",
+      "templeTitle": null,
+      "posthumousTitle": null,
+      "displayTitle": "元钦",
+      "reignStartYear": 551,
+      "reignEndYear": 554,
+      "aliases": [
+        "废帝",
+        "魏废帝"
+      ],
+      "searchLabels": [
+        "元钦",
+        "废帝",
+        "魏废帝"
+      ],
+      "uncertain": false
+    },
+    {
       "id": "rn-萧绎",
       "polityId": "pol-萧梁",
       "personalName": "萧绎",
@@ -13297,13 +13302,15 @@
       "reignStartYear": 552,
       "reignEndYear": 554,
       "aliases": [
-        "梁元帝"
+        "梁元帝",
+        "元帝"
       ],
       "searchLabels": [
         "萧绎",
         "世祖",
         "孝元皇帝",
-        "梁元帝"
+        "梁元帝",
+        "元帝"
       ],
       "uncertain": false
     },
@@ -13401,12 +13408,14 @@
       "reignStartYear": 554,
       "reignEndYear": 556,
       "aliases": [
-        "西魏恭帝"
+        "西魏恭帝",
+        "恭帝"
       ],
       "searchLabels": [
         "元廓",
         "恭皇帝",
-        "西魏恭帝"
+        "西魏恭帝",
+        "恭帝"
       ],
       "uncertain": false
     },
@@ -13423,13 +13432,15 @@
       "reignStartYear": 557,
       "reignEndYear": 559,
       "aliases": [
-        "陈武帝"
+        "陈武帝",
+        "武帝"
       ],
       "searchLabels": [
         "陈霸先",
         "高祖",
         "武皇帝",
-        "陈武帝"
+        "陈武帝",
+        "武帝"
       ],
       "uncertain": false
     },
@@ -13444,12 +13455,38 @@
       "reignStartYear": 557,
       "reignEndYear": 557,
       "aliases": [
-        "北周孝闵帝"
+        "北周孝闵帝",
+        "北周闵帝",
+        "闵帝"
       ],
       "searchLabels": [
         "宇文觉",
         "孝闵皇帝",
-        "北周孝闵帝"
+        "北周孝闵帝",
+        "北周闵帝",
+        "闵帝"
+      ],
+      "uncertain": false
+    },
+    {
+      "id": "rn-北周-明帝",
+      "polityId": "pol-北周",
+      "personalName": "宇文毓",
+      "templeTitle": "世宗",
+      "posthumousTitle": "明皇帝",
+      "displayTitle": "宇文毓",
+      "reignStartYear": 557,
+      "reignEndYear": 560,
+      "aliases": [
+        "周明帝",
+        "明皇帝",
+        "宇文毓"
+      ],
+      "searchLabels": [
+        "宇文毓",
+        "世宗",
+        "周明帝",
+        "明皇帝"
       ],
       "uncertain": false
     },
@@ -13467,13 +13504,15 @@
       "reignStartYear": 559,
       "reignEndYear": 566,
       "aliases": [
-        "陈文帝"
+        "陈文帝",
+        "文帝"
       ],
       "searchLabels": [
         "陈蒨",
         "世祖",
         "文皇帝",
-        "陈文帝"
+        "陈文帝",
+        "文帝"
       ],
       "uncertain": false
     },
@@ -13510,13 +13549,35 @@
       "reignStartYear": 560,
       "reignEndYear": 578,
       "aliases": [
-        "北周武帝"
+        "北周武帝",
+        "武帝"
       ],
       "searchLabels": [
         "宇文邕",
         "高祖",
         "武皇帝",
-        "北周武帝"
+        "北周武帝",
+        "武帝"
+      ],
+      "uncertain": false
+    },
+    {
+      "id": "rn-南陈-废帝",
+      "polityId": "pol-南陈",
+      "personalName": "陈伯宗",
+      "templeTitle": null,
+      "posthumousTitle": null,
+      "displayTitle": "陈伯宗",
+      "reignStartYear": 567,
+      "reignEndYear": 568,
+      "aliases": [
+        "废帝",
+        "陈废帝"
+      ],
+      "searchLabels": [
+        "陈伯宗",
+        "废帝",
+        "陈废帝"
       ],
       "uncertain": false
     },
@@ -13533,13 +13594,15 @@
       "reignStartYear": 569,
       "reignEndYear": 582,
       "aliases": [
-        "陈宣帝"
+        "陈宣帝",
+        "宣帝"
       ],
       "searchLabels": [
         "陈顼",
         "高宗",
         "孝宣皇帝",
-        "陈宣帝"
+        "陈宣帝",
+        "宣帝"
       ],
       "uncertain": false
     },
@@ -13574,12 +13637,14 @@
       "reignStartYear": 579,
       "reignEndYear": 581,
       "aliases": [
-        "北周静帝"
+        "北周静帝",
+        "静帝"
       ],
       "searchLabels": [
         "宇文阐",
         "静皇帝",
-        "北周静帝"
+        "北周静帝",
+        "静帝"
       ],
       "uncertain": false
     },
@@ -13633,12 +13698,14 @@
       "reignStartYear": 581,
       "reignEndYear": 604,
       "aliases": [
-        "隋文帝"
+        "隋文帝",
+        "文帝"
       ],
       "searchLabels": [
         "杨坚",
         "隋文帝",
-        "高祖"
+        "高祖",
+        "文帝"
       ],
       "uncertain": false
     },
@@ -13827,13 +13894,15 @@
       "reignStartYear": 604,
       "reignEndYear": 617,
       "aliases": [
-        "隋炀帝"
+        "隋炀帝",
+        "炀帝"
       ],
       "searchLabels": [
         "杨广",
         "世祖",
         "炀皇帝",
-        "隋炀帝"
+        "隋炀帝",
+        "炀帝"
       ],
       "uncertain": false
     },
@@ -13904,12 +13973,14 @@
       "reignStartYear": 617,
       "reignEndYear": 618,
       "aliases": [
-        "隋恭帝"
+        "隋恭帝",
+        "恭帝"
       ],
       "searchLabels": [
         "杨侑",
         "恭皇帝",
-        "隋恭帝"
+        "隋恭帝",
+        "恭帝"
       ],
       "uncertain": false
     },
@@ -13926,7 +13997,8 @@
       "reignStartYear": 618,
       "reignEndYear": 626,
       "aliases": [
-        "唐高祖"
+        "唐高祖",
+        "高祖"
       ],
       "searchLabels": [
         "李渊",
@@ -14037,7 +14109,8 @@
       "reignEndYear": 649,
       "aliases": [
         "唐太宗",
-        "天可汗"
+        "天可汗",
+        "太宗"
       ],
       "searchLabels": [
         "李世民",
@@ -14139,17 +14212,21 @@
       ],
       "reignStartYear": 649,
       "reignEndYear": 683,
-      "aliases": [],
+      "aliases": [
+        "唐高宗",
+        "高宗"
+      ],
       "searchLabels": [
         "李治",
         "高宗",
-        "天皇大帝"
+        "天皇大帝",
+        "唐高宗"
       ],
       "uncertain": false
     },
     {
-      "id": "rn-南诏大蒙-细奴逻",
-      "polityId": "pol-南诏大蒙",
+      "id": "rn-蒙舍诏-细奴逻",
+      "polityId": "pol-蒙舍诏",
       "personalName": "细奴逻",
       "templeTitle": null,
       "posthumousTitle": null,
@@ -14213,8 +14290,8 @@
       "uncertain": true
     },
     {
-      "id": "rn-南诏大蒙-逻盛",
-      "polityId": "pol-南诏大蒙",
+      "id": "rn-蒙舍诏-逻盛",
+      "polityId": "pol-蒙舍诏",
       "personalName": "逻盛",
       "templeTitle": null,
       "posthumousTitle": null,
@@ -14278,6 +14355,56 @@
       "uncertain": true
     },
     {
+      "id": "rn-唐朝-中宗初",
+      "polityId": "pol-唐朝",
+      "personalName": "李显",
+      "templeTitle": "中宗",
+      "posthumousTitle": "孝和皇帝",
+      "displayTitle": "唐中宗",
+      "eraNames": [],
+      "reignStartYear": 683,
+      "reignEndYear": 684,
+      "aliases": [
+        "唐中宗（第一次在位）",
+        "李显",
+        "唐中宗",
+        "孝和皇帝",
+        "中宗"
+      ],
+      "searchLabels": [
+        "李显",
+        "中宗",
+        "唐中宗",
+        "唐中宗（第一次在位）",
+        "孝和皇帝"
+      ],
+      "uncertain": false
+    },
+    {
+      "id": "rn-唐朝-睿宗初",
+      "polityId": "pol-唐朝",
+      "personalName": "李旦",
+      "templeTitle": "睿宗",
+      "posthumousTitle": "玄真皇帝",
+      "displayTitle": "唐睿宗",
+      "eraNames": [],
+      "reignStartYear": 684,
+      "reignEndYear": 690,
+      "aliases": [
+        "唐睿宗（第一次在位）",
+        "李旦",
+        "唐睿宗",
+        "睿宗"
+      ],
+      "searchLabels": [
+        "李旦",
+        "睿宗",
+        "唐睿宗",
+        "唐睿宗（第一次在位）"
+      ],
+      "uncertain": false
+    },
+    {
       "id": "rn-武曌",
       "polityId": "pol-武周",
       "personalName": "武曌",
@@ -14306,7 +14433,9 @@
       "reignEndYear": 705,
       "aliases": [
         "武则天",
-        "则天皇帝"
+        "则天皇帝",
+        "武曌",
+        "则天大圣皇帝"
       ],
       "searchLabels": [
         "武曌",
@@ -14401,7 +14530,8 @@
       "reignStartYear": 705,
       "reignEndYear": 710,
       "aliases": [
-        "唐中宗"
+        "唐中宗",
+        "中宗"
       ],
       "searchLabels": [
         "李显",
@@ -14427,7 +14557,8 @@
       "reignStartYear": 710,
       "reignEndYear": 712,
       "aliases": [
-        "唐睿宗"
+        "唐睿宗",
+        "睿宗"
       ],
       "searchLabels": [
         "李旦",
@@ -14453,7 +14584,8 @@
       "reignEndYear": 756,
       "aliases": [
         "唐玄宗",
-        "唐明皇"
+        "唐明皇",
+        "玄宗"
       ],
       "searchLabels": [
         "李隆基",
@@ -14465,8 +14597,8 @@
       "uncertain": false
     },
     {
-      "id": "rn-南诏大蒙-盛逻皮",
-      "polityId": "pol-南诏大蒙",
+      "id": "rn-蒙舍诏-盛逻皮",
+      "polityId": "pol-蒙舍诏",
       "personalName": "盛逻皮",
       "templeTitle": null,
       "posthumousTitle": null,
@@ -14517,8 +14649,8 @@
       "uncertain": true
     },
     {
-      "id": "rn-南诏大蒙-皮逻阁",
-      "polityId": "pol-南诏大蒙",
+      "id": "rn-大蒙-皮逻阁",
+      "polityId": "pol-大蒙",
       "personalName": "皮逻阁",
       "templeTitle": null,
       "posthumousTitle": null,
@@ -14659,8 +14791,8 @@
       "uncertain": true
     },
     {
-      "id": "rn-南诏大蒙-阁罗凤",
-      "polityId": "pol-南诏大蒙",
+      "id": "rn-大蒙-阁罗凤",
+      "polityId": "pol-大蒙",
       "personalName": "阁罗凤",
       "templeTitle": null,
       "posthumousTitle": null,
@@ -14721,11 +14853,15 @@
       ],
       "reignStartYear": 756,
       "reignEndYear": 762,
-      "aliases": [],
+      "aliases": [
+        "唐肃宗",
+        "肃宗"
+      ],
       "searchLabels": [
         "李亨",
         "肃宗",
-        "宣皇帝"
+        "宣皇帝",
+        "唐肃宗"
       ],
       "uncertain": false
     },
@@ -14762,11 +14898,15 @@
       ],
       "reignStartYear": 762,
       "reignEndYear": 779,
-      "aliases": [],
+      "aliases": [
+        "唐代宗",
+        "代宗"
+      ],
       "searchLabels": [
         "李豫",
         "代宗",
-        "睿文孝武皇帝"
+        "睿文孝武皇帝",
+        "唐代宗"
       ],
       "uncertain": false
     },
@@ -14784,11 +14924,15 @@
       ],
       "reignStartYear": 779,
       "reignEndYear": 805,
-      "aliases": [],
+      "aliases": [
+        "唐德宗",
+        "德宗"
+      ],
       "searchLabels": [
         "李适",
         "德宗",
-        "神武孝文皇帝"
+        "神武孝文皇帝",
+        "唐德宗"
       ],
       "uncertain": false
     },
@@ -14812,8 +14956,8 @@
       "uncertain": true
     },
     {
-      "id": "rn-南诏大蒙-异牟寻",
-      "polityId": "pol-南诏大蒙",
+      "id": "rn-大蒙-异牟寻",
+      "polityId": "pol-大蒙",
       "personalName": "异牟寻",
       "templeTitle": null,
       "posthumousTitle": null,
@@ -14970,11 +15114,15 @@
       ],
       "reignStartYear": 805,
       "reignEndYear": 805,
-      "aliases": [],
+      "aliases": [
+        "唐顺宗",
+        "顺宗"
+      ],
       "searchLabels": [
         "李诵",
         "顺宗",
-        "至德弘道大圣大安孝皇帝"
+        "至德弘道大圣大安孝皇帝",
+        "唐顺宗"
       ],
       "uncertain": false
     },
@@ -14990,11 +15138,15 @@
       ],
       "reignStartYear": 805,
       "reignEndYear": 820,
-      "aliases": [],
+      "aliases": [
+        "唐宪宗",
+        "宪宗"
+      ],
       "searchLabels": [
         "李纯",
         "宪宗",
-        "章武孝皇帝"
+        "章武孝皇帝",
+        "唐宪宗"
       ],
       "uncertain": false
     },
@@ -15031,8 +15183,8 @@
       "uncertain": true
     },
     {
-      "id": "rn-南诏大蒙-寻阁劝",
-      "polityId": "pol-南诏大蒙",
+      "id": "rn-大蒙-寻阁劝",
+      "polityId": "pol-大蒙",
       "personalName": "寻阁劝",
       "templeTitle": null,
       "posthumousTitle": null,
@@ -15047,8 +15199,8 @@
       "uncertain": true
     },
     {
-      "id": "rn-南诏大礼-劝龙晟",
-      "polityId": "pol-南诏大礼",
+      "id": "rn-大蒙-劝龙晟",
+      "polityId": "pol-大蒙",
       "personalName": "劝龙晟",
       "templeTitle": null,
       "posthumousTitle": null,
@@ -15117,8 +15269,8 @@
       "uncertain": true
     },
     {
-      "id": "rn-南诏大礼-劝利晟",
-      "polityId": "pol-南诏大礼",
+      "id": "rn-大蒙-劝利晟",
+      "polityId": "pol-大蒙",
       "personalName": "劝利晟",
       "templeTitle": null,
       "posthumousTitle": null,
@@ -15182,11 +15334,15 @@
       ],
       "reignStartYear": 820,
       "reignEndYear": 824,
-      "aliases": [],
+      "aliases": [
+        "唐穆宗",
+        "穆宗"
+      ],
       "searchLabels": [
         "李恒",
         "穆宗",
-        "文惠皇帝"
+        "文惠皇帝",
+        "唐穆宗"
       ],
       "uncertain": false
     },
@@ -15223,8 +15379,8 @@
       "uncertain": true
     },
     {
-      "id": "rn-南诏大礼-丰佑",
-      "polityId": "pol-南诏大礼",
+      "id": "rn-大蒙-丰佑",
+      "polityId": "pol-大蒙",
       "personalName": "丰佑",
       "templeTitle": null,
       "posthumousTitle": null,
@@ -15237,6 +15393,28 @@
         "丰佑"
       ],
       "uncertain": true
+    },
+    {
+      "id": "rn-唐朝-敬宗",
+      "polityId": "pol-唐朝",
+      "personalName": "李湛",
+      "templeTitle": "敬宗",
+      "posthumousTitle": "睿武昭愍孝皇帝",
+      "displayTitle": "唐敬宗",
+      "eraNames": [],
+      "reignStartYear": 824,
+      "reignEndYear": 826,
+      "aliases": [
+        "唐敬宗",
+        "李湛",
+        "敬宗"
+      ],
+      "searchLabels": [
+        "李湛",
+        "敬宗",
+        "唐敬宗"
+      ],
+      "uncertain": false
     },
     {
       "id": "rn-李昂",
@@ -15252,11 +15430,15 @@
       ],
       "reignStartYear": 826,
       "reignEndYear": 840,
-      "aliases": [],
+      "aliases": [
+        "唐文宗",
+        "文宗"
+      ],
       "searchLabels": [
         "李昂",
         "文宗",
-        "昭献皇帝"
+        "昭献皇帝",
+        "唐文宗"
       ],
       "uncertain": false
     },
@@ -15336,29 +15518,17 @@
       ],
       "reignStartYear": 840,
       "reignEndYear": 846,
-      "aliases": [],
+      "aliases": [
+        "唐武宗",
+        "武宗"
+      ],
       "searchLabels": [
         "李炎",
         "武宗",
-        "至道昭肃孝皇帝"
+        "至道昭肃孝皇帝",
+        "唐武宗"
       ],
       "uncertain": false
-    },
-    {
-      "id": "rn-回鹘汗国-药罗葛乌介",
-      "polityId": "pol-回鹘汗国",
-      "personalName": "药罗葛乌介",
-      "templeTitle": null,
-      "posthumousTitle": null,
-      "displayTitle": "药罗葛乌介",
-      "eraNames": [],
-      "reignStartYear": 840,
-      "reignEndYear": 846,
-      "aliases": [],
-      "searchLabels": [
-        "药罗葛乌介"
-      ],
-      "uncertain": true
     },
     {
       "id": "rn-喀喇汗国-毗伽阙·卡迪尔汗",
@@ -15388,11 +15558,15 @@
       ],
       "reignStartYear": 846,
       "reignEndYear": 859,
-      "aliases": [],
+      "aliases": [
+        "唐宣宗",
+        "宣宗"
+      ],
       "searchLabels": [
         "李忱",
         "宣宗",
-        "元圣至明成武献文睿智章仁神聪懿道大孝皇帝"
+        "元圣至明成武献文睿智章仁神聪懿道大孝皇帝",
+        "唐宣宗"
       ],
       "uncertain": false
     },
@@ -15440,17 +15614,21 @@
       ],
       "reignStartYear": 859,
       "reignEndYear": 873,
-      "aliases": [],
+      "aliases": [
+        "唐懿宗",
+        "懿宗"
+      ],
       "searchLabels": [
         "李漼",
         "懿宗",
-        "睿文昭圣恭惠孝皇帝"
+        "睿文昭圣恭惠孝皇帝",
+        "唐懿宗"
       ],
       "uncertain": false
     },
     {
-      "id": "rn-南诏大礼-世隆",
-      "polityId": "pol-南诏大礼",
+      "id": "rn-大礼-世隆",
+      "polityId": "pol-大礼",
       "personalName": "世隆",
       "templeTitle": null,
       "posthumousTitle": null,
@@ -15515,17 +15693,21 @@
       ],
       "reignStartYear": 873,
       "reignEndYear": 888,
-      "aliases": [],
+      "aliases": [
+        "唐僖宗",
+        "僖宗"
+      ],
       "searchLabels": [
         "李儇",
         "僖宗",
-        "惠圣恭定孝皇帝"
+        "惠圣恭定孝皇帝",
+        "唐僖宗"
       ],
       "uncertain": false
     },
     {
-      "id": "rn-南诏大礼-隆舜",
-      "polityId": "pol-南诏大礼",
+      "id": "rn-大封民-隆舜",
+      "polityId": "pol-大封民",
       "personalName": "隆舜",
       "templeTitle": null,
       "posthumousTitle": null,
@@ -15557,11 +15739,15 @@
       ],
       "reignStartYear": 888,
       "reignEndYear": 904,
-      "aliases": [],
+      "aliases": [
+        "唐昭宗",
+        "昭宗"
+      ],
       "searchLabels": [
         "李晔",
         "昭宗",
-        "圣穆景文孝皇帝"
+        "圣穆景文孝皇帝",
+        "唐昭宗"
       ],
       "uncertain": false
     },
@@ -15598,8 +15784,8 @@
       "uncertain": true
     },
     {
-      "id": "rn-南诏大礼-舜化贞",
-      "polityId": "pol-南诏大礼",
+      "id": "rn-大封民-舜化贞",
+      "polityId": "pol-大封民",
       "personalName": "舜化贞",
       "templeTitle": null,
       "posthumousTitle": null,
@@ -15624,13 +15810,16 @@
       "reignStartYear": 902,
       "reignEndYear": 905,
       "aliases": [
-        "吴武忠王"
+        "吴武忠王",
+        "杨吴太祖",
+        "太祖"
       ],
       "searchLabels": [
         "杨行密",
         "太祖",
         "武皇帝",
-        "吴武忠王"
+        "吴武忠王",
+        "杨吴太祖"
       ],
       "uncertain": false
     },
@@ -15647,7 +15836,8 @@
       "reignStartYear": 904,
       "reignEndYear": 907,
       "aliases": [
-        "唐哀帝"
+        "唐哀帝",
+        "哀帝"
       ],
       "searchLabels": [
         "李柷",
@@ -15668,13 +15858,16 @@
       "reignStartYear": 905,
       "reignEndYear": 908,
       "aliases": [
-        "吴烈祖"
+        "吴烈祖",
+        "杨吴烈祖",
+        "烈祖"
       ],
       "searchLabels": [
         "杨渥",
         "烈祖",
         "景皇帝",
-        "吴烈祖"
+        "吴烈祖",
+        "杨吴烈祖"
       ],
       "uncertain": false
     },
@@ -15709,7 +15902,8 @@
       "reignEndYear": 912,
       "aliases": [
         "朱全忠",
-        "后梁太祖"
+        "后梁太祖",
+        "太祖"
       ],
       "searchLabels": [
         "朱温",
@@ -15735,19 +15929,22 @@
       "reignStartYear": 907,
       "reignEndYear": 932,
       "aliases": [
-        "吴越武肃王"
+        "吴越武肃王",
+        "吴越太祖",
+        "太祖"
       ],
       "searchLabels": [
         "钱镠",
         "太祖",
         "武肃王",
-        "吴越武肃王"
+        "吴越武肃王",
+        "吴越太祖"
       ],
       "uncertain": false
     },
     {
-      "id": "rn-马殷",
-      "polityId": "pol-楚",
+      "id": "rn-马楚-武穆王",
+      "polityId": "pol-马楚",
       "personalName": "马殷",
       "personalName2": null,
       "templeTitle": null,
@@ -15756,7 +15953,8 @@
       "reignStartYear": 907,
       "reignEndYear": 930,
       "aliases": [
-        "楚武穆王"
+        "楚武穆王",
+        "马殷"
       ],
       "searchLabels": [
         "马殷",
@@ -15782,7 +15980,8 @@
       "reignStartYear": 907,
       "reignEndYear": 918,
       "aliases": [
-        "前蜀高祖"
+        "前蜀高祖",
+        "高祖"
       ],
       "searchLabels": [
         "王建",
@@ -15807,13 +16006,16 @@
       "reignStartYear": 907,
       "reignEndYear": 926,
       "aliases": [
-        "辽太祖"
+        "辽太祖",
+        "契丹太祖",
+        "太祖"
       ],
       "searchLabels": [
         "耶律阿保机",
         "太祖",
         "大圣大明神烈天皇帝",
-        "辽太祖"
+        "辽太祖",
+        "契丹太祖"
       ],
       "uncertain": false
     },
@@ -15829,11 +16031,15 @@
       ],
       "reignStartYear": 908,
       "reignEndYear": 921,
-      "aliases": [],
+      "aliases": [
+        "杨吴高祖",
+        "高祖"
+      ],
       "searchLabels": [
         "杨隆演",
         "高祖",
-        "宣皇帝"
+        "宣皇帝",
+        "杨吴高祖"
       ],
       "uncertain": false
     },
@@ -15848,7 +16054,8 @@
       "reignStartYear": 909,
       "reignEndYear": 925,
       "aliases": [
-        "闽太祖"
+        "闽太祖",
+        "太祖"
       ],
       "searchLabels": [
         "王审知",
@@ -15871,7 +16078,8 @@
       "reignStartYear": 912,
       "reignEndYear": 913,
       "aliases": [
-        "后梁郢王"
+        "后梁郢王",
+        "朱友珪"
       ],
       "searchLabels": [
         "朱友珪",
@@ -15910,7 +16118,8 @@
       "reignStartYear": 913,
       "reignEndYear": 923,
       "aliases": [
-        "后梁末帝"
+        "后梁末帝",
+        "朱友贞"
       ],
       "searchLabels": [
         "朱友贞",
@@ -15933,7 +16142,8 @@
       "reignStartYear": 917,
       "reignEndYear": 942,
       "aliases": [
-        "南汉高祖"
+        "南汉高祖",
+        "高祖"
       ],
       "searchLabels": [
         "刘龑",
@@ -15957,7 +16167,8 @@
       "reignStartYear": 918,
       "reignEndYear": 925,
       "aliases": [
-        "前蜀后主"
+        "前蜀后主",
+        "王衍"
       ],
       "searchLabels": [
         "王衍",
@@ -16000,12 +16211,17 @@
       "reignStartYear": 921,
       "reignEndYear": 937,
       "aliases": [
-        "吴睿帝"
+        "吴睿帝",
+        "杨吴末帝",
+        "让皇帝",
+        "杨溥"
       ],
       "searchLabels": [
         "杨溥",
         "睿皇帝",
-        "吴睿帝"
+        "吴睿帝",
+        "杨吴末帝",
+        "让皇帝"
       ],
       "uncertain": false
     },
@@ -16022,7 +16238,8 @@
       "reignStartYear": 923,
       "reignEndYear": 926,
       "aliases": [
-        "后唐庄宗"
+        "后唐庄宗",
+        "庄宗"
       ],
       "searchLabels": [
         "李存勖",
@@ -16043,7 +16260,8 @@
       "reignStartYear": 924,
       "reignEndYear": 929,
       "aliases": [
-        "南平武信王"
+        "南平武信王",
+        "高季兴"
       ],
       "searchLabels": [
         "高季兴",
@@ -16062,9 +16280,13 @@
       "eraNames": [],
       "reignStartYear": 925,
       "reignEndYear": 927,
-      "aliases": [],
-      "searchLabels": [
+      "aliases": [
+        "闽嗣王",
         "王延翰"
+      ],
+      "searchLabels": [
+        "王延翰",
+        "闽嗣王"
       ],
       "uncertain": false
     },
@@ -16082,7 +16304,8 @@
       "reignStartYear": 926,
       "reignEndYear": 933,
       "aliases": [
-        "后唐明宗"
+        "后唐明宗",
+        "明宗"
       ],
       "searchLabels": [
         "李嗣源",
@@ -16107,13 +16330,16 @@
       "reignStartYear": 926,
       "reignEndYear": 947,
       "aliases": [
-        "辽太宗"
+        "辽太宗",
+        "契丹太宗",
+        "太宗"
       ],
       "searchLabels": [
         "耶律德光",
         "太宗",
         "孝武惠文皇帝",
-        "辽太宗"
+        "辽太宗",
+        "契丹太宗"
       ],
       "uncertain": false
     },
@@ -16130,11 +16356,35 @@
       ],
       "reignStartYear": 927,
       "reignEndYear": 935,
-      "aliases": [],
+      "aliases": [
+        "闽太宗",
+        "太宗"
+      ],
       "searchLabels": [
         "王延钧",
         "太宗",
-        "惠皇帝"
+        "惠皇帝",
+        "闽太宗"
+      ],
+      "uncertain": false
+    },
+    {
+      "id": "rn-南平-文献王",
+      "polityId": "pol-南平",
+      "personalName": "高从诲",
+      "templeTitle": null,
+      "posthumousTitle": "文献王",
+      "displayTitle": "高从诲",
+      "reignStartYear": 928,
+      "reignEndYear": 948,
+      "aliases": [
+        "南平文献王",
+        "高从诲"
+      ],
+      "searchLabels": [
+        "高从诲",
+        "文献王",
+        "南平文献王"
       ],
       "uncertain": false
     },
@@ -16149,13 +16399,16 @@
       "reignStartYear": 932,
       "reignEndYear": 941,
       "aliases": [
-        "吴越文穆王"
+        "吴越文穆王",
+        "吴越太宗",
+        "太宗"
       ],
       "searchLabels": [
         "钱元瓘",
         "太宗",
         "文穆王",
-        "吴越文穆王"
+        "吴越文穆王",
+        "吴越太宗"
       ],
       "uncertain": false
     },
@@ -16172,7 +16425,8 @@
       "reignStartYear": 933,
       "reignEndYear": 934,
       "aliases": [
-        "后唐闵帝"
+        "后唐闵帝",
+        "李从厚"
       ],
       "searchLabels": [
         "李从厚",
@@ -16194,7 +16448,8 @@
       "reignStartYear": 934,
       "reignEndYear": 937,
       "aliases": [
-        "后唐末帝"
+        "后唐末帝",
+        "李从珂"
       ],
       "searchLabels": [
         "李从珂",
@@ -16215,7 +16470,8 @@
       "reignStartYear": 934,
       "reignEndYear": 934,
       "aliases": [
-        "后蜀高祖"
+        "后蜀高祖",
+        "高祖"
       ],
       "searchLabels": [
         "孟知祥",
@@ -16239,7 +16495,8 @@
       "reignStartYear": 934,
       "reignEndYear": 965,
       "aliases": [
-        "后蜀后主"
+        "后蜀后主",
+        "孟昶"
       ],
       "searchLabels": [
         "孟昶",
@@ -16260,7 +16517,8 @@
       "reignStartYear": 936,
       "reignEndYear": 942,
       "aliases": [
-        "后晋高祖"
+        "后晋高祖",
+        "高祖"
       ],
       "searchLabels": [
         "石敬瑭",
@@ -16283,7 +16541,8 @@
       "reignStartYear": 937,
       "reignEndYear": 943,
       "aliases": [
-        "南唐烈祖"
+        "南唐烈祖",
+        "烈祖"
       ],
       "searchLabels": [
         "李昪",
@@ -16317,7 +16576,7 @@
       "polityId": "pol-闽",
       "personalName": "王延羲",
       "personalName2": null,
-      "templeTitle": null,
+      "templeTitle": "景宗",
       "posthumousTitle": null,
       "eraNames": [
         "永隆"
@@ -16325,11 +16584,36 @@
       "reignStartYear": 939,
       "reignEndYear": 944,
       "aliases": [
-        "闽景宗"
+        "闽景宗",
+        "王延羲",
+        "景宗"
       ],
       "searchLabels": [
         "王延羲",
-        "闽景宗"
+        "闽景宗",
+        "景宗"
+      ],
+      "uncertain": false
+    },
+    {
+      "id": "rn-吴越-成宗",
+      "polityId": "pol-吴越",
+      "personalName": "钱弘佐",
+      "templeTitle": "成宗",
+      "posthumousTitle": "忠献王",
+      "displayTitle": "钱弘佐",
+      "reignStartYear": 941,
+      "reignEndYear": 947,
+      "aliases": [
+        "吴越成宗",
+        "忠献王",
+        "钱弘佐"
+      ],
+      "searchLabels": [
+        "钱弘佐",
+        "成宗",
+        "吴越成宗",
+        "忠献王"
       ],
       "uncertain": false
     },
@@ -16347,7 +16631,8 @@
       "reignStartYear": 942,
       "reignEndYear": 947,
       "aliases": [
-        "后晋出帝"
+        "后晋出帝",
+        "石重贵"
       ],
       "searchLabels": [
         "石重贵",
@@ -16371,7 +16656,8 @@
       "reignEndYear": 961,
       "aliases": [
         "南唐元宗",
-        "中主"
+        "中主",
+        "元宗"
       ],
       "searchLabels": [
         "李璟",
@@ -16396,7 +16682,8 @@
       "reignStartYear": 943,
       "reignEndYear": 958,
       "aliases": [
-        "南汉中宗"
+        "南汉中宗",
+        "中宗"
       ],
       "searchLabels": [
         "刘晟",
@@ -16451,7 +16738,8 @@
       "reignStartYear": 947,
       "reignEndYear": 948,
       "aliases": [
-        "后汉高祖"
+        "后汉高祖",
+        "高祖"
       ],
       "searchLabels": [
         "刘知远",
@@ -16473,11 +16761,34 @@
       ],
       "reignStartYear": 947,
       "reignEndYear": 951,
-      "aliases": [],
+      "aliases": [
+        "辽世宗",
+        "世宗"
+      ],
       "searchLabels": [
         "耶律阮",
         "世宗",
-        "孝和庄宪皇帝"
+        "孝和庄宪皇帝",
+        "辽世宗"
+      ],
+      "uncertain": false
+    },
+    {
+      "id": "rn-吴越-忠逊王",
+      "polityId": "pol-吴越",
+      "personalName": "钱弘倧",
+      "templeTitle": null,
+      "posthumousTitle": "忠逊王",
+      "displayTitle": "钱弘倧",
+      "reignStartYear": 947,
+      "reignEndYear": 948,
+      "aliases": [
+        "忠逊王",
+        "钱弘倧"
+      ],
+      "searchLabels": [
+        "钱弘倧",
+        "忠逊王"
       ],
       "uncertain": false
     },
@@ -16494,7 +16805,8 @@
       "reignStartYear": 948,
       "reignEndYear": 950,
       "aliases": [
-        "后汉隐帝"
+        "后汉隐帝",
+        "刘承祐"
       ],
       "searchLabels": [
         "刘承祐",
@@ -16513,7 +16825,8 @@
       "reignStartYear": 948,
       "reignEndYear": 978,
       "aliases": [
-        "吴越忠懿王"
+        "吴越忠懿王",
+        "钱弘俶"
       ],
       "searchLabels": [
         "钱弘俶",
@@ -16529,13 +16842,19 @@
       "personalName": "高保融",
       "personalName2": null,
       "templeTitle": null,
-      "posthumousTitle": null,
+      "posthumousTitle": "贞懿王",
       "eraNames": [],
       "reignStartYear": 948,
       "reignEndYear": 960,
-      "aliases": [],
+      "aliases": [
+        "南平贞懿王",
+        "高保融",
+        "贞懿王"
+      ],
       "searchLabels": [
-        "高保融"
+        "高保融",
+        "南平贞懿王",
+        "贞懿王"
       ],
       "uncertain": false
     },
@@ -16553,7 +16872,8 @@
       "reignStartYear": 951,
       "reignEndYear": 954,
       "aliases": [
-        "后周太祖"
+        "后周太祖",
+        "太祖"
       ],
       "searchLabels": [
         "郭威",
@@ -16576,7 +16896,8 @@
       "reignStartYear": 951,
       "reignEndYear": 954,
       "aliases": [
-        "北汉世祖"
+        "北汉世祖",
+        "世祖"
       ],
       "searchLabels": [
         "刘旻",
@@ -16598,11 +16919,15 @@
       ],
       "reignStartYear": 951,
       "reignEndYear": 969,
-      "aliases": [],
+      "aliases": [
+        "辽穆宗",
+        "穆宗"
+      ],
       "searchLabels": [
         "耶律璟",
         "穆宗",
-        "孝安敬正皇帝"
+        "孝安敬正皇帝",
+        "辽穆宗"
       ],
       "uncertain": false
     },
@@ -16635,7 +16960,8 @@
       "reignStartYear": 954,
       "reignEndYear": 959,
       "aliases": [
-        "后周世宗"
+        "后周世宗",
+        "世宗"
       ],
       "searchLabels": [
         "柴荣",
@@ -16657,11 +16983,15 @@
       ],
       "reignStartYear": 954,
       "reignEndYear": 968,
-      "aliases": [],
+      "aliases": [
+        "北汉睿宗",
+        "睿宗"
+      ],
       "searchLabels": [
         "刘钧",
         "睿宗",
-        "孝和皇帝"
+        "孝和皇帝",
+        "北汉睿宗"
       ],
       "uncertain": false
     },
@@ -16694,7 +17024,8 @@
       "reignStartYear": 958,
       "reignEndYear": 971,
       "aliases": [
-        "南汉后主"
+        "南汉后主",
+        "刘鋹"
       ],
       "searchLabels": [
         "刘鋹",
@@ -16715,7 +17046,8 @@
       "reignStartYear": 959,
       "reignEndYear": 960,
       "aliases": [
-        "后周恭帝"
+        "后周恭帝",
+        "郭宗训"
       ],
       "searchLabels": [
         "郭宗训",
@@ -16740,7 +17072,8 @@
       "reignStartYear": 960,
       "reignEndYear": 976,
       "aliases": [
-        "宋太祖"
+        "宋太祖",
+        "太祖"
       ],
       "searchLabels": [
         "赵匡胤",
@@ -16762,7 +17095,8 @@
       "reignEndYear": 975,
       "aliases": [
         "南唐后主",
-        "李后主"
+        "李后主",
+        "李煜"
       ],
       "searchLabels": [
         "李煜",
@@ -16784,11 +17118,15 @@
       ],
       "reignStartYear": 969,
       "reignEndYear": 982,
-      "aliases": [],
+      "aliases": [
+        "辽景宗",
+        "景宗"
+      ],
       "searchLabels": [
         "耶律贤",
         "景宗",
-        "孝成康靖皇帝"
+        "孝成康靖皇帝",
+        "辽景宗"
       ],
       "uncertain": false
     },
@@ -16841,7 +17179,8 @@
       "reignStartYear": 976,
       "reignEndYear": 997,
       "aliases": [
-        "宋太宗"
+        "宋太宗",
+        "太宗"
       ],
       "searchLabels": [
         "赵光义",
@@ -16865,11 +17204,15 @@
       ],
       "reignStartYear": 982,
       "reignEndYear": 1031,
-      "aliases": [],
+      "aliases": [
+        "辽圣宗",
+        "圣宗"
+      ],
       "searchLabels": [
         "耶律隆绪",
         "圣宗",
-        "文武大孝宣皇帝"
+        "文武大孝宣皇帝",
+        "辽圣宗"
       ],
       "uncertain": false
     },
@@ -16921,11 +17264,15 @@
       ],
       "reignStartYear": 997,
       "reignEndYear": 1022,
-      "aliases": [],
+      "aliases": [
+        "宋真宗",
+        "真宗"
+      ],
       "searchLabels": [
         "赵恒",
         "真宗",
-        "文明章圣元孝皇帝"
+        "文明章圣元孝皇帝",
+        "宋真宗"
       ],
       "uncertain": false
     },
@@ -16965,11 +17312,15 @@
       ],
       "reignStartYear": 1022,
       "reignEndYear": 1063,
-      "aliases": [],
+      "aliases": [
+        "宋仁宗",
+        "仁宗"
+      ],
       "searchLabels": [
         "赵祯",
         "仁宗",
-        "体天法道极功全德神文圣武睿哲明孝皇帝"
+        "体天法道极功全德神文圣武睿哲明孝皇帝",
+        "宋仁宗"
       ],
       "uncertain": false
     },
@@ -17018,11 +17369,15 @@
       ],
       "reignStartYear": 1031,
       "reignEndYear": 1055,
-      "aliases": [],
+      "aliases": [
+        "辽兴宗",
+        "兴宗"
+      ],
       "searchLabels": [
         "耶律宗真",
         "兴宗",
-        "神圣孝章皇帝"
+        "神圣孝章皇帝",
+        "辽兴宗"
       ],
       "uncertain": false
     },
@@ -17057,7 +17412,8 @@
       "reignStartYear": 1038,
       "reignEndYear": 1048,
       "aliases": [
-        "夏景宗"
+        "夏景宗",
+        "景宗"
       ],
       "searchLabels": [
         "李元昊",
@@ -17115,11 +17471,15 @@
       ],
       "reignStartYear": 1048,
       "reignEndYear": 1067,
-      "aliases": [],
+      "aliases": [
+        "夏毅宗",
+        "毅宗"
+      ],
       "searchLabels": [
         "李谅祚",
         "毅宗",
-        "昭英皇帝"
+        "昭英皇帝",
+        "夏毅宗"
       ],
       "uncertain": false
     },
@@ -17139,11 +17499,15 @@
       ],
       "reignStartYear": 1055,
       "reignEndYear": 1101,
-      "aliases": [],
+      "aliases": [
+        "辽道宗",
+        "道宗"
+      ],
       "searchLabels": [
         "耶律洪基",
         "道宗",
-        "仁圣大孝文皇帝"
+        "仁圣大孝文皇帝",
+        "辽道宗"
       ],
       "uncertain": false
     },
@@ -17159,11 +17523,15 @@
       ],
       "reignStartYear": 1063,
       "reignEndYear": 1067,
-      "aliases": [],
+      "aliases": [
+        "宋英宗",
+        "英宗"
+      ],
       "searchLabels": [
         "赵曙",
         "英宗",
-        "体乾应历隆功盛德宪文肃武睿圣宣孝皇帝"
+        "体乾应历隆功盛德宪文肃武睿圣宣孝皇帝",
+        "宋英宗"
       ],
       "uncertain": false
     },
@@ -17180,11 +17548,15 @@
       ],
       "reignStartYear": 1067,
       "reignEndYear": 1085,
-      "aliases": [],
+      "aliases": [
+        "宋神宗",
+        "神宗"
+      ],
       "searchLabels": [
         "赵顼",
         "神宗",
-        "绍天法古运德建功英文烈武钦仁圣孝皇帝"
+        "绍天法古运德建功英文烈武钦仁圣孝皇帝",
+        "宋神宗"
       ],
       "uncertain": false
     },
@@ -17203,11 +17575,15 @@
       ],
       "reignStartYear": 1067,
       "reignEndYear": 1086,
-      "aliases": [],
+      "aliases": [
+        "夏惠宗",
+        "惠宗"
+      ],
       "searchLabels": [
         "李秉常",
         "惠宗",
-        "康靖皇帝"
+        "康靖皇帝",
+        "夏惠宗"
       ],
       "uncertain": false
     },
@@ -17289,11 +17665,15 @@
       ],
       "reignStartYear": 1085,
       "reignEndYear": 1100,
-      "aliases": [],
+      "aliases": [
+        "宋哲宗",
+        "哲宗"
+      ],
       "searchLabels": [
         "赵煦",
         "哲宗",
-        "宪元继道显德定功钦文睿武齐圣昭孝皇帝"
+        "宪元继道显德定功钦文睿武齐圣昭孝皇帝",
+        "宋哲宗"
       ],
       "uncertain": false
     },
@@ -17316,11 +17696,15 @@
       ],
       "reignStartYear": 1086,
       "reignEndYear": 1139,
-      "aliases": [],
+      "aliases": [
+        "夏崇宗",
+        "崇宗"
+      ],
       "searchLabels": [
         "李乾顺",
         "崇宗",
-        "圣文皇帝"
+        "圣文皇帝",
+        "夏崇宗"
       ],
       "uncertain": false
     },
@@ -17357,11 +17741,15 @@
       ],
       "reignStartYear": 1100,
       "reignEndYear": 1126,
-      "aliases": [],
+      "aliases": [
+        "宋徽宗",
+        "徽宗"
+      ],
       "searchLabels": [
         "赵佶",
         "徽宗",
-        "圣文仁德显孝皇帝"
+        "圣文仁德显孝皇帝",
+        "宋徽宗"
       ],
       "uncertain": false
     },
@@ -17380,7 +17768,8 @@
       "reignStartYear": 1101,
       "reignEndYear": 1125,
       "aliases": [
-        "辽天祚帝"
+        "辽天祚帝",
+        "耶律延禧"
       ],
       "searchLabels": [
         "耶律延禧",
@@ -17437,7 +17826,8 @@
       "reignStartYear": 1115,
       "reignEndYear": 1123,
       "aliases": [
-        "金太祖"
+        "金太祖",
+        "太祖"
       ],
       "searchLabels": [
         "完颜阿骨打",
@@ -17460,7 +17850,8 @@
       "reignStartYear": 1123,
       "reignEndYear": 1135,
       "aliases": [
-        "金太宗"
+        "金太宗",
+        "太宗"
       ],
       "searchLabels": [
         "完颜吴乞买",
@@ -17483,11 +17874,15 @@
       ],
       "reignStartYear": 1126,
       "reignEndYear": 1127,
-      "aliases": [],
+      "aliases": [
+        "宋钦宗",
+        "钦宗"
+      ],
       "searchLabels": [
         "赵桓",
         "钦宗",
-        "恭文顺德仁孝皇帝"
+        "恭文顺德仁孝皇帝",
+        "宋钦宗"
       ],
       "uncertain": false
     },
@@ -17504,11 +17899,15 @@
       ],
       "reignStartYear": 1127,
       "reignEndYear": 1162,
-      "aliases": [],
+      "aliases": [
+        "宋高宗",
+        "高宗"
+      ],
       "searchLabels": [
         "赵构",
         "高宗",
-        "受命中兴全功至德圣神武文昭仁宪孝皇帝"
+        "受命中兴全功至德圣神武文昭仁宪孝皇帝",
+        "宋高宗"
       ],
       "uncertain": false
     },
@@ -17558,11 +17957,15 @@
       ],
       "reignStartYear": 1135,
       "reignEndYear": 1149,
-      "aliases": [],
+      "aliases": [
+        "金熙宗",
+        "熙宗"
+      ],
       "searchLabels": [
         "完颜亶",
         "熙宗",
-        "弘基缵武庄靖孝成皇帝"
+        "弘基缵武庄靖孝成皇帝",
+        "金熙宗"
       ],
       "uncertain": false
     },
@@ -17581,11 +17984,15 @@
       ],
       "reignStartYear": 1139,
       "reignEndYear": 1193,
-      "aliases": [],
+      "aliases": [
+        "夏仁宗",
+        "仁宗"
+      ],
       "searchLabels": [
         "李仁孝",
         "仁宗",
-        "圣德皇帝"
+        "圣德皇帝",
+        "夏仁宗"
       ],
       "uncertain": false
     },
@@ -17690,11 +18097,15 @@
       ],
       "reignStartYear": 1161,
       "reignEndYear": 1189,
-      "aliases": [],
+      "aliases": [
+        "金世宗",
+        "世宗"
+      ],
       "searchLabels": [
         "完颜雍",
         "世宗",
-        "光天兴运文德武功圣明仁孝皇帝"
+        "光天兴运文德武功圣明仁孝皇帝",
+        "金世宗"
       ],
       "uncertain": false
     },
@@ -17712,11 +18123,15 @@
       ],
       "reignStartYear": 1162,
       "reignEndYear": 1189,
-      "aliases": [],
+      "aliases": [
+        "宋孝宗",
+        "孝宗"
+      ],
       "searchLabels": [
         "赵昚",
         "孝宗",
-        "绍统同道冠德昭功哲文神武明圣成孝皇帝"
+        "绍统同道冠德昭功哲文神武明圣成孝皇帝",
+        "宋孝宗"
       ],
       "uncertain": false
     },
@@ -17798,11 +18213,15 @@
       ],
       "reignStartYear": 1189,
       "reignEndYear": 1194,
-      "aliases": [],
+      "aliases": [
+        "宋光宗",
+        "光宗"
+      ],
       "searchLabels": [
         "赵惇",
         "光宗",
-        "循道宪仁明功茂德温文顺武圣哲慈孝皇帝"
+        "循道宪仁明功茂德温文顺武圣哲慈孝皇帝",
+        "宋光宗"
       ],
       "uncertain": false
     },
@@ -17820,11 +18239,15 @@
       ],
       "reignStartYear": 1189,
       "reignEndYear": 1208,
-      "aliases": [],
+      "aliases": [
+        "金章宗",
+        "章宗"
+      ],
       "searchLabels": [
         "完颜璟",
         "章宗",
-        "宪天光运仁文义武神圣英孝皇帝"
+        "宪天光运仁文义武神圣英孝皇帝",
+        "金章宗"
       ],
       "uncertain": false
     },
@@ -17840,11 +18263,15 @@
       ],
       "reignStartYear": 1193,
       "reignEndYear": 1206,
-      "aliases": [],
+      "aliases": [
+        "夏桓宗",
+        "桓宗"
+      ],
       "searchLabels": [
         "李纯祐",
         "桓宗",
-        "昭简皇帝"
+        "昭简皇帝",
+        "夏桓宗"
       ],
       "uncertain": false
     },
@@ -17863,11 +18290,15 @@
       ],
       "reignStartYear": 1194,
       "reignEndYear": 1224,
-      "aliases": [],
+      "aliases": [
+        "宋宁宗",
+        "宁宗"
+      ],
       "searchLabels": [
         "赵扩",
         "宁宗",
-        "法天备道纯德茂功仁文哲武圣睿恭孝皇帝"
+        "法天备道纯德茂功仁文哲武圣睿恭孝皇帝",
+        "宋宁宗"
       ],
       "uncertain": false
     },
@@ -17916,11 +18347,15 @@
       ],
       "reignStartYear": 1206,
       "reignEndYear": 1211,
-      "aliases": [],
+      "aliases": [
+        "夏襄宗",
+        "襄宗"
+      ],
       "searchLabels": [
         "李安全",
         "襄宗",
-        "敬慕皇帝"
+        "敬慕皇帝",
+        "夏襄宗"
       ],
       "uncertain": false
     },
@@ -17936,14 +18371,37 @@
       "reignEndYear": 1227,
       "aliases": [
         "成吉思汗",
-        "元太祖"
+        "元太祖",
+        "蒙古太祖",
+        "太祖"
       ],
       "searchLabels": [
         "铁木真",
         "太祖",
         "法天启运圣武皇帝",
         "成吉思汗",
-        "元太祖"
+        "元太祖",
+        "蒙古太祖"
+      ],
+      "uncertain": false
+    },
+    {
+      "id": "rn-金-卫绍王",
+      "polityId": "pol-金",
+      "personalName": "完颜永济",
+      "templeTitle": null,
+      "posthumousTitle": "卫绍王",
+      "displayTitle": "完颜永济",
+      "reignStartYear": 1208,
+      "reignEndYear": 1213,
+      "aliases": [
+        "卫绍王",
+        "完颜永济"
+      ],
+      "searchLabels": [
+        "完颜永济",
+        "卫绍王",
+        "金卫绍王"
       ],
       "uncertain": false
     },
@@ -17959,11 +18417,15 @@
       ],
       "reignStartYear": 1211,
       "reignEndYear": 1223,
-      "aliases": [],
+      "aliases": [
+        "夏神宗",
+        "神宗"
+      ],
       "searchLabels": [
         "李遵顼",
         "神宗",
-        "英文皇帝"
+        "英文皇帝",
+        "夏神宗"
       ],
       "uncertain": false
     },
@@ -17997,11 +18459,15 @@
       ],
       "reignStartYear": 1213,
       "reignEndYear": 1223,
-      "aliases": [],
+      "aliases": [
+        "金宣宗",
+        "宣宗"
+      ],
       "searchLabels": [
         "完颜珣",
         "宣宗",
-        "继天兴统述道勤仁英武圣孝皇帝"
+        "继天兴统述道勤仁英武圣孝皇帝",
+        "金宣宗"
       ],
       "uncertain": false
     },
@@ -18035,10 +18501,14 @@
       ],
       "reignStartYear": 1223,
       "reignEndYear": 1234,
-      "aliases": [],
+      "aliases": [
+        "金哀宗",
+        "哀宗"
+      ],
       "searchLabels": [
         "完颜守绪",
-        "哀宗"
+        "哀宗",
+        "金哀宗"
       ],
       "uncertain": false
     },
@@ -18061,11 +18531,15 @@
       ],
       "reignStartYear": 1224,
       "reignEndYear": 1264,
-      "aliases": [],
+      "aliases": [
+        "宋理宗",
+        "理宗"
+      ],
       "searchLabels": [
         "赵昀",
         "理宗",
-        "建道备德大功复兴烈文仁武圣明安孝皇帝"
+        "建道备德大功复兴烈文仁武圣明安孝皇帝",
+        "宋理宗"
       ],
       "uncertain": false
     },
@@ -18099,13 +18573,16 @@
       "reignStartYear": 1229,
       "reignEndYear": 1241,
       "aliases": [
-        "元太宗"
+        "元太宗",
+        "蒙古太宗",
+        "太宗"
       ],
       "searchLabels": [
         "窝阔台",
         "太宗",
         "英文皇帝",
-        "元太宗"
+        "元太宗",
+        "蒙古太宗"
       ],
       "uncertain": false
     },
@@ -18142,6 +18619,30 @@
       "uncertain": true
     },
     {
+      "id": "rn-贵由",
+      "polityId": "pol-蒙古",
+      "personalName": "贵由",
+      "personalName2": null,
+      "templeTitle": "定宗",
+      "posthumousTitle": "简平皇帝",
+      "eraNames": [],
+      "reignStartYear": 1246,
+      "reignEndYear": 1248,
+      "aliases": [
+        "元定宗",
+        "蒙古定宗",
+        "贵由"
+      ],
+      "searchLabels": [
+        "贵由",
+        "定宗",
+        "元定宗",
+        "蒙古定宗",
+        "简平皇帝"
+      ],
+      "uncertain": false
+    },
+    {
       "id": "rn-后西辽-忽毡",
       "polityId": "pol-后西辽",
       "personalName": "忽毡",
@@ -18174,6 +18675,30 @@
       "uncertain": true
     },
     {
+      "id": "rn-蒙哥",
+      "polityId": "pol-蒙古",
+      "personalName": "蒙哥",
+      "personalName2": null,
+      "templeTitle": "宪宗",
+      "posthumousTitle": "桓肃皇帝",
+      "eraNames": [],
+      "reignStartYear": 1251,
+      "reignEndYear": 1259,
+      "aliases": [
+        "元宪宗",
+        "蒙古宪宗",
+        "蒙哥"
+      ],
+      "searchLabels": [
+        "蒙哥",
+        "宪宗",
+        "元宪宗",
+        "蒙古宪宗",
+        "桓肃皇帝"
+      ],
+      "uncertain": false
+    },
+    {
       "id": "rn-忽必烈",
       "polityId": "pol-元",
       "personalName": "忽必烈",
@@ -18188,7 +18713,8 @@
       "reignEndYear": 1294,
       "aliases": [
         "元世祖",
-        "薛禅汗"
+        "薛禅汗",
+        "世祖"
       ],
       "searchLabels": [
         "忽必烈",
@@ -18196,6 +18722,28 @@
         "圣德神功文武皇帝",
         "元世祖",
         "薛禅汗"
+      ],
+      "uncertain": false
+    },
+    {
+      "id": "rn-蒙古-忽必烈",
+      "polityId": "pol-蒙古",
+      "personalName": "忽必烈",
+      "personalName2": null,
+      "templeTitle": "世祖",
+      "posthumousTitle": "圣德神功文武皇帝",
+      "eraNames": [],
+      "reignStartYear": 1260,
+      "reignEndYear": 1270,
+      "aliases": [
+        "忽必烈（蒙古）",
+        "薛禅汗"
+      ],
+      "searchLabels": [
+        "忽必烈",
+        "薛禅汗",
+        "世祖",
+        "元世祖"
       ],
       "uncertain": false
     },
@@ -18211,11 +18759,15 @@
       ],
       "reignStartYear": 1264,
       "reignEndYear": 1274,
-      "aliases": [],
+      "aliases": [
+        "宋度宗",
+        "度宗"
+      ],
       "searchLabels": [
         "赵禥",
         "度宗",
-        "端文明武景孝皇帝"
+        "端文明武景孝皇帝",
+        "宋度宗"
       ],
       "uncertain": false
     },
@@ -18231,10 +18783,14 @@
       ],
       "reignStartYear": 1274,
       "reignEndYear": 1276,
-      "aliases": [],
+      "aliases": [
+        "宋恭帝",
+        "恭帝"
+      ],
       "searchLabels": [
         "赵㬎",
-        "恭帝"
+        "恭帝",
+        "宋恭帝"
       ],
       "uncertain": false
     },
@@ -18250,10 +18806,14 @@
       ],
       "reignStartYear": 1276,
       "reignEndYear": 1278,
-      "aliases": [],
+      "aliases": [
+        "宋端宗",
+        "端宗"
+      ],
       "searchLabels": [
         "赵昰",
-        "端宗"
+        "端宗",
+        "宋端宗"
       ],
       "uncertain": false
     },
@@ -18304,11 +18864,15 @@
       ],
       "reignStartYear": 1294,
       "reignEndYear": 1307,
-      "aliases": [],
+      "aliases": [
+        "元成宗",
+        "成宗"
+      ],
       "searchLabels": [
         "铁穆耳",
         "成宗",
-        "钦明广孝皇帝"
+        "钦明广孝皇帝",
+        "元成宗"
       ],
       "uncertain": false
     },
@@ -18324,11 +18888,15 @@
       ],
       "reignStartYear": 1307,
       "reignEndYear": 1311,
-      "aliases": [],
+      "aliases": [
+        "元武宗",
+        "武宗"
+      ],
       "searchLabels": [
         "海山",
         "武宗",
-        "仁惠宣孝皇帝"
+        "仁惠宣孝皇帝",
+        "元武宗"
       ],
       "uncertain": false
     },
@@ -18345,11 +18913,15 @@
       ],
       "reignStartYear": 1311,
       "reignEndYear": 1320,
-      "aliases": [],
+      "aliases": [
+        "元仁宗",
+        "仁宗"
+      ],
       "searchLabels": [
         "爱育黎拔力八达",
         "仁宗",
-        "圣文钦孝皇帝"
+        "圣文钦孝皇帝",
+        "元仁宗"
       ],
       "uncertain": false
     },
@@ -18365,11 +18937,15 @@
       ],
       "reignStartYear": 1320,
       "reignEndYear": 1323,
-      "aliases": [],
+      "aliases": [
+        "元英宗",
+        "英宗"
+      ],
       "searchLabels": [
         "硕德八剌",
         "英宗",
-        "睿圣文孝皇帝"
+        "睿圣文孝皇帝",
+        "元英宗"
       ],
       "uncertain": false
     },
@@ -18387,7 +18963,8 @@
       "reignStartYear": 1323,
       "reignEndYear": 1328,
       "aliases": [
-        "元泰定帝"
+        "元泰定帝",
+        "泰定帝"
       ],
       "searchLabels": [
         "也孙铁木儿",
@@ -18409,11 +18986,15 @@
       ],
       "reignStartYear": 1328,
       "reignEndYear": 1332,
-      "aliases": [],
+      "aliases": [
+        "元文宗",
+        "文宗"
+      ],
       "searchLabels": [
         "图帖睦尔",
         "文宗",
-        "圣明元孝皇帝"
+        "圣明元孝皇帝",
+        "元文宗"
       ],
       "uncertain": false
     },
@@ -18432,13 +19013,16 @@
       "reignStartYear": 1333,
       "reignEndYear": 1368,
       "aliases": [
-        "元顺帝"
+        "元顺帝",
+        "元惠宗",
+        "惠宗"
       ],
       "searchLabels": [
         "妥懽帖睦尔",
         "惠宗",
         "顺皇帝",
-        "元顺帝"
+        "元顺帝",
+        "元惠宗"
       ],
       "uncertain": false
     },
@@ -18455,7 +19039,8 @@
       "reignStartYear": 1368,
       "reignEndYear": 1398,
       "aliases": [
-        "明太祖"
+        "明太祖",
+        "太祖"
       ],
       "searchLabels": [
         "朱元璋",
@@ -18473,7 +19058,7 @@
       "posthumousTitle": null,
       "displayTitle": "爱猷识理达腊",
       "eraNames": [],
-      "reignStartYear": 1368,
+      "reignStartYear": 1370,
       "reignEndYear": 1378,
       "aliases": [
         "元昭宗"
@@ -18497,22 +19082,6 @@
       "aliases": [],
       "searchLabels": [
         "脱古思帖木儿"
-      ],
-      "uncertain": true
-    },
-    {
-      "id": "rn-北元-也速迭儿",
-      "polityId": "pol-北元",
-      "personalName": "也速迭儿",
-      "templeTitle": null,
-      "posthumousTitle": null,
-      "displayTitle": "也速迭儿",
-      "eraNames": [],
-      "reignStartYear": 1388,
-      "reignEndYear": 1391,
-      "aliases": [],
-      "searchLabels": [
-        "也速迭儿"
       ],
       "uncertain": true
     },
@@ -18552,7 +19121,8 @@
       "reignEndYear": 1424,
       "aliases": [
         "明成祖",
-        "永乐帝"
+        "永乐帝",
+        "成祖"
       ],
       "searchLabels": [
         "朱棣",
@@ -18575,11 +19145,15 @@
       ],
       "reignStartYear": 1424,
       "reignEndYear": 1425,
-      "aliases": [],
+      "aliases": [
+        "明仁宗",
+        "仁宗"
+      ],
       "searchLabels": [
         "朱高炽",
         "仁宗",
-        "昭皇帝"
+        "昭皇帝",
+        "明仁宗"
       ],
       "uncertain": false
     },
@@ -18595,11 +19169,15 @@
       ],
       "reignStartYear": 1425,
       "reignEndYear": 1435,
-      "aliases": [],
+      "aliases": [
+        "明宣宗",
+        "宣宗"
+      ],
       "searchLabels": [
         "朱瞻基",
         "宣宗",
-        "章皇帝"
+        "章皇帝",
+        "明宣宗"
       ],
       "uncertain": false
     },
@@ -18616,14 +19194,17 @@
       "reignEndYear": 1449,
       "aliases": [
         "明英宗（前期）",
-        "正统帝"
+        "正统帝",
+        "明英宗",
+        "英宗"
       ],
       "searchLabels": [
         "朱祁镇",
         "明英宗",
         "朱祁镇（正统）",
         "睿皇帝",
-        "正统帝"
+        "正统帝",
+        "英宗"
       ],
       "uncertain": false
     },
@@ -18640,13 +19221,16 @@
       "reignStartYear": 1449,
       "reignEndYear": 1457,
       "aliases": [
-        "景泰帝"
+        "景泰帝",
+        "明代宗",
+        "代宗"
       ],
       "searchLabels": [
         "朱祁钰",
         "代宗",
         "景皇帝",
-        "景泰帝"
+        "景泰帝",
+        "明代宗"
       ],
       "uncertain": false
     },
@@ -18663,14 +19247,17 @@
       "reignEndYear": 1464,
       "aliases": [
         "明英宗（后期）",
-        "天顺帝"
+        "天顺帝",
+        "明英宗",
+        "英宗"
       ],
       "searchLabels": [
         "朱祁镇",
         "明英宗",
         "朱祁镇（正统）",
         "睿皇帝",
-        "天顺帝"
+        "天顺帝",
+        "英宗"
       ],
       "uncertain": false
     },
@@ -18686,11 +19273,15 @@
       ],
       "reignStartYear": 1464,
       "reignEndYear": 1487,
-      "aliases": [],
+      "aliases": [
+        "明宪宗",
+        "宪宗"
+      ],
       "searchLabels": [
         "朱见深",
         "宪宗",
-        "纯皇帝"
+        "纯皇帝",
+        "明宪宗"
       ],
       "uncertain": false
     },
@@ -18706,11 +19297,15 @@
       ],
       "reignStartYear": 1487,
       "reignEndYear": 1505,
-      "aliases": [],
+      "aliases": [
+        "明孝宗",
+        "孝宗"
+      ],
       "searchLabels": [
         "朱祐樘",
         "孝宗",
-        "敬皇帝"
+        "敬皇帝",
+        "明孝宗"
       ],
       "uncertain": false
     },
@@ -18726,11 +19321,15 @@
       ],
       "reignStartYear": 1505,
       "reignEndYear": 1521,
-      "aliases": [],
+      "aliases": [
+        "明武宗",
+        "武宗"
+      ],
       "searchLabels": [
         "朱厚照",
         "武宗",
-        "毅皇帝"
+        "毅皇帝",
+        "明武宗"
       ],
       "uncertain": false
     },
@@ -18746,11 +19345,15 @@
       ],
       "reignStartYear": 1521,
       "reignEndYear": 1567,
-      "aliases": [],
+      "aliases": [
+        "明世宗",
+        "世宗"
+      ],
       "searchLabels": [
         "朱厚熜",
         "世宗",
-        "肃皇帝"
+        "肃皇帝",
+        "明世宗"
       ],
       "uncertain": false
     },
@@ -18766,11 +19369,15 @@
       ],
       "reignStartYear": 1567,
       "reignEndYear": 1572,
-      "aliases": [],
+      "aliases": [
+        "明穆宗",
+        "穆宗"
+      ],
       "searchLabels": [
         "朱载坖",
         "穆宗",
-        "庄皇帝"
+        "庄皇帝",
+        "明穆宗"
       ],
       "uncertain": false
     },
@@ -18786,11 +19393,15 @@
       ],
       "reignStartYear": 1572,
       "reignEndYear": 1620,
-      "aliases": [],
+      "aliases": [
+        "明神宗",
+        "神宗"
+      ],
       "searchLabels": [
         "朱翊钧",
         "神宗",
-        "显皇帝"
+        "显皇帝",
+        "明神宗"
       ],
       "uncertain": false
     },
@@ -18807,13 +19418,16 @@
       "reignStartYear": 1616,
       "reignEndYear": 1626,
       "aliases": [
-        "清太祖"
+        "清太祖",
+        "后金太祖",
+        "太祖"
       ],
       "searchLabels": [
         "努尔哈赤",
         "太祖",
         "高皇帝",
-        "清太祖"
+        "清太祖",
+        "后金太祖"
       ],
       "uncertain": false
     },
@@ -18829,11 +19443,15 @@
       ],
       "reignStartYear": 1620,
       "reignEndYear": 1620,
-      "aliases": [],
+      "aliases": [
+        "明光宗",
+        "光宗"
+      ],
       "searchLabels": [
         "朱常洛",
         "光宗",
-        "贞皇帝"
+        "贞皇帝",
+        "明光宗"
       ],
       "uncertain": false
     },
@@ -18849,11 +19467,15 @@
       ],
       "reignStartYear": 1620,
       "reignEndYear": 1627,
-      "aliases": [],
+      "aliases": [
+        "明熹宗",
+        "熹宗"
+      ],
       "searchLabels": [
         "朱由校",
         "熹宗",
-        "悊皇帝"
+        "悊皇帝",
+        "明熹宗"
       ],
       "uncertain": false
     },
@@ -18871,7 +19493,8 @@
       "reignStartYear": 1626,
       "reignEndYear": 1643,
       "aliases": [
-        "清太宗"
+        "清太宗",
+        "太宗"
       ],
       "searchLabels": [
         "皇太极",
@@ -18894,13 +19517,16 @@
       "reignStartYear": 1627,
       "reignEndYear": 1644,
       "aliases": [
-        "崇祯帝"
+        "崇祯帝",
+        "明思宗",
+        "思宗"
       ],
       "searchLabels": [
         "朱由检",
         "思宗",
         "烈皇帝",
-        "崇祯帝"
+        "崇祯帝",
+        "明思宗"
       ],
       "uncertain": false
     },
@@ -18917,7 +19543,8 @@
       "reignStartYear": 1643,
       "reignEndYear": 1661,
       "aliases": [
-        "清世祖"
+        "清世祖",
+        "世祖"
       ],
       "searchLabels": [
         "福临",
@@ -19036,7 +19663,8 @@
       "reignStartYear": 1661,
       "reignEndYear": 1722,
       "aliases": [
-        "清圣祖"
+        "清圣祖",
+        "圣祖"
       ],
       "searchLabels": [
         "玄烨",
@@ -19059,7 +19687,8 @@
       "reignStartYear": 1722,
       "reignEndYear": 1735,
       "aliases": [
-        "清世宗"
+        "清世宗",
+        "世宗"
       ],
       "searchLabels": [
         "胤禛",
@@ -19082,7 +19711,8 @@
       "reignStartYear": 1735,
       "reignEndYear": 1796,
       "aliases": [
-        "清高宗"
+        "清高宗",
+        "高宗"
       ],
       "searchLabels": [
         "弘历",
@@ -19104,11 +19734,15 @@
       ],
       "reignStartYear": 1796,
       "reignEndYear": 1820,
-      "aliases": [],
+      "aliases": [
+        "清仁宗",
+        "仁宗"
+      ],
       "searchLabels": [
         "颙琰",
         "仁宗",
-        "睿皇帝"
+        "睿皇帝",
+        "清仁宗"
       ],
       "uncertain": false
     },
@@ -19124,11 +19758,15 @@
       ],
       "reignStartYear": 1820,
       "reignEndYear": 1850,
-      "aliases": [],
+      "aliases": [
+        "清宣宗",
+        "宣宗"
+      ],
       "searchLabels": [
         "旻宁",
         "宣宗",
-        "成皇帝"
+        "成皇帝",
+        "清宣宗"
       ],
       "uncertain": false
     },
@@ -19144,11 +19782,15 @@
       ],
       "reignStartYear": 1850,
       "reignEndYear": 1861,
-      "aliases": [],
+      "aliases": [
+        "清文宗",
+        "文宗"
+      ],
       "searchLabels": [
         "奕詝",
         "文宗",
-        "显皇帝"
+        "显皇帝",
+        "清文宗"
       ],
       "uncertain": false
     },
@@ -19164,11 +19806,15 @@
       ],
       "reignStartYear": 1861,
       "reignEndYear": 1874,
-      "aliases": [],
+      "aliases": [
+        "清穆宗",
+        "穆宗"
+      ],
       "searchLabels": [
         "载淳",
         "穆宗",
-        "毅皇帝"
+        "毅皇帝",
+        "清穆宗"
       ],
       "uncertain": false
     },
@@ -19184,11 +19830,15 @@
       ],
       "reignStartYear": 1874,
       "reignEndYear": 1908,
-      "aliases": [],
+      "aliases": [
+        "清德宗",
+        "德宗"
+      ],
       "searchLabels": [
         "载湉",
         "德宗",
-        "景皇帝"
+        "景皇帝",
+        "清德宗"
       ],
       "uncertain": false
     },
