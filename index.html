@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>中国历史年表</title>
-<link rel="stylesheet" href="/src/styles/main.css">
+<link rel="stylesheet" href="src/styles/main.css">
 </head><body>
 <div class="top-bar">
   <h1>中国历史年表 v0.7</h1><span class="sub" id="statusLabel">加载中...</span>
@@ -56,9 +56,9 @@
   <p>本页面由 <b>七毛</b> 制作。<br>最近更新时间：2026-05-03</p>
 </div>
 <script type="module">
-import { updateN, toggleLock as _toggleLock, jumpYear, showHelp, closeHelp } from '/src/interact.js';
-import { searchKeyword, closePanel } from '/src/search.js';
-import { showColumnPanel, closeColumnPanel } from '/src/column-ui.js';
+import { updateN, toggleLock as _toggleLock, jumpYear, showHelp, closeHelp } from 'src/interact.js';
+import { searchKeyword, closePanel } from 'src/search.js';
+import { showColumnPanel, closeColumnPanel } from 'src/column-ui.js';
 
 // Expose onclick handlers for inline HTML
 window._updateN = updateN;
@@ -72,6 +72,6 @@ window._showColumns = showColumnPanel;
 window._closeColumns = closeColumnPanel;
 
 // Main init
-import('/src/app.js');
+import('src/app.js');
 </script>
 </body></html>
