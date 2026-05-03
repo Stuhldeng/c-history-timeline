@@ -1,0 +1,1301 @@
+{
+  "_meta": {
+    "name": "column-map",
+    "version": "0.7.0",
+    "description": "列定义。每列对应一个 mergeGroup，列操作（隐藏/固定/排序）作用于 columnId。",
+    "pinnedMax": 3,
+    "note": "columnId 格式为 col-{mergeGroup}。前端 columnState 中的 hiddenColumnIds、pinnedColumnIds、manualOrder 均使用 columnId。",
+    "rules": {
+      "naming": "columnId 格式为 col-{mergeGroup}，mergeGroup 即为前端 getMergeGroups() 使用的组名",
+      "visibility": "用户隐藏/固定/排序操作作用于 columnId。hiddenColumnIds 与 pinnedColumnIds 冲突时，pinned 优先（隐藏已固定的列视为取消固定）",
+      "pinned": "最多固定 3 列（pinnedMax=3）。固定列始终显示在表格最左侧，不受滚动影响",
+      "search": "搜索跳转时，若目标政权的列已隐藏，需临时显示该列或提示用户。建议行为：自动临时取消隐藏，持续到下次手动调整",
+      "label": "列的对外展示名称。通常等于 mergeGroup。中央王朝可加星标或其他视觉标识"
+    }
+  },
+  "columns": [
+    {
+      "columnId": "col-北汉",
+      "label": "北汉",
+      "mergeGroup": "北汉",
+      "members": [
+        "pol-北汉"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 951,
+      "endYear": 979,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-北凉",
+      "label": "北凉",
+      "mergeGroup": "北凉",
+      "members": [
+        "pol-北凉"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 397,
+      "endYear": 439,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-北齐",
+      "label": "北齐",
+      "mergeGroup": "北齐",
+      "members": [
+        "pol-北齐"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 550,
+      "endYear": 577,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-北魏",
+      "label": "北魏",
+      "mergeGroup": "北魏",
+      "members": [
+        "pol-代国",
+        "pol-北魏"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 338,
+      "endYear": 534,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-北燕",
+      "label": "北燕",
+      "mergeGroup": "北燕",
+      "members": [
+        "pol-北燕"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 409,
+      "endYear": 436,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-北周",
+      "label": "北周",
+      "mergeGroup": "北周",
+      "members": [
+        "pol-北周"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 557,
+      "endYear": 581,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-渤海",
+      "label": "渤海",
+      "mergeGroup": "渤海",
+      "members": [
+        "pol-渤海国"
+      ],
+      "isCentral": false,
+      "isBorder": true,
+      "period": "隋唐五代",
+      "startYear": 698,
+      "endYear": 926,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-蔡",
+      "label": "蔡",
+      "mergeGroup": "蔡",
+      "members": [
+        "pol-蔡"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -1046,
+      "endYear": -447,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-曹",
+      "label": "曹",
+      "mergeGroup": "曹",
+      "members": [
+        "pol-曹"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -1046,
+      "endYear": -487,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-曹魏",
+      "label": "曹魏",
+      "mergeGroup": "曹魏",
+      "members": [
+        "pol-曹魏"
+      ],
+      "isCentral": true,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 220,
+      "endYear": 265,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-陈",
+      "label": "陈",
+      "mergeGroup": "陈",
+      "members": [
+        "pol-陈"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -1045,
+      "endYear": -478,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-成汉",
+      "label": "成汉",
+      "mergeGroup": "成汉",
+      "members": [
+        "pol-成汉成",
+        "pol-成汉汉"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 304,
+      "endYear": 347,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-楚",
+      "label": "楚",
+      "mergeGroup": "楚",
+      "members": [
+        "pol-楚"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -1042,
+      "endYear": -223,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-大理",
+      "label": "大理",
+      "mergeGroup": "大理",
+      "members": [
+        "pol-大理"
+      ],
+      "isCentral": false,
+      "isBorder": true,
+      "period": "宋辽金",
+      "startYear": 937,
+      "endYear": 1254,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-大顺",
+      "label": "大顺",
+      "mergeGroup": "大顺",
+      "members": [
+        "pol-大顺"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "元明清",
+      "startYear": 1644,
+      "endYear": 1645,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-大西",
+      "label": "大西",
+      "mergeGroup": "大西",
+      "members": [
+        "pol-大西"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "元明清",
+      "startYear": 1644,
+      "endYear": 1646,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-东魏",
+      "label": "东魏",
+      "mergeGroup": "东魏",
+      "members": [
+        "pol-东魏"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 534,
+      "endYear": 550,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-东吴",
+      "label": "东吴",
+      "mergeGroup": "东吴",
+      "members": [
+        "pol-东吴"
+      ],
+      "isCentral": true,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 222,
+      "endYear": 280,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-高句丽",
+      "label": "高句丽",
+      "mergeGroup": "高句丽",
+      "members": [
+        "pol-高句丽"
+      ],
+      "isCentral": false,
+      "isBorder": true,
+      "period": "隋唐五代",
+      "startYear": -37,
+      "endYear": 668,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-韩",
+      "label": "韩",
+      "mergeGroup": "韩",
+      "members": [
+        "pol-韩"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -403,
+      "endYear": -230,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-汉",
+      "label": "汉",
+      "mergeGroup": "汉",
+      "members": [
+        "pol-汉王",
+        "pol-西汉",
+        "pol-新朝",
+        "pol-更始",
+        "pol-东汉"
+      ],
+      "isCentral": true,
+      "isBorder": false,
+      "period": "秦汉",
+      "startYear": -206,
+      "endYear": 220,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-汉赵",
+      "label": "汉赵",
+      "mergeGroup": "汉赵",
+      "members": [
+        "pol-前赵汉",
+        "pol-前赵赵"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 304,
+      "endYear": 329,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-后汉",
+      "label": "后汉",
+      "mergeGroup": "后汉",
+      "members": [
+        "pol-后汉"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 947,
+      "endYear": 950,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-后晋",
+      "label": "后晋",
+      "mergeGroup": "后晋",
+      "members": [
+        "pol-后晋"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 936,
+      "endYear": 947,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-后凉",
+      "label": "后凉",
+      "mergeGroup": "后凉",
+      "members": [
+        "pol-后凉"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 386,
+      "endYear": 403,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-后梁",
+      "label": "后梁",
+      "mergeGroup": "后梁",
+      "members": [
+        "pol-后梁"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 907,
+      "endYear": 923,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-后秦",
+      "label": "后秦",
+      "mergeGroup": "后秦",
+      "members": [
+        "pol-后秦"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 384,
+      "endYear": 417,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-后蜀",
+      "label": "后蜀",
+      "mergeGroup": "后蜀",
+      "members": [
+        "pol-后蜀"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 934,
+      "endYear": 965,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-后唐",
+      "label": "后唐",
+      "mergeGroup": "后唐",
+      "members": [
+        "pol-后唐"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 923,
+      "endYear": 937,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-后突厥",
+      "label": "后突厥",
+      "mergeGroup": "后突厥",
+      "members": [
+        "pol-后突厥汗国"
+      ],
+      "isCentral": false,
+      "isBorder": true,
+      "period": "隋唐五代",
+      "startYear": 682,
+      "endYear": 745,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-后燕",
+      "label": "后燕",
+      "mergeGroup": "后燕",
+      "members": [
+        "pol-后燕"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 384,
+      "endYear": 409,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-后赵",
+      "label": "后赵",
+      "mergeGroup": "后赵",
+      "members": [
+        "pol-后赵"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 319,
+      "endYear": 351,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-后周",
+      "label": "后周",
+      "mergeGroup": "后周",
+      "members": [
+        "pol-后周"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 951,
+      "endYear": 960,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-胡夏",
+      "label": "胡夏",
+      "mergeGroup": "胡夏",
+      "members": [
+        "pol-胡夏"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 407,
+      "endYear": 431,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-回鹘",
+      "label": "回鹘",
+      "mergeGroup": "回鹘",
+      "members": [
+        "pol-回鹘汗国"
+      ],
+      "isCentral": false,
+      "isBorder": true,
+      "period": "隋唐五代",
+      "startYear": 744,
+      "endYear": 840,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-金",
+      "label": "金",
+      "mergeGroup": "金",
+      "members": [
+        "pol-金"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "宋辽金",
+      "startYear": 1115,
+      "endYear": 1234,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-晋",
+      "label": "晋",
+      "mergeGroup": "晋",
+      "members": [
+        "pol-晋"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -1033,
+      "endYear": -376,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-荆南",
+      "label": "荆南",
+      "mergeGroup": "荆南",
+      "members": [
+        "pol-南平"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 924,
+      "endYear": 963,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-喀喇汗",
+      "label": "喀喇汗",
+      "mergeGroup": "喀喇汗",
+      "members": [
+        "pol-喀喇汗国"
+      ],
+      "isCentral": false,
+      "isBorder": true,
+      "period": "宋辽金",
+      "startYear": 840,
+      "endYear": 1212,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-两晋",
+      "label": "两晋",
+      "mergeGroup": "两晋",
+      "members": [
+        "pol-西晋",
+        "pol-东晋"
+      ],
+      "isCentral": true,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 265,
+      "endYear": 420,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-两宋",
+      "label": "两宋",
+      "mergeGroup": "两宋",
+      "members": [
+        "pol-北宋",
+        "pol-南宋"
+      ],
+      "isCentral": true,
+      "isBorder": false,
+      "period": "宋辽金",
+      "startYear": 960,
+      "endYear": 1279,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-辽",
+      "label": "辽",
+      "mergeGroup": "辽",
+      "members": [
+        "pol-契丹",
+        "pol-辽",
+        "pol-西辽",
+        "pol-后西辽"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "宋辽金",
+      "startYear": 907,
+      "endYear": 1309,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-刘宋",
+      "label": "刘宋",
+      "mergeGroup": "刘宋",
+      "members": [
+        "pol-刘宋"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 420,
+      "endYear": 479,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-鲁",
+      "label": "鲁",
+      "mergeGroup": "鲁",
+      "members": [
+        "pol-鲁"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -1043,
+      "endYear": -256,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-马楚",
+      "label": "马楚",
+      "mergeGroup": "马楚",
+      "members": [
+        "pol-马楚"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 907,
+      "endYear": 951,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-蒙古元",
+      "label": "蒙古元",
+      "mergeGroup": "蒙古元",
+      "members": [
+        "pol-蒙古",
+        "pol-元",
+        "pol-北元"
+      ],
+      "isCentral": true,
+      "isBorder": false,
+      "period": "元明清",
+      "startYear": 1206,
+      "endYear": 1388,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-闽",
+      "label": "闽",
+      "mergeGroup": "闽",
+      "members": [
+        "pol-闽"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 909,
+      "endYear": 945,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-明",
+      "label": "明",
+      "mergeGroup": "明",
+      "members": [
+        "pol-明",
+        "pol-南明"
+      ],
+      "isCentral": true,
+      "isBorder": false,
+      "period": "元明清",
+      "startYear": 1368,
+      "endYear": 1662,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-南陈",
+      "label": "南陈",
+      "mergeGroup": "南陈",
+      "members": [
+        "pol-南陈"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 557,
+      "endYear": 589,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-南汉",
+      "label": "南汉",
+      "mergeGroup": "南汉",
+      "members": [
+        "pol-南汉"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 917,
+      "endYear": 971,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-南凉",
+      "label": "南凉",
+      "mergeGroup": "南凉",
+      "members": [
+        "pol-南凉"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 397,
+      "endYear": 414,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-南齐",
+      "label": "南齐",
+      "mergeGroup": "南齐",
+      "members": [
+        "pol-南齐"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 479,
+      "endYear": 502,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-南唐",
+      "label": "南唐",
+      "mergeGroup": "南唐",
+      "members": [
+        "pol-南唐"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 937,
+      "endYear": 975,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-南燕",
+      "label": "南燕",
+      "mergeGroup": "南燕",
+      "members": [
+        "pol-南燕"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 398,
+      "endYear": 410,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-南诏",
+      "label": "南诏",
+      "mergeGroup": "南诏",
+      "members": [
+        "pol-蒙舍诏",
+        "pol-大蒙",
+        "pol-大礼",
+        "pol-大封民"
+      ],
+      "isCentral": false,
+      "isBorder": true,
+      "period": "隋唐五代",
+      "startYear": 649,
+      "endYear": 902,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-齐",
+      "label": "齐",
+      "mergeGroup": "齐",
+      "members": [
+        "pol-姜齐",
+        "pol-田齐"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -1046,
+      "endYear": -221,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-前凉",
+      "label": "前凉",
+      "mergeGroup": "前凉",
+      "members": [
+        "pol-前凉"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 320,
+      "endYear": 376,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-前秦",
+      "label": "前秦",
+      "mergeGroup": "前秦",
+      "members": [
+        "pol-前秦"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 350,
+      "endYear": 394,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-前蜀",
+      "label": "前蜀",
+      "mergeGroup": "前蜀",
+      "members": [
+        "pol-前蜀"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 907,
+      "endYear": 925,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-前燕",
+      "label": "前燕",
+      "mergeGroup": "前燕",
+      "members": [
+        "pol-前燕"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 337,
+      "endYear": 370,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-秦",
+      "label": "秦",
+      "mergeGroup": "秦",
+      "members": [
+        "pol-秦",
+        "pol-秦朝"
+      ],
+      "isCentral": true,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -905,
+      "endYear": -207,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-清",
+      "label": "清",
+      "mergeGroup": "清",
+      "members": [
+        "pol-后金",
+        "pol-清"
+      ],
+      "isCentral": true,
+      "isBorder": false,
+      "period": "元明清",
+      "startYear": 1616,
+      "endYear": 1912,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-冉魏",
+      "label": "冉魏",
+      "mergeGroup": "冉魏",
+      "members": [
+        "pol-冉魏"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 350,
+      "endYear": 352,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-柔然",
+      "label": "柔然",
+      "mergeGroup": "柔然",
+      "members": [
+        "pol-柔然"
+      ],
+      "isCentral": false,
+      "isBorder": true,
+      "period": "魏晋南北朝",
+      "startYear": 402,
+      "endYear": 555,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-蜀汉",
+      "label": "蜀汉",
+      "mergeGroup": "蜀汉",
+      "members": [
+        "pol-蜀汉"
+      ],
+      "isCentral": true,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 221,
+      "endYear": 263,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-宋",
+      "label": "宋",
+      "mergeGroup": "宋",
+      "members": [
+        "pol-宋"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -1040,
+      "endYear": -286,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-隋",
+      "label": "隋",
+      "mergeGroup": "隋",
+      "members": [
+        "pol-隋朝"
+      ],
+      "isCentral": true,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 581,
+      "endYear": 618,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-唐",
+      "label": "唐",
+      "mergeGroup": "唐",
+      "members": [
+        "pol-唐朝",
+        "pol-武周"
+      ],
+      "isCentral": true,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 618,
+      "endYear": 907,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-突厥",
+      "label": "突厥",
+      "mergeGroup": "突厥",
+      "members": [
+        "pol-突厥汗国"
+      ],
+      "isCentral": false,
+      "isBorder": true,
+      "period": "隋唐五代",
+      "startYear": 552,
+      "endYear": 630,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-吐蕃",
+      "label": "吐蕃",
+      "mergeGroup": "吐蕃",
+      "members": [
+        "pol-吐蕃"
+      ],
+      "isCentral": false,
+      "isBorder": true,
+      "period": "隋唐五代",
+      "startYear": 618,
+      "endYear": 842,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-吐谷浑",
+      "label": "吐谷浑",
+      "mergeGroup": "吐谷浑",
+      "members": [
+        "pol-吐谷浑"
+      ],
+      "isCentral": false,
+      "isBorder": true,
+      "period": "魏晋南北朝",
+      "startYear": 313,
+      "endYear": 663,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-卫",
+      "label": "卫",
+      "mergeGroup": "卫",
+      "members": [
+        "pol-卫"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -1046,
+      "endYear": -209,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-魏",
+      "label": "魏",
+      "mergeGroup": "魏",
+      "members": [
+        "pol-魏"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -403,
+      "endYear": -225,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-吴",
+      "label": "吴",
+      "mergeGroup": "吴",
+      "members": [
+        "pol-吴"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -1046,
+      "endYear": -473,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-吴越",
+      "label": "吴越",
+      "mergeGroup": "吴越",
+      "members": [
+        "pol-吴越"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 907,
+      "endYear": 978,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-西凉",
+      "label": "西凉",
+      "mergeGroup": "西凉",
+      "members": [
+        "pol-西凉"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 400,
+      "endYear": 421,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-西秦",
+      "label": "西秦",
+      "mergeGroup": "西秦",
+      "members": [
+        "pol-西秦"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 385,
+      "endYear": 431,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-西突厥",
+      "label": "西突厥",
+      "mergeGroup": "西突厥",
+      "members": [
+        "pol-西突厥"
+      ],
+      "isCentral": false,
+      "isBorder": true,
+      "period": "隋唐五代",
+      "startYear": 583,
+      "endYear": 657,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-西魏",
+      "label": "西魏",
+      "mergeGroup": "西魏",
+      "members": [
+        "pol-西魏"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 535,
+      "endYear": 557,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-西夏",
+      "label": "西夏",
+      "mergeGroup": "西夏",
+      "members": [
+        "pol-西夏"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "宋辽金",
+      "startYear": 1038,
+      "endYear": 1227,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-西燕",
+      "label": "西燕",
+      "mergeGroup": "西燕",
+      "members": [
+        "pol-西燕"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 384,
+      "endYear": 394,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-萧梁",
+      "label": "萧梁",
+      "mergeGroup": "萧梁",
+      "members": [
+        "pol-萧梁"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "魏晋南北朝",
+      "startYear": 502,
+      "endYear": 557,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-匈奴",
+      "label": "匈奴",
+      "mergeGroup": "匈奴",
+      "members": [
+        "pol-匈奴"
+      ],
+      "isCentral": false,
+      "isBorder": true,
+      "period": "秦汉",
+      "startYear": -209,
+      "endYear": 48,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-燕",
+      "label": "燕",
+      "mergeGroup": "燕",
+      "members": [
+        "pol-燕"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -1046,
+      "endYear": -222,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-杨吴",
+      "label": "杨吴",
+      "mergeGroup": "杨吴",
+      "members": [
+        "pol-杨吴"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "隋唐五代",
+      "startYear": 902,
+      "endYear": 937,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-于阗",
+      "label": "于阗",
+      "mergeGroup": "于阗",
+      "members": [
+        "pol-于阗"
+      ],
+      "isCentral": false,
+      "isBorder": true,
+      "period": "宋辽金",
+      "startYear": -232,
+      "endYear": 1006,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-越",
+      "label": "越",
+      "mergeGroup": "越",
+      "members": [
+        "pol-越"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -1046,
+      "endYear": -306,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-赵",
+      "label": "赵",
+      "mergeGroup": "赵",
+      "members": [
+        "pol-赵"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -403,
+      "endYear": -222,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-郑",
+      "label": "郑",
+      "mergeGroup": "郑",
+      "members": [
+        "pol-郑"
+      ],
+      "isCentral": false,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -806,
+      "endYear": -375,
+      "defaultVisible": true
+    },
+    {
+      "columnId": "col-周",
+      "label": "周",
+      "mergeGroup": "周",
+      "members": [
+        "pol-西周",
+        "pol-东周"
+      ],
+      "isCentral": true,
+      "isBorder": false,
+      "period": "先秦",
+      "startYear": -1046,
+      "endYear": -256,
+      "defaultVisible": true
+    }
+  ]
+}

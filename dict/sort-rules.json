@@ -1,0 +1,105 @@
+{
+  "_meta": {
+    "name": "sort-rules",
+    "version": "0.7.0",
+    "description": "时期排序规则。从 polity-map._meta.sortRules 迁移至此独立维护。前端根据 BASE_YEAR 选取活跃规则。",
+    "note": "priority 中的 key 为 mergeGroup 名，值越小越靠前。northernGroups/southernGroups 用于南北朝和五代十国等南北分裂时期。"
+  },
+  "rules": [
+    {
+      "periodName": "先秦战国前",
+      "yearStart": -841,
+      "yearEnd": -404,
+      "priority": {
+        "周": 1,
+        "鲁": 2,
+        "齐": 3,
+        "晋": 4,
+        "秦": 5,
+        "楚": 6,
+        "宋": 7,
+        "郑": 8
+      }
+    },
+    {
+      "periodName": "先秦战国",
+      "yearStart": -403,
+      "yearEnd": -221,
+      "priority": {
+        "周": 1,
+        "秦": 2,
+        "齐": 3,
+        "楚": 4,
+        "魏": 5,
+        "韩": 6,
+        "赵": 7,
+        "燕": 8
+      }
+    },
+    {
+      "periodName": "魏晋南北朝",
+      "yearStart": 220,
+      "yearEnd": 589,
+      "priority": {},
+      "northernGroups": [
+        "北魏",
+        "东魏",
+        "西魏",
+        "北齐",
+        "北周"
+      ],
+      "southernGroups": [
+        "刘宋",
+        "南齐",
+        "萧梁",
+        "南陈"
+      ]
+    },
+    {
+      "periodName": "五代十国",
+      "yearStart": 907,
+      "yearEnd": 960,
+      "priority": {},
+      "northernGroups": [
+        "后梁",
+        "后唐",
+        "后晋",
+        "后汉",
+        "后周"
+      ],
+      "southernGroups": [
+        "杨吴",
+        "南唐",
+        "吴越",
+        "闽",
+        "马楚",
+        "南汉",
+        "前蜀",
+        "后蜀",
+        "荆南",
+        "北汉"
+      ]
+    },
+    {
+      "periodName": "北宋",
+      "yearStart": 960,
+      "yearEnd": 1126,
+      "priority": {
+        "辽": 2,
+        "西夏": 3,
+        "两宋": 1
+      }
+    },
+    {
+      "periodName": "南宋",
+      "yearStart": 1127,
+      "yearEnd": 1279,
+      "priority": {
+        "金": 2,
+        "西夏": 3,
+        "蒙古元": 4,
+        "两宋": 1
+      }
+    }
+  ]
+}

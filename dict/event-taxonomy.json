@@ -1,0 +1,57 @@
+{
+  "_meta": {
+    "name": "event-taxonomy",
+    "version": "0.7.0",
+    "description": "事件类型枚举，定义 event.type 的合法值及其含义。供构建校验和前端筛选使用。"
+  },
+  "types": {
+    "political": {
+      "label": "政治",
+      "description": "政权更迭、禅让、制度变革、宫廷政变",
+      "color": "#8B4513",
+      "priority": 1
+    },
+    "military": {
+      "label": "军事",
+      "description": "战争、战役、叛乱",
+      "color": "#B22222",
+      "priority": 2
+    },
+    "succession": {
+      "label": "继位",
+      "description": "同一政权内的君主继位",
+      "color": "#DAA520",
+      "priority": 3
+    },
+    "diplomacy": {
+      "label": "外交",
+      "description": "和亲、会盟、朝贡",
+      "color": "#4682B4",
+      "priority": 4
+    },
+    "economy": {
+      "label": "经济",
+      "description": "赋税、货币、农业",
+      "color": "#2E8B57",
+      "priority": 5
+    },
+    "culture": {
+      "label": "文化",
+      "description": "典籍、科举、宗教",
+      "color": "#6A5ACD",
+      "priority": 6
+    },
+    "disaster": {
+      "label": "灾害",
+      "description": "地震、饥荒、瘟疫",
+      "color": "#696969",
+      "priority": 7
+    },
+    "institution": {
+      "label": "建制",
+      "description": "设郡县、建都、设官制",
+      "color": "#708090",
+      "priority": 8
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "_meta": {
+    "name": "source-map",
+    "version": "0.7.0",
+    "description": "数据来源记录。记录每条数据的出处，支持 URL 引用和文字说明。为 v1.0 的 README 数据声明提供依据。",
+    "keyFormat": "{type}:{id}",
+    "note": "当前为初始空结构。v0.7 阶段不要求全量填写，后续逐步补充。"
+  },
+  "items": {}
+}

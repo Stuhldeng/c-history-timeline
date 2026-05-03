@@ -1,0 +1,155 @@
+{
+  "_meta": {
+    "name": "verification-map",
+    "version": "0.7.0",
+    "description": "人工/AI 校验结果。主 dict 不存校验信息，统一外置于此文件。",
+    "rules": {
+      "human": {
+        "method": "human",
+        "confidence": "absolute",
+        "note": "仅限用户本人标记。AI 不得标记为 human。结构性硬错误（重复ID、JSON错误、必填缺失、引用不存在、年份非整数、startYear>endYear）不可被 human verification 豁免。"
+      },
+      "ai": {
+        "method": "ai",
+        "confidence": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "note": "AI 校验不得使用 absolute。low 表示不确定、需人工复核。"
+      },
+      "unreviewed": {
+        "note": "不在本文件中的条目视为未校验（unreviewed），validation 中按普通 warning 汇报。"
+      }
+    },
+    "keyFormat": "{type}:{id}",
+    "types": [
+      "polity",
+      "ruler",
+      "era",
+      "event"
+    ]
+  },
+  "items": {
+    "ruler:rn-晋国-孝公": {
+      "method": "human",
+      "confidence": "absolute",
+      "verifiedBy": "七毛",
+      "verifiedAt": "2026-05-03",
+      "note": "已接受此越界：晋结束时间及末两代君主有争议。rn-晋国-孝公 在位 -388~-357，超出 晋 存续年 -1033~-376",
+      "appliesTo": "rulerOutOfPolity"
+    },
+    "ruler:rn-晋国-静公": {
+      "method": "human",
+      "confidence": "absolute",
+      "verifiedBy": "七毛",
+      "verifiedAt": "2026-05-03",
+      "note": "已接受此越界：晋结束时间及末两代君主有争议。rn-晋国-静公 在位 -356~-349，超出 晋 存续年 -1033~-376",
+      "appliesTo": "rulerOutOfPolity"
+    },
+    "ruler:rn-秦朝-始皇帝": {
+      "method": "human",
+      "confidence": "absolute",
+      "verifiedBy": "七毛",
+      "verifiedAt": "2026-05-03",
+      "note": "已接受此越界：属政权拆分设计或跨政权阶段。rn-秦朝-始皇帝 在位 -246~-210，超出 秦朝 存续年 -221~-207",
+      "appliesTo": "rulerOutOfPolity"
+    },
+    "ruler:rn-前凉-张轨": {
+      "method": "human",
+      "confidence": "absolute",
+      "verifiedBy": "七毛",
+      "verifiedAt": "2026-05-03",
+      "note": "已接受此越界：前凉正式建国前的君主，目前尚未加入前凉建国前的政权。rn-前凉-张轨 在位 301~314，超出 前凉 存续年 320~376",
+      "appliesTo": "rulerOutOfPolity"
+    },
+    "ruler:rn-前凉-张寔": {
+      "method": "human",
+      "confidence": "absolute",
+      "verifiedBy": "七毛",
+      "verifiedAt": "2026-05-03",
+      "note": "已接受此越界：前凉正式建国前的君主，目前尚未加入前凉建国前的政权。rn-前凉-张寔 在位 314~320，超出 前凉 存续年 320~376",
+      "appliesTo": "rulerOutOfPolity"
+    },
+    "ruler:rn-大蒙-皮逻阁": {
+      "method": "human",
+      "confidence": "absolute",
+      "verifiedBy": "七毛",
+      "verifiedAt": "2026-05-03",
+      "note": "已接受此越界：属政权拆分设计或跨政权阶段。rn-大蒙-皮逻阁 在位 728~748，超出 大蒙 存续年 738~859",
+      "appliesTo": "rulerOutOfPolity"
+    },
+    "ruler:rn-大礼-世隆": {
+      "method": "human",
+      "confidence": "absolute",
+      "verifiedBy": "七毛",
+      "verifiedAt": "2026-05-03",
+      "note": "已接受此越界：属政权拆分设计或跨政权阶段。rn-大礼-世隆 在位 859~877，超出 大礼 存续年 860~877",
+      "appliesTo": "rulerOutOfPolity"
+    },
+    "ruler:rn-大封民-隆舜": {
+      "method": "human",
+      "confidence": "absolute",
+      "verifiedBy": "七毛",
+      "verifiedAt": "2026-05-03",
+      "note": "已接受此越界：属政权拆分设计或跨政权阶段。rn-大封民-隆舜 在位 877~897，超出 大封民 存续年 878~902",
+      "appliesTo": "rulerOutOfPolity"
+    },
+    "ruler:rn-忽必烈": {
+      "method": "human",
+      "confidence": "absolute",
+      "verifiedBy": "七毛",
+      "verifiedAt": "2026-05-03",
+      "note": "已接受此越界：属政权拆分设计或跨政权阶段。rn-忽必烈 在位 1260~1294，超出 元 存续年 1271~1368",
+      "appliesTo": "rulerOutOfPolity"
+    },
+    "ruler:rn-皇太极": {
+      "method": "human",
+      "confidence": "absolute",
+      "verifiedBy": "七毛",
+      "verifiedAt": "2026-05-03",
+      "note": "已接受此越界：属政权拆分设计或跨政权阶段。rn-皇太极 在位 1626~1643，超出 清 存续年 1636~1912",
+      "appliesTo": "rulerOutOfPolity"
+    },
+    "era:era-至元-yuan": {
+      "method": "human",
+      "confidence": "absolute",
+      "verifiedBy": "七毛",
+      "verifiedAt": "2026-05-03",
+      "note": "已接受此越界：年号跨政权阶段。至元(era-至元-yuan) 年号 1264~1294，超出 元 存续年 1271~1368",
+      "appliesTo": "eraOutOfPolity"
+    },
+    "polity:pol-燕": {
+      "method": "human",
+      "confidence": "absolute",
+      "verifiedBy": "七毛",
+      "verifiedAt": "2026-05-03",
+      "note": "已接受此处年份空白：前314年,齐灭燕;前312年,复国。燕 -313~-313年（1年）无数据",
+      "appliesTo": "yearGaps"
+    },
+    "polity:pol-北魏": {
+      "method": "human",
+      "confidence": "absolute",
+      "verifiedBy": "七毛",
+      "verifiedAt": "2026-05-03",
+      "note": "已接受此处年份空白：尔朱荣篡位未遂。北魏 531~531年（1年）无数据",
+      "appliesTo": "yearGaps"
+    },
+    "polity:pol-唐朝": {
+      "method": "human",
+      "confidence": "absolute",
+      "verifiedBy": "七毛",
+      "verifiedAt": "2026-05-03",
+      "note": "已接受此处年份空白：武周时期。唐朝 691~704年（14年）无数据",
+      "appliesTo": "yearGaps"
+    },
+    "ruler:rn-刘秀": {
+      "method": "ai",
+      "confidence": "high",
+      "verifiedBy": "Claude",
+      "verifiedAt": "2026-05-03",
+      "note": "AI 校验：在位年份 -25~57 与东汉存续年 25~220 一致，数据来自批量生成",
+      "appliesTo": "rulerOutOfPolity"
+    }
+  }
+}

@@ -14,9 +14,11 @@
       "title": "国人暴动",
       "text": "国人暴动，共和行政",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-西周"
+      ],
+      "description": "周厉王暴虐，国人起义，厉王出奔彘。周公、召公共同执政，史称共和。中国历史确切纪年之始。",
       "aliases": []
     },
     {
@@ -102,9 +104,11 @@
       "title": "犬戎破镐京",
       "text": "犬戎破镐京，西周亡",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "military",
+      "relatedPolities": [
+        "pol-西周"
+      ],
+      "description": "犬戎攻入镐京，杀周幽王于骊山之下。西周灭亡，平王东迁洛邑，春秋时代开始。",
       "aliases": []
     },
     {
@@ -168,9 +172,11 @@
       "title": "《春秋》记…",
       "text": "《春秋》记事始",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "institution",
+      "relatedPolities": [
+        "pol-秦"
+      ],
+      "description": "鲁隐公元年，《春秋》记事之始。孔子修订《春秋》以此年为开端。",
       "aliases": []
     },
     {
@@ -652,9 +658,11 @@
       "title": "城濮之战",
       "text": "城濮之战，晋文公称霸",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "military",
+      "relatedPolities": [
+        "pol-秦"
+      ],
+      "description": "晋楚城濮之战。晋文公退避三舍，大败楚军，奠定晋国中原霸权。",
       "aliases": []
     },
     {
@@ -1125,9 +1133,11 @@
       "title": "孔子出生",
       "text": "孔子出生",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "culture",
+      "relatedPolities": [
+        "pol-秦"
+      ],
+      "description": "孔子诞生于鲁国陬邑。孔丘，字仲尼，儒家学派创始人，后世尊为至圣先师。",
       "aliases": []
     },
     {
@@ -1752,9 +1762,11 @@
       "title": "三家灭知伯",
       "text": "三家灭知伯",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-秦"
+      ],
+      "description": "晋国三家大夫赵、韩、魏瓜分晋国，史称三家分晋。战国时代之重要转折点。",
       "aliases": []
     },
     {
@@ -2071,9 +2083,11 @@
       "title": "齐威王立",
       "text": "齐威王立，商鞅再变法",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "institution",
+      "relatedPolities": [
+        "pol-秦"
+      ],
+      "description": "秦孝公任用商鞅变法。废井田、开阡陌、奖励耕战，秦国由此强盛。",
       "aliases": []
     },
     {
@@ -2709,9 +2723,11 @@
       "title": "长平之战",
       "text": "长平之战，赵大败",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "military",
+      "relatedPolities": [
+        "pol-秦"
+      ],
+      "description": "秦赵长平之战。白起坑杀赵降卒四十余万，赵国从此一蹶不振。",
       "aliases": []
     },
     {
@@ -3072,9 +3088,11 @@
       "title": "秦灭齐，统一天下，称始皇帝",
       "text": "秦灭齐，统一天下，称始皇帝",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-秦"
+      ],
+      "description": "秦王嬴政灭齐，统一六国。自称始皇帝，建立中国历史上第一个中央集权帝国。",
       "aliases": []
     },
     {
@@ -3138,9 +3156,11 @@
       "title": "焚书",
       "text": "焚书",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "culture",
+      "relatedPolities": [
+        "pol-秦朝"
+      ],
+      "description": "秦始皇采纳李斯建议，下令焚毁除秦记、医药、卜筮、种树以外的各国史书和百家著作。",
       "aliases": []
     },
     {
@@ -3171,9 +3191,11 @@
       "title": "陈胜",
       "text": "陈胜、吴广起义",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "military",
+      "relatedPolities": [
+        "pol-秦朝"
+      ],
+      "description": "陈胜、吴广在大泽乡揭竿起义，喊出\"王侯将相宁有种乎\"。秦末农民战争由此爆发。",
       "aliases": []
     },
     {
@@ -3193,9 +3215,11 @@
       "title": "巨鹿之战，项羽破秦主力",
       "text": "巨鹿之战，项羽破秦主力",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-秦朝"
+      ],
+      "description": "秦王子婴素车白马，系颈以组，向刘邦投降。秦朝正式灭亡。",
       "aliases": []
     },
     {
@@ -3248,9 +3272,11 @@
       "title": "刘邦称帝",
       "text": "刘邦称帝，定都长安",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-西汉"
+      ],
+      "description": "垓下之战项羽自刎，刘邦即皇帝位，建立汉朝，定都长安。",
       "aliases": []
     },
     {
@@ -3644,9 +3670,11 @@
       "title": "七国之乱",
       "text": "七国之乱，周亚夫平乱",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "military",
+      "relatedPolities": [
+        "pol-西汉"
+      ],
+      "description": "吴王刘濞联合七国造反。周亚夫率军平定，诸侯王国势力自此大削。",
       "aliases": []
     },
     {
@@ -3688,9 +3716,11 @@
       "title": "武帝即位",
       "text": "武帝即位",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "succession",
+      "relatedPolities": [
+        "pol-西汉"
+      ],
+      "description": "汉武帝刘彻即位，在位五十四年。汉朝进入全盛时期。",
       "aliases": []
     },
     {
@@ -3721,9 +3751,11 @@
       "title": "闽越围东瓯",
       "text": "闽越围东瓯",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "diplomacy",
+      "relatedPolities": [
+        "pol-西汉"
+      ],
+      "description": "张骞奉汉武帝之命出使西域，开辟丝绸之路。",
       "aliases": []
     },
     {
@@ -4381,9 +4413,11 @@
       "title": "王莽即真",
       "text": "王莽即真，改国号新",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-西汉"
+      ],
+      "description": "王莽自称假皇帝，三年后即真，改国号为新，西汉实际灭亡。",
       "aliases": []
     },
     {
@@ -4667,9 +4701,11 @@
       "title": "曹丕代汉",
       "text": "曹丕代汉，东汉亡",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-东汉"
+      ],
+      "description": "曹丕接受汉献帝禅让，建立魏国，东汉正式灭亡。",
       "aliases": []
     },
     {
@@ -4909,9 +4945,11 @@
       "title": "魏灭蜀汉",
       "text": "魏灭蜀汉，刘禅降",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "military",
+      "relatedPolities": [
+        "pol-曹魏"
+      ],
+      "description": "魏将邓艾偷渡阴平，兵临成都。蜀汉后主刘禅出降，蜀汉灭亡。",
       "aliases": []
     },
     {
@@ -4975,9 +5013,11 @@
       "title": "吴亡",
       "text": "吴亡，天下统一",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-东吴"
+      ],
+      "description": "晋将王濬楼船下益州，吴主孙皓出降。三国时代结束，西晋统一天下。",
       "aliases": []
     },
     {
@@ -5118,9 +5158,11 @@
       "title": "永嘉之祸",
       "text": "永嘉之祸",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "military",
+      "relatedPolities": [
+        "pol-西晋"
+      ],
+      "description": "匈奴刘曜攻陷洛阳，掳走晋怀帝。史称永嘉之乱，西晋名存实亡。",
       "aliases": []
     },
     {
@@ -5569,9 +5611,11 @@
       "title": "淝水之战",
       "text": "淝水之战，前秦大败",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "military",
+      "relatedPolities": [
+        "pol-东晋"
+      ],
+      "description": "前秦苻坚率百万大军南征，东晋谢安、谢玄在淝水大破秦军。南北对峙局面奠定。",
       "aliases": []
     },
     {
@@ -5954,9 +5998,9 @@
       "title": "北魏灭北凉",
       "text": "北魏灭北凉，统一北方",
       "level": "major",
-      "type": "",
+      "type": "political",
       "relatedPolities": [],
-      "description": "",
+      "description": "北魏太武帝拓跋焘统一北方，十六国时期结束，南北朝正式开始。",
       "aliases": []
     },
     {
@@ -6218,9 +6262,9 @@
       "title": "齐明帝废杀…",
       "text": "齐明帝废杀二帝自立",
       "level": "major",
-      "type": "",
+      "type": "institution",
       "relatedPolities": [],
-      "description": "",
+      "description": "北魏孝文帝迁都洛阳，推行全面汉化改革：禁胡服、改汉姓、断北语。",
       "aliases": []
     },
     {
@@ -6460,9 +6504,9 @@
       "title": "北魏分裂",
       "text": "北魏分裂，东魏立",
       "level": "major",
-      "type": "",
+      "type": "political",
       "relatedPolities": [],
-      "description": "",
+      "description": "北魏分裂为东魏（高欢拥立）和西魏（宇文泰拥立），北方进入东西对峙。",
       "aliases": []
     },
     {
@@ -6878,9 +6922,11 @@
       "title": "隋灭陈",
       "text": "隋灭陈，天下统一",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-隋朝"
+      ],
+      "description": "隋文帝杨坚灭陈，结束近三百年的南北分裂，统一中国。",
       "aliases": []
     },
     {
@@ -6944,9 +6990,11 @@
       "title": "开凿通济渠",
       "text": "开凿通济渠，建东都",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "economy",
+      "relatedPolities": [
+        "pol-隋朝"
+      ],
+      "description": "隋炀帝下令开凿大运河，连接南北水系，促进经济文化交流。",
       "aliases": []
     },
     {
@@ -7076,9 +7124,11 @@
       "title": "江都之变，炀帝被杀，唐立",
       "text": "江都之变，炀帝被杀，唐立",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-隋朝"
+      ],
+      "description": "李渊在长安称帝，建立唐朝。",
       "aliases": []
     },
     {
@@ -7153,9 +7203,11 @@
       "title": "玄武门之变",
       "text": "玄武门之变，太宗立",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-唐朝"
+      ],
+      "description": "玄武门之变。李世民杀兄李建成、弟李元吉，逼李渊退位，继位为唐太宗。",
       "aliases": []
     },
     {
@@ -7571,9 +7623,11 @@
       "title": "武则天称帝",
       "text": "武则天称帝，改国号周",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-唐朝"
+      ],
+      "description": "武则天称帝，改国号为周。中国历史上唯一的女皇帝。",
       "aliases": []
     },
     {
@@ -7868,9 +7922,11 @@
       "title": "安史之乱爆发",
       "text": "安史之乱爆发",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "military",
+      "relatedPolities": [
+        "pol-唐朝"
+      ],
+      "description": "安禄山在范阳起兵叛乱。安史之乱持续八年，唐朝由盛转衰。",
       "aliases": []
     },
     {
@@ -8242,9 +8298,11 @@
       "title": "唐武宗灭佛",
       "text": "唐武宗灭佛",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "culture",
+      "relatedPolities": [
+        "pol-唐朝"
+      ],
+      "description": "唐武宗下令灭佛，拆毁寺院，僧尼还俗。中国佛教史上最大规模的法难。",
       "aliases": []
     },
     {
@@ -8550,9 +8608,11 @@
       "title": "朱温代唐",
       "text": "朱温代唐，后梁立",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-唐朝"
+      ],
+      "description": "朱温废唐哀帝自立，建立后梁。唐朝灭亡，五代十国开始。",
       "aliases": []
     },
     {
@@ -8957,9 +9017,11 @@
       "title": "陈桥兵变",
       "text": "陈桥兵变，宋太祖即位",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-北宋"
+      ],
+      "description": "赵匡胤在陈桥驿发动兵变，黄袍加身。后周灭亡，北宋建立。",
       "aliases": []
     },
     {
@@ -9188,9 +9250,11 @@
       "title": "澶渊之盟",
       "text": "澶渊之盟，宋辽议和",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "diplomacy",
+      "relatedPolities": [
+        "pol-北宋"
+      ],
+      "description": "宋辽签订澶渊之盟。宋每年给辽岁币，两国约为兄弟之国，维持百年和平。",
       "aliases": []
     },
     {
@@ -9221,9 +9285,11 @@
       "title": "元昊称帝",
       "text": "元昊称帝，西夏立",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-北宋"
+      ],
+      "description": "李元昊称帝，建立西夏。宋与西夏之间战事不断。",
       "aliases": []
     },
     {
@@ -9353,9 +9419,11 @@
       "title": "王安石行新法",
       "text": "王安石行新法",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "institution",
+      "relatedPolities": [
+        "pol-北宋"
+      ],
+      "description": "宋神宗任用王安石推行变法。青苗法、免役法、市易法等，试图富国强兵。",
       "aliases": []
     },
     {
@@ -9551,9 +9619,11 @@
       "title": "赵构称帝",
       "text": "赵构称帝，南宋立",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "military",
+      "relatedPolities": [
+        "pol-北宋"
+      ],
+      "description": "金兵攻陷汴京，掳走徽钦二帝。北宋灭亡，赵构南渡建立南宋。",
       "aliases": []
     },
     {
@@ -9650,9 +9720,11 @@
       "title": "绍兴和议，宋金划淮为界",
       "text": "绍兴和议，宋金划淮为界",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "diplomacy",
+      "relatedPolities": [
+        "pol-南宋"
+      ],
+      "description": "宋金签订绍兴和议。宋称臣纳贡，以淮水大散关为界。岳飞已先被冤杀。",
       "aliases": []
     },
     {
@@ -9771,9 +9843,11 @@
       "title": "宋开禧北伐；蒙古铁木真称成吉思汗",
       "text": "宋开禧北伐；蒙古铁木真称成吉思汗",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-南宋"
+      ],
+      "description": "铁木真统一蒙古各部，在斡难河畔被推举为成吉思汗。蒙古帝国由此诞生。",
       "aliases": []
     },
     {
@@ -9969,9 +10043,11 @@
       "title": "宋蒙联军灭金",
       "text": "宋蒙联军灭金，金亡",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-南宋"
+      ],
+      "description": "蒙古与南宋联军攻破蔡州，金朝灭亡。",
       "aliases": []
     },
     {
@@ -10079,9 +10155,11 @@
       "title": "忽必烈称帝",
       "text": "忽必烈称帝，定都开平",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "succession",
+      "relatedPolities": [
+        "pol-南宋"
+      ],
+      "description": "忽必烈在开平即大汗位，建元中统。蒙古帝国进入元朝阶段。",
       "aliases": []
     },
     {
@@ -10167,9 +10245,11 @@
       "title": "崖山海战",
       "text": "崖山海战，南宋亡",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "military",
+      "relatedPolities": [
+        "pol-南宋"
+      ],
+      "description": "元军在厓山彻底消灭南宋残余。陆秀夫背幼帝赵昺投海自尽，南宋灭亡。",
       "aliases": []
     },
     {
@@ -10640,9 +10720,11 @@
       "title": "朱元璋称帝，定都应天，元帝北遁",
       "text": "朱元璋称帝，定都应天，元帝北遁",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-元"
+      ],
+      "description": "朱元璋在应天称帝，建立明朝。同年北伐攻入大都，元顺帝北逃，元朝在中原的统治结束。",
       "aliases": []
     },
     {
@@ -10860,9 +10942,11 @@
       "title": "郑和第一次…",
       "text": "郑和第一次下西洋",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "diplomacy",
+      "relatedPolities": [
+        "pol-明"
+      ],
+      "description": "郑和首次下西洋。船队远达东非，宣扬大明国威。",
       "aliases": []
     },
     {
@@ -11124,9 +11208,11 @@
       "title": "土木之变，英宗被俘，景帝立",
       "text": "土木之变，英宗被俘，景帝立",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "military",
+      "relatedPolities": [
+        "pol-明"
+      ],
+      "description": "明英宗亲征瓦剌，在土木堡兵败被俘。史称土木之变，明朝边防受到严重打击。",
       "aliases": []
     },
     {
@@ -11267,9 +11353,11 @@
       "title": "庚戌之变",
       "text": "庚戌之变，鞑靼围北京",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "military",
+      "relatedPolities": [
+        "pol-明"
+      ],
+      "description": "庚戌之变。蒙古俺答汗围困北京，焚掠京畿八日。暴露明朝军备废弛。",
       "aliases": []
     },
     {
@@ -11652,9 +11740,11 @@
       "title": "清军入关",
       "text": "清军入关，定都北京",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-明"
+      ],
+      "description": "李自成攻入北京，崇祯帝自缢。明朝灭亡。同年清军入关。",
       "aliases": []
     },
     {
@@ -12345,9 +12435,11 @@
       "title": "第一次鸦片…",
       "text": "第一次鸦片战争",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "military",
+      "relatedPolities": [
+        "pol-清"
+      ],
+      "description": "第一次鸦片战争爆发。英国以虎门销烟为借口发动侵略战争。",
       "aliases": []
     },
     {
@@ -12873,9 +12965,11 @@
       "title": "辛亥革命爆发，清朝灭亡",
       "text": "辛亥革命爆发，清朝灭亡",
       "level": "major",
-      "type": "",
-      "relatedPolities": [],
-      "description": "",
+      "type": "political",
+      "relatedPolities": [
+        "pol-清"
+      ],
+      "description": "辛亥革命爆发。武昌起义成功，各省纷纷响应，清朝统治土崩瓦解。",
       "aliases": []
     }
   ]

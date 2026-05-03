@@ -1,4 +1,4 @@
-# ========================
+﻿# ========================
 # 中国历史年表 · .gitignore
 # 只公开 index.html + 必要的 JSON 数据文件
 # ========================
@@ -11,6 +11,8 @@
 !chronology.json
 !dict/
 !dict/*.json
+!src/
+!src/*
 
 # ===== 允许的元数据 =====
 !.gitignore
@@ -21,7 +23,7 @@
 index-standalone.html
 
 # 构建脚本（非运行必需）
-js/
+scripts/
 
 # 归档与备份
 archive/
@@ -41,3 +43,4 @@ Thumbs.db
 # 编辑器配置
 .vscode/
 .idea/
+

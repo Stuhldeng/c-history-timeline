@@ -6859,7 +6859,7 @@
       "posthumousTitle": "景侯",
       "displayTitle": "韩景侯",
       "eraNames": [],
-      "reignStartYear": -403,
+      "reignStartYear": -408,
       "reignEndYear": -400,
       "aliases": [],
       "searchLabels": [
@@ -6867,7 +6867,10 @@
         "景侯",
         "韩虔"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "phaseType": "founder-transition",
+      "personId": "person-韩景侯",
+      "regnalCountStartYear": -408
     },
     {
       "id": "rn-赵国-烈侯",
@@ -6877,7 +6880,7 @@
       "posthumousTitle": "烈侯",
       "displayTitle": "赵烈侯",
       "eraNames": [],
-      "reignStartYear": -403,
+      "reignStartYear": -408,
       "reignEndYear": -400,
       "aliases": [],
       "searchLabels": [
@@ -6885,7 +6888,10 @@
         "烈侯",
         "赵籍"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "phaseType": "founder-transition",
+      "personId": "person-赵烈侯",
+      "regnalCountStartYear": -408
     },
     {
       "id": "rn-魏国-文侯",
@@ -6895,15 +6901,18 @@
       "posthumousTitle": "文侯",
       "displayTitle": "魏国文侯",
       "eraNames": [],
-      "reignStartYear": -403,
-      "reignEndYear": -387,
+      "reignStartYear": -445,
+      "reignEndYear": -396,
       "aliases": [],
       "searchLabels": [
         "魏文侯",
         "文侯",
         "魏斯"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "phaseType": "founder-transition",
+      "personId": "person-魏文侯",
+      "regnalCountStartYear": -445
     },
     {
       "id": "rn-楚国-悼王",
@@ -7046,7 +7055,10 @@
         "孝公",
         "姬颀"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "personId": "person-晋孝公",
+      "phaseType": "overlap-by-design",
+      "regnalCountStartYear": -388
     },
     {
       "id": "rn-田齐-太公",
@@ -7127,8 +7139,8 @@
       "posthumousTitle": "武侯",
       "displayTitle": "魏国武侯",
       "eraNames": [],
-      "reignStartYear": -386,
-      "reignEndYear": -371,
+      "reignStartYear": -395,
+      "reignEndYear": -370,
       "aliases": [],
       "searchLabels": [
         "魏武侯",
@@ -7393,7 +7405,7 @@
       "posthumousTitle": "惠王",
       "displayTitle": "魏国惠王",
       "eraNames": [],
-      "reignStartYear": -370,
+      "reignStartYear": -369,
       "reignEndYear": -319,
       "aliases": [],
       "searchLabels": [
@@ -7578,7 +7590,10 @@
         "静公",
         "姬俱酒"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "personId": "person-晋静公",
+      "phaseType": "overlap-by-design",
+      "regnalCountStartYear": -356
     },
     {
       "id": "rn-鲁国-康公",
@@ -8384,7 +8399,11 @@
         "秦王政",
         "秦王"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "personId": "person-嬴政",
+      "continuityGroup": "rule-嬴政",
+      "phaseType": "founder-transition",
+      "regnalCountStartYear": -246
     },
     {
       "id": "rn-秦朝-始皇帝",
@@ -8406,7 +8425,11 @@
         "始皇帝",
         "秦始皇"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "personId": "person-嬴政",
+      "continuityGroup": "rule-嬴政",
+      "phaseType": "founder-transition",
+      "regnalCountStartYear": -246
     },
     {
       "id": "rn-赵国-悼襄王",
@@ -8607,7 +8630,6 @@
       "id": "rn-胡亥",
       "polityId": "pol-秦朝",
       "personalName": "胡亥",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "二世皇帝",
       "eraNames": [],
@@ -8621,7 +8643,8 @@
         "二世皇帝",
         "秦二世"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "二世皇帝"
     },
     {
       "id": "rn-匈奴-头曼",
@@ -8659,7 +8682,6 @@
       "id": "rn-嬴子婴",
       "polityId": "pol-秦朝",
       "personalName": "嬴子婴",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [],
@@ -8674,7 +8696,8 @@
         "秦王子婴",
         "子婴"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "嬴子婴"
     },
     {
       "id": "rn-西汉-汉王",
@@ -8696,7 +8719,11 @@
         "汉王",
         "汉王刘邦"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "personId": "person-刘邦",
+      "continuityGroup": "rule-刘邦",
+      "phaseType": "founder-transition",
+      "regnalCountStartYear": -206
     },
     {
       "id": "rn-西汉-高皇帝",
@@ -8721,7 +8748,11 @@
         "汉高帝",
         "高帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "personId": "person-刘邦",
+      "continuityGroup": "rule-刘邦",
+      "phaseType": "founder-transition",
+      "regnalCountStartYear": -206
     },
     {
       "id": "rn-于阗-尉迟散跋",
@@ -8743,7 +8774,6 @@
       "id": "rn-刘盈",
       "polityId": "pol-西汉",
       "personalName": "刘盈",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "孝惠皇帝",
       "eraNames": [],
@@ -8759,7 +8789,8 @@
         "汉惠帝",
         "惠帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝惠皇帝"
     },
     {
       "id": "rn-西汉-吕雉",
@@ -8787,7 +8818,6 @@
       "id": "rn-刘恒",
       "polityId": "pol-西汉",
       "personalName": "刘恒",
-      "personalName2": null,
       "templeTitle": "太宗",
       "posthumousTitle": "孝文皇帝",
       "eraNames": [],
@@ -8804,7 +8834,8 @@
         "汉文帝",
         "文帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝文皇帝"
     },
     {
       "id": "rn-匈奴-老上",
@@ -8842,7 +8873,6 @@
       "id": "rn-刘启",
       "polityId": "pol-西汉",
       "personalName": "刘启",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "孝景皇帝",
       "eraNames": [],
@@ -8858,7 +8888,8 @@
         "汉景帝",
         "景帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝景皇帝"
     },
     {
       "id": "rn-于阗-尉迟𠮟摩",
@@ -8880,7 +8911,6 @@
       "id": "rn-刘彻",
       "polityId": "pol-西汉",
       "personalName": "刘彻",
-      "personalName2": null,
       "templeTitle": "世宗",
       "posthumousTitle": "孝武皇帝",
       "eraNames": [
@@ -8909,7 +8939,8 @@
         "汉武帝",
         "武帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝武皇帝"
     },
     {
       "id": "rn-匈奴-伊稚斜",
@@ -8995,7 +9026,6 @@
       "id": "rn-刘弗陵",
       "polityId": "pol-西汉",
       "personalName": "刘弗陵",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "孝昭皇帝",
       "eraNames": [
@@ -9015,7 +9045,8 @@
         "汉昭帝",
         "昭帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝昭皇帝"
     },
     {
       "id": "rn-匈奴-壶衍鞮",
@@ -9037,7 +9068,6 @@
       "id": "rn-刘询",
       "polityId": "pol-西汉",
       "personalName": "刘询",
-      "personalName2": null,
       "templeTitle": "中宗",
       "posthumousTitle": "孝宣皇帝",
       "eraNames": [
@@ -9062,7 +9092,8 @@
         "汉宣帝",
         "宣帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝宣皇帝"
     },
     {
       "id": "rn-匈奴-虚闾权渠",
@@ -9116,7 +9147,6 @@
       "id": "rn-刘奭",
       "polityId": "pol-西汉",
       "personalName": "刘奭",
-      "personalName2": null,
       "templeTitle": "高宗",
       "posthumousTitle": "孝元皇帝",
       "eraNames": [
@@ -9138,7 +9168,8 @@
         "汉元帝",
         "元帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝元皇帝"
     },
     {
       "id": "rn-高句丽-高朱蒙",
@@ -9164,7 +9195,6 @@
       "id": "rn-刘骜",
       "polityId": "pol-西汉",
       "personalName": "刘骜",
-      "personalName2": null,
       "templeTitle": "统宗",
       "posthumousTitle": "孝成皇帝",
       "eraNames": [
@@ -9189,7 +9219,8 @@
         "汉成帝",
         "成帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝成皇帝"
     },
     {
       "id": "rn-匈奴-复株累",
@@ -9276,7 +9307,6 @@
       "id": "rn-刘欣",
       "polityId": "pol-西汉",
       "personalName": "刘欣",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "孝哀皇帝",
       "eraNames": [
@@ -9295,13 +9325,13 @@
         "汉哀帝",
         "哀帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝哀皇帝"
     },
     {
       "id": "rn-刘衎",
       "polityId": "pol-西汉",
       "personalName": "刘衎",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "孝平皇帝",
       "eraNames": [
@@ -9319,13 +9349,13 @@
         "汉平帝",
         "平帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝平皇帝"
     },
     {
       "id": "rn-刘婴",
       "polityId": "pol-西汉",
       "personalName": "刘婴",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -9343,13 +9373,13 @@
         "孺子婴",
         "汉孺子婴"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "刘婴"
     },
     {
       "id": "rn-王莽",
       "polityId": "pol-新朝",
       "personalName": "王莽",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -9369,7 +9399,8 @@
         "王莽新",
         "新帝王莽"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "王莽"
     },
     {
       "id": "rn-匈奴-乌累",
@@ -9424,7 +9455,6 @@
       "id": "rn-刘玄",
       "polityId": "pol-更始",
       "personalName": "刘玄",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -9440,13 +9470,13 @@
         "刘玄",
         "更始帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "刘玄"
     },
     {
       "id": "rn-刘秀",
       "polityId": "pol-东汉",
       "personalName": "刘秀",
-      "personalName2": null,
       "templeTitle": "世祖",
       "posthumousTitle": "光武皇帝",
       "eraNames": [
@@ -9466,7 +9496,8 @@
         "光武帝",
         "汉光武帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "光武皇帝"
     },
     {
       "id": "rn-匈奴-蒲奴",
@@ -9508,7 +9539,6 @@
       "id": "rn-刘庄",
       "polityId": "pol-东汉",
       "personalName": "刘庄",
-      "personalName2": null,
       "templeTitle": "显宗",
       "posthumousTitle": "孝明皇帝",
       "eraNames": [
@@ -9527,13 +9557,13 @@
         "汉明帝",
         "明帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝明皇帝"
     },
     {
       "id": "rn-刘炟",
       "polityId": "pol-东汉",
       "personalName": "刘炟",
-      "personalName2": null,
       "templeTitle": "肃宗",
       "posthumousTitle": "孝章皇帝",
       "eraNames": [
@@ -9554,13 +9584,13 @@
         "汉章帝",
         "章帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝章皇帝"
     },
     {
       "id": "rn-刘肇",
       "polityId": "pol-东汉",
       "personalName": "刘肇",
-      "personalName2": null,
       "templeTitle": "穆宗",
       "posthumousTitle": "孝和皇帝",
       "eraNames": [
@@ -9580,13 +9610,13 @@
         "汉和帝",
         "和帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝和皇帝"
     },
     {
       "id": "rn-刘祜",
       "polityId": "pol-东汉",
       "personalName": "刘祜",
-      "personalName2": null,
       "templeTitle": "恭宗",
       "posthumousTitle": "孝安皇帝",
       "eraNames": [
@@ -9609,13 +9639,13 @@
         "汉安帝",
         "安帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝安皇帝"
     },
     {
       "id": "rn-刘保",
       "polityId": "pol-东汉",
       "personalName": "刘保",
-      "personalName2": null,
       "templeTitle": "敬宗",
       "posthumousTitle": "孝顺皇帝",
       "eraNames": [
@@ -9638,13 +9668,13 @@
         "汉顺帝",
         "顺帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝顺皇帝"
     },
     {
       "id": "rn-刘志",
       "polityId": "pol-东汉",
       "personalName": "刘志",
-      "personalName2": null,
       "templeTitle": "威宗",
       "posthumousTitle": "孝桓皇帝",
       "eraNames": [
@@ -9669,13 +9699,13 @@
         "汉桓帝",
         "桓帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝桓皇帝"
     },
     {
       "id": "rn-刘宏",
       "polityId": "pol-东汉",
       "personalName": "刘宏",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "孝灵皇帝",
       "eraNames": [
@@ -9696,7 +9726,8 @@
         "汉灵帝",
         "灵帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝灵皇帝"
     },
     {
       "id": "rn-高句丽-高男武",
@@ -9719,7 +9750,6 @@
       "id": "rn-刘协",
       "polityId": "pol-东汉",
       "personalName": "刘协",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "孝献皇帝",
       "eraNames": [
@@ -9740,7 +9770,8 @@
         "汉献帝",
         "献帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝献皇帝"
     },
     {
       "id": "rn-高句丽-高延优",
@@ -9779,7 +9810,6 @@
       "id": "rn-曹丕",
       "polityId": "pol-曹魏",
       "personalName": "曹丕",
-      "personalName2": null,
       "templeTitle": "高祖",
       "posthumousTitle": "文皇帝",
       "eraNames": [
@@ -9798,13 +9828,13 @@
         "魏文帝",
         "文帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "文皇帝"
     },
     {
       "id": "rn-刘备",
       "polityId": "pol-蜀汉",
       "personalName": "刘备",
-      "personalName2": null,
       "templeTitle": "先主",
       "posthumousTitle": "昭烈皇帝",
       "eraNames": [
@@ -9823,13 +9853,13 @@
         "蜀汉昭烈帝",
         "昭烈帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "昭烈皇帝"
     },
     {
       "id": "rn-孙权",
       "polityId": "pol-东吴",
       "personalName": "孙权",
-      "personalName2": null,
       "templeTitle": "太祖",
       "posthumousTitle": "大皇帝",
       "eraNames": [
@@ -9853,13 +9883,13 @@
         "吴大帝",
         "大帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "大皇帝"
     },
     {
       "id": "rn-刘禅",
       "polityId": "pol-蜀汉",
       "personalName": "刘禅",
-      "personalName2": null,
       "templeTitle": "后主",
       "posthumousTitle": null,
       "eraNames": [
@@ -9881,13 +9911,13 @@
         "蜀汉后主",
         "阿斗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "后主"
     },
     {
       "id": "rn-曹叡",
       "polityId": "pol-曹魏",
       "personalName": "曹叡",
-      "personalName2": null,
       "templeTitle": "烈祖",
       "posthumousTitle": "明皇帝",
       "eraNames": [
@@ -9908,7 +9938,8 @@
         "魏明帝",
         "明帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "明皇帝"
     },
     {
       "id": "rn-高句丽-高位宫",
@@ -9931,7 +9962,6 @@
       "id": "rn-曹芳",
       "polityId": "pol-曹魏",
       "personalName": "曹芳",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "厉公",
       "eraNames": [
@@ -9952,7 +9982,8 @@
         "魏厉公",
         "邵陵厉公"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "厉公"
     },
     {
       "id": "rn-于阗-尉迟信诃",
@@ -9974,7 +10005,6 @@
       "id": "rn-孙亮",
       "polityId": "pol-东吴",
       "personalName": "孙亮",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -9996,13 +10026,13 @@
         "吴少帝",
         "会稽王"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孙亮"
     },
     {
       "id": "rn-曹髦",
       "polityId": "pol-曹魏",
       "personalName": "曹髦",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -10021,13 +10051,13 @@
         "魏高贵乡公",
         "高贵乡公"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "曹髦"
     },
     {
       "id": "rn-孙休",
       "polityId": "pol-东吴",
       "personalName": "孙休",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "景皇帝",
       "eraNames": [
@@ -10044,13 +10074,13 @@
         "吴景帝",
         "景帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "景皇帝"
     },
     {
       "id": "rn-曹奂",
       "polityId": "pol-曹魏",
       "personalName": "曹奂",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "元皇帝",
       "eraNames": [
@@ -10068,13 +10098,13 @@
         "魏元帝",
         "元帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "元皇帝"
     },
     {
       "id": "rn-孙皓",
       "polityId": "pol-东吴",
       "personalName": "孙皓",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -10099,13 +10129,13 @@
         "吴末帝",
         "归命侯"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孙皓"
     },
     {
       "id": "rn-司马炎",
       "polityId": "pol-西晋",
       "personalName": "司马炎",
-      "personalName2": null,
       "templeTitle": "世祖",
       "posthumousTitle": "武皇帝",
       "eraNames": [
@@ -10127,13 +10157,13 @@
         "晋武帝",
         "武帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "武皇帝"
     },
     {
       "id": "rn-司马衷",
       "polityId": "pol-西晋",
       "personalName": "司马衷",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "孝惠皇帝",
       "eraNames": [
@@ -10160,7 +10190,8 @@
         "晋惠帝",
         "惠帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝惠皇帝"
     },
     {
       "id": "rn-高句丽-高乙弗",
@@ -10213,7 +10244,10 @@
         "张轨",
         "前凉武公"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "personId": "person-张轨",
+      "phaseType": "founder-transition",
+      "regnalCountStartYear": 301
     },
     {
       "id": "rn-成汉-李雄",
@@ -10279,7 +10313,6 @@
       "id": "rn-司马炽",
       "polityId": "pol-西晋",
       "personalName": "司马炽",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "孝怀皇帝",
       "eraNames": [
@@ -10297,7 +10330,8 @@
         "晋怀帝",
         "怀帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝怀皇帝"
     },
     {
       "id": "rn-前赵汉-刘和",
@@ -10339,7 +10373,6 @@
       "id": "rn-司马邺",
       "polityId": "pol-西晋",
       "personalName": "司马邺",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "孝愍皇帝",
       "eraNames": [
@@ -10357,7 +10390,8 @@
         "晋愍帝",
         "愍帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝愍皇帝"
     },
     {
       "id": "rn-吐谷浑-慕容吐谷浑",
@@ -10393,13 +10427,15 @@
         "张寔",
         "前凉昭公"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "personId": "person-张寔",
+      "phaseType": "founder-transition",
+      "regnalCountStartYear": 314
     },
     {
       "id": "rn-司马睿",
       "polityId": "pol-东晋",
       "personalName": "司马睿",
-      "personalName2": null,
       "templeTitle": "中宗",
       "posthumousTitle": "元皇帝",
       "eraNames": [
@@ -10420,7 +10456,8 @@
         "晋元帝",
         "元帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "元皇帝"
     },
     {
       "id": "rn-吐谷浑-慕容叶延",
@@ -10514,7 +10551,6 @@
       "id": "rn-司马绍",
       "polityId": "pol-东晋",
       "personalName": "司马绍",
-      "personalName2": null,
       "templeTitle": "肃宗",
       "posthumousTitle": "明皇帝",
       "eraNames": [
@@ -10533,7 +10569,8 @@
         "晋明帝",
         "明帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "明皇帝"
     },
     {
       "id": "rn-前凉-张骏",
@@ -10559,7 +10596,6 @@
       "id": "rn-司马衍",
       "polityId": "pol-东晋",
       "personalName": "司马衍",
-      "personalName2": null,
       "templeTitle": "显宗",
       "posthumousTitle": "成皇帝",
       "eraNames": [
@@ -10579,7 +10615,8 @@
         "晋成帝",
         "成帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "成皇帝"
     },
     {
       "id": "rn-吐谷浑-慕容碎奚",
@@ -10714,7 +10751,6 @@
       "id": "rn-拓跋什翼犍",
       "polityId": "pol-代国",
       "personalName": "拓跋什翼犍",
-      "personalName2": null,
       "templeTitle": "高祖",
       "posthumousTitle": "昭成皇帝",
       "eraNames": [
@@ -10733,27 +10769,8 @@
         "代昭成帝",
         "昭成帝"
       ],
-      "uncertain": false
-    },
-    {
-      "id": "rn-成汉汉-李寿",
-      "polityId": "pol-成汉汉",
-      "personalName": "李寿",
-      "templeTitle": null,
-      "posthumousTitle": "昭文帝",
-      "displayTitle": "昭文帝",
-      "eraNames": [],
-      "reignStartYear": 338,
-      "reignEndYear": 343,
-      "aliases": [
-        "成汉昭文帝"
-      ],
-      "searchLabels": [
-        "昭文帝",
-        "李寿",
-        "成汉昭文帝"
-      ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "昭成皇帝"
     },
     {
       "id": "rn-成汉汉-李寿",
@@ -10779,7 +10796,6 @@
       "id": "rn-司马岳",
       "polityId": "pol-东晋",
       "personalName": "司马岳",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "康皇帝",
       "eraNames": [
@@ -10797,27 +10813,8 @@
         "晋康帝",
         "康帝"
       ],
-      "uncertain": false
-    },
-    {
-      "id": "rn-成汉汉-李势",
-      "polityId": "pol-成汉汉",
-      "personalName": "李势",
-      "templeTitle": null,
-      "posthumousTitle": null,
-      "displayTitle": "后主",
-      "eraNames": [],
-      "reignStartYear": 343,
-      "reignEndYear": 347,
-      "aliases": [
-        "成汉后主"
-      ],
-      "searchLabels": [
-        "后主",
-        "李势",
-        "成汉后主"
-      ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "康皇帝"
     },
     {
       "id": "rn-成汉汉-李势",
@@ -10843,7 +10840,6 @@
       "id": "rn-司马聃",
       "polityId": "pol-东晋",
       "personalName": "司马聃",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "穆皇帝",
       "eraNames": [
@@ -10862,7 +10858,8 @@
         "晋穆帝",
         "穆帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "穆皇帝"
     },
     {
       "id": "rn-前凉-张重华",
@@ -11160,7 +11157,6 @@
       "id": "rn-司马丕",
       "polityId": "pol-东晋",
       "personalName": "司马丕",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "哀皇帝",
       "eraNames": [
@@ -11179,7 +11175,8 @@
         "晋哀帝",
         "哀帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "哀皇帝"
     },
     {
       "id": "rn-前凉-张天锡",
@@ -11205,7 +11202,6 @@
       "id": "rn-司马奕",
       "polityId": "pol-东晋",
       "personalName": "司马奕",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -11220,13 +11216,13 @@
         "司马奕",
         "晋废帝"
       ],
-      "uncertain": true
+      "uncertain": true,
+      "displayTitle": "司马奕"
     },
     {
       "id": "rn-司马昱",
       "polityId": "pol-东晋",
       "personalName": "司马昱",
-      "personalName2": null,
       "templeTitle": "太宗",
       "posthumousTitle": "简文皇帝",
       "eraNames": [
@@ -11245,7 +11241,8 @@
         "晋简文帝",
         "简文帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "简文皇帝"
     },
     {
       "id": "rn-吐谷浑-慕容视罴",
@@ -11267,7 +11264,6 @@
       "id": "rn-司马曜",
       "polityId": "pol-东晋",
       "personalName": "司马曜",
-      "personalName2": null,
       "templeTitle": "烈宗",
       "posthumousTitle": "孝武皇帝",
       "eraNames": [
@@ -11289,7 +11285,8 @@
         "晋武帝",
         "武帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝武皇帝"
     },
     {
       "id": "rn-后秦-姚苌",
@@ -11403,7 +11400,6 @@
       "id": "rn-拓跋珪",
       "polityId": "pol-北魏",
       "personalName": "拓跋珪",
-      "personalName2": null,
       "templeTitle": "太祖",
       "posthumousTitle": "道武皇帝",
       "eraNames": [
@@ -11425,7 +11421,8 @@
         "北魏道武帝",
         "道武帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "道武皇帝"
     },
     {
       "id": "rn-前秦-苻登",
@@ -11624,7 +11621,6 @@
       "id": "rn-司马德宗",
       "polityId": "pol-东晋",
       "personalName": "司马德宗",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "安皇帝",
       "eraNames": [
@@ -11644,7 +11640,8 @@
         "晋安帝",
         "安帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "安皇帝"
     },
     {
       "id": "rn-后燕-慕容宝",
@@ -11974,7 +11971,6 @@
       "id": "rn-拓跋嗣",
       "polityId": "pol-北魏",
       "personalName": "拓跋嗣",
-      "personalName2": null,
       "templeTitle": "太宗",
       "posthumousTitle": "明元皇帝",
       "eraNames": [
@@ -11995,7 +11991,8 @@
         "北魏明元帝",
         "明元帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "明元皇帝"
     },
     {
       "id": "rn-北燕-冯跋",
@@ -12156,7 +12153,6 @@
       "id": "rn-司马德文",
       "polityId": "pol-东晋",
       "personalName": "司马德文",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "恭皇帝",
       "eraNames": [
@@ -12174,13 +12170,13 @@
         "晋恭帝",
         "恭帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "恭皇帝"
     },
     {
       "id": "rn-刘裕",
       "polityId": "pol-刘宋",
       "personalName": "刘裕",
-      "personalName2": null,
       "templeTitle": "高祖",
       "posthumousTitle": "武皇帝",
       "eraNames": [
@@ -12199,7 +12195,8 @@
         "宋武帝",
         "武帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "武皇帝"
     },
     {
       "id": "rn-西凉-李恂",
@@ -12221,7 +12218,6 @@
       "id": "rn-拓跋焘",
       "polityId": "pol-北魏",
       "personalName": "拓跋焘",
-      "personalName2": null,
       "templeTitle": "世祖",
       "posthumousTitle": "太武皇帝",
       "eraNames": [
@@ -12245,7 +12241,8 @@
         "北魏太武帝",
         "太武帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太武皇帝"
     },
     {
       "id": "rn-刘宋-少帝",
@@ -12271,7 +12268,6 @@
       "id": "rn-刘义隆",
       "polityId": "pol-刘宋",
       "personalName": "刘义隆",
-      "personalName2": null,
       "templeTitle": "太祖",
       "posthumousTitle": "文皇帝",
       "eraNames": [
@@ -12290,7 +12286,8 @@
         "宋文帝",
         "文帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "文皇帝"
     },
     {
       "id": "rn-吐谷浑-慕容慕瑰",
@@ -12462,7 +12459,6 @@
       "id": "rn-拓跋濬",
       "polityId": "pol-北魏",
       "personalName": "拓跋濬",
-      "personalName2": null,
       "templeTitle": "高宗",
       "posthumousTitle": "文成皇帝",
       "eraNames": [
@@ -12484,7 +12480,8 @@
         "北魏文成帝",
         "文成帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "文成皇帝"
     },
     {
       "id": "rn-吐谷浑-慕容拾寅",
@@ -12506,7 +12503,6 @@
       "id": "rn-刘骏",
       "polityId": "pol-刘宋",
       "personalName": "刘骏",
-      "personalName2": null,
       "templeTitle": "世祖",
       "posthumousTitle": "孝武皇帝",
       "eraNames": [
@@ -12528,13 +12524,13 @@
         "宋武帝",
         "武帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝武皇帝"
     },
     {
       "id": "rn-刘子业",
       "polityId": "pol-刘宋",
       "personalName": "刘子业",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -12550,7 +12546,8 @@
         "刘子业",
         "前废帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "刘子业"
     },
     {
       "id": "rn-柔然-郁久闾予成",
@@ -12573,7 +12570,6 @@
       "id": "rn-刘彧",
       "polityId": "pol-刘宋",
       "personalName": "刘彧",
-      "personalName2": null,
       "templeTitle": "太宗",
       "posthumousTitle": "明皇帝",
       "eraNames": [
@@ -12593,13 +12589,13 @@
         "宋明帝",
         "明帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "明皇帝"
     },
     {
       "id": "rn-拓跋弘",
       "polityId": "pol-北魏",
       "personalName": "拓跋弘",
-      "personalName2": null,
       "templeTitle": "显祖",
       "posthumousTitle": "献文皇帝",
       "eraNames": [
@@ -12619,13 +12615,13 @@
         "北魏献文帝",
         "献文帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "献文皇帝"
     },
     {
       "id": "rn-元宏",
       "polityId": "pol-北魏",
       "personalName": "元宏",
-      "personalName2": null,
       "templeTitle": "高祖",
       "posthumousTitle": "孝文皇帝",
       "eraNames": [
@@ -12648,13 +12644,13 @@
         "北魏文帝",
         "文帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝文皇帝"
     },
     {
       "id": "rn-刘昱",
       "polityId": "pol-刘宋",
       "personalName": "刘昱",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -12669,13 +12665,13 @@
         "刘昱",
         "后废帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "刘昱"
     },
     {
       "id": "rn-刘准",
       "polityId": "pol-刘宋",
       "personalName": "刘准",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -12690,13 +12686,13 @@
         "刘准",
         "宋顺帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "刘准"
     },
     {
       "id": "rn-萧道成",
       "polityId": "pol-南齐",
       "personalName": "萧道成",
-      "personalName2": null,
       "templeTitle": "太祖",
       "posthumousTitle": "高皇帝",
       "eraNames": [
@@ -12715,7 +12711,8 @@
         "齐高帝",
         "高帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "高皇帝"
     },
     {
       "id": "rn-吐谷浑-慕容度易侯",
@@ -12737,7 +12734,6 @@
       "id": "rn-萧赜",
       "polityId": "pol-南齐",
       "personalName": "萧赜",
-      "personalName2": null,
       "templeTitle": "世祖",
       "posthumousTitle": "武皇帝",
       "eraNames": [
@@ -12756,7 +12752,8 @@
         "齐武帝",
         "武帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "武皇帝"
     },
     {
       "id": "rn-柔然-郁久闾豆仑",
@@ -12851,7 +12848,6 @@
       "id": "rn-萧宝卷",
       "polityId": "pol-南齐",
       "personalName": "萧宝卷",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -12866,13 +12862,13 @@
         "萧宝卷",
         "东昏侯"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "萧宝卷"
     },
     {
       "id": "rn-元恪",
       "polityId": "pol-北魏",
       "personalName": "元恪",
-      "personalName2": null,
       "templeTitle": "世宗",
       "posthumousTitle": "宣武皇帝",
       "eraNames": [
@@ -12894,7 +12890,8 @@
         "北魏宣武帝",
         "宣武帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "宣武皇帝"
     },
     {
       "id": "rn-于阗-尉迟悉都那",
@@ -12916,7 +12913,6 @@
       "id": "rn-萧衍",
       "polityId": "pol-萧梁",
       "personalName": "萧衍",
-      "personalName2": null,
       "templeTitle": "高祖",
       "posthumousTitle": "武皇帝",
       "eraNames": [
@@ -12941,7 +12937,8 @@
         "梁武帝",
         "武帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "武皇帝"
     },
     {
       "id": "rn-柔然-郁久闾伏图",
@@ -12981,7 +12978,6 @@
       "id": "rn-元诩",
       "polityId": "pol-北魏",
       "personalName": "元诩",
-      "personalName2": null,
       "templeTitle": "肃宗",
       "posthumousTitle": "孝明皇帝",
       "eraNames": [
@@ -13006,7 +13002,8 @@
         "北魏明帝",
         "明帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝明皇帝"
     },
     {
       "id": "rn-高句丽-高兴安",
@@ -13046,7 +13043,6 @@
       "id": "rn-元子攸",
       "polityId": "pol-北魏",
       "personalName": "元子攸",
-      "personalName2": null,
       "templeTitle": "敬宗",
       "posthumousTitle": "孝庄皇帝",
       "eraNames": [
@@ -13068,7 +13064,8 @@
         "北魏庄帝",
         "庄帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝庄皇帝"
     },
     {
       "id": "rn-高句丽-高宝延",
@@ -13091,7 +13088,6 @@
       "id": "rn-元修",
       "polityId": "pol-北魏",
       "personalName": "元修",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "孝武皇帝",
       "eraNames": [
@@ -13115,13 +13111,13 @@
         "北魏武帝",
         "武帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝武皇帝"
     },
     {
       "id": "rn-元善见",
       "polityId": "pol-东魏",
       "personalName": "元善见",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "孝静皇帝",
       "eraNames": [
@@ -13144,13 +13140,13 @@
         "东魏静帝",
         "静帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝静皇帝"
     },
     {
       "id": "rn-元宝炬",
       "polityId": "pol-西魏",
       "personalName": "元宝炬",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "文皇帝",
       "eraNames": [
@@ -13168,7 +13164,8 @@
         "西魏文帝",
         "文帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "文皇帝"
     },
     {
       "id": "rn-吐谷浑-慕容夸吕",
@@ -13207,7 +13204,6 @@
       "id": "rn-萧纲",
       "polityId": "pol-萧梁",
       "personalName": "萧纲",
-      "personalName2": null,
       "templeTitle": "太宗",
       "posthumousTitle": "简文皇帝",
       "eraNames": [
@@ -13226,13 +13222,13 @@
         "梁简文帝",
         "简文帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "简文皇帝"
     },
     {
       "id": "rn-高洋",
       "polityId": "pol-北齐",
       "personalName": "高洋",
-      "personalName2": null,
       "templeTitle": "显祖",
       "posthumousTitle": "文宣皇帝",
       "eraNames": [
@@ -13251,7 +13247,8 @@
         "北齐文宣帝",
         "文宣帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "文宣皇帝"
     },
     {
       "id": "rn-于阗-尉迟伏阇信",
@@ -13293,7 +13290,6 @@
       "id": "rn-萧绎",
       "polityId": "pol-萧梁",
       "personalName": "萧绎",
-      "personalName2": null,
       "templeTitle": "世祖",
       "posthumousTitle": "孝元皇帝",
       "eraNames": [
@@ -13312,7 +13308,8 @@
         "梁元帝",
         "元帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝元皇帝"
     },
     {
       "id": "rn-柔然-郁久闾铁伐",
@@ -13401,7 +13398,6 @@
       "id": "rn-元廓",
       "polityId": "pol-西魏",
       "personalName": "元廓",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "恭皇帝",
       "eraNames": [],
@@ -13417,13 +13413,13 @@
         "西魏恭帝",
         "恭帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "恭皇帝"
     },
     {
       "id": "rn-陈霸先",
       "polityId": "pol-南陈",
       "personalName": "陈霸先",
-      "personalName2": null,
       "templeTitle": "高祖",
       "posthumousTitle": "武皇帝",
       "eraNames": [
@@ -13442,13 +13438,13 @@
         "陈武帝",
         "武帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "武皇帝"
     },
     {
       "id": "rn-宇文觉",
       "polityId": "pol-北周",
       "personalName": "宇文觉",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "孝闵皇帝",
       "eraNames": [],
@@ -13466,7 +13462,8 @@
         "北周闵帝",
         "闵帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝闵皇帝"
     },
     {
       "id": "rn-北周-明帝",
@@ -13494,7 +13491,6 @@
       "id": "rn-陈蒨",
       "polityId": "pol-南陈",
       "personalName": "陈蒨",
-      "personalName2": null,
       "templeTitle": "世祖",
       "posthumousTitle": "文皇帝",
       "eraNames": [
@@ -13514,7 +13510,8 @@
         "陈文帝",
         "文帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "文皇帝"
     },
     {
       "id": "rn-高句丽-高阳成",
@@ -13537,7 +13534,6 @@
       "id": "rn-宇文邕",
       "polityId": "pol-北周",
       "personalName": "宇文邕",
-      "personalName2": null,
       "templeTitle": "高祖",
       "posthumousTitle": "武皇帝",
       "eraNames": [
@@ -13559,7 +13555,8 @@
         "北周武帝",
         "武帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "武皇帝"
     },
     {
       "id": "rn-南陈-废帝",
@@ -13585,7 +13582,6 @@
       "id": "rn-陈顼",
       "polityId": "pol-南陈",
       "personalName": "陈顼",
-      "personalName2": null,
       "templeTitle": "高宗",
       "posthumousTitle": "孝宣皇帝",
       "eraNames": [
@@ -13604,7 +13600,8 @@
         "陈宣帝",
         "宣帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝宣皇帝"
     },
     {
       "id": "rn-突厥汗国-阿史那",
@@ -13627,7 +13624,6 @@
       "id": "rn-宇文阐",
       "polityId": "pol-北周",
       "personalName": "宇文阐",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "静皇帝",
       "eraNames": [
@@ -13646,7 +13642,8 @@
         "北周静帝",
         "静帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "静皇帝"
     },
     {
       "id": "rn-隋-杨坚",
@@ -13713,7 +13710,6 @@
       "id": "rn-陈叔宝",
       "polityId": "pol-南陈",
       "personalName": "陈叔宝",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -13729,7 +13725,8 @@
         "陈叔宝",
         "陈后主"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "陈叔宝"
     },
     {
       "id": "rn-西突厥-阿史那玷厥",
@@ -13885,7 +13882,6 @@
       "id": "rn-杨广",
       "polityId": "pol-隋朝",
       "personalName": "杨广",
-      "personalName2": null,
       "templeTitle": "世祖",
       "posthumousTitle": "炀皇帝",
       "eraNames": [
@@ -13904,7 +13900,8 @@
         "隋炀帝",
         "炀帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "世祖"
     },
     {
       "id": "rn-隋-杨广",
@@ -13964,7 +13961,6 @@
       "id": "rn-杨侑",
       "polityId": "pol-隋朝",
       "personalName": "杨侑",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "恭皇帝",
       "eraNames": [
@@ -13982,13 +13978,13 @@
         "隋恭帝",
         "恭帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "恭皇帝"
     },
     {
       "id": "rn-李渊",
       "polityId": "pol-唐朝",
       "personalName": "李渊",
-      "personalName2": null,
       "templeTitle": "高祖",
       "posthumousTitle": "神尧皇帝",
       "eraNames": [
@@ -14006,7 +14002,8 @@
         "神尧皇帝",
         "唐高祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "高祖"
     },
     {
       "id": "rn-高句丽-高建武",
@@ -14099,7 +14096,6 @@
       "id": "rn-李世民",
       "polityId": "pol-唐朝",
       "personalName": "李世民",
-      "personalName2": null,
       "templeTitle": "太宗",
       "posthumousTitle": "文皇帝",
       "eraNames": [
@@ -14119,7 +14115,8 @@
         "唐太宗",
         "天可汗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太宗"
     },
     {
       "id": "rn-西突厥-阿史那咥力特勒",
@@ -14191,7 +14188,6 @@
       "id": "rn-李治",
       "polityId": "pol-唐朝",
       "personalName": "李治",
-      "personalName2": null,
       "templeTitle": "高宗",
       "posthumousTitle": "天皇大帝",
       "eraNames": [
@@ -14222,7 +14218,8 @@
         "天皇大帝",
         "唐高宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "高宗"
     },
     {
       "id": "rn-蒙舍诏-细奴逻",
@@ -14408,7 +14405,6 @@
       "id": "rn-武曌",
       "polityId": "pol-武周",
       "personalName": "武曌",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "则天大圣皇帝",
       "eraNames": [
@@ -14443,7 +14439,8 @@
         "武则天",
         "则天皇帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "则天大圣皇帝"
     },
     {
       "id": "rn-后突厥汗国-阿史那默啜",
@@ -14519,7 +14516,6 @@
       "id": "rn-李显",
       "polityId": "pol-唐朝",
       "personalName": "李显",
-      "personalName2": null,
       "templeTitle": "中宗",
       "posthumousTitle": "孝和皇帝",
       "eraNames": [
@@ -14539,13 +14535,13 @@
         "孝和皇帝",
         "唐中宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "中宗"
     },
     {
       "id": "rn-李旦",
       "polityId": "pol-唐朝",
       "personalName": "李旦",
-      "personalName2": null,
       "templeTitle": "睿宗",
       "posthumousTitle": "玄真皇帝",
       "eraNames": [
@@ -14566,13 +14562,13 @@
         "玄真皇帝",
         "唐睿宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "睿宗"
     },
     {
       "id": "rn-李隆基",
       "polityId": "pol-唐朝",
       "personalName": "李隆基",
-      "personalName2": null,
       "templeTitle": "玄宗",
       "posthumousTitle": "明皇帝",
       "eraNames": [
@@ -14594,7 +14590,8 @@
         "唐玄宗",
         "唐明皇"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "玄宗"
     },
     {
       "id": "rn-蒙舍诏-盛逻皮",
@@ -14665,7 +14662,11 @@
         "皮逻阁",
         "云南王"
       ],
-      "uncertain": true
+      "uncertain": true,
+      "personId": "person-皮逻阁",
+      "continuityGroup": "rule-皮逻阁",
+      "phaseType": "founder-transition",
+      "regnalCountStartYear": 728
     },
     {
       "id": "rn-后突厥汗国-阿史那",
@@ -14842,7 +14843,6 @@
       "id": "rn-李亨",
       "polityId": "pol-唐朝",
       "personalName": "李亨",
-      "personalName2": null,
       "templeTitle": "肃宗",
       "posthumousTitle": "宣皇帝",
       "eraNames": [
@@ -14863,7 +14863,8 @@
         "宣皇帝",
         "唐肃宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "肃宗"
     },
     {
       "id": "rn-回鹘汗国-药罗葛移地健",
@@ -14888,7 +14889,6 @@
       "id": "rn-李豫",
       "polityId": "pol-唐朝",
       "personalName": "李豫",
-      "personalName2": null,
       "templeTitle": "代宗",
       "posthumousTitle": "睿文孝武皇帝",
       "eraNames": [
@@ -14908,13 +14908,13 @@
         "睿文孝武皇帝",
         "唐代宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "代宗"
     },
     {
       "id": "rn-李适",
       "polityId": "pol-唐朝",
       "personalName": "李适",
-      "personalName2": null,
       "templeTitle": "德宗",
       "posthumousTitle": "神武孝文皇帝",
       "eraNames": [
@@ -14934,7 +14934,8 @@
         "神武孝文皇帝",
         "唐德宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "德宗"
     },
     {
       "id": "rn-回鹘汗国-药罗葛顿莫贺",
@@ -15106,7 +15107,6 @@
       "id": "rn-李诵",
       "polityId": "pol-唐朝",
       "personalName": "李诵",
-      "personalName2": null,
       "templeTitle": "顺宗",
       "posthumousTitle": "至德弘道大圣大安孝皇帝",
       "eraNames": [
@@ -15124,13 +15124,13 @@
         "至德弘道大圣大安孝皇帝",
         "唐顺宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "顺宗"
     },
     {
       "id": "rn-李纯",
       "polityId": "pol-唐朝",
       "personalName": "李纯",
-      "personalName2": null,
       "templeTitle": "宪宗",
       "posthumousTitle": "章武孝皇帝",
       "eraNames": [
@@ -15148,7 +15148,8 @@
         "章武孝皇帝",
         "唐宪宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "宪宗"
     },
     {
       "id": "rn-回鹘汗国-药罗葛俱录",
@@ -15326,7 +15327,6 @@
       "id": "rn-李恒",
       "polityId": "pol-唐朝",
       "personalName": "李恒",
-      "personalName2": null,
       "templeTitle": "穆宗",
       "posthumousTitle": "文惠皇帝",
       "eraNames": [
@@ -15344,7 +15344,8 @@
         "文惠皇帝",
         "唐穆宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "穆宗"
     },
     {
       "id": "rn-回鹘汗国-药罗葛崇德",
@@ -15420,7 +15421,6 @@
       "id": "rn-李昂",
       "polityId": "pol-唐朝",
       "personalName": "李昂",
-      "personalName2": null,
       "templeTitle": "文宗",
       "posthumousTitle": "昭献皇帝",
       "eraNames": [
@@ -15440,7 +15440,8 @@
         "昭献皇帝",
         "唐文宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "文宗"
     },
     {
       "id": "rn-渤海国-大彝震",
@@ -15510,7 +15511,6 @@
       "id": "rn-李炎",
       "polityId": "pol-唐朝",
       "personalName": "李炎",
-      "personalName2": null,
       "templeTitle": "武宗",
       "posthumousTitle": "至道昭肃孝皇帝",
       "eraNames": [
@@ -15528,7 +15528,8 @@
         "至道昭肃孝皇帝",
         "唐武宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "武宗"
     },
     {
       "id": "rn-喀喇汗国-毗伽阙·卡迪尔汗",
@@ -15550,7 +15551,6 @@
       "id": "rn-李忱",
       "polityId": "pol-唐朝",
       "personalName": "李忱",
-      "personalName2": null,
       "templeTitle": "宣宗",
       "posthumousTitle": "元圣至明成武献文睿智章仁神聪懿道大孝皇帝",
       "eraNames": [
@@ -15568,7 +15568,8 @@
         "元圣至明成武献文睿智章仁神聪懿道大孝皇帝",
         "唐宣宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "宣宗"
     },
     {
       "id": "rn-于阗-尉迟僧伽罗摩-1",
@@ -15606,7 +15607,6 @@
       "id": "rn-李漼",
       "polityId": "pol-唐朝",
       "personalName": "李漼",
-      "personalName2": null,
       "templeTitle": "懿宗",
       "posthumousTitle": "睿文昭圣恭惠孝皇帝",
       "eraNames": [
@@ -15624,7 +15624,8 @@
         "睿文昭圣恭惠孝皇帝",
         "唐懿宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "懿宗"
     },
     {
       "id": "rn-大礼-世隆",
@@ -15643,7 +15644,11 @@
         "世隆",
         "景庄皇帝"
       ],
-      "uncertain": true
+      "uncertain": true,
+      "personId": "person-世隆",
+      "continuityGroup": "rule-世隆",
+      "phaseType": "founder-transition",
+      "regnalCountStartYear": 859
     },
     {
       "id": "rn-喀喇汗国-巴兹尔",
@@ -15681,7 +15686,6 @@
       "id": "rn-李儇",
       "polityId": "pol-唐朝",
       "personalName": "李儇",
-      "personalName2": null,
       "templeTitle": "僖宗",
       "posthumousTitle": "惠圣恭定孝皇帝",
       "eraNames": [
@@ -15703,7 +15707,8 @@
         "惠圣恭定孝皇帝",
         "唐僖宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "僖宗"
     },
     {
       "id": "rn-大封民-隆舜",
@@ -15719,13 +15724,16 @@
       "searchLabels": [
         "隆舜"
       ],
-      "uncertain": true
+      "uncertain": true,
+      "personId": "person-隆舜",
+      "continuityGroup": "rule-隆舜",
+      "phaseType": "founder-transition",
+      "regnalCountStartYear": 877
     },
     {
       "id": "rn-李晔",
       "polityId": "pol-唐朝",
       "personalName": "李晔",
-      "personalName2": null,
       "templeTitle": "昭宗",
       "posthumousTitle": "圣穆景文孝皇帝",
       "eraNames": [
@@ -15749,7 +15757,8 @@
         "圣穆景文孝皇帝",
         "唐昭宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "昭宗"
     },
     {
       "id": "rn-喀喇汗国-奥古尔恰克",
@@ -15803,7 +15812,6 @@
       "id": "rn-杨行密",
       "polityId": "pol-杨吴",
       "personalName": "杨行密",
-      "personalName2": null,
       "templeTitle": "太祖",
       "posthumousTitle": "武皇帝",
       "eraNames": [],
@@ -15821,13 +15829,13 @@
         "吴武忠王",
         "杨吴太祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太祖"
     },
     {
       "id": "rn-李柷",
       "polityId": "pol-唐朝",
       "personalName": "李柷",
-      "personalName2": null,
       "templeTitle": "哀帝",
       "posthumousTitle": "昭宣光烈孝皇帝",
       "eraNames": [
@@ -15845,13 +15853,13 @@
         "昭宣光烈孝皇帝",
         "唐哀帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "哀帝"
     },
     {
       "id": "rn-杨渥",
       "polityId": "pol-杨吴",
       "personalName": "杨渥",
-      "personalName2": null,
       "templeTitle": "烈祖",
       "posthumousTitle": "景皇帝",
       "eraNames": [],
@@ -15869,7 +15877,8 @@
         "吴烈祖",
         "杨吴烈祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "烈祖"
     },
     {
       "id": "rn-渤海国-大諲譔",
@@ -15891,7 +15900,6 @@
       "id": "rn-朱温",
       "polityId": "pol-后梁",
       "personalName": "朱温",
-      "personalName2": null,
       "templeTitle": "太祖",
       "posthumousTitle": "神武元圣孝皇帝",
       "eraNames": [
@@ -15912,13 +15920,13 @@
         "朱全忠",
         "后梁太祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太祖"
     },
     {
       "id": "rn-钱镠",
       "polityId": "pol-吴越",
       "personalName": "钱镠",
-      "personalName2": null,
       "templeTitle": "太祖",
       "posthumousTitle": "武肃王",
       "eraNames": [
@@ -15940,13 +15948,13 @@
         "吴越武肃王",
         "吴越太祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太祖"
     },
     {
       "id": "rn-马楚-武穆王",
       "polityId": "pol-马楚",
       "personalName": "马殷",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "武穆王",
       "eraNames": [],
@@ -15961,13 +15969,13 @@
         "武穆王",
         "楚武穆王"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "武穆王"
     },
     {
       "id": "rn-王建",
       "polityId": "pol-前蜀",
       "personalName": "王建",
-      "personalName2": null,
       "templeTitle": "高祖",
       "posthumousTitle": "神武圣文孝德明惠皇帝",
       "eraNames": [
@@ -15989,13 +15997,13 @@
         "神武圣文孝德明惠皇帝",
         "前蜀高祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "高祖"
     },
     {
       "id": "rn-耶律阿保机",
       "polityId": "pol-契丹",
       "personalName": "耶律阿保机",
-      "personalName2": null,
       "templeTitle": "太祖",
       "posthumousTitle": "大圣大明神烈天皇帝",
       "eraNames": [
@@ -16017,13 +16025,13 @@
         "辽太祖",
         "契丹太祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太祖"
     },
     {
       "id": "rn-杨隆演",
       "polityId": "pol-杨吴",
       "personalName": "杨隆演",
-      "personalName2": null,
       "templeTitle": "高祖",
       "posthumousTitle": "宣皇帝",
       "eraNames": [
@@ -16041,13 +16049,13 @@
         "宣皇帝",
         "杨吴高祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "高祖"
     },
     {
       "id": "rn-王审知",
       "polityId": "pol-闽",
       "personalName": "王审知",
-      "personalName2": null,
       "templeTitle": "太祖",
       "posthumousTitle": "忠懿王",
       "eraNames": [],
@@ -16063,13 +16071,13 @@
         "忠懿王",
         "闽太祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太祖"
     },
     {
       "id": "rn-朱友珪",
       "polityId": "pol-后梁",
       "personalName": "朱友珪",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -16085,7 +16093,8 @@
         "朱友珪",
         "后梁郢王"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "朱友珪"
     },
     {
       "id": "rn-于阗-尉迟李圣天",
@@ -16107,7 +16116,6 @@
       "id": "rn-朱友贞",
       "polityId": "pol-后梁",
       "personalName": "朱友贞",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -16125,13 +16133,13 @@
         "朱友贞",
         "后梁末帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "朱友贞"
     },
     {
       "id": "rn-刘龑",
       "polityId": "pol-南汉",
       "personalName": "刘龑",
-      "personalName2": null,
       "templeTitle": "高祖",
       "posthumousTitle": "天皇大帝",
       "eraNames": [
@@ -16151,13 +16159,13 @@
         "天皇大帝",
         "南汉高祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "高祖"
     },
     {
       "id": "rn-王衍",
       "polityId": "pol-前蜀",
       "personalName": "王衍",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -16174,7 +16182,8 @@
         "王衍",
         "前蜀后主"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "王衍"
     },
     {
       "id": "rn-喀喇汗国-萨图克·布格拉汗",
@@ -16199,7 +16208,6 @@
       "id": "rn-杨溥",
       "polityId": "pol-杨吴",
       "personalName": "杨溥",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "睿皇帝",
       "eraNames": [
@@ -16223,13 +16231,13 @@
         "杨吴末帝",
         "让皇帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "睿皇帝"
     },
     {
       "id": "rn-李存勖",
       "polityId": "pol-后唐",
       "personalName": "李存勖",
-      "personalName2": null,
       "templeTitle": "庄宗",
       "posthumousTitle": "光圣神闵孝皇帝",
       "eraNames": [
@@ -16247,13 +16255,13 @@
         "光圣神闵孝皇帝",
         "后唐庄宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "庄宗"
     },
     {
       "id": "rn-高季兴",
       "polityId": "pol-南平",
       "personalName": "高季兴",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "武信王",
       "eraNames": [],
@@ -16268,13 +16276,13 @@
         "武信王",
         "南平武信王"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "武信王"
     },
     {
       "id": "rn-王延翰",
       "polityId": "pol-闽",
       "personalName": "王延翰",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [],
@@ -16288,13 +16296,13 @@
         "王延翰",
         "闽嗣王"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "王延翰"
     },
     {
       "id": "rn-李嗣源",
       "polityId": "pol-后唐",
       "personalName": "李嗣源",
-      "personalName2": null,
       "templeTitle": "明宗",
       "posthumousTitle": "圣德和武钦孝皇帝",
       "eraNames": [
@@ -16313,13 +16321,13 @@
         "圣德和武钦孝皇帝",
         "后唐明宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "明宗"
     },
     {
       "id": "rn-耶律德光",
       "polityId": "pol-契丹",
       "personalName": "耶律德光",
-      "personalName2": null,
       "templeTitle": "太宗",
       "posthumousTitle": "孝武惠文皇帝",
       "eraNames": [
@@ -16341,13 +16349,13 @@
         "辽太宗",
         "契丹太宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太宗"
     },
     {
       "id": "rn-王延钧",
       "polityId": "pol-闽",
       "personalName": "王延钧",
-      "personalName2": null,
       "templeTitle": "太宗",
       "posthumousTitle": "惠皇帝",
       "eraNames": [
@@ -16366,7 +16374,8 @@
         "惠皇帝",
         "闽太宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太宗"
     },
     {
       "id": "rn-南平-文献王",
@@ -16392,7 +16401,6 @@
       "id": "rn-钱元瓘",
       "polityId": "pol-吴越",
       "personalName": "钱元瓘",
-      "personalName2": null,
       "templeTitle": "太宗",
       "posthumousTitle": "文穆王",
       "eraNames": [],
@@ -16410,13 +16418,13 @@
         "吴越文穆王",
         "吴越太宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太宗"
     },
     {
       "id": "rn-李从厚",
       "polityId": "pol-后唐",
       "personalName": "李从厚",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "闵皇帝",
       "eraNames": [
@@ -16433,13 +16441,13 @@
         "闵皇帝",
         "后唐闵帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "闵皇帝"
     },
     {
       "id": "rn-李从珂",
       "polityId": "pol-后唐",
       "personalName": "李从珂",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -16455,13 +16463,13 @@
         "李从珂",
         "后唐末帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "李从珂"
     },
     {
       "id": "rn-孟知祥",
       "polityId": "pol-后蜀",
       "personalName": "孟知祥",
-      "personalName2": null,
       "templeTitle": "高祖",
       "posthumousTitle": "文武圣德英烈明孝皇帝",
       "eraNames": [
@@ -16479,13 +16487,13 @@
         "文武圣德英烈明孝皇帝",
         "后蜀高祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "高祖"
     },
     {
       "id": "rn-孟昶",
       "polityId": "pol-后蜀",
       "personalName": "孟昶",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -16502,13 +16510,13 @@
         "孟昶",
         "后蜀后主"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孟昶"
     },
     {
       "id": "rn-石敬瑭",
       "polityId": "pol-后晋",
       "personalName": "石敬瑭",
-      "personalName2": null,
       "templeTitle": "高祖",
       "posthumousTitle": "圣文章武明德孝皇帝",
       "eraNames": [
@@ -16526,13 +16534,13 @@
         "圣文章武明德孝皇帝",
         "后晋高祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "高祖"
     },
     {
       "id": "rn-李昪",
       "polityId": "pol-南唐",
       "personalName": "李昪",
-      "personalName2": null,
       "templeTitle": "烈祖",
       "posthumousTitle": "光文肃武孝高皇帝",
       "eraNames": [
@@ -16550,7 +16558,8 @@
         "光文肃武孝高皇帝",
         "南唐烈祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "烈祖"
     },
     {
       "id": "rn-大理-段思平",
@@ -16575,7 +16584,6 @@
       "id": "rn-王延羲",
       "polityId": "pol-闽",
       "personalName": "王延羲",
-      "personalName2": null,
       "templeTitle": "景宗",
       "posthumousTitle": null,
       "eraNames": [
@@ -16593,7 +16601,8 @@
         "闽景宗",
         "景宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "景宗"
     },
     {
       "id": "rn-吴越-成宗",
@@ -16621,7 +16630,6 @@
       "id": "rn-石重贵",
       "polityId": "pol-后晋",
       "personalName": "石重贵",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -16638,13 +16646,13 @@
         "石重贵",
         "后晋出帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "石重贵"
     },
     {
       "id": "rn-李璟",
       "polityId": "pol-南唐",
       "personalName": "李璟",
-      "personalName2": null,
       "templeTitle": "元宗",
       "posthumousTitle": "明道崇德文宣孝皇帝",
       "eraNames": [
@@ -16666,13 +16674,13 @@
         "南唐元宗",
         "中主"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "元宗"
     },
     {
       "id": "rn-刘晟",
       "polityId": "pol-南汉",
       "personalName": "刘晟",
-      "personalName2": null,
       "templeTitle": "中宗",
       "posthumousTitle": null,
       "eraNames": [
@@ -16690,7 +16698,8 @@
         "中宗",
         "南汉中宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "中宗"
     },
     {
       "id": "rn-大理-段思英",
@@ -16728,7 +16737,6 @@
       "id": "rn-刘知远",
       "polityId": "pol-后汉",
       "personalName": "刘知远",
-      "personalName2": null,
       "templeTitle": "高祖",
       "posthumousTitle": "睿文圣武昭肃孝皇帝",
       "eraNames": [
@@ -16747,13 +16755,13 @@
         "睿文圣武昭肃孝皇帝",
         "后汉高祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "高祖"
     },
     {
       "id": "rn-耶律阮",
       "polityId": "pol-辽",
       "personalName": "耶律阮",
-      "personalName2": null,
       "templeTitle": "世宗",
       "posthumousTitle": "孝和庄宪皇帝",
       "eraNames": [
@@ -16771,7 +16779,8 @@
         "孝和庄宪皇帝",
         "辽世宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "世宗"
     },
     {
       "id": "rn-吴越-忠逊王",
@@ -16796,7 +16805,6 @@
       "id": "rn-刘承祐",
       "polityId": "pol-后汉",
       "personalName": "刘承祐",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -16812,13 +16820,13 @@
         "刘承祐",
         "后汉隐帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "刘承祐"
     },
     {
       "id": "rn-钱弘俶",
       "polityId": "pol-吴越",
       "personalName": "钱弘俶",
-      "personalName2": "钱俶",
       "templeTitle": null,
       "posthumousTitle": "忠懿王",
       "eraNames": [],
@@ -16826,7 +16834,8 @@
       "reignEndYear": 978,
       "aliases": [
         "吴越忠懿王",
-        "钱弘俶"
+        "钱弘俶",
+        "钱俶"
       ],
       "searchLabels": [
         "钱弘俶",
@@ -16834,13 +16843,13 @@
         "忠懿王",
         "吴越忠懿王"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "忠懿王"
     },
     {
       "id": "rn-高保融",
       "polityId": "pol-南平",
       "personalName": "高保融",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "贞懿王",
       "eraNames": [],
@@ -16856,13 +16865,13 @@
         "南平贞懿王",
         "贞懿王"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "贞懿王"
     },
     {
       "id": "rn-郭威",
       "polityId": "pol-后周",
       "personalName": "郭威",
-      "personalName2": null,
       "templeTitle": "太祖",
       "posthumousTitle": "圣神恭肃文武孝皇帝",
       "eraNames": [
@@ -16881,13 +16890,13 @@
         "圣神恭肃文武孝皇帝",
         "后周太祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太祖"
     },
     {
       "id": "rn-刘旻",
       "polityId": "pol-北汉",
       "personalName": "刘旻",
-      "personalName2": null,
       "templeTitle": "世祖",
       "posthumousTitle": "神武皇帝",
       "eraNames": [
@@ -16905,13 +16914,13 @@
         "神武皇帝",
         "北汉世祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "世祖"
     },
     {
       "id": "rn-耶律璟",
       "polityId": "pol-辽",
       "personalName": "耶律璟",
-      "personalName2": null,
       "templeTitle": "穆宗",
       "posthumousTitle": "孝安敬正皇帝",
       "eraNames": [
@@ -16929,7 +16938,8 @@
         "孝安敬正皇帝",
         "辽穆宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "穆宗"
     },
     {
       "id": "rn-大理-段思聪",
@@ -16951,7 +16961,6 @@
       "id": "rn-柴荣",
       "polityId": "pol-后周",
       "personalName": "柴荣",
-      "personalName2": null,
       "templeTitle": "世宗",
       "posthumousTitle": "睿武孝文皇帝",
       "eraNames": [
@@ -16969,13 +16978,13 @@
         "睿武孝文皇帝",
         "后周世宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "世宗"
     },
     {
       "id": "rn-刘钧",
       "polityId": "pol-北汉",
       "personalName": "刘钧",
-      "personalName2": null,
       "templeTitle": "睿宗",
       "posthumousTitle": "孝和皇帝",
       "eraNames": [
@@ -16993,7 +17002,8 @@
         "孝和皇帝",
         "北汉睿宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "睿宗"
     },
     {
       "id": "rn-喀喇汗国-穆萨",
@@ -17015,7 +17025,6 @@
       "id": "rn-刘鋹",
       "polityId": "pol-南汉",
       "personalName": "刘鋹",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -17031,13 +17040,13 @@
         "刘鋹",
         "南汉后主"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "刘鋹"
     },
     {
       "id": "rn-郭宗训",
       "polityId": "pol-后周",
       "personalName": "郭宗训",
-      "personalName2": "柴宗训",
       "templeTitle": null,
       "posthumousTitle": "恭皇帝",
       "eraNames": [
@@ -17047,7 +17056,8 @@
       "reignEndYear": 960,
       "aliases": [
         "后周恭帝",
-        "郭宗训"
+        "郭宗训",
+        "柴宗训"
       ],
       "searchLabels": [
         "郭宗训",
@@ -17055,13 +17065,13 @@
         "恭皇帝",
         "后周恭帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "恭皇帝"
     },
     {
       "id": "rn-赵匡胤",
       "polityId": "pol-北宋",
       "personalName": "赵匡胤",
-      "personalName2": null,
       "templeTitle": "太祖",
       "posthumousTitle": "启运立极英武睿文神德圣功至明大孝皇帝",
       "eraNames": [
@@ -17081,13 +17091,13 @@
         "启运立极英武睿文神德圣功至明大孝皇帝",
         "宋太祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太祖"
     },
     {
       "id": "rn-李煜",
       "polityId": "pol-南唐",
       "personalName": "李煜",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [],
@@ -17103,13 +17113,13 @@
         "南唐后主",
         "李后主"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "李煜"
     },
     {
       "id": "rn-耶律贤",
       "polityId": "pol-辽",
       "personalName": "耶律贤",
-      "personalName2": null,
       "templeTitle": "景宗",
       "posthumousTitle": "孝成康靖皇帝",
       "eraNames": [
@@ -17128,7 +17138,8 @@
         "孝成康靖皇帝",
         "辽景宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "景宗"
     },
     {
       "id": "rn-喀喇汗国-哈桑",
@@ -17166,7 +17177,6 @@
       "id": "rn-赵光义",
       "polityId": "pol-北宋",
       "personalName": "赵光义",
-      "personalName2": null,
       "templeTitle": "太宗",
       "posthumousTitle": "至仁应道神功圣德文武睿烈大明广孝皇帝",
       "eraNames": [
@@ -17188,13 +17198,13 @@
         "至仁应道神功圣德文武睿烈大明广孝皇帝",
         "宋太宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太宗"
     },
     {
       "id": "rn-耶律隆绪",
       "polityId": "pol-辽",
       "personalName": "耶律隆绪",
-      "personalName2": null,
       "templeTitle": "圣宗",
       "posthumousTitle": "文武大孝宣皇帝",
       "eraNames": [
@@ -17214,7 +17224,8 @@
         "文武大孝宣皇帝",
         "辽圣宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "圣宗"
     },
     {
       "id": "rn-大理-段素英",
@@ -17252,7 +17263,6 @@
       "id": "rn-赵恒",
       "polityId": "pol-北宋",
       "personalName": "赵恒",
-      "personalName2": null,
       "templeTitle": "真宗",
       "posthumousTitle": "文明章圣元孝皇帝",
       "eraNames": [
@@ -17274,7 +17284,8 @@
         "文明章圣元孝皇帝",
         "宋真宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "真宗"
     },
     {
       "id": "rn-大理-段素廉",
@@ -17296,7 +17307,6 @@
       "id": "rn-赵祯",
       "polityId": "pol-北宋",
       "personalName": "赵祯",
-      "personalName2": null,
       "templeTitle": "仁宗",
       "posthumousTitle": "体天法道极功全德神文圣武睿哲明孝皇帝",
       "eraNames": [
@@ -17322,7 +17332,8 @@
         "体天法道极功全德神文圣武睿哲明孝皇帝",
         "宋仁宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "仁宗"
     },
     {
       "id": "rn-大理-段素隆",
@@ -17360,7 +17371,6 @@
       "id": "rn-耶律宗真",
       "polityId": "pol-辽",
       "personalName": "耶律宗真",
-      "personalName2": null,
       "templeTitle": "兴宗",
       "posthumousTitle": "神圣孝章皇帝",
       "eraNames": [
@@ -17379,7 +17389,8 @@
         "神圣孝章皇帝",
         "辽兴宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "兴宗"
     },
     {
       "id": "rn-喀喇汗国-马赫穆德",
@@ -17401,7 +17412,6 @@
       "id": "rn-李元昊",
       "polityId": "pol-西夏",
       "personalName": "李元昊",
-      "personalName2": null,
       "templeTitle": "景宗",
       "posthumousTitle": "武烈皇帝",
       "eraNames": [
@@ -17421,7 +17431,8 @@
         "武烈皇帝",
         "夏景宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "景宗"
     },
     {
       "id": "rn-大理-段素兴",
@@ -17459,7 +17470,6 @@
       "id": "rn-李谅祚",
       "polityId": "pol-西夏",
       "personalName": "李谅祚",
-      "personalName2": null,
       "templeTitle": "毅宗",
       "posthumousTitle": "昭英皇帝",
       "eraNames": [
@@ -17481,13 +17491,13 @@
         "昭英皇帝",
         "夏毅宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "毅宗"
     },
     {
       "id": "rn-耶律洪基",
       "polityId": "pol-辽",
       "personalName": "耶律洪基",
-      "personalName2": null,
       "templeTitle": "道宗",
       "posthumousTitle": "仁圣大孝文皇帝",
       "eraNames": [
@@ -17509,13 +17519,13 @@
         "仁圣大孝文皇帝",
         "辽道宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "道宗"
     },
     {
       "id": "rn-赵曙",
       "polityId": "pol-北宋",
       "personalName": "赵曙",
-      "personalName2": null,
       "templeTitle": "英宗",
       "posthumousTitle": "体乾应历隆功盛德宪文肃武睿圣宣孝皇帝",
       "eraNames": [
@@ -17533,13 +17543,13 @@
         "体乾应历隆功盛德宪文肃武睿圣宣孝皇帝",
         "宋英宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "英宗"
     },
     {
       "id": "rn-赵顼",
       "polityId": "pol-北宋",
       "personalName": "赵顼",
-      "personalName2": null,
       "templeTitle": "神宗",
       "posthumousTitle": "绍天法古运德建功英文烈武钦仁圣孝皇帝",
       "eraNames": [
@@ -17558,13 +17568,13 @@
         "绍天法古运德建功英文烈武钦仁圣孝皇帝",
         "宋神宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "神宗"
     },
     {
       "id": "rn-李秉常",
       "polityId": "pol-西夏",
       "personalName": "李秉常",
-      "personalName2": null,
       "templeTitle": "惠宗",
       "posthumousTitle": "康靖皇帝",
       "eraNames": [
@@ -17585,7 +17595,8 @@
         "康靖皇帝",
         "夏惠宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "惠宗"
     },
     {
       "id": "rn-喀喇汗国-哈桑-1",
@@ -17655,7 +17666,6 @@
       "id": "rn-赵煦",
       "polityId": "pol-北宋",
       "personalName": "赵煦",
-      "personalName2": null,
       "templeTitle": "哲宗",
       "posthumousTitle": "宪元继道显德定功钦文睿武齐圣昭孝皇帝",
       "eraNames": [
@@ -17675,13 +17685,13 @@
         "宪元继道显德定功钦文睿武齐圣昭孝皇帝",
         "宋哲宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "哲宗"
     },
     {
       "id": "rn-李乾顺",
       "polityId": "pol-西夏",
       "personalName": "李乾顺",
-      "personalName2": null,
       "templeTitle": "崇宗",
       "posthumousTitle": "圣文皇帝",
       "eraNames": [
@@ -17706,7 +17716,8 @@
         "圣文皇帝",
         "夏崇宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "崇宗"
     },
     {
       "id": "rn-大理-段正淳",
@@ -17728,7 +17739,6 @@
       "id": "rn-赵佶",
       "polityId": "pol-北宋",
       "personalName": "赵佶",
-      "personalName2": null,
       "templeTitle": "徽宗",
       "posthumousTitle": "圣文仁德显孝皇帝",
       "eraNames": [
@@ -17751,13 +17761,13 @@
         "圣文仁德显孝皇帝",
         "宋徽宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "徽宗"
     },
     {
       "id": "rn-耶律延禧",
       "polityId": "pol-辽",
       "personalName": "耶律延禧",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -17775,7 +17785,8 @@
         "耶律延禧",
         "辽天祚帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "耶律延禧"
     },
     {
       "id": "rn-喀喇汗国-阿赫马德",
@@ -17816,7 +17827,6 @@
       "id": "rn-完颜阿骨打",
       "polityId": "pol-金",
       "personalName": "完颜阿骨打",
-      "personalName2": null,
       "templeTitle": "太祖",
       "posthumousTitle": "应乾兴运昭德定功仁明庄孝大圣武元皇帝",
       "eraNames": [
@@ -17835,13 +17845,13 @@
         "应乾兴运昭德定功仁明庄孝大圣武元皇帝",
         "金太祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太祖"
     },
     {
       "id": "rn-完颜吴乞买",
       "polityId": "pol-金",
       "personalName": "完颜吴乞买",
-      "personalName2": "完颜晟",
       "templeTitle": "太宗",
       "posthumousTitle": "体元应运世德昭功哲惠仁圣文烈皇帝",
       "eraNames": [
@@ -17851,7 +17861,8 @@
       "reignEndYear": 1135,
       "aliases": [
         "金太宗",
-        "太宗"
+        "太宗",
+        "完颜晟"
       ],
       "searchLabels": [
         "完颜吴乞买",
@@ -17860,13 +17871,13 @@
         "体元应运世德昭功哲惠仁圣文烈皇帝",
         "金太宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太宗"
     },
     {
       "id": "rn-赵桓",
       "polityId": "pol-北宋",
       "personalName": "赵桓",
-      "personalName2": null,
       "templeTitle": "钦宗",
       "posthumousTitle": "恭文顺德仁孝皇帝",
       "eraNames": [
@@ -17884,13 +17895,13 @@
         "恭文顺德仁孝皇帝",
         "宋钦宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "钦宗"
     },
     {
       "id": "rn-赵构",
       "polityId": "pol-南宋",
       "personalName": "赵构",
-      "personalName2": null,
       "templeTitle": "高宗",
       "posthumousTitle": "受命中兴全功至德圣神武文昭仁宪孝皇帝",
       "eraNames": [
@@ -17909,7 +17920,8 @@
         "受命中兴全功至德圣神武文昭仁宪孝皇帝",
         "宋高宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "高宗"
     },
     {
       "id": "rn-喀喇汗国-易卜拉欣",
@@ -17948,7 +17960,6 @@
       "id": "rn-完颜亶",
       "polityId": "pol-金",
       "personalName": "完颜亶",
-      "personalName2": null,
       "templeTitle": "熙宗",
       "posthumousTitle": "弘基缵武庄靖孝成皇帝",
       "eraNames": [
@@ -17967,13 +17978,13 @@
         "弘基缵武庄靖孝成皇帝",
         "金熙宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "熙宗"
     },
     {
       "id": "rn-李仁孝",
       "polityId": "pol-西夏",
       "personalName": "李仁孝",
-      "personalName2": null,
       "templeTitle": "仁宗",
       "posthumousTitle": "圣德皇帝",
       "eraNames": [
@@ -17994,7 +18005,8 @@
         "圣德皇帝",
         "夏仁宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "仁宗"
     },
     {
       "id": "rn-西辽-萧塔不烟",
@@ -18033,7 +18045,6 @@
       "id": "rn-完颜亮",
       "polityId": "pol-金",
       "personalName": "完颜亮",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -18050,7 +18061,8 @@
         "完颜亮",
         "海陵王"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "完颜亮"
     },
     {
       "id": "rn-西辽-耶律夷列",
@@ -18089,7 +18101,6 @@
       "id": "rn-完颜雍",
       "polityId": "pol-金",
       "personalName": "完颜雍",
-      "personalName2": null,
       "templeTitle": "世宗",
       "posthumousTitle": "光天兴运文德武功圣明仁孝皇帝",
       "eraNames": [
@@ -18107,13 +18118,13 @@
         "光天兴运文德武功圣明仁孝皇帝",
         "金世宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "世宗"
     },
     {
       "id": "rn-赵昚",
       "polityId": "pol-南宋",
       "personalName": "赵昚",
-      "personalName2": null,
       "templeTitle": "孝宗",
       "posthumousTitle": "绍统同道冠德昭功哲文神武明圣成孝皇帝",
       "eraNames": [
@@ -18133,7 +18144,8 @@
         "绍统同道冠德昭功哲文神武明圣成孝皇帝",
         "宋孝宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝宗"
     },
     {
       "id": "rn-西辽-耶律普速完",
@@ -18205,7 +18217,6 @@
       "id": "rn-赵惇",
       "polityId": "pol-南宋",
       "personalName": "赵惇",
-      "personalName2": null,
       "templeTitle": "光宗",
       "posthumousTitle": "循道宪仁明功茂德温文顺武圣哲慈孝皇帝",
       "eraNames": [
@@ -18223,13 +18234,13 @@
         "循道宪仁明功茂德温文顺武圣哲慈孝皇帝",
         "宋光宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "光宗"
     },
     {
       "id": "rn-完颜璟",
       "polityId": "pol-金",
       "personalName": "完颜璟",
-      "personalName2": null,
       "templeTitle": "章宗",
       "posthumousTitle": "宪天光运仁文义武神圣英孝皇帝",
       "eraNames": [
@@ -18249,13 +18260,13 @@
         "宪天光运仁文义武神圣英孝皇帝",
         "金章宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "章宗"
     },
     {
       "id": "rn-李纯祐",
       "polityId": "pol-西夏",
       "personalName": "李纯祐",
-      "personalName2": null,
       "templeTitle": "桓宗",
       "posthumousTitle": "昭简皇帝",
       "eraNames": [
@@ -18273,13 +18284,13 @@
         "昭简皇帝",
         "夏桓宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "桓宗"
     },
     {
       "id": "rn-赵扩",
       "polityId": "pol-南宋",
       "personalName": "赵扩",
-      "personalName2": null,
       "templeTitle": "宁宗",
       "posthumousTitle": "法天备道纯德茂功仁文哲武圣睿恭孝皇帝",
       "eraNames": [
@@ -18300,7 +18311,8 @@
         "法天备道纯德茂功仁文哲武圣睿恭孝皇帝",
         "宋宁宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "宁宗"
     },
     {
       "id": "rn-大理-段智廉",
@@ -18338,7 +18350,6 @@
       "id": "rn-李安全",
       "polityId": "pol-西夏",
       "personalName": "李安全",
-      "personalName2": null,
       "templeTitle": "襄宗",
       "posthumousTitle": "敬慕皇帝",
       "eraNames": [
@@ -18357,13 +18368,13 @@
         "敬慕皇帝",
         "夏襄宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "襄宗"
     },
     {
       "id": "rn-铁木真",
       "polityId": "pol-蒙古",
       "personalName": "铁木真",
-      "personalName2": null,
       "templeTitle": "太祖",
       "posthumousTitle": "法天启运圣武皇帝",
       "eraNames": [],
@@ -18383,7 +18394,8 @@
         "元太祖",
         "蒙古太祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太祖"
     },
     {
       "id": "rn-金-卫绍王",
@@ -18409,7 +18421,6 @@
       "id": "rn-李遵顼",
       "polityId": "pol-西夏",
       "personalName": "李遵顼",
-      "personalName2": null,
       "templeTitle": "神宗",
       "posthumousTitle": "英文皇帝",
       "eraNames": [
@@ -18427,7 +18438,8 @@
         "英文皇帝",
         "夏神宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "神宗"
     },
     {
       "id": "rn-西辽-耶律屈出律",
@@ -18449,7 +18461,6 @@
       "id": "rn-完颜珣",
       "polityId": "pol-金",
       "personalName": "完颜珣",
-      "personalName2": null,
       "templeTitle": "宣宗",
       "posthumousTitle": "继天兴统述道勤仁英武圣孝皇帝",
       "eraNames": [
@@ -18469,7 +18480,8 @@
         "继天兴统述道勤仁英武圣孝皇帝",
         "金宣宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "宣宗"
     },
     {
       "id": "rn-后西辽-耶律八剌黑",
@@ -18491,7 +18503,6 @@
       "id": "rn-完颜守绪",
       "polityId": "pol-金",
       "personalName": "完颜守绪",
-      "personalName2": null,
       "templeTitle": "哀宗",
       "posthumousTitle": null,
       "eraNames": [
@@ -18510,13 +18521,13 @@
         "哀宗",
         "金哀宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "哀宗"
     },
     {
       "id": "rn-赵昀",
       "polityId": "pol-南宋",
       "personalName": "赵昀",
-      "personalName2": null,
       "templeTitle": "理宗",
       "posthumousTitle": "建道备德大功复兴烈文仁武圣明安孝皇帝",
       "eraNames": [
@@ -18541,13 +18552,13 @@
         "建道备德大功复兴烈文仁武圣明安孝皇帝",
         "宋理宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "理宗"
     },
     {
       "id": "rn-李睍",
       "polityId": "pol-西夏",
       "personalName": "李睍",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -18560,13 +18571,13 @@
       "searchLabels": [
         "李睍"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "李睍"
     },
     {
       "id": "rn-窝阔台",
       "polityId": "pol-蒙古",
       "personalName": "窝阔台",
-      "personalName2": null,
       "templeTitle": "太宗",
       "posthumousTitle": "英文皇帝",
       "eraNames": [],
@@ -18584,7 +18595,8 @@
         "元太宗",
         "蒙古太宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太宗"
     },
     {
       "id": "rn-后西辽-穆扎法尔",
@@ -18622,7 +18634,6 @@
       "id": "rn-贵由",
       "polityId": "pol-蒙古",
       "personalName": "贵由",
-      "personalName2": null,
       "templeTitle": "定宗",
       "posthumousTitle": "简平皇帝",
       "eraNames": [],
@@ -18640,7 +18651,8 @@
         "蒙古定宗",
         "简平皇帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "定宗"
     },
     {
       "id": "rn-后西辽-忽毡",
@@ -18678,7 +18690,6 @@
       "id": "rn-蒙哥",
       "polityId": "pol-蒙古",
       "personalName": "蒙哥",
-      "personalName2": null,
       "templeTitle": "宪宗",
       "posthumousTitle": "桓肃皇帝",
       "eraNames": [],
@@ -18696,13 +18707,13 @@
         "蒙古宪宗",
         "桓肃皇帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "宪宗"
     },
     {
       "id": "rn-忽必烈",
       "polityId": "pol-元",
       "personalName": "忽必烈",
-      "personalName2": null,
       "templeTitle": "世祖",
       "posthumousTitle": "圣德神功文武皇帝",
       "eraNames": [
@@ -18723,13 +18734,17 @@
         "元世祖",
         "薛禅汗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "世祖",
+      "personId": "person-忽必烈",
+      "continuityGroup": "rule-忽必烈",
+      "phaseType": "founder-transition",
+      "regnalCountStartYear": 1260
     },
     {
       "id": "rn-蒙古-忽必烈",
       "polityId": "pol-蒙古",
       "personalName": "忽必烈",
-      "personalName2": null,
       "templeTitle": "世祖",
       "posthumousTitle": "圣德神功文武皇帝",
       "eraNames": [],
@@ -18745,13 +18760,17 @@
         "世祖",
         "元世祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "世祖",
+      "personId": "person-忽必烈",
+      "continuityGroup": "rule-忽必烈",
+      "phaseType": "founder-transition",
+      "regnalCountStartYear": 1260
     },
     {
       "id": "rn-赵禥",
       "polityId": "pol-南宋",
       "personalName": "赵禥",
-      "personalName2": null,
       "templeTitle": "度宗",
       "posthumousTitle": "端文明武景孝皇帝",
       "eraNames": [
@@ -18769,13 +18788,13 @@
         "端文明武景孝皇帝",
         "宋度宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "度宗"
     },
     {
       "id": "rn-赵㬎",
       "polityId": "pol-南宋",
       "personalName": "赵㬎",
-      "personalName2": null,
       "templeTitle": "恭帝",
       "posthumousTitle": null,
       "eraNames": [
@@ -18792,13 +18811,13 @@
         "恭帝",
         "宋恭帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "恭帝"
     },
     {
       "id": "rn-赵昰",
       "polityId": "pol-南宋",
       "personalName": "赵昰",
-      "personalName2": null,
       "templeTitle": "端宗",
       "posthumousTitle": null,
       "eraNames": [
@@ -18815,13 +18834,13 @@
         "端宗",
         "宋端宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "端宗"
     },
     {
       "id": "rn-赵昺",
       "polityId": "pol-南宋",
       "personalName": "赵昺",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -18833,7 +18852,8 @@
       "searchLabels": [
         "赵昺"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "赵昺"
     },
     {
       "id": "rn-后西辽-巴拉克",
@@ -18855,7 +18875,6 @@
       "id": "rn-铁穆耳",
       "polityId": "pol-元",
       "personalName": "铁穆耳",
-      "personalName2": null,
       "templeTitle": "成宗",
       "posthumousTitle": "钦明广孝皇帝",
       "eraNames": [
@@ -18874,13 +18893,13 @@
         "钦明广孝皇帝",
         "元成宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "成宗"
     },
     {
       "id": "rn-海山",
       "polityId": "pol-元",
       "personalName": "海山",
-      "personalName2": null,
       "templeTitle": "武宗",
       "posthumousTitle": "仁惠宣孝皇帝",
       "eraNames": [
@@ -18898,13 +18917,13 @@
         "仁惠宣孝皇帝",
         "元武宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "武宗"
     },
     {
       "id": "rn-爱育黎拔力八达",
       "polityId": "pol-元",
       "personalName": "爱育黎拔力八达",
-      "personalName2": null,
       "templeTitle": "仁宗",
       "posthumousTitle": "圣文钦孝皇帝",
       "eraNames": [
@@ -18923,13 +18942,13 @@
         "圣文钦孝皇帝",
         "元仁宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "仁宗"
     },
     {
       "id": "rn-硕德八剌",
       "polityId": "pol-元",
       "personalName": "硕德八剌",
-      "personalName2": null,
       "templeTitle": "英宗",
       "posthumousTitle": "睿圣文孝皇帝",
       "eraNames": [
@@ -18947,13 +18966,13 @@
         "睿圣文孝皇帝",
         "元英宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "英宗"
     },
     {
       "id": "rn-也孙铁木儿",
       "polityId": "pol-元",
       "personalName": "也孙铁木儿",
-      "personalName2": null,
       "templeTitle": "泰定帝",
       "posthumousTitle": null,
       "eraNames": [
@@ -18971,13 +18990,13 @@
         "泰定帝",
         "元泰定帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "泰定帝"
     },
     {
       "id": "rn-图帖睦尔",
       "polityId": "pol-元",
       "personalName": "图帖睦尔",
-      "personalName2": null,
       "templeTitle": "文宗",
       "posthumousTitle": "圣明元孝皇帝",
       "eraNames": [
@@ -18996,13 +19015,13 @@
         "圣明元孝皇帝",
         "元文宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "文宗"
     },
     {
       "id": "rn-妥懽帖睦尔",
       "polityId": "pol-元",
       "personalName": "妥懽帖睦尔",
-      "personalName2": null,
       "templeTitle": "惠宗",
       "posthumousTitle": "顺皇帝",
       "eraNames": [
@@ -19024,13 +19043,13 @@
         "元顺帝",
         "元惠宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "惠宗"
     },
     {
       "id": "rn-朱元璋",
       "polityId": "pol-明",
       "personalName": "朱元璋",
-      "personalName2": null,
       "templeTitle": "太祖",
       "posthumousTitle": "高皇帝",
       "eraNames": [
@@ -19048,7 +19067,8 @@
         "高皇帝",
         "明太祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太祖"
     },
     {
       "id": "rn-北元-爱猷识理达腊",
@@ -19089,7 +19109,6 @@
       "id": "rn-朱允炆",
       "polityId": "pol-明",
       "personalName": "朱允炆",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": "惠皇帝",
       "eraNames": [
@@ -19105,13 +19124,13 @@
         "惠皇帝",
         "建文帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "惠皇帝"
     },
     {
       "id": "rn-朱棣",
       "polityId": "pol-明",
       "personalName": "朱棣",
-      "personalName2": null,
       "templeTitle": "成祖",
       "posthumousTitle": "文皇帝",
       "eraNames": [
@@ -19131,13 +19150,13 @@
         "明成祖",
         "永乐帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "成祖"
     },
     {
       "id": "rn-朱高炽",
       "polityId": "pol-明",
       "personalName": "朱高炽",
-      "personalName2": null,
       "templeTitle": "仁宗",
       "posthumousTitle": "昭皇帝",
       "eraNames": [
@@ -19155,13 +19174,13 @@
         "昭皇帝",
         "明仁宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "仁宗"
     },
     {
       "id": "rn-朱瞻基",
       "polityId": "pol-明",
       "personalName": "朱瞻基",
-      "personalName2": null,
       "templeTitle": "宣宗",
       "posthumousTitle": "章皇帝",
       "eraNames": [
@@ -19179,7 +19198,8 @@
         "章皇帝",
         "明宣宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "宣宗"
     },
     {
       "id": "rn-朱祁镇-正统",
@@ -19206,13 +19226,13 @@
         "正统帝",
         "英宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "英宗"
     },
     {
       "id": "rn-朱祁钰",
       "polityId": "pol-明",
       "personalName": "朱祁钰",
-      "personalName2": null,
       "templeTitle": "代宗",
       "posthumousTitle": "景皇帝",
       "eraNames": [
@@ -19232,7 +19252,8 @@
         "景泰帝",
         "明代宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "代宗"
     },
     {
       "id": "rn-朱祁镇-天顺",
@@ -19259,13 +19280,13 @@
         "天顺帝",
         "英宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "英宗"
     },
     {
       "id": "rn-朱见深",
       "polityId": "pol-明",
       "personalName": "朱见深",
-      "personalName2": null,
       "templeTitle": "宪宗",
       "posthumousTitle": "纯皇帝",
       "eraNames": [
@@ -19283,13 +19304,13 @@
         "纯皇帝",
         "明宪宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "宪宗"
     },
     {
       "id": "rn-朱祐樘",
       "polityId": "pol-明",
       "personalName": "朱祐樘",
-      "personalName2": null,
       "templeTitle": "孝宗",
       "posthumousTitle": "敬皇帝",
       "eraNames": [
@@ -19307,13 +19328,13 @@
         "敬皇帝",
         "明孝宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "孝宗"
     },
     {
       "id": "rn-朱厚照",
       "polityId": "pol-明",
       "personalName": "朱厚照",
-      "personalName2": null,
       "templeTitle": "武宗",
       "posthumousTitle": "毅皇帝",
       "eraNames": [
@@ -19331,13 +19352,13 @@
         "毅皇帝",
         "明武宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "武宗"
     },
     {
       "id": "rn-朱厚熜",
       "polityId": "pol-明",
       "personalName": "朱厚熜",
-      "personalName2": null,
       "templeTitle": "世宗",
       "posthumousTitle": "肃皇帝",
       "eraNames": [
@@ -19355,13 +19376,13 @@
         "肃皇帝",
         "明世宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "世宗"
     },
     {
       "id": "rn-朱载坖",
       "polityId": "pol-明",
       "personalName": "朱载坖",
-      "personalName2": null,
       "templeTitle": "穆宗",
       "posthumousTitle": "庄皇帝",
       "eraNames": [
@@ -19379,13 +19400,13 @@
         "庄皇帝",
         "明穆宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "穆宗"
     },
     {
       "id": "rn-朱翊钧",
       "polityId": "pol-明",
       "personalName": "朱翊钧",
-      "personalName2": null,
       "templeTitle": "神宗",
       "posthumousTitle": "显皇帝",
       "eraNames": [
@@ -19403,13 +19424,13 @@
         "显皇帝",
         "明神宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "神宗"
     },
     {
       "id": "rn-努尔哈赤",
       "polityId": "pol-后金",
       "personalName": "努尔哈赤",
-      "personalName2": null,
       "templeTitle": "太祖",
       "posthumousTitle": "高皇帝",
       "eraNames": [
@@ -19429,13 +19450,13 @@
         "清太祖",
         "后金太祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太祖"
     },
     {
       "id": "rn-朱常洛",
       "polityId": "pol-明",
       "personalName": "朱常洛",
-      "personalName2": null,
       "templeTitle": "光宗",
       "posthumousTitle": "贞皇帝",
       "eraNames": [
@@ -19453,13 +19474,13 @@
         "贞皇帝",
         "明光宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "光宗"
     },
     {
       "id": "rn-朱由校",
       "polityId": "pol-明",
       "personalName": "朱由校",
-      "personalName2": null,
       "templeTitle": "熹宗",
       "posthumousTitle": "悊皇帝",
       "eraNames": [
@@ -19477,13 +19498,13 @@
         "悊皇帝",
         "明熹宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "熹宗"
     },
     {
       "id": "rn-皇太极",
       "polityId": "pol-清",
       "personalName": "皇太极",
-      "personalName2": null,
       "templeTitle": "太宗",
       "posthumousTitle": "文皇帝",
       "eraNames": [
@@ -19502,13 +19523,17 @@
         "文皇帝",
         "清太宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "太宗",
+      "personId": "person-皇太极",
+      "continuityGroup": "rule-皇太极",
+      "phaseType": "founder-transition",
+      "regnalCountStartYear": 1626
     },
     {
       "id": "rn-朱由检",
       "polityId": "pol-明",
       "personalName": "朱由检",
-      "personalName2": null,
       "templeTitle": "思宗",
       "posthumousTitle": "烈皇帝",
       "eraNames": [
@@ -19528,13 +19553,13 @@
         "崇祯帝",
         "明思宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "思宗"
     },
     {
       "id": "rn-福临",
       "polityId": "pol-清",
       "personalName": "福临",
-      "personalName2": null,
       "templeTitle": "世祖",
       "posthumousTitle": "章皇帝",
       "eraNames": [
@@ -19552,7 +19577,8 @@
         "章皇帝",
         "清世祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "世祖"
     },
     {
       "id": "rn-大顺-李自成",
@@ -19654,7 +19680,6 @@
       "id": "rn-玄烨",
       "polityId": "pol-清",
       "personalName": "玄烨",
-      "personalName2": null,
       "templeTitle": "圣祖",
       "posthumousTitle": "仁皇帝",
       "eraNames": [
@@ -19672,13 +19697,13 @@
         "仁皇帝",
         "清圣祖"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "圣祖"
     },
     {
       "id": "rn-胤禛",
       "polityId": "pol-清",
       "personalName": "胤禛",
-      "personalName2": null,
       "templeTitle": "世宗",
       "posthumousTitle": "宪皇帝",
       "eraNames": [
@@ -19696,13 +19721,13 @@
         "宪皇帝",
         "清世宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "世宗"
     },
     {
       "id": "rn-弘历",
       "polityId": "pol-清",
       "personalName": "弘历",
-      "personalName2": null,
       "templeTitle": "高宗",
       "posthumousTitle": "纯皇帝",
       "eraNames": [
@@ -19720,13 +19745,13 @@
         "纯皇帝",
         "清高宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "高宗"
     },
     {
       "id": "rn-颙琰",
       "polityId": "pol-清",
       "personalName": "颙琰",
-      "personalName2": null,
       "templeTitle": "仁宗",
       "posthumousTitle": "睿皇帝",
       "eraNames": [
@@ -19744,13 +19769,13 @@
         "睿皇帝",
         "清仁宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "仁宗"
     },
     {
       "id": "rn-旻宁",
       "polityId": "pol-清",
       "personalName": "旻宁",
-      "personalName2": null,
       "templeTitle": "宣宗",
       "posthumousTitle": "成皇帝",
       "eraNames": [
@@ -19768,13 +19793,13 @@
         "成皇帝",
         "清宣宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "宣宗"
     },
     {
       "id": "rn-奕詝",
       "polityId": "pol-清",
       "personalName": "奕詝",
-      "personalName2": null,
       "templeTitle": "文宗",
       "posthumousTitle": "显皇帝",
       "eraNames": [
@@ -19792,13 +19817,13 @@
         "显皇帝",
         "清文宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "文宗"
     },
     {
       "id": "rn-载淳",
       "polityId": "pol-清",
       "personalName": "载淳",
-      "personalName2": null,
       "templeTitle": "穆宗",
       "posthumousTitle": "毅皇帝",
       "eraNames": [
@@ -19816,13 +19841,13 @@
         "毅皇帝",
         "清穆宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "穆宗"
     },
     {
       "id": "rn-载湉",
       "polityId": "pol-清",
       "personalName": "载湉",
-      "personalName2": null,
       "templeTitle": "德宗",
       "posthumousTitle": "景皇帝",
       "eraNames": [
@@ -19840,13 +19865,13 @@
         "景皇帝",
         "清德宗"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "德宗"
     },
     {
       "id": "rn-溥仪",
       "polityId": "pol-清",
       "personalName": "溥仪",
-      "personalName2": null,
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
@@ -19861,7 +19886,8 @@
         "溥仪",
         "宣统帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "displayTitle": "溥仪"
     }
   ]
 }

@@ -1,0 +1,210 @@
+{
+  "_meta": {
+    "name": "exception-map",
+    "version": "0.7.0",
+    "description": "合法历史异常。记录跨政权、改国号、残余政权等不属于数据错误但会触发 validation warning 的情况。",
+    "keyFormat": "{type}:{id}",
+    "exceptionTypes": {
+      "founder-transition": "开国者跨政权阶段（如秦→秦朝、汉王→西汉）",
+      "polity-renaming": "改国号（如同政权换名）",
+      "post-collapse-era": "残余政权沿用年号",
+      "restoration": "复辟/复位",
+      "overlap-by-design": "政权拆分设计导致的越界"
+    }
+  },
+  "items": {
+    "ruler:rn-忽必烈": {
+      "type": "founder-transition",
+      "reason": "忽必烈先后为大蒙古国大汗（1260~1270）和元朝皇帝（1271~1294），拆为两条后蒙古阶段跨越元朝建立年份",
+      "relatedEntities": [
+        "rn-忽必烈-蒙古",
+        "pol-蒙古",
+        "pol-元"
+      ]
+    },
+    "ruler:rn-皇太极": {
+      "type": "founder-transition",
+      "reason": "皇太极先后为后金汗（1626~1636）和清朝皇帝（1636~1643），后金阶段跨越清朝建立年份",
+      "relatedEntities": [
+        "pol-后金",
+        "pol-清"
+      ]
+    },
+    "ruler:rn-前凉-张轨": {
+      "type": "overlap-by-design",
+      "reason": "张轨为前凉奠基者，在位301~314，早于前凉正式建立年320",
+      "relatedEntities": [
+        "ruler:rn-前凉-张寔",
+        "pol-前凉"
+      ]
+    },
+    "ruler:rn-前凉-张寔": {
+      "type": "overlap-by-design",
+      "reason": "张寔在位314~320，延续张轨统治，早于前凉正式建立年320",
+      "relatedEntities": [
+        "ruler:rn-前凉-张轨",
+        "pol-前凉"
+      ]
+    },
+    "ruler:rn-晋国-孝公": {
+      "type": "overlap-by-design",
+      "reason": "晋国孝公、静公在位期间晋国名义上仍存续，但政权拆分导致在位年份超出pol-晋的endYear",
+      "relatedEntities": [
+        "ruler:rn-晋国-静公",
+        "pol-晋"
+      ]
+    },
+    "ruler:rn-晋国-静公": {
+      "type": "overlap-by-design",
+      "reason": "同上，与晋国孝公同属政权拆分设计",
+      "relatedEntities": [
+        "ruler:rn-晋国-孝公",
+        "pol-晋"
+      ]
+    },
+    "ruler:rn-大蒙-皮逻阁": {
+      "type": "overlap-by-design",
+      "reason": "南诏拆分为4个政权后，皮逻阁在位728~748早于大蒙正式建立年738",
+      "relatedEntities": [
+        "pol-蒙舍诏",
+        "pol-大蒙"
+      ]
+    },
+    "ruler:rn-大礼-世隆": {
+      "type": "overlap-by-design",
+      "reason": "世隆在位859~877早于大礼正式建立年860",
+      "relatedEntities": [
+        "pol-大礼"
+      ]
+    },
+    "ruler:rn-大封民-隆舜": {
+      "type": "overlap-by-design",
+      "reason": "隆舜在位877~897早于大封民正式建立年878",
+      "relatedEntities": [
+        "pol-大封民"
+      ]
+    },
+    "era:era-至元-yuan": {
+      "type": "post-collapse-era",
+      "reason": "至元年号始于1264（蒙古时期），1271年元朝建立后继续使用至1294年。年号整体跨越政权边界",
+      "relatedEntities": [
+        "era-至元-蒙古",
+        "era-至元-元",
+        "pol-蒙古",
+        "pol-元"
+      ]
+    },
+    "polity:pol-唐朝": {
+      "type": "restoration",
+      "reason": "唐朝690~704年实际为武周时期。此处年份空白为武周独立出去后的正常结果",
+      "relatedEntities": [
+        "pol-武周"
+      ]
+    },
+    "polity:pol-燕": {
+      "type": "overlap-by-design",
+      "reason": "燕国-313年存在1年数据空白，属先秦史料缺失的正常情况",
+      "relatedEntities": []
+    },
+    "polity:pol-北魏": {
+      "type": "overlap-by-design",
+      "reason": "北魏531年存在1年数据空白，属政权交替期间的正常情况",
+      "relatedEntities": []
+    },
+    "ruler:rn-秦-秦王政": {
+      "type": "founder-transition",
+      "reason": "嬴政先后为秦王（前246~前221）和秦始皇帝（前221~前210），拆为两条ruler记录后，秦王阶段仍跨越秦朝建立年份",
+      "relatedEntities": [
+        "rn-秦朝-始皇帝",
+        "pol-秦",
+        "pol-秦朝"
+      ]
+    },
+    "ruler:rn-西汉-汉王": {
+      "type": "founder-transition",
+      "reason": "刘邦先后为汉王（前206~前202）和西汉高皇帝（前202~前195），拆为两条后汉王阶段跨越西汉建立年份",
+      "relatedEntities": [
+        "rn-西汉-汉王",
+        "rn-西汉-高皇帝",
+        "pol-汉王",
+        "pol-西汉"
+      ]
+    },
+    "era:era-显道": {
+      "type": "founder-transition",
+      "reason": "显道、广运、大庆为西夏正式建国（1038）前李元昊使用的年号，1032~1038属奠基阶段。越界为政权拆分的设计结果",
+      "relatedEntities": [
+        "era-广运",
+        "era-大庆-西夏",
+        "pol-西夏"
+      ]
+    },
+    "era:era-广运": {
+      "type": "founder-transition",
+      "reason": "同显道，西夏前建国年号",
+      "relatedEntities": [
+        "era-显道",
+        "era-大庆-西夏",
+        "pol-西夏"
+      ]
+    },
+    "era:era-大庆-西夏": {
+      "type": "founder-transition",
+      "reason": "同显道，西夏前建国年号。注意：era-大庆-西夏 于1036~1038，西夏1038年建国",
+      "relatedEntities": [
+        "era-显道",
+        "era-广运",
+        "pol-西夏"
+      ]
+    },
+    "era:era-至正": {
+      "type": "post-collapse-era",
+      "reason": "至正年号在1368年元亡后由北元继续使用至1370年。年号跨政权边界为历史事实",
+      "relatedEntities": [
+        "pol-元",
+        "pol-北元"
+      ]
+    },
+    "polity:pol-于阗": {
+      "type": "overlap-by-design",
+      "reason": "于阗为西域边疆政权，汉文史料严重缺失。存续期内存在大段年份空白（-99~-1、1~199、901~911）属历史记录缺失，非数据错误",
+      "relatedEntities": []
+    },
+    "polity:pol-高句丽": {
+      "type": "overlap-by-design",
+      "reason": "高句丽为东北边疆政权，汉文和朝鲜史料覆盖不完整。45~52、147~178、249~299、372~390年的空白属历史记录缺失",
+      "relatedEntities": []
+    },
+    "polity:pol-蒙古": {
+      "type": "overlap-by-design",
+      "reason": "1228年（成吉思汗死后至窝阔台确认）、1242~1245年（窝阔台死后至贵由即位）、1249~1250年（贵由死后至蒙哥即位）为空位期，无正式大汗在位，属正常历史现象",
+      "relatedEntities": []
+    },
+    "polity:pol-西突厥": {
+      "type": "overlap-by-design",
+      "reason": "西突厥为边疆政权，633~650年存在18年数据空白，属历史记录缺失。此期间为西突厥分裂后的混乱时期",
+      "relatedEntities": []
+    },
+    "ruler:rn-魏国-文侯": {
+      "type": "founder-transition",
+      "reason": "魏文侯在前403年被周威烈王正式册封为侯，此前已实际统治魏地。在位前445~前396，越界为历史事实",
+      "relatedEntities": [
+        "pol-魏"
+      ]
+    },
+    "ruler:rn-韩国-景侯": {
+      "type": "founder-transition",
+      "reason": "韩景侯在前403年被正式册封为侯，此前已实际统治韩地。在位前408~前400，越界为历史事实",
+      "relatedEntities": [
+        "pol-韩"
+      ]
+    },
+    "ruler:rn-赵国-烈侯": {
+      "type": "founder-transition",
+      "reason": "赵烈侯在前403年被正式册封为侯，此前已实际统治赵地。在位前408~前400，越界为历史事实",
+      "relatedEntities": [
+        "pol-赵"
+      ]
+    }
+  }
+}
