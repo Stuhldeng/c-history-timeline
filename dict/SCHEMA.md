@@ -344,3 +344,61 @@ columnId = col-{mergeGroup}
 - 搜索增强：aliases 批量补充
 - 排序规则：sortRules 完整规则
 - 分类枚举：event type taxonomy
+
+---
+
+## 十、数据库展示字段（v0.8）
+
+数据库侧栏对四种实体展示以下字段。缺失字段统一显示为 `"未补充"`。
+
+### 政权 (polity)
+
+| 字段 | 标签 | 说明 |
+|------|------|------|
+| `name` | 名称 | 必填 |
+| `selfName` | 自称 | 政权自称 |
+| `aliases` | 别名 | 数组，逗号连接 |
+| `period` | 时期 | 枚举：先秦/秦汉/魏晋南北朝/隋唐五代/宋辽金/元明清 |
+| `isCentral` | 类型 | `true` 则显示"中央王朝" |
+| `isBorder` | 边疆政权 | `true` 则显示"是" |
+| `startYear` | 起始年 | 含负数（公元前） |
+| `endYear` | 终止年 | 同上 |
+
+### 君主 (ruler)
+
+| 字段 | 标签 | 说明 |
+|------|------|------|
+| `displayTitle` | 称号 | 展示用名 |
+| `personalName` | 姓名 | 本名 |
+| `templeTitle` | 庙号 | 如"太宗" |
+| `posthumousTitle` | 谥号 | 如"武皇帝" |
+| `aliases` | 别名 | 数组 |
+| `polityId` | 所属政权 | 显示名称 |
+| `reignStartYear` | 起始年 | |
+| `reignEndYear` | 终止年 | |
+| `personId` | 人物ID | 跨政权人物标识 |
+| `phaseType` | 阶段类型 | 如 founder-transition |
+
+### 年号 (era)
+
+| 字段 | 标签 | 说明 |
+|------|------|------|
+| `name` | 年号 | 必填 |
+| `aliases` | 别名 | |
+| `polityId` | 所属政权 | |
+| `startYear` | 起始年 | |
+| `endYear` | 终止年 | |
+| `countStartYear` | 纪年起算年 | 连续纪年时使用 |
+| `continuityGroup` | 连续纪年组 | 至元等跨政权年号 |
+
+### 事件 (event)
+
+| 字段 | 标签 | 说明 |
+|------|------|------|
+| `title` | 标题 | |
+| `text` | 简述 | |
+| `year` | 年份 | |
+| `level` | 级别 | major/minor |
+| `type` | 类型 | political/military/... |
+| `relatedPolities` | 关联政权 | 多个用逗号连接 |
+| `description` | 详细描述 | |

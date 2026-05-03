@@ -14,16 +14,22 @@ export function showColumnPanel() {
   const panel = document.getElementById('columnPanel');
   filters = { period: null, central: false, border: false, hidden: false };
   panel.classList.add('open');
+  document.getElementById('modalBackdrop').classList.add('show');
+  document.body.classList.add('modal-open');
   renderPanel();
-  panel.onkeydown = e => { if (e.key === 'Escape') closeColumnPanel(); };
 }
 
 export function closeColumnPanel() {
   document.getElementById('columnPanel').classList.remove('open');
+  document.getElementById('modalBackdrop').classList.remove('show');
+  document.body.classList.remove('modal-open');
 }
 
 function renderPanel() {
-  const items = document.getElementById('columnItems');
+  const filtersEl = document.getElementById('columnFilters');
+  const statsEl = document.getElementById('columnStats');
+  const itemsEl = document.getElementById('columnItems');
+  const resetEl = document.getElementById('columnReset');
   const hidden = new Set(COLUMN_STATE.hiddenColumnIds);
   const pinned = new Set(COLUMN_STATE.pinnedColumnIds);
 
@@ -46,7 +52,6 @@ function renderPanel() {
   if (filters.central) filtered = filtered.filter(c => c.isCentral);
   if (filters.border) filtered = filtered.filter(c => c.isBorder);
   if (filters.hidden) filtered = filtered.filter(c => hidden.has('col-' + c.name));
-  else filtered = filtered; // 默认不显示隐藏列在正常列表中... actually let me show hidden at bottom
 
   // 排序：固定 → 可见 → 隐藏
   const pinnedCols = filtered.filter(c => pinned.has('col-' + c.name) && !hidden.has('col-' + c.name));
@@ -54,12 +59,10 @@ function renderPanel() {
   const hiddenCols = filtered.filter(c => hidden.has('col-' + c.name));
   const sorted = [...pinnedCols, ...visibleCols, ...hiddenCols];
 
-  // 清空
-  items.textContent = '';
-
-  // Filter tags
+  // 渲染筛选标签
+  filtersEl.textContent = '';
   const tagRow = document.createElement('div');
-  tagRow.style.cssText = 'font-size:.6rem;margin-bottom:4px;display:flex;flex-wrap:wrap;gap:3px';
+  tagRow.style.cssText = 'display:flex;flex-wrap:wrap;gap:2px';
 
   function makeTag(label, key, val) {
     const sp = document.createElement('span');
@@ -78,21 +81,22 @@ function renderPanel() {
     });
     return sp;
   }
-
   PERIODS.forEach(p => tagRow.appendChild(makeTag(p, 'period', p)));
   tagRow.appendChild(makeTag('中央', 'central', true));
   tagRow.appendChild(makeTag('边疆', 'border', true));
   tagRow.appendChild(makeTag('已隐藏', 'hidden', true));
   tagRow.appendChild(makeTag('全部', 'period', null));
-  items.appendChild(tagRow);
+  filtersEl.appendChild(tagRow);
 
-  // 统计
+  // 渲染统计
+  statsEl.textContent = '';
   const stats = document.createElement('div');
-  stats.style.cssText = 'font-size:.6rem;color:#8b6e4e;margin-bottom:4px';
+  stats.style.cssText = 'font-size:.6rem;color:#8b6e4e';
   stats.textContent = `${filtered.length} 列 · 固定 ${COLUMN_STATE.pinnedColumnIds.length}/${MAX_PINNED} · 隐藏 ${COLUMN_STATE.hiddenColumnIds.length}`;
-  items.appendChild(stats);
+  statsEl.appendChild(stats);
 
   // 列列表
+  itemsEl.textContent = '';
   function makeBtn(text, act, cid, extraClass, disabled) {
     const btn = document.createElement('button');
     btn.className = 'col-btn' + (extraClass ? ' ' + extraClass : '');
@@ -134,13 +138,12 @@ function renderPanel() {
       item.appendChild(makeBtn('隐藏', 'hide', cid));
       item.appendChild(makeBtn(isPinned ? '取消固定' : '固定', isPinned ? 'unpin' : 'pin', cid, isPinned ? 'active' : '', pinDisabled));
     }
-    items.appendChild(item);
+    itemsEl.appendChild(item);
   }
 
   // 重置按钮
-  const resetDiv = document.createElement('div'); resetDiv.className = 'col-reset';
+  resetEl.textContent = '';
   const resetBtn = document.createElement('button'); resetBtn.textContent = '重置所有列设置';
   resetBtn.addEventListener('click', () => { resetColumns(); rerender(); renderPanel(); });
-  resetDiv.appendChild(resetBtn);
-  items.appendChild(resetDiv);
+  resetEl.appendChild(resetBtn);
 }

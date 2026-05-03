@@ -26,8 +26,14 @@ export function jumpYear() {
   navigateTo({ year: y });
 }
 
-export function showHelp() { document.body.classList.add('help-open'); }
-export function closeHelp() { document.body.classList.remove('help-open'); }
+export function showHelp() {
+  document.getElementById('modalBackdrop').classList.add('show');
+  document.body.classList.add('help-open', 'modal-open');
+}
+export function closeHelp() {
+  document.getElementById('modalBackdrop').classList.remove('show');
+  document.body.classList.remove('help-open', 'modal-open');
+}
 
 // ===== Tooltip =====
 function grfy(pid, y) {
@@ -119,8 +125,28 @@ export function bindEvents() {
     });
   });
 
-  // Keyboard ← → for year navigation
+  // Backdrop click closes column or help panel
+  document.getElementById('modalBackdrop').addEventListener('click', () => {
+    if (document.getElementById('columnPanel').classList.contains('open')) {
+      import('./column-ui.js').then(m => m.closeColumnPanel());
+    } else if (document.body.classList.contains('help-open')) {
+      closeHelp();
+    }
+  });
+
+  // Keyboard: Esc closes database/column/help panel
   document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      if (document.getElementById('databasePanel').classList.contains('open')) {
+        import('./database.js').then(m => m.closeDatabase()); return;
+      }
+      if (document.getElementById('columnPanel').classList.contains('open')) {
+        import('./column-ui.js').then(m => m.closeColumnPanel()); return;
+      }
+      if (document.body.classList.contains('help-open')) {
+        closeHelp(); return;
+      }
+    }
     if (e.target.tagName === 'INPUT') return;
     if (document.getElementById('searchPanel').classList.contains('open')) return;
     if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {

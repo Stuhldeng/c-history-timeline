@@ -50,16 +50,18 @@ export function getPID(label, year) {
 // ===== 数据加载 =====
 export async function loadAll() {
   try {
-  let parsed, pMap, rMap, eMap;
+  let parsed, pMap, rMap, eMap, evMap, vMap;
   if (window.__CHRONOLOGY_DATA__) {
     const d = window.__CHRONOLOGY_DATA__;
-    parsed = d.chronology; pMap = d.polityMap; rMap = d.rulerMap; eMap = d.eraMap;
+    parsed = d.chronology; pMap = d.polityMap; rMap = d.rulerMap; eMap = d.eraMap; evMap = d.eventMap || null; vMap = d.verificationMap || null;
   } else {
-    [parsed, pMap, rMap, eMap] = await Promise.all([
+    [parsed, pMap, rMap, eMap, evMap, vMap] = await Promise.all([
       fetch(S.PARSE_SRC).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }),
       fetch(S.POLITY_MAP).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }),
       fetch(S.RULER_MAP).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }),
       fetch(S.ERA_MAP).then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }),
+      fetch(S.EVENT_MAP).then(r => r.ok ? r.json() : null),
+      fetch(S.VERIFICATION_MAP).then(r => r.ok ? r.json() : null),
     ]);
   }
 
@@ -118,6 +120,28 @@ export async function loadAll() {
     eByP[e.polityId].push(e);
   }
   S.setIDX({ polityById: pById, rulerById: rById, eraById: eById, rulersByPolity: rByP, erasByPolity: eByP });
+
+  // B-8-1: 事件索引
+  const evtList = (evMap && evMap.events) || [];
+  S.setEvents(evtList);
+  const eventById = {}, eventsByYear = {};
+  for (const ev of evtList) {
+    eventById[ev.id] = ev;
+    if (!eventsByYear[ev.year]) eventsByYear[ev.year] = [];
+    eventsByYear[ev.year].push(ev);
+  }
+  S.IDX.eventById = eventById;
+  S.IDX.eventsByYear = eventsByYear;
+
+  // B-8-1: verification 查询索引
+  const verById = {};
+  if (vMap && vMap.items) {
+    for (const [key, entry] of Object.entries(vMap.items)) {
+      verById[key] = entry;
+    }
+  }
+  S.setVerificationById(verById);
+  S.setVerificationRaw(vMap);
 
   document.getElementById('statusLabel').textContent =
     yl(S.ALL_YEARS[0]) + '~' + yl(S.ALL_YEARS[S.ALL_YEARS.length - 1]) + '年 · ' +
