@@ -1,7 +1,9 @@
 import * as S from './state.js';
 import { yl, ylYear, y2p } from './data.js';
-import { applyColumnState, tempShowColumn, clearTempVisible, COLUMN_STATE, resetColumns, hideColumn, showColumn, pinColumn, unpinColumn } from './column.js';
+import { applyColumnState, tempShowColumn, clearTempVisible, COLUMN_STATE, resetColumns, hideColumn, showColumn, pinColumn, unpinColumn, categorizeGroup } from './column.js';
 import { calibrateRowHeight, getScrollTopForYear, updateVisibleRange, getVisibleYears, getTopSpacerHeight, getBottomSpacerHeight, getYearFromScroll } from './virtual-scroll.js';
+
+let ctxMenuBound = false;
 
 // ===== 统一导航 =====
 export function navigateTo({ year, polityId, rulerId, eraId, eventId, highlight } = {}) {
@@ -16,7 +18,7 @@ export function navigateTo({ year, polityId, rulerId, eraId, eventId, highlight 
   }
   renderAll();
   if (S.BASE_YEAR != null) scrollToYear(S.BASE_YEAR);
-  updateTimeline();
+  updateTimeline();       // 不能替换为 refresh()，scrollToYear 必须在 renderAll 和 updateTimeline 之间执行
   updateStatus();
   clearTempVisible();
 }
@@ -40,6 +42,7 @@ export function getMergeGroups() {
     activeRule = S.SORT_RULES.find(r => S.BASE_YEAR >= r.yearStart && S.BASE_YEAR <= r.yearEnd);
   }
   return Object.values(g).sort((a, b) => {
+    let aP, bP;
     if (activeRule) {
       const getPrio = (g) => {
         if (activeRule.priority && activeRule.priority[g.name] !== undefined) return activeRule.priority[g.name];
@@ -47,13 +50,13 @@ export function getMergeGroups() {
         if (activeRule.southernGroups && activeRule.southernGroups.includes(g.name)) return 200;
         return 999;
       };
-      const aP = getPrio(a), bP = getPrio(b);
-      if (aP !== bP) return aP - bP;
+      aP = getPrio(a); bP = getPrio(b);
     } else {
-      function cat(m) { return m.some(p => p.isCentral) ? 0 : (m.some(p => p.isBorder) ? 2 : 1); }
-      const aC = cat(a.members), bC = cat(b.members);
-      if (aC !== bC) return aC - bC;
+      aP = categorizeGroup(a.members); bP = categorizeGroup(b.members);
     }
+    if (aP !== bP) return aP - bP;
+    const aC = categorizeGroup(a.members), bC = categorizeGroup(b.members);
+    if (aC !== bC) return aC - bC;
     return Math.min(...a.members.map(p => p.startYear)) - Math.min(...b.members.map(p => p.startYear));
   });
 }
@@ -106,14 +109,14 @@ export function renderAll() {
         else if (act === 'unpin') unpinColumn(cid2);
         else if (act === 'reset') { resetColumns(); }
         menu.style.display = 'none';
-        renderAll(); updateTimeline(); updateStatus();
+        refresh();
       }));
     });
     h.appendChild(c);
   }
   // 点击其他地方关闭右键菜单（只注册一次）
-  if (!window._ctxMenuBound) {
-    window._ctxMenuBound = true;
+  if (!ctxMenuBound) {
+    ctxMenuBound = true;
     document.addEventListener('click', () => { document.getElementById('ctxMenu').style.display = 'none'; });
   }
   const eh = document.createElement('div'); eh.className = 'cell col-event'; eh.textContent = '重大事件'; h.appendChild(eh);
@@ -153,7 +156,6 @@ export function renderAll() {
           if (S.SEARCH_HIGHLIGHT.mg && S.SEARCH_HIGHLIGHT.mg === mg.name) hl = true;
           if (hl && y >= S.SEARCH_HIGHLIGHT.sy && y <= S.SEARCH_HIGHLIGHT.ey) td.classList.add('search-hit');
         }
-        if (S.SEARCH_KEYWORD && td.textContent.toLowerCase().includes(S.SEARCH_KEYWORD.toLowerCase())) td.classList.add('search-hit');
       } else {
         td.classList.add('empty'); td.textContent = '—';
       }
@@ -161,7 +163,6 @@ export function renderAll() {
     }
     const evc = document.createElement('div'); evc.className = 'cell col-event'; evc.dataset.year = y;
     evc.textContent = S.EVENT_DATA[y] || ''; row.appendChild(evc);
-    row.addEventListener('click', () => { if (typeof window._onRowClick === 'function') window._onRowClick(y); });
     b.appendChild(row);
   }
 
@@ -177,8 +178,8 @@ export function renderAll() {
 export function updateStatus() {
   let s = '';
   if (S.BASE_YEAR === null) s = '显示全部';
-  else if (!S.LOCKED) s = '基准: ' + yl(S.BASE_YEAR) + '年 (N=' + S.N_VAL + ') · 🔓';
-  else s = '基准: ' + yl(S.BASE_YEAR) + '年 (N=' + S.N_VAL + '，' + yl(S.BASE_YEAR - S.N_VAL) + '~' + yl(S.BASE_YEAR + S.N_VAL) + ') · 🔒';
+  else if (!S.LOCKED) s = '基准年份' + yl(S.BASE_YEAR) + '（N=' + S.N_VAL + '，' + yl(S.BASE_YEAR - S.N_VAL) + '~' + yl(S.BASE_YEAR + S.N_VAL) + '年）滚动跟随';
+  else s = '基准年份' + yl(S.BASE_YEAR) + '（N=' + S.N_VAL + '，' + yl(S.BASE_YEAR - S.N_VAL) + '~' + yl(S.BASE_YEAR + S.N_VAL) + '年）锁定';
   document.getElementById('statusBar').textContent = s;
 }
 
@@ -197,7 +198,6 @@ function createHoverElements(y) {
 export function renderTimeline() {
   const tl = document.getElementById('timeline'); tl.innerHTML = '';
   const s = S.ALL_YEARS[0], e = S.ALL_YEARS[S.ALL_YEARS.length - 1];
-  const onTC = (y) => { if (typeof window._onTimelineClick === 'function') window._onTimelineClick(y); };
 
   // 200年刻度
   for (let y = Math.ceil(s / 200) * 200; y <= e; y += 200) {
@@ -205,8 +205,7 @@ export function renderTimeline() {
     t.style.top = y2p(y) + '%';
     const m = document.createElement('div'); m.className = 'tickm'; t.appendChild(m);
     const l = document.createElement('span'); l.className = 'tl'; l.textContent = yl(y); t.appendChild(l);
-    t.appendChild(createHoverElements(y));
-    t.addEventListener('click', () => onTC(y)); tl.appendChild(t);
+    t.appendChild(createHoverElements(y)); tl.appendChild(t);
   }
 
   // 朝代标记
@@ -223,8 +222,7 @@ export function renderTimeline() {
       t.style.top = y2p(d.y) + '%';
       const dot = document.createElement('div'); dot.className = 'dot'; t.appendChild(dot);
       const l = document.createElement('span'); l.className = 'dynm'; l.textContent = d.n; t.appendChild(l);
-      t.appendChild(createHoverElements(d.y));
-      t.addEventListener('click', () => onTC(d.y)); tl.appendChild(t);
+      t.appendChild(createHoverElements(d.y)); tl.appendChild(t);
     }
   }
 
@@ -234,8 +232,7 @@ export function renderTimeline() {
     if (!exists) {
       const t = document.createElement('div'); t.className = 'tm'; t.dataset.year = y;
       t.style.top = y2p(y) + '%';
-      t.appendChild(createHoverElements(y));
-      t.addEventListener('click', () => onTC(y)); tl.appendChild(t);
+      t.appendChild(createHoverElements(y)); tl.appendChild(t);
     }
   }
 }
@@ -249,7 +246,9 @@ export function updateTimeline() {
   e.style.height = '14px'; e.style.fontSize = '.5rem'; e.style.color = '#fff';
   e.style.fontWeight = '700'; e.style.textAlign = 'center'; e.style.lineHeight = '14px';
   e.style.zIndex = '5'; e.style.background = '#c0392b'; e.style.borderRadius = '2px';
-  e.style.pointerEvents = 'none'; e.style.top = y2p(S.BASE_YEAR) + '%';
+  e.style.pointerEvents = 'none'; e.style.top = Math.max(1, Math.min(99, y2p(S.BASE_YEAR))) + '%';
   e.style.transform = 'translateY(-50%)';
   document.getElementById('timeline').appendChild(e);
 }
+
+export function refresh() { renderAll(); if (S.BASE_YEAR != null) updateTimeline(); updateStatus(); }

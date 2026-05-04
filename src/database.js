@@ -1,7 +1,9 @@
 // 数据库侧栏（v0.8）：右侧面板展示政权/君主/年号/事件详情
 import * as S from './state.js';
 import { yl } from './data.js';
-import { navigateTo } from './render.js';
+import { navigateTo, refresh } from './render.js';
+import { calibrateRowHeight } from './virtual-scroll.js';
+import { getPendingVerifications, savePendingVerification, savePendingErrorReport, getVerStatus, exportIncremental, exportFull, clearPendingVerifications } from './verification.js';
 
 // ===== A-8-1: 展示字段配置 =====
 const FIELD_CONFIGS = {
@@ -56,87 +58,6 @@ function formatField(entity, cfg) {
   return String(val);
 }
 
-// ===== 验证标记队列 (localStorage) =====
-const PENDING_VER_KEY = 'cht-verification-pending';
-
-function getPendingVerifications() {
-  try {
-    const raw = localStorage.getItem(PENDING_VER_KEY);
-    return raw ? JSON.parse(raw) : {};
-  } catch (e) { return {}; }
-}
-
-function savePendingVerification(type, id, note) {
-  const pending = getPendingVerifications();
-  const key = type + ':' + id;
-  pending[key] = {
-    method: 'human',
-    confidence: 'absolute',
-    verifiedBy: '七毛',
-    verifiedAt: new Date().toISOString().slice(0, 10),
-    note: note || '',
-    appliesTo: 'database',
-  };
-  localStorage.setItem(PENDING_VER_KEY, JSON.stringify(pending));
-  renderPanel();
-}
-
-function getVerStatus(type, id) {
-  const key = type + ':' + id;
-  if (getPendingVerifications()[key]) return { method: 'human', confidence: 'absolute' };
-  const entry = S.VERIFICATION_BY_ID[key];
-  if (!entry) return null;
-  return { method: entry.method, confidence: entry.confidence };
-}
-
-function exportVerifications() {
-  const pending = getPendingVerifications();
-  if (!Object.keys(pending).length) return;
-
-  const items = {};
-  // 合并原始数据
-  if (S.VERIFICATION_RAW && S.VERIFICATION_RAW.items) {
-    Object.assign(items, S.VERIFICATION_RAW.items);
-  }
-  // 合并 pending
-  for (const [key, entry] of Object.entries(pending)) {
-    const exists = items[key];
-    // pending 覆盖原条目（包括 AI 校验可升级为 human）
-    if (!exists || exists.method !== 'human' || entry.method === 'human') {
-      items[key] = entry;
-    }
-  }
-
-  const output = {
-    _meta: S.VERIFICATION_RAW ? S.VERIFICATION_RAW._meta : {
-      name: "verification-map",
-      version: "0.8.0",
-      description: "人工/AI 校验结果",
-      rules: {
-        human: { method: "human", confidence: "absolute", note: "仅限用户本人标记。AI 不得标记为 human。" },
-        ai: { method: "ai", confidence: ["high", "medium", "low"], note: "AI 校验不得使用 absolute。" },
-      },
-      keyFormat: "{type}:{id}",
-      types: ["polity", "ruler", "era", "event"],
-    },
-    items,
-  };
-
-  const blob = new Blob([JSON.stringify(output, null, 2)], { type: 'application/json' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  const ts = new Date().toISOString().slice(0, 19).replace(/[:-]/g, '');
-  a.download = 'verification-map-' + ts + '.json';
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-
-  localStorage.removeItem(PENDING_VER_KEY);
-  renderPanel();
-}
-
 // ===== 筛选状态 =====
 const DB_PERIODS = ['先秦', '秦汉', '魏晋南北朝', '隋唐五代', '宋辽金', '元明清'];
 let dbFilters = { period: null, central: false, border: false };
@@ -146,24 +67,49 @@ let currentTab = 'polity';
 let filterText = '';
 let selectedDetail = null;  // { type, entity }
 let preFilter = null;       // 预筛选 { polityId }
+let backStack = [];         // [{ tab, entity: {type,id}, preFilter, filterText, dbFilters }]
+const MAX_BACKSTACK = 5;
+
+const DB_TABS = ['polity', 'ruler', 'era', 'event'];
+let tabStates = {};
+for (const t of DB_TABS) tabStates[t] = { filterText: '', dbFilters: { period: null, central: false, border: false }, preFilter: null };
+
+function saveTabState() {
+  tabStates[currentTab] = { filterText, dbFilters: { ...dbFilters }, preFilter: preFilter ? { ...preFilter } : null };
+}
+function loadTabState(tab) {
+  const s = tabStates[tab] || { filterText: '', dbFilters: { period: null, central: false, border: false }, preFilter: null };
+  filterText = s.filterText;
+  dbFilters = { ...s.dbFilters };
+  preFilter = s.preFilter ? { ...s.preFilter } : null;
+}
 
 // ===== 公开 API =====
-export function openDatabase() {
-  currentTab = 'polity';
-  filterText = '';
-  selectedDetail = null;
-  preFilter = null;
-  dbFilters = { period: null, central: false, border: false };
+export function openDatabase(options) {
+  if (options) {
+    saveTabState();
+    if (options.tab) currentTab = options.tab;
+    if (options.selectedDetail) selectedDetail = options.selectedDetail;
+    loadTabState(currentTab);
+  } else {
+    loadTabState(currentTab);
+  }
   document.getElementById('databasePanel').classList.add('open');
   document.body.classList.add('db-open');
+  document.getElementById('dbFilter').value = filterText;
   document.getElementById('dbFilter').focus();
+  backStack = [];
   renderPanel();
+  calibrateRowHeight();
+  refresh();
 }
 
 export function closeDatabase() {
+  saveTabState();
   document.getElementById('databasePanel').classList.remove('open');
   document.body.classList.remove('db-open');
-  selectedDetail = null;
+  calibrateRowHeight();
+  refresh();
 }
 
 // ===== 渲染入口 =====
@@ -171,23 +117,23 @@ function renderPanel() {
   const body = document.getElementById('dbBody');
   body.textContent = '';
 
-  // 更新 header：导出按钮
-  const pending = getPendingVerifications();
-  const pCount = Object.keys(pending).length;
+  // header：三个验证按钮（仅首次渲染时创建）
   const header = document.getElementById('databasePanel').querySelector('.db-header');
-  let exportBtn = header.querySelector('.db-export-btn');
-  if (pCount > 0) {
-    if (!exportBtn) {
-      exportBtn = document.createElement('button');
-      exportBtn.className = 'db-export-btn';
-      exportBtn.textContent = '导出验证 (' + pCount + ')';
-      exportBtn.addEventListener('click', exportVerifications);
-      header.insertBefore(exportBtn, header.querySelector('.db-close'));
-    } else {
-      exportBtn.textContent = '导出验证 (' + pCount + ')';
+  if (!header.querySelector('.db-export-btn[data-act="inc"]')) {
+    const btns = [
+      { label: '导出新增', act: 'inc', cb: () => exportIncremental(() => renderPanel()) },
+      { label: '导出完整', act: 'full', cb: () => exportFull(() => renderPanel()) },
+      { label: '清除验证缓存', act: 'clear', cb: () => { clearPendingVerifications(); renderPanel(); }, style: 'border-color:#c0392b;color:#c0392b' },
+    ];
+    for (const b of btns) {
+      const btn = document.createElement('button');
+      btn.className = 'db-export-btn';
+      btn.dataset.act = b.act;
+      btn.textContent = b.label;
+      if (b.style) btn.style.cssText = b.style;
+      btn.addEventListener('click', b.cb);
+      header.insertBefore(btn, header.querySelector('.db-close'));
     }
-  } else if (exportBtn) {
-    exportBtn.remove();
   }
 
   renderDbFilterTags();
@@ -206,14 +152,31 @@ function renderDbFilterTags() {
   el.textContent = '';
   if (selectedDetail || currentTab === 'event') return;
 
+  if (preFilter && preFilter.polityId) {
+    const pn = (S.IDX.polityById[preFilter.polityId] || {}).name || preFilter.polityId;
+    const pfTag = document.createElement('span');
+    pfTag.className = 'col-tag active';
+    pfTag.textContent = '仅: ' + pn;
+    pfTag.addEventListener('click', () => {
+      preFilter = null;
+      saveTabState();
+      renderPanel();
+    });
+    el.appendChild(pfTag);
+  }
+
   function makeTag(label, key, val) {
     const sp = document.createElement('span');
     sp.className = 'col-tag' + (dbFilters[key] === val ? ' active' : '');
     sp.textContent = label;
     sp.addEventListener('click', () => {
-      if (key === 'period') dbFilters.period = dbFilters.period === val ? null : val;
+      if (key === 'period' && val === null) {
+        dbFilters = { period: null, central: false, border: false };
+        preFilter = null;
+      } else if (key === 'period') dbFilters.period = dbFilters.period === val ? null : val;
       else if (key === 'central') { dbFilters.central = !dbFilters.central; dbFilters.border = false; }
       else if (key === 'border') { dbFilters.border = !dbFilters.border; dbFilters.central = false; }
+      saveTabState();
       renderPanel();
     });
     return sp;
@@ -251,7 +214,7 @@ function getFilteredList() {
       }));
     }
     case 'ruler': {
-      let items = S.SEARCH_RULERS;
+      let items = (preFilter && preFilter.polityId) ? S.RULERS : S.SEARCH_RULERS;
       if (preFilter && preFilter.polityId) items = items.filter(r => r.polityId === preFilter.polityId);
       if (dbFilters.period) items = items.filter(r => (S.IDX.polityById[r.polityId] || {}).period === dbFilters.period);
       if (q) items = items.filter(r =>
@@ -277,6 +240,10 @@ function getFilteredList() {
     case 'era': {
       let items = S.ERAS;
       if (preFilter && preFilter.polityId) items = items.filter(e => e.polityId === preFilter.polityId);
+      if (preFilter && preFilter.rulerReign) {
+        const { start, end } = preFilter.rulerReign;
+        items = items.filter(e => e.startYear >= start && e.startYear <= end);
+      }
       if (dbFilters.period) items = items.filter(e => (S.IDX.polityById[e.polityId] || {}).period === dbFilters.period);
       if (q) items = items.filter(e =>
         e.name.toLowerCase().includes(q) ||
@@ -335,6 +302,8 @@ function renderList(body, items) {
     row.addEventListener('mouseenter', () => { row.style.background = '#f0e8d8'; });
     row.addEventListener('mouseleave', () => { row.style.background = ''; });
     row.addEventListener('click', () => {
+      backStack.push({ tab: currentTab, entity: null, preFilter, filterText, dbFilters: { ...dbFilters } });
+      if (backStack.length > MAX_BACKSTACK) backStack.shift();
       selectedDetail = { type: currentTab, entity: item.entity };
       renderPanel();
     });
@@ -367,7 +336,27 @@ function renderDetail(body, type, entity) {
   const backBtn = document.createElement('div');
   backBtn.style.cssText = 'font-size:.62rem;color:#1D4C50;cursor:pointer;padding:4px 6px;margin-bottom:2px';
   backBtn.textContent = '← 返回列表';
-  backBtn.addEventListener('click', () => { selectedDetail = null; renderPanel(); });
+  backBtn.addEventListener('click', () => {
+    if (backStack.length > 0) {
+      const prev = backStack.pop();
+      currentTab = prev.tab;
+      preFilter = prev.preFilter || null;
+      filterText = prev.filterText || '';
+      dbFilters = prev.dbFilters || { period: null, central: false, border: false };
+      document.getElementById('dbFilter').value = filterText;
+      if (prev.entity) {
+        const emap = { polity: 'polityById', ruler: 'rulerById', era: 'eraById', event: 'eventById' };
+        const entity = S.IDX[emap[prev.entity.type]]?.[prev.entity.id];
+        selectedDetail = entity ? { type: prev.entity.type, entity } : null;
+      } else {
+        selectedDetail = null;
+      }
+    } else {
+      selectedDetail = null;
+    }
+    renderPanel();
+    updateTabUI();
+  });
   body.appendChild(backBtn);
 
   // 标题栏
@@ -389,6 +378,9 @@ function renderDetail(body, type, entity) {
     rs.style.cssText = 'font-size:.6rem;color:#888;margin-left:auto';
     if (ver.method === 'human') {
       rs.textContent = '✅人工校验';
+    } else if (ver.method === 'error') {
+      rs.textContent = '⚠️有错误报告';
+      rs.style.color = '#c0392b';
     } else {
       const confMap = { high: '高', medium: '中', low: '低' };
       rs.textContent = '🤖AI校验（可靠度' + (confMap[ver.confidence] || ver.confidence) + '）';
@@ -435,12 +427,11 @@ function renderDetail(body, type, entity) {
 
   // 跳转按钮
   const jumpBtn = document.createElement('button');
-  jumpBtn.style.cssText = 'display:block;width:calc(100% - 12px);margin:4px 6px;padding:4px 0;border:1px solid var(--panel-border);border-radius:4px;background:transparent;color:var(--panel-border);cursor:pointer;font-size:.7rem;text-align:center';
+  jumpBtn.className = 'db-action-btn';
   jumpBtn.textContent = '跳转到年表';
   jumpBtn.addEventListener('click', () => {
     const dest = getNavigateDest(type, entity);
     if (dest) {
-      closeDatabase();
       navigateTo(dest);
     }
   });
@@ -449,14 +440,18 @@ function renderDetail(body, type, entity) {
   // 关联实体跳转
   if (type === 'polity') {
     const rulerLink = document.createElement('button');
-    rulerLink.style.cssText = 'display:block;width:calc(100% - 12px);margin:2px 6px;padding:4px 0;border:1px solid var(--panel-border);border-radius:4px;background:transparent;color:var(--panel-border);cursor:pointer;font-size:.65rem;text-align:center';
+    rulerLink.className = 'db-action-btn-sm';
     rulerLink.textContent = '→ 显示该政权所有君主';
     rulerLink.addEventListener('click', () => {
+      backStack.push({ tab: currentTab, entity: { type: currentTab, id: selectedDetail.entity.id }, preFilter, filterText, dbFilters: { ...dbFilters } });
+      if (backStack.length > MAX_BACKSTACK) backStack.shift();
+      saveTabState();
       currentTab = 'ruler';
       filterText = '';
       selectedDetail = null;
       preFilter = { polityId: entity.id };
       dbFilters = { period: null, central: false, border: false };
+      saveTabState();
       document.getElementById('dbFilter').value = '';
       renderPanel();
       updateTabUI();
@@ -465,58 +460,107 @@ function renderDetail(body, type, entity) {
   }
   if (type === 'ruler' && entity.polityId) {
     const eraLink = document.createElement('button');
-    eraLink.style.cssText = 'display:block;width:calc(100% - 12px);margin:2px 6px;padding:4px 0;border:1px solid var(--panel-border);border-radius:4px;background:transparent;color:var(--panel-border);cursor:pointer;font-size:.65rem;text-align:center';
+    eraLink.className = 'db-action-btn-sm';
     eraLink.textContent = '→ 显示该君主所有年号';
     eraLink.addEventListener('click', () => {
+      backStack.push({ tab: currentTab, entity: { type: currentTab, id: selectedDetail.entity.id }, preFilter, filterText, dbFilters: { ...dbFilters } });
+      if (backStack.length > MAX_BACKSTACK) backStack.shift();
+      saveTabState();
       currentTab = 'era';
       filterText = '';
       selectedDetail = null;
-      preFilter = { polityId: entity.polityId };
+      preFilter = { polityId: entity.polityId, rulerReign: { start: entity.reignStartYear, end: entity.reignEndYear } };
       dbFilters = { period: null, central: false, border: false };
+      saveTabState();
       document.getElementById('dbFilter').value = '';
       renderPanel();
       updateTabUI();
     });
     body.appendChild(eraLink);
   }
+  if (type === 'era' && entity.polityId) {
+    const rulerBtn = document.createElement('button');
+    rulerBtn.className = 'db-action-btn-sm';
+    rulerBtn.textContent = '→ 显示该年号所属君主';
+    rulerBtn.addEventListener('click', () => {
+      const ruler = S.SEARCH_RULERS.find(r =>
+        r.polityId === entity.polityId && r.reignStartYear <= entity.startYear && r.reignEndYear >= entity.startYear
+      );
+      if (ruler) {
+        backStack.push({ tab: currentTab, entity: { type: currentTab, id: selectedDetail.entity.id }, preFilter, filterText, dbFilters: { ...dbFilters } });
+        if (backStack.length > MAX_BACKSTACK) backStack.shift();
+        selectedDetail = { type: 'ruler', entity: ruler };
+        renderPanel();
+      } else {
+        alert('未找到对应君主');
+      }
+    });
+    body.appendChild(rulerBtn);
+  }
 
-  // 标记已验证按钮（灰色，仅对未标记 human 的条目显示）
-  const alreadyMarked = (ver && ver.method === 'human') || getPendingVerifications()[type + ':' + entity.id];
+  const pending = getPendingVerifications();
+  const alreadyMarked = (ver && (ver.method === 'human' || ver.method === 'error')) || pending[type + ':' + entity.id];
   if (!alreadyMarked) {
+    const btnRow = document.createElement('div');
+    btnRow.style.cssText = 'display:flex;gap:4px;margin:2px 6px 4px';
+
     const markBtn = document.createElement('button');
-    markBtn.style.cssText = 'display:block;width:calc(100% - 12px);margin:2px 6px 4px;padding:4px 0;border:1px solid #ccc;border-radius:4px;background:transparent;color:#aaa;cursor:pointer;font-size:.7rem;text-align:center';
+    markBtn.style.cssText = 'flex:2;padding:4px 0;border:1px solid #ccc;border-radius:4px;background:transparent;color:#aaa;cursor:pointer;font-size:.7rem;text-align:center';
     markBtn.textContent = '标记已验证';
-    markBtn.addEventListener('click', () => {
-      // 内联 note 输入
-      markBtn.style.display = 'none';
+
+    const errorBtn = document.createElement('button');
+    errorBtn.style.cssText = 'flex:1;padding:4px 0;border:1px solid #c09090;border-radius:4px;background:transparent;color:#c09090;cursor:pointer;font-size:.7rem;text-align:center';
+    errorBtn.textContent = '问题报告';
+
+    btnRow.appendChild(markBtn);
+    btnRow.appendChild(errorBtn);
+
+    const showForm = (isError) => {
+      btnRow.style.display = 'none';
       const form = document.createElement('div');
       form.style.cssText = 'margin:2px 6px 4px';
       const textarea = document.createElement('textarea');
-      textarea.placeholder = '校验备注（可选）';
+      textarea.placeholder = isError ? '请描述错误内容（必填）' : '校验备注（可选）';
       textarea.style.cssText = 'width:100%;padding:3px 5px;border:1px solid var(--border);border-radius:3px;font-size:.65rem;font-family:inherit;resize:none;height:40px';
       form.appendChild(textarea);
-      const btnRow = document.createElement('div');
-      btnRow.style.cssText = 'display:flex;gap:4px;margin-top:3px';
+      const hint = document.createElement('div');
+      hint.style.cssText = 'font-size:.6rem;color:#c0392b;margin-top:2px;display:none';
+      hint.textContent = '请填写错误描述后再提交';
+      form.appendChild(hint);
+      const formBtnRow = document.createElement('div');
+      formBtnRow.style.cssText = 'display:flex;gap:4px;margin-top:3px';
       const confirmBtn = document.createElement('button');
       confirmBtn.textContent = '确认';
       confirmBtn.style.cssText = 'flex:1;padding:3px 0;border:1px solid #2d5a4e;border-radius:3px;background:#2d5a4e;color:#fff;cursor:pointer;font-size:.65rem';
       confirmBtn.addEventListener('click', () => {
-        savePendingVerification(type, entity.id, textarea.value.trim());
+        const note = textarea.value.trim();
+        if (isError && !note) {
+          hint.style.display = 'block';
+          textarea.style.borderColor = '#c0392b';
+          return;
+        }
+        if (isError) savePendingErrorReport(type, entity.id, note);
+        else savePendingVerification(type, entity.id, note);
+        renderPanel();
       });
       const cancelBtn = document.createElement('button');
       cancelBtn.textContent = '取消';
       cancelBtn.style.cssText = 'flex:1;padding:3px 0;border:1px solid var(--border);border-radius:3px;background:transparent;color:#888;cursor:pointer;font-size:.65rem';
       cancelBtn.addEventListener('click', () => {
         form.remove();
-        markBtn.style.display = 'block';
+        btnRow.style.display = 'flex';
       });
-      btnRow.appendChild(confirmBtn);
-      btnRow.appendChild(cancelBtn);
-      form.appendChild(btnRow);
+      formBtnRow.appendChild(confirmBtn);
+      formBtnRow.appendChild(cancelBtn);
+      form.appendChild(formBtnRow);
       body.insertBefore(form, body.lastChild);
       textarea.focus();
-    });
-    body.appendChild(markBtn);
+    };
+
+    markBtn.addEventListener('click', () => showForm(false));
+    errorBtn.addEventListener('click', () => showForm(true));
+
+    body.appendChild(btnRow);
   }
 }
 
@@ -532,12 +576,12 @@ function getNavigateDest(type, entity) {
 
 // ===== Tab 切换 =====
 export function switchTab(tab) {
+  saveTabState();
+  backStack = [];
   currentTab = tab;
-  filterText = '';
+  loadTabState(tab);
   selectedDetail = null;
-  preFilter = null;
-  dbFilters = { period: null, central: false, border: false };
-  document.getElementById('dbFilter').value = '';
+  document.getElementById('dbFilter').value = filterText;
   renderPanel();
   updateTabUI();
 }
@@ -551,8 +595,8 @@ function updateTabUI() {
 // ===== 过滤 =====
 export function setFilter(v) {
   filterText = v;
+  backStack = [];
   selectedDetail = null;
-  preFilter = null;
-  dbFilters = { period: null, central: false, border: false };
+  saveTabState();
   renderPanel();
 }

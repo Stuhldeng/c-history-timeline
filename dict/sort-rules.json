@@ -40,7 +40,7 @@
       "periodName": "魏晋南北朝",
       "yearStart": 220,
       "yearEnd": 589,
-      "priority": {},
+      "priority": { "曹魏": 1, "蜀汉": 2, "东吴": 3 },
       "northernGroups": [
         "北魏",
         "东魏",

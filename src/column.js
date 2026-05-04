@@ -67,6 +67,10 @@ export function tempShowColumn(columnId) {
 }
 export function clearTempVisible() { tempVisible = new Set(); }
 
+export function categorizeGroup(members) {
+  return members.some(p => p.isCentral) ? 0 : (members.some(p => p.isBorder) ? 2 : 1);
+}
+
 // 获取最终列列表（应用 hidden/pinned/manualOrder）
 // 输入：getMergeGroups() 返回的列数组 [{name: mergeGroup, members: [...]}]
 // 输出：排序后的可见列 [{name, members, columnId, pinned}]

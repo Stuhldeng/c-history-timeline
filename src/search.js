@@ -89,6 +89,8 @@ export function searchKeyword() {
 
 export function showSearchPanel(q, results) {
   const panel = document.getElementById('searchPanel'), items = document.getElementById('panelItems');
+  document.getElementById('modalBackdrop').classList.add('show');
+  document.body.classList.add('modal-open');
   panel.classList.add('open'); items.innerHTML = '';
 
   const tempItem = document.createElement('div'); tempItem.className = 'result-item';
@@ -152,6 +154,21 @@ export function showSearchPanel(q, results) {
       if (r.t === 'ruler') { const s = document.createElement('span'); s.style.cssText = 'font-size:.62rem;color:#8b6e4e'; s.textContent = ' ' + r.hint; d.appendChild(s); const s2 = document.createElement('span'); s2.style.cssText = 'font-size:.6rem;color:#aaa'; s2.textContent = ' ' + r.dur; d.appendChild(s2); }
       if (r.t === 'era') { const s = document.createElement('span'); s.style.cssText = 'font-size:.62rem;color:#8b6e4e'; s.textContent = ' ' + r.hint; d.appendChild(s); }
 
+      // 数据库中查看按钮
+      const dbBtn2 = document.createElement('span');
+      dbBtn2.style.cssText = 'margin-left:auto;cursor:pointer;font-size:.6rem;color:var(--panel-border);flex-shrink:0';
+      dbBtn2.textContent = '→数据库';
+      dbBtn2.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const emap = { polity: 'polityById', ruler: 'rulerById', era: 'eraById' };
+        const entity = S.IDX[emap[r.t]]?.[r.id];
+        if (entity) {
+          closePanel();
+          import('./database.js').then(m => m.openDatabase({ tab: r.t, selectedDetail: { type: r.t, entity } }));
+        }
+      });
+      d.appendChild(dbBtn2);
+
       d.addEventListener('click', () => { nr(results[start + sel]); closePanel(); });
       d.addEventListener('mouseenter', () => { els.forEach(x => x.style.background = ''); d.style.background = '#f0e8d8'; sel = els.indexOf(d); d.focus(); });
       items.appendChild(d); els.push(d);
@@ -170,7 +187,6 @@ export function showSearchPanel(q, results) {
   function nr(r) {
     try {
       const pid = r.pid, sy = r.sy, ey = r.ey;
-      S.setSearchKeyword(q);
       const hl = (pid ? { pid, sy, ey } : { pid: null, sy: null, ey: null });
       if (pid && r.t) {
         const pp = S.IDX.polityById[pid];
@@ -184,5 +200,7 @@ export function showSearchPanel(q, results) {
 
 export function closePanel() {
   document.getElementById('searchPanel').classList.remove('open');
+  document.getElementById('modalBackdrop').classList.remove('show');
+  document.body.classList.remove('modal-open');
   document.getElementById('keywordSearch').focus();
 }

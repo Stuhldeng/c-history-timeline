@@ -119,16 +119,26 @@
 
 ### displayTitle 填充规则
 
-`displayTitle` 必须非空。v0.7 构建时对缺失值按以下优先级自动生成：
+`displayTitle` 必须非空。新增君主时按以下优先级生成默认值：
 
-1. 若 `posthumousTitle` 非空 → 使用谥号（如 `汉武帝`）
-2. 若 `templeTitle` 非空 → 使用庙号（如 `唐太宗`）
-3. 若 `personalName` 非空：
-   - 边疆政权（`isBorder: true`）→ 直接使用姓名（如 `铁木真`）
-   - 其他情况 → **政权名 + 姓名**（如 `秦嬴政`）
-4. 若以上皆空 → 使用 id 中 `rn-{政权名}-` 之后的部分作为兜底
+1. **有谥号** → 政权名 + 谥号简称（如 `汉武帝`，非 `汉孝武皇帝`）
+   - "皇帝"→"帝"（如 `孝武皇帝` → `孝武帝`）
+   - 南北朝、五代十国保留"孝"字（如 `北魏孝文帝`、`东魏孝静帝`），其他时期省略"孝"（如 `汉武帝`）
+2. **有庙号** → 政权名 + 庙号（如 `唐太宗`）
+3. **有年号**（明清君主）→ 年号 + 帝（如 `康熙帝`）
+4. **有 personalName**：
+   - 边疆政权（`isBorder: true`）→ 直接使用谥号/可汗号等称号（如 `东明圣王`、`伊利可汗`），不加政权名前缀
+   - 十六国政权 → 直接使用姓名（如 `刘聪`）
+   - 其他 → 政权名 + 姓名（如 `秦嬴政`）
+5. 以上皆空 → 使用 id 中 `rn-{政权名}-` 之后的部分作为兜底
 
-注意：以上仅为自动填充规则。人工审核后可覆盖为更合适的显示名。
+**政权名**取 `selfName`（若有），否则取 `name`。**例外**：南北朝、五代十国政权一律取 `name`（史称），如 `北魏`、`刘宋`、`后梁`、`南唐`。
+
+以上为默认规则，人工审核后可覆盖为更合适的显示名（如惯用称呼）。
+
+### displayTitle 在年表中的使用
+
+无年号时期，单元格文本 = `displayTitle` + 中文纪年（如 `汉武帝元年`）。`displayTitle` 直接作为前缀，不再额外补政权名。
 
 ### 后续版本预留字段（跨政权君主连续模型）
 
@@ -226,8 +236,8 @@
 
 | 字段 | 级别 | 类型 | 说明 |
 |------|------|------|------|
-| `method` | required | string | `human` 或 `ai` |
-| `confidence` | required | string | human → 仅 `absolute`；ai → `high` / `medium` / `low` |
+| `method` | required | string | `human`、`ai` 或 `error` |
+| `confidence` | required | string | human/error → 仅 `absolute`；ai → `high` / `medium` / `low` |
 | `verifiedBy` | required | string | 校验者标识（人工填人名，AI 填模型名） |
 | `verifiedAt` | required | string | 校验日期，ISO 格式（如 `2026-05-03`） |
 | `note` | required | string | 校验说明 |
@@ -236,17 +246,18 @@
 ### 校验规则
 
 1. **人工校验**：`method: "human"`, `confidence: "absolute"`。仅限用户本人标记，AI 不得使用。
-2. **AI 校验**：`method: "ai"`, `confidence: "high" | "medium" | "low"`。AI 不得使用 `absolute`。
-3. **未校验**：不在 verification-map 中的条目默认为 `unreviewed`。
-4. **豁免范围**：human verification 可豁免历史解释类异常（rulerOutOfPolity、eraOutOfPolity、yearGaps），使其不导致构建失败。但**结构性硬错误不可豁免**：
+2. **错误报告**：`method: "error"`, `confidence: "absolute"`。仅限用户本人标记，表示该条目存在数据错误。`note` 字段必填，需描述具体错误内容。
+3. **AI 校验**：`method: "ai"`, `confidence: "high" | "medium" | "low"`。AI 不得使用 `absolute`。
+4. **未校验**：不在 verification-map 中的条目默认为 `unreviewed`。
+5. **豁免范围**：human verification 可豁免历史解释类异常（rulerOutOfPolity、eraOutOfPolity、yearGaps），使其不导致构建失败。但**结构性硬错误不可豁免**：
    - 重复 id
    - JSON 结构错误
    - 必填字段缺失
    - polityId 引用不存在
    - 年份非整数
    - `startYear > endYear`
-5. **AI 不得覆盖人工**：若某 key 已有 `method: "human"` 记录，AI 不可修改。
-6. **key 格式**：`{类型}:{实体 id}`，如 `ruler:rn-秦朝-始皇帝`、`era:era-至元-yuan`、`polity:pol-唐朝`。
+6. **AI 不得覆盖人工**：若某 key 已有 `method: "human"` 或 `method: "error"` 记录，AI 不可修改。
+7. **key 格式**：`{类型}:{实体 id}`，如 `ruler:rn-秦朝-始皇帝`、`era:era-至元-yuan`、`polity:pol-唐朝`。
 
 ---
 

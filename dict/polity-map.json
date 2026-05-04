@@ -647,7 +647,7 @@
         "魏",
         "魏朝"
       ],
-      "isCentral": true,
+      "isCentral": false,
       "startYear": 220,
       "endYear": 265,
       "durationRaw": "220—265年",
@@ -663,7 +663,7 @@
         "蜀",
         "季汉"
       ],
-      "isCentral": true,
+      "isCentral": false,
       "startYear": 221,
       "endYear": 263,
       "durationRaw": "221—263年",
@@ -679,7 +679,7 @@
         "吴",
         "孙吴"
       ],
-      "isCentral": true,
+      "isCentral": false,
       "startYear": 222,
       "endYear": 280,
       "durationRaw": "222—280年",

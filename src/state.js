@@ -10,11 +10,13 @@ export const VERIFICATION_MAP = "dict/verification-map.json";
 export let POLITIES = [], RULERS = [], ERAS = [];
 export let CHRONOLOGY = { events: {}, cells: {} };
 export let YEAR_DATA = {}, EVENT_DATA = {}, ALL_YEARS = [];
-export let BASE_YEAR = null, N_VAL = 5, LOCKED = true, SEARCH_HIGHLIGHT = null, SEARCH_KEYWORD = '';
+export let BASE_YEAR = null, N_VAL = 5, LOCKED = true, SEARCH_HIGHLIGHT = null;
 export let RULER_BY_POLITY = {}, TOOLTIP_TIMER = null, LABEL_IDX = {};
 export let SORT_RULES = null, SEARCH_RULERS = [];
 export let EVENTS = [], VERIFICATION_BY_ID = {}, VERIFICATION_RAW = null;
 export let scrollTO = null;
+export let LOAD_ERROR = null;
+export function setLoadError(v) { LOAD_ERROR = v; }
 
 export function setPolities(v) { POLITIES = v; }
 export function setRulers(v) { RULERS = v; }
@@ -27,7 +29,7 @@ export function setBaseYear(v) { BASE_YEAR = v; }
 export function setNVal(v) { N_VAL = v; }
 export function setLocked(v) { LOCKED = v; }
 export function setSearchHighlight(v) { SEARCH_HIGHLIGHT = v; }
-export function setSearchKeyword(v) { SEARCH_KEYWORD = v; }
+
 export function setRulerByPolity(v) { RULER_BY_POLITY = v; }
 export function setTooltipTimer(v) { TOOLTIP_TIMER = v; }
 export function setLabelIdx(v) { LABEL_IDX = v; }

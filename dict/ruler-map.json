@@ -104,7 +104,7 @@
       "personalName": "姬禽",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "鲁伯禽（鲁公）",
+      "displayTitle": "伯禽",
       "eraNames": [],
       "reignStartYear": -1043,
       "reignEndYear": -998,
@@ -158,7 +158,7 @@
       "personalName": "子启",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "宋国微子启",
+      "displayTitle": "微子启",
       "eraNames": [],
       "reignStartYear": -1040,
       "reignEndYear": -1025,
@@ -194,7 +194,7 @@
       "personalName": "子衍",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "宋国微仲衍",
+      "displayTitle": "微仲衍",
       "eraNames": [],
       "reignStartYear": -1024,
       "reignEndYear": -1000,
@@ -302,7 +302,7 @@
       "personalName": "子稽",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "宋国宋公稽",
+      "displayTitle": "宋公稽",
       "eraNames": [],
       "reignStartYear": -999,
       "reignEndYear": -970,
@@ -428,7 +428,7 @@
       "personalName": "姬荒",
       "templeTitle": null,
       "posthumousTitle": "蔡伯",
-      "displayTitle": "蔡伯",
+      "displayTitle": "蔡蔡伯",
       "eraNames": [],
       "reignStartYear": -984,
       "reignEndYear": -960,
@@ -446,7 +446,7 @@
       "personalName": "熊䵣",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "熊黵",
+      "displayTitle": "熊䵣",
       "eraNames": [],
       "reignStartYear": -979,
       "reignEndYear": -940,
@@ -536,7 +536,7 @@
       "personalName": "子申",
       "templeTitle": null,
       "posthumousTitle": "丁公",
-      "displayTitle": "宋国丁公",
+      "displayTitle": "宋丁公",
       "eraNames": [],
       "reignStartYear": -969,
       "reignEndYear": -934,
@@ -661,7 +661,7 @@
       "personalName": "子共",
       "templeTitle": null,
       "posthumousTitle": "湣公",
-      "displayTitle": "宋国湣公",
+      "displayTitle": "宋湣公",
       "eraNames": [],
       "reignStartYear": -933,
       "reignEndYear": -910,
@@ -786,7 +786,7 @@
       "personalName": "子熙",
       "templeTitle": null,
       "posthumousTitle": "炀公",
-      "displayTitle": "宋国炀公",
+      "displayTitle": "宋炀公",
       "eraNames": [],
       "reignStartYear": -909,
       "reignEndYear": -895,
@@ -822,7 +822,7 @@
       "personalName": "嬴非",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "秦国非子",
+      "displayTitle": "非子",
       "eraNames": [],
       "reignStartYear": -900,
       "reignEndYear": -858,
@@ -893,7 +893,7 @@
       "personalName": "子鲋祀",
       "templeTitle": null,
       "posthumousTitle": "厉公",
-      "displayTitle": "宋国厉公",
+      "displayTitle": "宋厉公",
       "eraNames": [],
       "reignStartYear": -894,
       "reignEndYear": -859,
@@ -1090,7 +1090,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国柯相",
+      "displayTitle": "柯相",
       "eraNames": [],
       "reignStartYear": -869,
       "reignEndYear": -840,
@@ -1107,7 +1107,7 @@
       "personalName": "卫岫",
       "templeTitle": null,
       "posthumousTitle": "顷侯",
-      "displayTitle": "顷侯",
+      "displayTitle": "卫顷侯",
       "eraNames": [],
       "reignStartYear": -868,
       "reignEndYear": -857,
@@ -1180,7 +1180,7 @@
       "personalName": "姬宜臼",
       "templeTitle": null,
       "posthumousTitle": "靖侯",
-      "displayTitle": "晋国靖侯",
+      "displayTitle": "晋靖侯",
       "eraNames": [],
       "reignStartYear": -858,
       "reignEndYear": -841,
@@ -1198,7 +1198,7 @@
       "personalName": "子举",
       "templeTitle": null,
       "posthumousTitle": "僖公",
-      "displayTitle": "宋国僖公",
+      "displayTitle": "宋僖公",
       "eraNames": [],
       "reignStartYear": -858,
       "reignEndYear": -831,
@@ -1216,7 +1216,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": "秦侯",
-      "displayTitle": "秦国秦侯",
+      "displayTitle": "秦秦侯",
       "eraNames": [],
       "reignStartYear": -857,
       "reignEndYear": -848,
@@ -1233,7 +1233,7 @@
       "personalName": "卫甸",
       "templeTitle": null,
       "posthumousTitle": "釐侯",
-      "displayTitle": "釐侯",
+      "displayTitle": "卫釐侯",
       "eraNames": [],
       "reignStartYear": -856,
       "reignEndYear": -813,
@@ -1307,7 +1307,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": "公伯",
-      "displayTitle": "秦国公伯",
+      "displayTitle": "秦公伯",
       "eraNames": [],
       "reignStartYear": -847,
       "reignEndYear": -845,
@@ -1342,7 +1342,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "秦国秦仲",
+      "displayTitle": "秦仲",
       "eraNames": [],
       "reignStartYear": -844,
       "reignEndYear": -822,
@@ -1359,7 +1359,7 @@
       "personalName": "姬司徒",
       "templeTitle": null,
       "posthumousTitle": "僖侯",
-      "displayTitle": "晋国僖侯",
+      "displayTitle": "晋僖侯",
       "eraNames": [],
       "reignStartYear": -840,
       "reignEndYear": -823,
@@ -1395,7 +1395,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国疆鸠夷",
+      "displayTitle": "疆鸠夷",
       "eraNames": [],
       "reignStartYear": -839,
       "reignEndYear": -810,
@@ -1466,7 +1466,7 @@
       "personalName": "子覵",
       "templeTitle": null,
       "posthumousTitle": "惠公",
-      "displayTitle": "宋国惠公",
+      "displayTitle": "宋惠公",
       "eraNames": [],
       "reignStartYear": -830,
       "reignEndYear": -800,
@@ -1594,7 +1594,7 @@
       "personalName": "姬籍",
       "templeTitle": null,
       "posthumousTitle": "献侯",
-      "displayTitle": "晋国献侯",
+      "displayTitle": "晋献侯",
       "eraNames": [],
       "reignStartYear": -822,
       "reignEndYear": -812,
@@ -1612,7 +1612,7 @@
       "personalName": "嬴其",
       "templeTitle": null,
       "posthumousTitle": "庄公",
-      "displayTitle": "秦国庄公",
+      "displayTitle": "秦庄公",
       "eraNames": [],
       "reignStartYear": -821,
       "reignEndYear": -778,
@@ -1687,7 +1687,7 @@
       "personalName": "卫余",
       "templeTitle": null,
       "posthumousTitle": "共伯",
-      "displayTitle": "共伯",
+      "displayTitle": "卫共伯",
       "eraNames": [],
       "reignStartYear": -813,
       "reignEndYear": -813,
@@ -1704,7 +1704,7 @@
       "personalName": "卫和",
       "templeTitle": null,
       "posthumousTitle": "武公",
-      "displayTitle": "武公",
+      "displayTitle": "卫武公",
       "eraNames": [],
       "reignStartYear": -812,
       "reignEndYear": -758,
@@ -1721,7 +1721,7 @@
       "personalName": "姬费王",
       "templeTitle": null,
       "posthumousTitle": "穆侯",
-      "displayTitle": "晋国穆侯",
+      "displayTitle": "晋穆侯",
       "eraNames": [],
       "reignStartYear": -811,
       "reignEndYear": -785,
@@ -1756,7 +1756,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "曹石甫",
+      "displayTitle": "石甫",
       "eraNames": [],
       "reignStartYear": -809,
       "reignEndYear": -809,
@@ -1773,7 +1773,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国余桥疑吾",
+      "displayTitle": "余桥疑吾",
       "eraNames": [],
       "reignStartYear": -809,
       "reignEndYear": -780,
@@ -1808,7 +1808,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "鲁伯御",
+      "displayTitle": "伯御",
       "eraNames": [],
       "reignStartYear": -807,
       "reignEndYear": -796,
@@ -1882,7 +1882,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": "哀公",
-      "displayTitle": "宋国哀公",
+      "displayTitle": "宋哀公",
       "eraNames": [],
       "reignStartYear": -799,
       "reignEndYear": -766,
@@ -2009,7 +2009,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "晋国殇叔",
+      "displayTitle": "殇叔",
       "eraNames": [],
       "reignStartYear": -784,
       "reignEndYear": -781,
@@ -2044,7 +2044,7 @@
       "personalName": "姬仇",
       "templeTitle": null,
       "posthumousTitle": "文侯",
-      "displayTitle": "晋国文侯",
+      "displayTitle": "晋文侯",
       "eraNames": [],
       "reignStartYear": -780,
       "reignEndYear": -746,
@@ -2098,7 +2098,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国柯卢",
+      "displayTitle": "柯卢",
       "eraNames": [],
       "reignStartYear": -779,
       "reignEndYear": -750,
@@ -2115,7 +2115,7 @@
       "personalName": "嬴开",
       "templeTitle": null,
       "posthumousTitle": "襄公",
-      "displayTitle": "秦国襄公",
+      "displayTitle": "秦襄公",
       "eraNames": [],
       "reignStartYear": -777,
       "reignEndYear": -766,
@@ -2204,7 +2204,7 @@
       "personalName": "嬴康",
       "templeTitle": null,
       "posthumousTitle": "文公",
-      "displayTitle": "秦国文公",
+      "displayTitle": "秦文公",
       "eraNames": [],
       "reignStartYear": -765,
       "reignEndYear": -716,
@@ -2222,7 +2222,7 @@
       "personalName": "子白",
       "templeTitle": null,
       "posthumousTitle": "戴公",
-      "displayTitle": "宋国戴公",
+      "displayTitle": "宋戴公",
       "eraNames": [],
       "reignStartYear": -765,
       "reignEndYear": -748,
@@ -2311,7 +2311,7 @@
       "personalName": "卫扬",
       "templeTitle": null,
       "posthumousTitle": "庄公",
-      "displayTitle": "庄公",
+      "displayTitle": "卫庄公",
       "eraNames": [],
       "reignStartYear": -757,
       "reignEndYear": -735,
@@ -2382,7 +2382,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国周繇",
+      "displayTitle": "周繇",
       "eraNames": [],
       "reignStartYear": -749,
       "reignEndYear": -720,
@@ -2417,7 +2417,7 @@
       "personalName": "子司空",
       "templeTitle": null,
       "posthumousTitle": "武公",
-      "displayTitle": "宋国武公",
+      "displayTitle": "宋武公",
       "eraNames": [],
       "reignStartYear": -747,
       "reignEndYear": -729,
@@ -2435,7 +2435,7 @@
       "personalName": "姬伯",
       "templeTitle": null,
       "posthumousTitle": "昭侯",
-      "displayTitle": "晋国昭侯",
+      "displayTitle": "晋昭侯",
       "eraNames": [],
       "reignStartYear": -745,
       "reignEndYear": -740,
@@ -2507,7 +2507,7 @@
       "personalName": "熊通",
       "templeTitle": null,
       "posthumousTitle": "武王",
-      "displayTitle": "武王",
+      "displayTitle": "楚武王",
       "eraNames": [],
       "reignStartYear": -740,
       "reignEndYear": -690,
@@ -2525,7 +2525,7 @@
       "personalName": "姬平",
       "templeTitle": null,
       "posthumousTitle": "孝侯",
-      "displayTitle": "晋国孝侯",
+      "displayTitle": "晋孝侯",
       "eraNames": [],
       "reignStartYear": -739,
       "reignEndYear": -724,
@@ -2560,7 +2560,7 @@
       "personalName": "卫完",
       "templeTitle": null,
       "posthumousTitle": "桓公",
-      "displayTitle": "桓公",
+      "displayTitle": "卫桓公",
       "eraNames": [],
       "reignStartYear": -734,
       "reignEndYear": -719,
@@ -2598,7 +2598,7 @@
       "personalName": "子力",
       "templeTitle": null,
       "posthumousTitle": "宣公",
-      "displayTitle": "宋国宣公",
+      "displayTitle": "宋宣公",
       "eraNames": [],
       "reignStartYear": -728,
       "reignEndYear": -720,
@@ -2634,7 +2634,7 @@
       "personalName": "姬郤",
       "templeTitle": null,
       "posthumousTitle": "鄂侯",
-      "displayTitle": "晋国鄂侯",
+      "displayTitle": "晋鄂侯",
       "eraNames": [],
       "reignStartYear": -723,
       "reignEndYear": -718,
@@ -2688,7 +2688,7 @@
       "personalName": "子和",
       "templeTitle": null,
       "posthumousTitle": "穆公",
-      "displayTitle": "宋国穆公",
+      "displayTitle": "宋穆公",
       "eraNames": [],
       "reignStartYear": -719,
       "reignEndYear": -711,
@@ -2706,7 +2706,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国屈羽",
+      "displayTitle": "屈羽",
       "eraNames": [],
       "reignStartYear": -719,
       "reignEndYear": -690,
@@ -2741,7 +2741,7 @@
       "personalName": "卫晋",
       "templeTitle": null,
       "posthumousTitle": "宣公",
-      "displayTitle": "宣公",
+      "displayTitle": "卫宣公",
       "eraNames": [],
       "reignStartYear": -718,
       "reignEndYear": -700,
@@ -2758,7 +2758,7 @@
       "personalName": "姬光",
       "templeTitle": null,
       "posthumousTitle": "哀侯",
-      "displayTitle": "晋国哀侯",
+      "displayTitle": "晋哀侯",
       "eraNames": [],
       "reignStartYear": -717,
       "reignEndYear": -709,
@@ -2776,7 +2776,7 @@
       "personalName": "嬴立",
       "templeTitle": null,
       "posthumousTitle": "宁公",
-      "displayTitle": "秦国宁公",
+      "displayTitle": "秦宁公",
       "eraNames": [],
       "reignStartYear": -715,
       "reignEndYear": -704,
@@ -2812,7 +2812,7 @@
       "personalName": "子与夷",
       "templeTitle": null,
       "posthumousTitle": "殇公",
-      "displayTitle": "宋国殇公",
+      "displayTitle": "宋殇公",
       "eraNames": [],
       "reignStartYear": -710,
       "reignEndYear": -692,
@@ -2847,7 +2847,7 @@
       "personalName": "姬小子",
       "templeTitle": null,
       "posthumousTitle": "小子侯",
-      "displayTitle": "晋国小子侯",
+      "displayTitle": "晋小子侯",
       "eraNames": [],
       "reignStartYear": -708,
       "reignEndYear": -705,
@@ -2883,7 +2883,7 @@
       "personalName": "姬缗",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "晋国侯缗",
+      "displayTitle": "晋侯缗",
       "eraNames": [],
       "reignStartYear": -704,
       "reignEndYear": -679,
@@ -2901,7 +2901,7 @@
       "personalName": "嬴曼",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "秦国出子",
+      "displayTitle": "出子",
       "eraNames": [],
       "reignStartYear": -703,
       "reignEndYear": -698,
@@ -2955,7 +2955,7 @@
       "personalName": "卫朔",
       "templeTitle": null,
       "posthumousTitle": "惠公",
-      "displayTitle": "惠公",
+      "displayTitle": "卫惠公",
       "eraNames": [],
       "reignStartYear": -699,
       "reignEndYear": -696,
@@ -2996,7 +2996,7 @@
       "personalName": "嬴说",
       "templeTitle": null,
       "posthumousTitle": "武公",
-      "displayTitle": "秦国武公",
+      "displayTitle": "秦武公",
       "eraNames": [],
       "reignStartYear": -697,
       "reignEndYear": -678,
@@ -3067,7 +3067,7 @@
       "personalName": "卫黔牟",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "君黔牟",
+      "displayTitle": "卫君黔牟",
       "eraNames": [],
       "reignStartYear": -696,
       "reignEndYear": -688,
@@ -3174,7 +3174,7 @@
       "personalName": "子冯",
       "templeTitle": null,
       "posthumousTitle": "庄公",
-      "displayTitle": "宋国庄公",
+      "displayTitle": "宋庄公",
       "eraNames": [],
       "reignStartYear": -691,
       "reignEndYear": -682,
@@ -3209,7 +3209,7 @@
       "personalName": "熊赀",
       "templeTitle": null,
       "posthumousTitle": "文王",
-      "displayTitle": "文王",
+      "displayTitle": "楚文王",
       "eraNames": [],
       "reignStartYear": -689,
       "reignEndYear": -675,
@@ -3227,7 +3227,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国夷吾",
+      "displayTitle": "夷吾",
       "eraNames": [],
       "reignStartYear": -689,
       "reignEndYear": -670,
@@ -3244,7 +3244,7 @@
       "personalName": "卫朔",
       "templeTitle": null,
       "posthumousTitle": "惠公",
-      "displayTitle": "惠公",
+      "displayTitle": "卫惠公",
       "eraNames": [],
       "reignStartYear": -688,
       "reignEndYear": -669,
@@ -3303,7 +3303,7 @@
       "personalName": "子捷",
       "templeTitle": null,
       "posthumousTitle": "湣公",
-      "displayTitle": "宋国湣公",
+      "displayTitle": "宋湣公",
       "eraNames": [],
       "reignStartYear": -681,
       "reignEndYear": -651,
@@ -3357,7 +3357,7 @@
       "personalName": "姬称",
       "templeTitle": null,
       "posthumousTitle": "武公",
-      "displayTitle": "晋国武公",
+      "displayTitle": "晋武公",
       "eraNames": [],
       "reignStartYear": -679,
       "reignEndYear": -677,
@@ -3393,7 +3393,7 @@
       "personalName": "姬诡诸",
       "templeTitle": null,
       "posthumousTitle": "献公",
-      "displayTitle": "晋国献公",
+      "displayTitle": "晋献公",
       "eraNames": [],
       "reignStartYear": -677,
       "reignEndYear": -651,
@@ -3411,7 +3411,7 @@
       "personalName": "嬴嘉",
       "templeTitle": null,
       "posthumousTitle": "德公",
-      "displayTitle": "秦国德公",
+      "displayTitle": "秦德公",
       "eraNames": [],
       "reignStartYear": -677,
       "reignEndYear": -676,
@@ -3465,7 +3465,7 @@
       "personalName": "嬴恬",
       "templeTitle": null,
       "posthumousTitle": "宣公",
-      "displayTitle": "秦国宣公",
+      "displayTitle": "秦宣公",
       "eraNames": [],
       "reignStartYear": -675,
       "reignEndYear": -664,
@@ -3501,7 +3501,7 @@
       "personalName": "熊恽",
       "templeTitle": null,
       "posthumousTitle": "成王",
-      "displayTitle": "成王",
+      "displayTitle": "楚成王",
       "eraNames": [],
       "reignStartYear": -671,
       "reignEndYear": -626,
@@ -3537,7 +3537,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国禽处",
+      "displayTitle": "禽处",
       "eraNames": [],
       "reignStartYear": -669,
       "reignEndYear": -650,
@@ -3554,7 +3554,7 @@
       "personalName": "卫赤",
       "templeTitle": null,
       "posthumousTitle": "懿公",
-      "displayTitle": "懿公",
+      "displayTitle": "卫懿公",
       "eraNames": [],
       "reignStartYear": -668,
       "reignEndYear": -660,
@@ -3571,7 +3571,7 @@
       "personalName": "嬴载",
       "templeTitle": null,
       "posthumousTitle": "成公",
-      "displayTitle": "秦国成公",
+      "displayTitle": "秦成公",
       "eraNames": [],
       "reignStartYear": -663,
       "reignEndYear": -660,
@@ -3625,7 +3625,7 @@
       "personalName": "卫申",
       "templeTitle": null,
       "posthumousTitle": "戴公",
-      "displayTitle": "戴公",
+      "displayTitle": "卫戴公",
       "eraNames": [],
       "reignStartYear": -660,
       "reignEndYear": -660,
@@ -3660,7 +3660,7 @@
       "personalName": "嬴任好",
       "templeTitle": null,
       "posthumousTitle": "穆公",
-      "displayTitle": "秦国穆公",
+      "displayTitle": "秦穆公",
       "eraNames": [],
       "reignStartYear": -659,
       "reignEndYear": -621,
@@ -3678,7 +3678,7 @@
       "personalName": "卫毁",
       "templeTitle": null,
       "posthumousTitle": "文公",
-      "displayTitle": "文公",
+      "displayTitle": "卫文公",
       "eraNames": [],
       "reignStartYear": -659,
       "reignEndYear": -635,
@@ -3784,7 +3784,7 @@
       "personalName": "姬夷吾",
       "templeTitle": null,
       "posthumousTitle": "惠公",
-      "displayTitle": "晋国惠公",
+      "displayTitle": "晋惠公",
       "eraNames": [],
       "reignStartYear": -650,
       "reignEndYear": -637,
@@ -3802,7 +3802,7 @@
       "personalName": "子御说",
       "templeTitle": null,
       "posthumousTitle": "桓公",
-      "displayTitle": "宋国桓公",
+      "displayTitle": "宋桓公",
       "eraNames": [],
       "reignStartYear": -650,
       "reignEndYear": -637,
@@ -3820,7 +3820,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国转",
+      "displayTitle": "转",
       "eraNames": [],
       "reignStartYear": -649,
       "reignEndYear": -630,
@@ -3912,7 +3912,7 @@
       "personalName": "姬重耳",
       "templeTitle": null,
       "posthumousTitle": "文公",
-      "displayTitle": "晋国文公",
+      "displayTitle": "晋文公",
       "eraNames": [],
       "reignStartYear": -636,
       "reignEndYear": -628,
@@ -3930,7 +3930,7 @@
       "personalName": "子兹父",
       "templeTitle": null,
       "posthumousTitle": "襄公",
-      "displayTitle": "宋国襄公",
+      "displayTitle": "宋襄公",
       "eraNames": [],
       "reignStartYear": -636,
       "reignEndYear": -620,
@@ -3966,7 +3966,7 @@
       "personalName": "卫郑",
       "templeTitle": null,
       "posthumousTitle": "成公",
-      "displayTitle": "成公",
+      "displayTitle": "卫成公",
       "eraNames": [],
       "reignStartYear": -634,
       "reignEndYear": -600,
@@ -4004,7 +4004,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国颇高",
+      "displayTitle": "颇高",
       "eraNames": [],
       "reignStartYear": -629,
       "reignEndYear": -610,
@@ -4021,7 +4021,7 @@
       "personalName": "姬欢",
       "templeTitle": null,
       "posthumousTitle": "襄公",
-      "displayTitle": "晋国襄公",
+      "displayTitle": "晋襄公",
       "eraNames": [],
       "reignStartYear": -627,
       "reignEndYear": -621,
@@ -4075,7 +4075,7 @@
       "personalName": "熊商臣",
       "templeTitle": null,
       "posthumousTitle": "穆王",
-      "displayTitle": "穆王",
+      "displayTitle": "楚穆王",
       "eraNames": [],
       "reignStartYear": -625,
       "reignEndYear": -614,
@@ -4111,7 +4111,7 @@
       "personalName": "姬夷皋",
       "templeTitle": null,
       "posthumousTitle": "灵公",
-      "displayTitle": "晋国灵公",
+      "displayTitle": "晋灵公",
       "eraNames": [],
       "reignStartYear": -620,
       "reignEndYear": -607,
@@ -4129,7 +4129,7 @@
       "personalName": "嬴罃",
       "templeTitle": null,
       "posthumousTitle": "康公",
-      "displayTitle": "秦国康公",
+      "displayTitle": "秦康公",
       "eraNames": [],
       "reignStartYear": -620,
       "reignEndYear": -609,
@@ -4147,7 +4147,7 @@
       "personalName": "子王臣",
       "templeTitle": null,
       "posthumousTitle": "成公",
-      "displayTitle": "宋国成公",
+      "displayTitle": "宋成公",
       "eraNames": [],
       "reignStartYear": -619,
       "reignEndYear": -611,
@@ -4239,7 +4239,7 @@
       "personalName": "熊侣",
       "templeTitle": null,
       "posthumousTitle": "庄王",
-      "displayTitle": "庄王",
+      "displayTitle": "楚庄王",
       "eraNames": [],
       "reignStartYear": -613,
       "reignEndYear": -591,
@@ -4293,7 +4293,7 @@
       "personalName": "子杵臼",
       "templeTitle": null,
       "posthumousTitle": "昭公",
-      "displayTitle": "宋国昭公",
+      "displayTitle": "宋昭公",
       "eraNames": [],
       "reignStartYear": -610,
       "reignEndYear": -589,
@@ -4332,7 +4332,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国句卑",
+      "displayTitle": "句卑",
       "eraNames": [],
       "reignStartYear": -609,
       "reignEndYear": -590,
@@ -4367,7 +4367,7 @@
       "personalName": "嬴稻",
       "templeTitle": null,
       "posthumousTitle": "共公",
-      "displayTitle": "秦国共公",
+      "displayTitle": "秦共公",
       "eraNames": [],
       "reignStartYear": -608,
       "reignEndYear": -605,
@@ -4385,7 +4385,7 @@
       "personalName": "姬黑臀",
       "templeTitle": null,
       "posthumousTitle": "成公",
-      "displayTitle": "晋国成公",
+      "displayTitle": "晋成公",
       "eraNames": [],
       "reignStartYear": -606,
       "reignEndYear": -600,
@@ -4457,7 +4457,7 @@
       "personalName": "嬴荣",
       "templeTitle": null,
       "posthumousTitle": "桓公",
-      "displayTitle": "秦国桓公",
+      "displayTitle": "秦桓公",
       "eraNames": [],
       "reignStartYear": -604,
       "reignEndYear": -577,
@@ -4549,7 +4549,7 @@
       "personalName": "姬据",
       "templeTitle": null,
       "posthumousTitle": "景公",
-      "displayTitle": "晋国景公",
+      "displayTitle": "晋景公",
       "eraNames": [],
       "reignStartYear": -599,
       "reignEndYear": -581,
@@ -4567,7 +4567,7 @@
       "personalName": "卫遫",
       "templeTitle": null,
       "posthumousTitle": "穆公",
-      "displayTitle": "穆公",
+      "displayTitle": "卫穆公",
       "eraNames": [],
       "reignStartYear": -599,
       "reignEndYear": -589,
@@ -4674,7 +4674,7 @@
       "personalName": "熊审",
       "templeTitle": null,
       "posthumousTitle": "共王",
-      "displayTitle": "共王",
+      "displayTitle": "楚共王",
       "eraNames": [],
       "reignStartYear": -590,
       "reignEndYear": -560,
@@ -4710,7 +4710,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国去齐",
+      "displayTitle": "去齐",
       "eraNames": [],
       "reignStartYear": -589,
       "reignEndYear": -570,
@@ -4727,7 +4727,7 @@
       "personalName": "子鲍",
       "templeTitle": null,
       "posthumousTitle": "文公",
-      "displayTitle": "宋国文公",
+      "displayTitle": "宋文公",
       "eraNames": [],
       "reignStartYear": -588,
       "reignEndYear": -576,
@@ -4745,7 +4745,7 @@
       "personalName": "卫臧",
       "templeTitle": null,
       "posthumousTitle": "定公",
-      "displayTitle": "定公",
+      "displayTitle": "卫定公",
       "eraNames": [],
       "reignStartYear": -588,
       "reignEndYear": -577,
@@ -4854,7 +4854,7 @@
       "personalName": "姬寿曼",
       "templeTitle": null,
       "posthumousTitle": "厉公",
-      "displayTitle": "晋国厉公",
+      "displayTitle": "晋厉公",
       "eraNames": [],
       "reignStartYear": -580,
       "reignEndYear": -573,
@@ -4872,7 +4872,7 @@
       "personalName": "嬴石",
       "templeTitle": null,
       "posthumousTitle": "景公",
-      "displayTitle": "秦国景公",
+      "displayTitle": "秦景公",
       "eraNames": [],
       "reignStartYear": -576,
       "reignEndYear": -537,
@@ -4890,7 +4890,7 @@
       "personalName": "卫衎",
       "templeTitle": null,
       "posthumousTitle": "献公",
-      "displayTitle": "献公",
+      "displayTitle": "卫献公",
       "eraNames": [],
       "reignStartYear": -576,
       "reignEndYear": -559,
@@ -4910,7 +4910,7 @@
       "personalName": "子瑕",
       "templeTitle": null,
       "posthumousTitle": "共公",
-      "displayTitle": "宋国共公",
+      "displayTitle": "宋共公",
       "eraNames": [],
       "reignStartYear": -575,
       "reignEndYear": -558,
@@ -4963,7 +4963,7 @@
       "personalName": "姬周",
       "templeTitle": null,
       "posthumousTitle": "悼公",
-      "displayTitle": "晋国悼公",
+      "displayTitle": "晋悼公",
       "eraNames": [],
       "reignStartYear": -572,
       "reignEndYear": -558,
@@ -5017,7 +5017,7 @@
       "personalName": "姬乘",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国寿梦",
+      "displayTitle": "寿梦",
       "eraNames": [],
       "reignStartYear": -569,
       "reignEndYear": -561,
@@ -5071,7 +5071,7 @@
       "personalName": "姬遏",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国诸樊",
+      "displayTitle": "诸樊",
       "eraNames": [],
       "reignStartYear": -560,
       "reignEndYear": -548,
@@ -5089,7 +5089,7 @@
       "personalName": "熊招",
       "templeTitle": null,
       "posthumousTitle": "康王",
-      "displayTitle": "康王",
+      "displayTitle": "楚康王",
       "eraNames": [],
       "reignStartYear": -559,
       "reignEndYear": -545,
@@ -5107,7 +5107,7 @@
       "personalName": "卫秋",
       "templeTitle": null,
       "posthumousTitle": "殇公",
-      "displayTitle": "殇公",
+      "displayTitle": "卫殇公",
       "eraNames": [],
       "reignStartYear": -558,
       "reignEndYear": -547,
@@ -5124,7 +5124,7 @@
       "personalName": "姬彪",
       "templeTitle": null,
       "posthumousTitle": "平公",
-      "displayTitle": "晋国平公",
+      "displayTitle": "晋平公",
       "eraNames": [],
       "reignStartYear": -557,
       "reignEndYear": -532,
@@ -5142,7 +5142,7 @@
       "personalName": "子成",
       "templeTitle": null,
       "posthumousTitle": "平公",
-      "displayTitle": "宋国平公",
+      "displayTitle": "宋平公",
       "eraNames": [],
       "reignStartYear": -557,
       "reignEndYear": -532,
@@ -5254,7 +5254,7 @@
       "personalName": "姬余祭",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国余祭",
+      "displayTitle": "余祭",
       "eraNames": [],
       "reignStartYear": -547,
       "reignEndYear": -531,
@@ -5272,7 +5272,7 @@
       "personalName": "卫衎",
       "templeTitle": null,
       "posthumousTitle": "献公",
-      "displayTitle": "献公",
+      "displayTitle": "卫献公",
       "eraNames": [],
       "reignStartYear": -546,
       "reignEndYear": -544,
@@ -5345,7 +5345,7 @@
       "personalName": "卫恶",
       "templeTitle": null,
       "posthumousTitle": "襄公",
-      "displayTitle": "襄公",
+      "displayTitle": "卫襄公",
       "eraNames": [],
       "reignStartYear": -543,
       "reignEndYear": -535,
@@ -5380,7 +5380,7 @@
       "personalName": "熊围",
       "templeTitle": null,
       "posthumousTitle": "灵王",
-      "displayTitle": "灵王",
+      "displayTitle": "楚灵王",
       "eraNames": [],
       "reignStartYear": -540,
       "reignEndYear": -529,
@@ -5416,7 +5416,7 @@
       "personalName": "嬴籍",
       "templeTitle": null,
       "posthumousTitle": "哀公",
-      "displayTitle": "秦国哀公",
+      "displayTitle": "秦哀公",
       "eraNames": [],
       "reignStartYear": -536,
       "reignEndYear": -501,
@@ -5451,7 +5451,7 @@
       "personalName": "卫元",
       "templeTitle": null,
       "posthumousTitle": "灵公",
-      "displayTitle": "灵公",
+      "displayTitle": "卫灵公",
       "eraNames": [],
       "reignStartYear": -534,
       "reignEndYear": -493,
@@ -5468,7 +5468,7 @@
       "personalName": "姬夷",
       "templeTitle": null,
       "posthumousTitle": "昭公",
-      "displayTitle": "晋国昭公",
+      "displayTitle": "晋昭公",
       "eraNames": [],
       "reignStartYear": -531,
       "reignEndYear": -526,
@@ -5486,7 +5486,7 @@
       "personalName": "子佐",
       "templeTitle": null,
       "posthumousTitle": "元公",
-      "displayTitle": "宋国元公",
+      "displayTitle": "宋元公",
       "eraNames": [],
       "reignStartYear": -531,
       "reignEndYear": -517,
@@ -5504,7 +5504,7 @@
       "personalName": "姬余昧",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国余昧",
+      "displayTitle": "余昧",
       "eraNames": [],
       "reignStartYear": -530,
       "reignEndYear": -527,
@@ -5540,7 +5540,7 @@
       "personalName": "熊居",
       "templeTitle": null,
       "posthumousTitle": "平王",
-      "displayTitle": "平王",
+      "displayTitle": "楚平王",
       "eraNames": [],
       "reignStartYear": -528,
       "reignEndYear": -516,
@@ -5575,7 +5575,7 @@
       "personalName": "姬僚",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国王僚",
+      "displayTitle": "吴王僚",
       "eraNames": [],
       "reignStartYear": -526,
       "reignEndYear": -514,
@@ -5593,7 +5593,7 @@
       "personalName": "姬弃疾",
       "templeTitle": null,
       "posthumousTitle": "顷公",
-      "displayTitle": "晋国顷公",
+      "displayTitle": "晋顷公",
       "eraNames": [],
       "reignStartYear": -525,
       "reignEndYear": -512,
@@ -5682,7 +5682,7 @@
       "personalName": "子头曼",
       "templeTitle": null,
       "posthumousTitle": "景公",
-      "displayTitle": "宋国景公",
+      "displayTitle": "宋景公",
       "eraNames": [],
       "reignStartYear": -516,
       "reignEndYear": -451,
@@ -5700,7 +5700,7 @@
       "personalName": "熊珍",
       "templeTitle": null,
       "posthumousTitle": "昭王",
-      "displayTitle": "昭王",
+      "displayTitle": "楚昭王",
       "eraNames": [],
       "reignStartYear": -515,
       "reignEndYear": -489,
@@ -5718,13 +5718,13 @@
       "personalName": "姬光",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国阖闾",
+      "displayTitle": "阖闾",
       "eraNames": [],
       "reignStartYear": -514,
       "reignEndYear": -496,
       "aliases": [],
       "searchLabels": [
-        "吴阖闾",
+        "吴王阖闾",
         "阖闾",
         "姬光"
       ],
@@ -5754,7 +5754,7 @@
       "personalName": "姬午",
       "templeTitle": null,
       "posthumousTitle": "定公",
-      "displayTitle": "晋国定公",
+      "displayTitle": "晋定公",
       "eraNames": [],
       "reignStartYear": -511,
       "reignEndYear": -475,
@@ -5824,7 +5824,7 @@
       "personalName": "嬴宁",
       "templeTitle": null,
       "posthumousTitle": "惠公",
-      "displayTitle": "秦国惠公",
+      "displayTitle": "秦惠公",
       "eraNames": [],
       "reignStartYear": -500,
       "reignEndYear": -492,
@@ -5860,15 +5860,17 @@
       "personalName": "姒勾践",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "越勾践",
+      "displayTitle": "勾践",
       "eraNames": [],
       "reignStartYear": -496,
       "reignEndYear": -465,
       "aliases": [],
       "searchLabels": [
-        "越勾践",
+        "越王勾践",
         "勾践",
-        "姒勾践"
+        "姒勾践",
+        "句践",
+        "姒鸠浅"
       ],
       "uncertain": false
     },
@@ -5878,13 +5880,13 @@
       "personalName": "姬夫差",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "吴国夫差",
+      "displayTitle": "夫差",
       "eraNames": [],
       "reignStartYear": -495,
       "reignEndYear": -473,
       "aliases": [],
       "searchLabels": [
-        "吴夫差",
+        "吴王夫差",
         "夫差",
         "姬夫差"
       ],
@@ -5932,7 +5934,7 @@
       "personalName": "卫辄",
       "templeTitle": null,
       "posthumousTitle": "出公",
-      "displayTitle": "出公",
+      "displayTitle": "卫出公",
       "eraNames": [],
       "reignStartYear": -492,
       "reignEndYear": -480,
@@ -5952,7 +5954,7 @@
       "personalName": "嬴盘",
       "templeTitle": null,
       "posthumousTitle": "悼公",
-      "displayTitle": "秦国悼公",
+      "displayTitle": "秦悼公",
       "eraNames": [],
       "reignStartYear": -491,
       "reignEndYear": -477,
@@ -5991,7 +5993,7 @@
       "personalName": "熊章",
       "templeTitle": null,
       "posthumousTitle": "惠王",
-      "displayTitle": "惠王",
+      "displayTitle": "楚惠王",
       "eraNames": [],
       "reignStartYear": -488,
       "reignEndYear": -432,
@@ -6068,7 +6070,7 @@
       "personalName": "卫蒯聩",
       "templeTitle": null,
       "posthumousTitle": "庄公",
-      "displayTitle": "庄公",
+      "displayTitle": "卫庄公",
       "eraNames": [],
       "reignStartYear": -480,
       "reignEndYear": -478,
@@ -6085,7 +6087,7 @@
       "personalName": "卫起",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "君起",
+      "displayTitle": "卫君起",
       "eraNames": [],
       "reignStartYear": -477,
       "reignEndYear": -477,
@@ -6102,7 +6104,7 @@
       "personalName": "嬴刺",
       "templeTitle": null,
       "posthumousTitle": "厉共公",
-      "displayTitle": "秦国厉共公",
+      "displayTitle": "秦厉共公",
       "eraNames": [],
       "reignStartYear": -476,
       "reignEndYear": -443,
@@ -6120,7 +6122,7 @@
       "personalName": "卫辄",
       "templeTitle": null,
       "posthumousTitle": "出公",
-      "displayTitle": "出公",
+      "displayTitle": "卫出公",
       "eraNames": [],
       "reignStartYear": -476,
       "reignEndYear": -470,
@@ -6158,7 +6160,7 @@
       "personalName": "姬凿",
       "templeTitle": null,
       "posthumousTitle": "出公",
-      "displayTitle": "晋国出公",
+      "displayTitle": "晋出公",
       "eraNames": [],
       "reignStartYear": -474,
       "reignEndYear": -452,
@@ -6176,7 +6178,7 @@
       "personalName": "卫黔",
       "templeTitle": null,
       "posthumousTitle": "悼公",
-      "displayTitle": "悼公",
+      "displayTitle": "卫悼公",
       "eraNames": [],
       "reignStartYear": -469,
       "reignEndYear": -465,
@@ -6246,7 +6248,7 @@
       "personalName": "姒鹿郢",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "越鹿郢",
+      "displayTitle": "鹿郢",
       "eraNames": [],
       "reignStartYear": -464,
       "reignEndYear": -459,
@@ -6264,7 +6266,7 @@
       "personalName": "卫弗",
       "templeTitle": null,
       "posthumousTitle": "敬公",
-      "displayTitle": "敬公",
+      "displayTitle": "卫敬公",
       "eraNames": [],
       "reignStartYear": -464,
       "reignEndYear": -432,
@@ -6299,7 +6301,7 @@
       "personalName": "姒不寿",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "越不寿",
+      "displayTitle": "不寿",
       "eraNames": [],
       "reignStartYear": -458,
       "reignEndYear": -449,
@@ -6356,7 +6358,7 @@
       "personalName": "姬骄",
       "templeTitle": null,
       "posthumousTitle": "哀公",
-      "displayTitle": "晋国哀公",
+      "displayTitle": "晋哀公",
       "eraNames": [],
       "reignStartYear": -451,
       "reignEndYear": -434,
@@ -6374,7 +6376,7 @@
       "personalName": "子得",
       "templeTitle": null,
       "posthumousTitle": "昭公",
-      "displayTitle": "宋国昭公",
+      "displayTitle": "宋昭公",
       "eraNames": [],
       "reignStartYear": -450,
       "reignEndYear": -404,
@@ -6409,7 +6411,7 @@
       "personalName": "姒朱勾",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "越朱勾",
+      "displayTitle": "朱勾",
       "eraNames": [],
       "reignStartYear": -448,
       "reignEndYear": -412,
@@ -6427,7 +6429,7 @@
       "personalName": "嬴欣",
       "templeTitle": null,
       "posthumousTitle": "躁公",
-      "displayTitle": "秦国躁公",
+      "displayTitle": "秦躁公",
       "eraNames": [],
       "reignStartYear": -442,
       "reignEndYear": -429,
@@ -6517,7 +6519,7 @@
       "personalName": "姬柳",
       "templeTitle": null,
       "posthumousTitle": "幽公",
-      "displayTitle": "晋国幽公",
+      "displayTitle": "晋幽公",
       "eraNames": [],
       "reignStartYear": -433,
       "reignEndYear": -416,
@@ -6552,7 +6554,7 @@
       "personalName": "熊中",
       "templeTitle": null,
       "posthumousTitle": "简王",
-      "displayTitle": "简王",
+      "displayTitle": "楚简王",
       "eraNames": [],
       "reignStartYear": -431,
       "reignEndYear": -408,
@@ -6570,7 +6572,7 @@
       "personalName": "卫纠",
       "templeTitle": null,
       "posthumousTitle": "昭公",
-      "displayTitle": "昭公",
+      "displayTitle": "卫昭公",
       "eraNames": [],
       "reignStartYear": -431,
       "reignEndYear": -426,
@@ -6587,7 +6589,7 @@
       "personalName": "嬴封",
       "templeTitle": null,
       "posthumousTitle": "怀公",
-      "displayTitle": "秦国怀公",
+      "displayTitle": "秦怀公",
       "eraNames": [],
       "reignStartYear": -428,
       "reignEndYear": -425,
@@ -6623,7 +6625,7 @@
       "personalName": "卫亶",
       "templeTitle": null,
       "posthumousTitle": "怀公",
-      "displayTitle": "怀公",
+      "displayTitle": "卫怀公",
       "eraNames": [],
       "reignStartYear": -425,
       "reignEndYear": -415,
@@ -6640,7 +6642,7 @@
       "personalName": "嬴肃",
       "templeTitle": null,
       "posthumousTitle": "灵公",
-      "displayTitle": "秦国灵公",
+      "displayTitle": "秦灵公",
       "eraNames": [],
       "reignStartYear": -424,
       "reignEndYear": -415,
@@ -6712,7 +6714,7 @@
       "personalName": "姬止",
       "templeTitle": null,
       "posthumousTitle": "烈公",
-      "displayTitle": "晋国烈公",
+      "displayTitle": "晋烈公",
       "eraNames": [],
       "reignStartYear": -415,
       "reignEndYear": -389,
@@ -6730,7 +6732,7 @@
       "personalName": "嬴悼子",
       "templeTitle": null,
       "posthumousTitle": "简公",
-      "displayTitle": "秦国简公",
+      "displayTitle": "秦简公",
       "eraNames": [],
       "reignStartYear": -414,
       "reignEndYear": -400,
@@ -6748,7 +6750,7 @@
       "personalName": "卫颓",
       "templeTitle": null,
       "posthumousTitle": "慎公",
-      "displayTitle": "慎公",
+      "displayTitle": "卫慎公",
       "eraNames": [],
       "reignStartYear": -414,
       "reignEndYear": -372,
@@ -6765,7 +6767,7 @@
       "personalName": "姒翳",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "越翳",
+      "displayTitle": "翳",
       "eraNames": [],
       "reignStartYear": -411,
       "reignEndYear": -376,
@@ -6783,7 +6785,7 @@
       "personalName": "熊当",
       "templeTitle": null,
       "posthumousTitle": "声王",
-      "displayTitle": "声王",
+      "displayTitle": "楚声王",
       "eraNames": [],
       "reignStartYear": -407,
       "reignEndYear": -402,
@@ -6822,7 +6824,7 @@
       "personalName": "子购由",
       "templeTitle": null,
       "posthumousTitle": "悼公",
-      "displayTitle": "宋国悼公",
+      "displayTitle": "宋悼公",
       "eraNames": [],
       "reignStartYear": -403,
       "reignEndYear": -396,
@@ -6899,7 +6901,7 @@
       "personalName": "魏斯",
       "templeTitle": null,
       "posthumousTitle": "文侯",
-      "displayTitle": "魏国文侯",
+      "displayTitle": "魏文侯",
       "eraNames": [],
       "reignStartYear": -445,
       "reignEndYear": -396,
@@ -6920,7 +6922,7 @@
       "personalName": "熊疑",
       "templeTitle": null,
       "posthumousTitle": "悼王",
-      "displayTitle": "悼王",
+      "displayTitle": "楚悼王",
       "eraNames": [],
       "reignStartYear": -401,
       "reignEndYear": -381,
@@ -6956,7 +6958,7 @@
       "personalName": "嬴仁",
       "templeTitle": null,
       "posthumousTitle": "惠公",
-      "displayTitle": "秦国惠公",
+      "displayTitle": "秦惠公",
       "eraNames": [],
       "reignStartYear": -399,
       "reignEndYear": -387,
@@ -7009,7 +7011,7 @@
       "personalName": "子田",
       "templeTitle": null,
       "posthumousTitle": "休公",
-      "displayTitle": "宋国休公",
+      "displayTitle": "宋休公",
       "eraNames": [],
       "reignStartYear": -395,
       "reignEndYear": -373,
@@ -7045,7 +7047,7 @@
       "personalName": "姬颀",
       "templeTitle": null,
       "posthumousTitle": "孝公",
-      "displayTitle": "晋国孝公",
+      "displayTitle": "晋孝公",
       "eraNames": [],
       "reignStartYear": -388,
       "reignEndYear": -357,
@@ -7084,7 +7086,7 @@
       "personalName": "嬴昌",
       "templeTitle": null,
       "posthumousTitle": "出公",
-      "displayTitle": "秦国出公",
+      "displayTitle": "秦出公",
       "eraNames": [],
       "reignStartYear": -386,
       "reignEndYear": -385,
@@ -7137,7 +7139,7 @@
       "personalName": "魏击",
       "templeTitle": null,
       "posthumousTitle": "武侯",
-      "displayTitle": "魏国武侯",
+      "displayTitle": "魏武侯",
       "eraNames": [],
       "reignStartYear": -395,
       "reignEndYear": -370,
@@ -7173,7 +7175,7 @@
       "personalName": "嬴师隰",
       "templeTitle": null,
       "posthumousTitle": "献公",
-      "displayTitle": "秦国献公",
+      "displayTitle": "秦献公",
       "eraNames": [],
       "reignStartYear": -384,
       "reignEndYear": -362,
@@ -7226,7 +7228,7 @@
       "personalName": "熊臧",
       "templeTitle": null,
       "posthumousTitle": "肃王",
-      "displayTitle": "肃王",
+      "displayTitle": "楚肃王",
       "eraNames": [],
       "reignStartYear": -380,
       "reignEndYear": -370,
@@ -7261,7 +7263,7 @@
       "personalName": "姒诸咎",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "越诸咎",
+      "displayTitle": "诸咎",
       "eraNames": [],
       "reignStartYear": -375,
       "reignEndYear": -375,
@@ -7297,7 +7299,7 @@
       "personalName": "姒错枝",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "越错枝",
+      "displayTitle": "错枝",
       "eraNames": [],
       "reignStartYear": -374,
       "reignEndYear": -373,
@@ -7350,7 +7352,7 @@
       "personalName": "子辟兵",
       "templeTitle": null,
       "posthumousTitle": "辟公",
-      "displayTitle": "宋国辟公",
+      "displayTitle": "宋辟公",
       "eraNames": [],
       "reignStartYear": -372,
       "reignEndYear": -370,
@@ -7368,7 +7370,7 @@
       "personalName": "姒无余",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "越无余",
+      "displayTitle": "无余",
       "eraNames": [],
       "reignStartYear": -372,
       "reignEndYear": -361,
@@ -7386,7 +7388,7 @@
       "personalName": "卫训",
       "templeTitle": null,
       "posthumousTitle": "声公",
-      "displayTitle": "声公",
+      "displayTitle": "卫声公",
       "eraNames": [],
       "reignStartYear": -372,
       "reignEndYear": -362,
@@ -7403,7 +7405,7 @@
       "personalName": "魏罃",
       "templeTitle": null,
       "posthumousTitle": "惠王",
-      "displayTitle": "魏国惠王",
+      "displayTitle": "魏惠王",
       "eraNames": [],
       "reignStartYear": -369,
       "reignEndYear": -319,
@@ -7421,7 +7423,7 @@
       "personalName": "熊良夫",
       "templeTitle": null,
       "posthumousTitle": "宣王",
-      "displayTitle": "宣王",
+      "displayTitle": "楚宣王",
       "eraNames": [],
       "reignStartYear": -369,
       "reignEndYear": -340,
@@ -7439,7 +7441,7 @@
       "personalName": "子剔成",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "宋国剔成",
+      "displayTitle": "剔成",
       "eraNames": [],
       "reignStartYear": -369,
       "reignEndYear": -329,
@@ -7509,7 +7511,7 @@
       "personalName": "嬴渠梁",
       "templeTitle": null,
       "posthumousTitle": "孝公",
-      "displayTitle": "秦国孝公",
+      "displayTitle": "秦孝公",
       "eraNames": [],
       "reignStartYear": -361,
       "reignEndYear": -338,
@@ -7527,7 +7529,7 @@
       "personalName": "卫遫",
       "templeTitle": null,
       "posthumousTitle": "成侯",
-      "displayTitle": "成侯",
+      "displayTitle": "卫成侯",
       "eraNames": [],
       "reignStartYear": -361,
       "reignEndYear": -333,
@@ -7544,7 +7546,7 @@
       "personalName": "姒无颛",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "越无颛",
+      "displayTitle": "无颛",
       "eraNames": [],
       "reignStartYear": -360,
       "reignEndYear": -343,
@@ -7580,7 +7582,7 @@
       "personalName": "姬俱酒",
       "templeTitle": null,
       "posthumousTitle": "静公",
-      "displayTitle": "晋国静公",
+      "displayTitle": "晋静公",
       "eraNames": [],
       "reignStartYear": -356,
       "reignEndYear": -349,
@@ -7692,7 +7694,7 @@
       "personalName": "熊商",
       "templeTitle": null,
       "posthumousTitle": "威王",
-      "displayTitle": "威王",
+      "displayTitle": "楚威王",
       "eraNames": [],
       "reignStartYear": -339,
       "reignEndYear": -329,
@@ -7710,7 +7712,7 @@
       "personalName": "嬴驷",
       "templeTitle": null,
       "posthumousTitle": "惠文王",
-      "displayTitle": "秦国惠文王",
+      "displayTitle": "秦惠文王",
       "eraNames": [],
       "reignStartYear": -337,
       "reignEndYear": -311,
@@ -7763,7 +7765,7 @@
       "personalName": "子南劲",
       "templeTitle": null,
       "posthumousTitle": "平侯",
-      "displayTitle": "平侯",
+      "displayTitle": "卫平侯",
       "eraNames": [],
       "reignStartYear": -332,
       "reignEndYear": -325,
@@ -7780,7 +7782,7 @@
       "personalName": "熊槐",
       "templeTitle": null,
       "posthumousTitle": "怀王",
-      "displayTitle": "怀王",
+      "displayTitle": "楚怀王",
       "eraNames": [],
       "reignStartYear": -328,
       "reignEndYear": -299,
@@ -7798,7 +7800,7 @@
       "personalName": "子偃",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "宋国君偃",
+      "displayTitle": "宋君偃",
       "eraNames": [],
       "reignStartYear": -328,
       "reignEndYear": -286,
@@ -7834,7 +7836,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": "嗣君",
-      "displayTitle": "嗣君",
+      "displayTitle": "卫嗣君",
       "eraNames": [],
       "reignStartYear": -324,
       "reignEndYear": -283,
@@ -7907,7 +7909,7 @@
       "personalName": "魏嗣",
       "templeTitle": null,
       "posthumousTitle": "襄王",
-      "displayTitle": "魏国襄王",
+      "displayTitle": "魏襄王",
       "eraNames": [],
       "reignStartYear": -318,
       "reignEndYear": -296,
@@ -7978,7 +7980,7 @@
       "personalName": "嬴荡",
       "templeTitle": null,
       "posthumousTitle": "武王",
-      "displayTitle": "秦国武王",
+      "displayTitle": "秦武王",
       "eraNames": [],
       "reignStartYear": -310,
       "reignEndYear": -307,
@@ -7996,7 +7998,7 @@
       "personalName": "嬴稷",
       "templeTitle": null,
       "posthumousTitle": "昭襄王",
-      "displayTitle": "秦国昭襄王",
+      "displayTitle": "秦昭襄王",
       "eraNames": [],
       "reignStartYear": -306,
       "reignEndYear": -251,
@@ -8050,7 +8052,7 @@
       "personalName": "熊横",
       "templeTitle": null,
       "posthumousTitle": "顷襄王",
-      "displayTitle": "顷襄王",
+      "displayTitle": "楚顷襄王",
       "eraNames": [],
       "reignStartYear": -298,
       "reignEndYear": -263,
@@ -8103,7 +8105,7 @@
       "personalName": "魏遫",
       "templeTitle": null,
       "posthumousTitle": "昭王",
-      "displayTitle": "魏国昭王",
+      "displayTitle": "魏昭王",
       "eraNames": [],
       "reignStartYear": -295,
       "reignEndYear": -277,
@@ -8139,7 +8141,7 @@
       "personalName": "子南公期",
       "templeTitle": null,
       "posthumousTitle": "怀君",
-      "displayTitle": "怀君",
+      "displayTitle": "卫怀君",
       "eraNames": [],
       "reignStartYear": -282,
       "reignEndYear": -253,
@@ -8191,7 +8193,7 @@
       "personalName": "魏圉",
       "templeTitle": null,
       "posthumousTitle": "安僖王",
-      "displayTitle": "魏国安僖王",
+      "displayTitle": "魏安僖王",
       "eraNames": [],
       "reignStartYear": -276,
       "reignEndYear": -243,
@@ -8279,7 +8281,7 @@
       "personalName": "熊完",
       "templeTitle": null,
       "posthumousTitle": "考烈王",
-      "displayTitle": "考烈王",
+      "displayTitle": "楚考烈王",
       "eraNames": [],
       "reignStartYear": -262,
       "reignEndYear": -238,
@@ -8332,7 +8334,7 @@
       "personalName": null,
       "templeTitle": null,
       "posthumousTitle": "元君",
-      "displayTitle": "元君",
+      "displayTitle": "卫元君",
       "eraNames": [],
       "reignStartYear": -252,
       "reignEndYear": -230,
@@ -8351,7 +8353,7 @@
       "personalName": "嬴柱",
       "templeTitle": null,
       "posthumousTitle": "孝文王",
-      "displayTitle": "秦国孝文王",
+      "displayTitle": "秦孝文王",
       "eraNames": [],
       "reignStartYear": -250,
       "reignEndYear": -250,
@@ -8369,7 +8371,7 @@
       "personalName": "嬴异人",
       "templeTitle": null,
       "posthumousTitle": "庄襄王",
-      "displayTitle": "秦国庄襄王",
+      "displayTitle": "秦庄襄王",
       "eraNames": [],
       "reignStartYear": -249,
       "reignEndYear": -247,
@@ -8411,7 +8413,7 @@
       "personalName": "嬴政",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "始皇帝",
+      "displayTitle": "秦始皇",
       "eraNames": [],
       "reignStartYear": -246,
       "reignEndYear": -210,
@@ -8455,7 +8457,7 @@
       "personalName": "魏增",
       "templeTitle": null,
       "posthumousTitle": "景湣王",
-      "displayTitle": "魏国景湣王",
+      "displayTitle": "魏景湣王",
       "eraNames": [],
       "reignStartYear": -242,
       "reignEndYear": -228,
@@ -8491,7 +8493,7 @@
       "personalName": "熊悍",
       "templeTitle": null,
       "posthumousTitle": "幽王",
-      "displayTitle": "幽王",
+      "displayTitle": "楚幽王",
       "eraNames": [],
       "reignStartYear": -237,
       "reignEndYear": -228,
@@ -8543,7 +8545,7 @@
       "personalName": "子南角",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "君角",
+      "displayTitle": "卫君角",
       "eraNames": [],
       "reignStartYear": -229,
       "reignEndYear": -209,
@@ -8560,7 +8562,7 @@
       "personalName": "熊犹",
       "templeTitle": null,
       "posthumousTitle": "哀王",
-      "displayTitle": "哀王",
+      "displayTitle": "楚哀王",
       "eraNames": [],
       "reignStartYear": -228,
       "reignEndYear": -228,
@@ -8614,7 +8616,7 @@
       "personalName": "魏假",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "魏国王假",
+      "displayTitle": "魏王假",
       "eraNames": [],
       "reignStartYear": -227,
       "reignEndYear": -225,
@@ -8644,7 +8646,7 @@
         "秦二世"
       ],
       "uncertain": false,
-      "displayTitle": "二世皇帝"
+      "displayTitle": "秦二世"
     },
     {
       "id": "rn-匈奴-头曼",
@@ -8652,7 +8654,7 @@
       "personalName": "头曼",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "头曼",
+      "displayTitle": "头曼单于",
       "eraNames": [],
       "reignStartYear": -209,
       "reignEndYear": -209,
@@ -8668,7 +8670,7 @@
       "personalName": "冒顿",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "冒顿",
+      "displayTitle": "冒顿单于",
       "eraNames": [],
       "reignStartYear": -209,
       "reignEndYear": -174,
@@ -8697,15 +8699,15 @@
         "子婴"
       ],
       "uncertain": false,
-      "displayTitle": "嬴子婴"
+      "displayTitle": "子婴"
     },
     {
-      "id": "rn-西汉-汉王",
-      "polityId": "pol-西汉",
+      "id": "rn-汉王-汉王",
+      "polityId": "pol-汉王",
       "personalName": "刘邦",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "汉王",
+      "displayTitle": "汉王刘邦",
       "eraNames": [],
       "reignStartYear": -206,
       "reignEndYear": -203,
@@ -8731,7 +8733,7 @@
       "personalName": "刘邦",
       "templeTitle": "太祖",
       "posthumousTitle": "高皇帝",
-      "displayTitle": "高皇帝",
+      "displayTitle": "汉高祖",
       "eraNames": [],
       "reignStartYear": -206,
       "reignEndYear": -195,
@@ -8790,7 +8792,7 @@
         "惠帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝惠皇帝"
+      "displayTitle": "汉惠帝"
     },
     {
       "id": "rn-西汉-吕雉",
@@ -8798,7 +8800,7 @@
       "personalName": "吕雉",
       "templeTitle": null,
       "posthumousTitle": "高后",
-      "displayTitle": "高后",
+      "displayTitle": "汉高后",
       "eraNames": [],
       "reignStartYear": -188,
       "reignEndYear": -180,
@@ -8835,7 +8837,7 @@
         "文帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝文皇帝"
+      "displayTitle": "汉文帝"
     },
     {
       "id": "rn-匈奴-老上",
@@ -8843,7 +8845,7 @@
       "personalName": "老上",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "老上",
+      "displayTitle": "老上单于",
       "eraNames": [],
       "reignStartYear": -174,
       "reignEndYear": -161,
@@ -8859,7 +8861,7 @@
       "personalName": "军臣",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "军臣",
+      "displayTitle": "军臣单于",
       "eraNames": [],
       "reignStartYear": -161,
       "reignEndYear": -126,
@@ -8889,7 +8891,7 @@
         "景帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝景皇帝"
+      "displayTitle": "汉景帝"
     },
     {
       "id": "rn-于阗-尉迟𠮟摩",
@@ -8940,7 +8942,7 @@
         "武帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝武皇帝"
+      "displayTitle": "汉武帝"
     },
     {
       "id": "rn-匈奴-伊稚斜",
@@ -8948,7 +8950,7 @@
       "personalName": "伊稚斜",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "伊稚斜",
+      "displayTitle": "伊稚斜单于",
       "eraNames": [],
       "reignStartYear": -126,
       "reignEndYear": -114,
@@ -8964,7 +8966,7 @@
       "personalName": "乌维",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "乌维",
+      "displayTitle": "乌维单于",
       "eraNames": [],
       "reignStartYear": -114,
       "reignEndYear": -105,
@@ -8996,7 +8998,7 @@
       "personalName": "且鞮侯",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "且鞮侯",
+      "displayTitle": "且鞮侯单于",
       "eraNames": [],
       "reignStartYear": -102,
       "reignEndYear": -96,
@@ -9012,7 +9014,7 @@
       "personalName": "狐鹿姑",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "狐鹿姑",
+      "displayTitle": "狐鹿姑单于",
       "eraNames": [],
       "reignStartYear": -96,
       "reignEndYear": -85,
@@ -9046,7 +9048,7 @@
         "昭帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝昭皇帝"
+      "displayTitle": "汉昭帝"
     },
     {
       "id": "rn-匈奴-壶衍鞮",
@@ -9054,7 +9056,7 @@
       "personalName": "壶衍鞮",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "壶衍鞮",
+      "displayTitle": "壶衍鞮单于",
       "eraNames": [],
       "reignStartYear": -85,
       "reignEndYear": -68,
@@ -9093,7 +9095,7 @@
         "宣帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝宣皇帝"
+      "displayTitle": "汉宣帝"
     },
     {
       "id": "rn-匈奴-虚闾权渠",
@@ -9101,7 +9103,7 @@
       "personalName": "虚闾权渠",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "虚闾权渠",
+      "displayTitle": "虚闾权渠单于",
       "eraNames": [],
       "reignStartYear": -68,
       "reignEndYear": -60,
@@ -9117,7 +9119,7 @@
       "personalName": "握衍朐鞮",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "握衍朐鞮",
+      "displayTitle": "握衍朐鞮单于",
       "eraNames": [],
       "reignStartYear": -60,
       "reignEndYear": -58,
@@ -9133,7 +9135,7 @@
       "personalName": "呼韩邪",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "呼韩邪",
+      "displayTitle": "呼韩邪单于",
       "eraNames": [],
       "reignStartYear": -58,
       "reignEndYear": -31,
@@ -9169,7 +9171,7 @@
         "元帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝元皇帝"
+      "displayTitle": "汉元帝"
     },
     {
       "id": "rn-高句丽-高朱蒙",
@@ -9220,7 +9222,7 @@
         "成帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝成皇帝"
+      "displayTitle": "汉成帝"
     },
     {
       "id": "rn-匈奴-复株累",
@@ -9228,7 +9230,7 @@
       "personalName": "复株累",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "复株累",
+      "displayTitle": "复株累单于",
       "eraNames": [],
       "reignStartYear": -31,
       "reignEndYear": -20,
@@ -9244,7 +9246,7 @@
       "personalName": "搜谐",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "搜谐",
+      "displayTitle": "搜谐单于",
       "eraNames": [],
       "reignStartYear": -20,
       "reignEndYear": -12,
@@ -9277,7 +9279,7 @@
       "personalName": "车牙",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "车牙",
+      "displayTitle": "车牙单于",
       "eraNames": [],
       "reignStartYear": -12,
       "reignEndYear": -8,
@@ -9293,7 +9295,7 @@
       "personalName": "乌珠留",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "乌珠留",
+      "displayTitle": "乌珠留单于",
       "eraNames": [],
       "reignStartYear": -8,
       "reignEndYear": 13,
@@ -9326,7 +9328,7 @@
         "哀帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝哀皇帝"
+      "displayTitle": "汉哀帝"
     },
     {
       "id": "rn-刘衎",
@@ -9350,7 +9352,7 @@
         "平帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝平皇帝"
+      "displayTitle": "汉平帝"
     },
     {
       "id": "rn-刘婴",
@@ -9374,7 +9376,7 @@
         "汉孺子婴"
       ],
       "uncertain": false,
-      "displayTitle": "刘婴"
+      "displayTitle": "汉孺子婴"
     },
     {
       "id": "rn-王莽",
@@ -9400,7 +9402,7 @@
         "新帝王莽"
       ],
       "uncertain": false,
-      "displayTitle": "王莽"
+      "displayTitle": "新王莽"
     },
     {
       "id": "rn-匈奴-乌累",
@@ -9408,7 +9410,7 @@
       "personalName": "乌累",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "乌累",
+      "displayTitle": "乌累单于",
       "eraNames": [],
       "reignStartYear": 13,
       "reignEndYear": 18,
@@ -9441,7 +9443,7 @@
       "personalName": "呼都而尸",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "呼都而尸",
+      "displayTitle": "呼都而尸单于",
       "eraNames": [],
       "reignStartYear": 18,
       "reignEndYear": 46,
@@ -9471,7 +9473,7 @@
         "更始帝"
       ],
       "uncertain": false,
-      "displayTitle": "刘玄"
+      "displayTitle": "汉刘玄"
     },
     {
       "id": "rn-刘秀",
@@ -9497,7 +9499,7 @@
         "汉光武帝"
       ],
       "uncertain": false,
-      "displayTitle": "光武皇帝"
+      "displayTitle": "汉光武帝"
     },
     {
       "id": "rn-匈奴-蒲奴",
@@ -9505,7 +9507,7 @@
       "personalName": "蒲奴",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "蒲奴",
+      "displayTitle": "蒲奴单于",
       "eraNames": [],
       "reignStartYear": 46,
       "reignEndYear": 48,
@@ -9558,7 +9560,7 @@
         "明帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝明皇帝"
+      "displayTitle": "汉明帝"
     },
     {
       "id": "rn-刘炟",
@@ -9585,7 +9587,7 @@
         "章帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝章皇帝"
+      "displayTitle": "汉章帝"
     },
     {
       "id": "rn-刘肇",
@@ -9611,7 +9613,7 @@
         "和帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝和皇帝"
+      "displayTitle": "汉和帝"
     },
     {
       "id": "rn-刘祜",
@@ -9640,7 +9642,7 @@
         "安帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝安皇帝"
+      "displayTitle": "汉安帝"
     },
     {
       "id": "rn-刘保",
@@ -9669,7 +9671,7 @@
         "顺帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝顺皇帝"
+      "displayTitle": "汉顺帝"
     },
     {
       "id": "rn-刘志",
@@ -9700,7 +9702,7 @@
         "桓帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝桓皇帝"
+      "displayTitle": "汉桓帝"
     },
     {
       "id": "rn-刘宏",
@@ -9727,7 +9729,7 @@
         "灵帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝灵皇帝"
+      "displayTitle": "汉灵帝"
     },
     {
       "id": "rn-高句丽-高男武",
@@ -9771,7 +9773,7 @@
         "献帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝献皇帝"
+      "displayTitle": "汉献帝"
     },
     {
       "id": "rn-高句丽-高延优",
@@ -9829,7 +9831,7 @@
         "文帝"
       ],
       "uncertain": false,
-      "displayTitle": "文皇帝"
+      "displayTitle": "魏文帝"
     },
     {
       "id": "rn-刘备",
@@ -9854,7 +9856,7 @@
         "昭烈帝"
       ],
       "uncertain": false,
-      "displayTitle": "昭烈皇帝"
+      "displayTitle": "汉昭烈帝"
     },
     {
       "id": "rn-孙权",
@@ -9884,7 +9886,7 @@
         "大帝"
       ],
       "uncertain": false,
-      "displayTitle": "大皇帝"
+      "displayTitle": "吴大帝"
     },
     {
       "id": "rn-刘禅",
@@ -9912,7 +9914,7 @@
         "阿斗"
       ],
       "uncertain": false,
-      "displayTitle": "后主"
+      "displayTitle": "汉后主"
     },
     {
       "id": "rn-曹叡",
@@ -9939,7 +9941,7 @@
         "明帝"
       ],
       "uncertain": false,
-      "displayTitle": "明皇帝"
+      "displayTitle": "魏明帝"
     },
     {
       "id": "rn-高句丽-高位宫",
@@ -9983,7 +9985,7 @@
         "邵陵厉公"
       ],
       "uncertain": false,
-      "displayTitle": "厉公"
+      "displayTitle": "魏厉公"
     },
     {
       "id": "rn-于阗-尉迟信诃",
@@ -10027,7 +10029,7 @@
         "会稽王"
       ],
       "uncertain": false,
-      "displayTitle": "孙亮"
+      "displayTitle": "吴孙亮"
     },
     {
       "id": "rn-曹髦",
@@ -10052,7 +10054,7 @@
         "高贵乡公"
       ],
       "uncertain": false,
-      "displayTitle": "曹髦"
+      "displayTitle": "魏曹髦"
     },
     {
       "id": "rn-孙休",
@@ -10075,7 +10077,7 @@
         "景帝"
       ],
       "uncertain": false,
-      "displayTitle": "景皇帝"
+      "displayTitle": "吴景帝"
     },
     {
       "id": "rn-曹奂",
@@ -10099,7 +10101,7 @@
         "元帝"
       ],
       "uncertain": false,
-      "displayTitle": "元皇帝"
+      "displayTitle": "魏元帝"
     },
     {
       "id": "rn-孙皓",
@@ -10130,7 +10132,7 @@
         "归命侯"
       ],
       "uncertain": false,
-      "displayTitle": "孙皓"
+      "displayTitle": "吴孙皓"
     },
     {
       "id": "rn-司马炎",
@@ -10158,7 +10160,7 @@
         "武帝"
       ],
       "uncertain": false,
-      "displayTitle": "武皇帝"
+      "displayTitle": "晋武帝"
     },
     {
       "id": "rn-司马衷",
@@ -10191,7 +10193,7 @@
         "惠帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝惠皇帝"
+      "displayTitle": "晋惠帝"
     },
     {
       "id": "rn-高句丽-高乙弗",
@@ -10232,7 +10234,7 @@
       "personalName": "张轨",
       "templeTitle": null,
       "posthumousTitle": "武公",
-      "displayTitle": "武公",
+      "displayTitle": "张轨",
       "eraNames": [],
       "reignStartYear": 301,
       "reignEndYear": 314,
@@ -10255,7 +10257,7 @@
       "personalName": "李雄",
       "templeTitle": null,
       "posthumousTitle": "成武帝",
-      "displayTitle": "成武帝",
+      "displayTitle": "李雄",
       "eraNames": [],
       "reignStartYear": 304,
       "reignEndYear": 334,
@@ -10275,7 +10277,7 @@
       "personalName": "刘渊",
       "templeTitle": "高祖",
       "posthumousTitle": "光文帝",
-      "displayTitle": "光文帝",
+      "displayTitle": "刘渊",
       "eraNames": [],
       "reignStartYear": 304,
       "reignEndYear": 310,
@@ -10295,7 +10297,7 @@
       "personalName": "李雄",
       "templeTitle": null,
       "posthumousTitle": "武帝",
-      "displayTitle": "武帝",
+      "displayTitle": "李雄",
       "eraNames": [],
       "reignStartYear": 304,
       "reignEndYear": 334,
@@ -10331,7 +10333,7 @@
         "怀帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝怀皇帝"
+      "displayTitle": "晋怀帝"
     },
     {
       "id": "rn-前赵汉-刘和",
@@ -10355,7 +10357,7 @@
       "personalName": "刘聪",
       "templeTitle": null,
       "posthumousTitle": "昭武帝",
-      "displayTitle": "昭武帝",
+      "displayTitle": "刘聪",
       "eraNames": [],
       "reignStartYear": 310,
       "reignEndYear": 318,
@@ -10391,7 +10393,7 @@
         "愍帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝愍皇帝"
+      "displayTitle": "晋愍帝"
     },
     {
       "id": "rn-吐谷浑-慕容吐谷浑",
@@ -10415,7 +10417,7 @@
       "personalName": "张寔",
       "templeTitle": null,
       "posthumousTitle": "昭公",
-      "displayTitle": "昭公",
+      "displayTitle": "张寔",
       "eraNames": [],
       "reignStartYear": 314,
       "reignEndYear": 320,
@@ -10457,7 +10459,7 @@
         "元帝"
       ],
       "uncertain": false,
-      "displayTitle": "元皇帝"
+      "displayTitle": "晋元帝"
     },
     {
       "id": "rn-吐谷浑-慕容叶延",
@@ -10513,7 +10515,7 @@
       "personalName": "石勒",
       "templeTitle": "高祖",
       "posthumousTitle": "明帝",
-      "displayTitle": "明帝",
+      "displayTitle": "石勒",
       "eraNames": [],
       "reignStartYear": 319,
       "reignEndYear": 333,
@@ -10533,7 +10535,7 @@
       "personalName": "张茂",
       "templeTitle": null,
       "posthumousTitle": "成公",
-      "displayTitle": "成公",
+      "displayTitle": "张茂",
       "eraNames": [],
       "reignStartYear": 320,
       "reignEndYear": 324,
@@ -10570,7 +10572,7 @@
         "明帝"
       ],
       "uncertain": false,
-      "displayTitle": "明皇帝"
+      "displayTitle": "晋明帝"
     },
     {
       "id": "rn-前凉-张骏",
@@ -10578,7 +10580,7 @@
       "personalName": "张骏",
       "templeTitle": null,
       "posthumousTitle": "文公",
-      "displayTitle": "文公",
+      "displayTitle": "张骏",
       "eraNames": [],
       "reignStartYear": 324,
       "reignEndYear": 346,
@@ -10616,7 +10618,7 @@
         "成帝"
       ],
       "uncertain": false,
-      "displayTitle": "成皇帝"
+      "displayTitle": "晋成帝"
     },
     {
       "id": "rn-吐谷浑-慕容碎奚",
@@ -10673,7 +10675,7 @@
       "personalName": "李期",
       "templeTitle": null,
       "posthumousTitle": "成幽公",
-      "displayTitle": "成幽公",
+      "displayTitle": "李期",
       "eraNames": [],
       "reignStartYear": 334,
       "reignEndYear": 338,
@@ -10693,7 +10695,7 @@
       "personalName": "石虎",
       "templeTitle": "太祖",
       "posthumousTitle": "武帝",
-      "displayTitle": "武帝",
+      "displayTitle": "石虎",
       "eraNames": [],
       "reignStartYear": 334,
       "reignEndYear": 349,
@@ -10713,7 +10715,7 @@
       "personalName": "李期",
       "templeTitle": null,
       "posthumousTitle": "幽公",
-      "displayTitle": "幽公",
+      "displayTitle": "李期",
       "eraNames": [],
       "reignStartYear": 334,
       "reignEndYear": 338,
@@ -10733,7 +10735,7 @@
       "personalName": "慕容皝",
       "templeTitle": "太祖",
       "posthumousTitle": "文明帝",
-      "displayTitle": "文明帝",
+      "displayTitle": "慕容皝",
       "eraNames": [],
       "reignStartYear": 337,
       "reignEndYear": 348,
@@ -10770,7 +10772,7 @@
         "昭成帝"
       ],
       "uncertain": false,
-      "displayTitle": "昭成皇帝"
+      "displayTitle": "拓跋什翼犍"
     },
     {
       "id": "rn-成汉汉-李寿",
@@ -10778,7 +10780,7 @@
       "personalName": "李寿",
       "templeTitle": null,
       "posthumousTitle": "昭文帝",
-      "displayTitle": "昭文帝",
+      "displayTitle": "李寿",
       "eraNames": [],
       "reignStartYear": 338,
       "reignEndYear": 343,
@@ -10814,7 +10816,7 @@
         "康帝"
       ],
       "uncertain": false,
-      "displayTitle": "康皇帝"
+      "displayTitle": "晋康帝"
     },
     {
       "id": "rn-成汉汉-李势",
@@ -10822,7 +10824,7 @@
       "personalName": "李势",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "后主",
+      "displayTitle": "李势",
       "eraNames": [],
       "reignStartYear": 343,
       "reignEndYear": 347,
@@ -10859,7 +10861,7 @@
         "穆帝"
       ],
       "uncertain": false,
-      "displayTitle": "穆皇帝"
+      "displayTitle": "晋穆帝"
     },
     {
       "id": "rn-前凉-张重华",
@@ -10867,7 +10869,7 @@
       "personalName": "张重华",
       "templeTitle": null,
       "posthumousTitle": "桓公",
-      "displayTitle": "桓公",
+      "displayTitle": "张重华",
       "eraNames": [],
       "reignStartYear": 346,
       "reignEndYear": 353,
@@ -10887,7 +10889,7 @@
       "personalName": "慕容儁",
       "templeTitle": "烈祖",
       "posthumousTitle": "景昭帝",
-      "displayTitle": "景昭帝",
+      "displayTitle": "慕容儁",
       "eraNames": [],
       "reignStartYear": 348,
       "reignEndYear": 360,
@@ -10987,7 +10989,7 @@
       "personalName": "冉闵",
       "templeTitle": null,
       "posthumousTitle": "武悼天王",
-      "displayTitle": "武悼天王",
+      "displayTitle": "冉闵",
       "eraNames": [],
       "reignStartYear": 350,
       "reignEndYear": 352,
@@ -11023,7 +11025,7 @@
       "personalName": "苻健",
       "templeTitle": "高祖",
       "posthumousTitle": "景明帝",
-      "displayTitle": "景明帝",
+      "displayTitle": "苻健",
       "eraNames": [],
       "reignStartYear": 351,
       "reignEndYear": 355,
@@ -11059,7 +11061,7 @@
       "personalName": "张祚",
       "templeTitle": null,
       "posthumousTitle": "威王",
-      "displayTitle": "威王",
+      "displayTitle": "张祚",
       "eraNames": [],
       "reignStartYear": 354,
       "reignEndYear": 355,
@@ -11079,7 +11081,7 @@
       "personalName": "苻生",
       "templeTitle": null,
       "posthumousTitle": "厉王",
-      "displayTitle": "厉王",
+      "displayTitle": "苻生",
       "eraNames": [],
       "reignStartYear": 355,
       "reignEndYear": 357,
@@ -11099,7 +11101,7 @@
       "personalName": "张玄靓",
       "templeTitle": null,
       "posthumousTitle": "冲公",
-      "displayTitle": "冲公",
+      "displayTitle": "张玄靓",
       "eraNames": [],
       "reignStartYear": 355,
       "reignEndYear": 363,
@@ -11119,7 +11121,7 @@
       "personalName": "苻坚",
       "templeTitle": "世祖",
       "posthumousTitle": "宣昭帝",
-      "displayTitle": "宣昭帝",
+      "displayTitle": "苻坚",
       "eraNames": [],
       "reignStartYear": 357,
       "reignEndYear": 385,
@@ -11139,7 +11141,7 @@
       "personalName": "慕容暐",
       "templeTitle": null,
       "posthumousTitle": "幽帝",
-      "displayTitle": "幽帝",
+      "displayTitle": "慕容暐",
       "eraNames": [],
       "reignStartYear": 360,
       "reignEndYear": 370,
@@ -11176,7 +11178,7 @@
         "哀帝"
       ],
       "uncertain": false,
-      "displayTitle": "哀皇帝"
+      "displayTitle": "晋哀帝"
     },
     {
       "id": "rn-前凉-张天锡",
@@ -11184,7 +11186,7 @@
       "personalName": "张天锡",
       "templeTitle": null,
       "posthumousTitle": "悼公",
-      "displayTitle": "悼公",
+      "displayTitle": "张天锡",
       "eraNames": [],
       "reignStartYear": 363,
       "reignEndYear": 376,
@@ -11217,7 +11219,7 @@
         "晋废帝"
       ],
       "uncertain": true,
-      "displayTitle": "司马奕"
+      "displayTitle": "晋司马奕"
     },
     {
       "id": "rn-司马昱",
@@ -11242,7 +11244,7 @@
         "简文帝"
       ],
       "uncertain": false,
-      "displayTitle": "简文皇帝"
+      "displayTitle": "晋简文帝"
     },
     {
       "id": "rn-吐谷浑-慕容视罴",
@@ -11286,7 +11288,7 @@
         "武帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝武皇帝"
+      "displayTitle": "晋武帝"
     },
     {
       "id": "rn-后秦-姚苌",
@@ -11294,7 +11296,7 @@
       "personalName": "姚苌",
       "templeTitle": "太祖",
       "posthumousTitle": "武昭帝",
-      "displayTitle": "武昭帝",
+      "displayTitle": "姚苌",
       "eraNames": [],
       "reignStartYear": 384,
       "reignEndYear": 393,
@@ -11314,7 +11316,7 @@
       "personalName": "慕容垂",
       "templeTitle": "世祖",
       "posthumousTitle": "成武帝",
-      "displayTitle": "成武帝",
+      "displayTitle": "慕容垂",
       "eraNames": [],
       "reignStartYear": 384,
       "reignEndYear": 396,
@@ -11350,7 +11352,7 @@
       "personalName": "慕容冲",
       "templeTitle": null,
       "posthumousTitle": "威帝",
-      "displayTitle": "威帝",
+      "displayTitle": "慕容冲",
       "eraNames": [],
       "reignStartYear": 384,
       "reignEndYear": 386,
@@ -11422,7 +11424,7 @@
         "道武帝"
       ],
       "uncertain": false,
-      "displayTitle": "道武皇帝"
+      "displayTitle": "北魏道武帝"
     },
     {
       "id": "rn-前秦-苻登",
@@ -11430,7 +11432,7 @@
       "personalName": "苻登",
       "templeTitle": "太宗",
       "posthumousTitle": "高帝",
-      "displayTitle": "高帝",
+      "displayTitle": "苻登",
       "eraNames": [],
       "reignStartYear": 386,
       "reignEndYear": 394,
@@ -11450,7 +11452,7 @@
       "personalName": "吕光",
       "templeTitle": "太祖",
       "posthumousTitle": "懿武帝",
-      "displayTitle": "懿武帝",
+      "displayTitle": "吕光",
       "eraNames": [],
       "reignStartYear": 386,
       "reignEndYear": 399,
@@ -11550,7 +11552,7 @@
       "personalName": "乞伏乾归",
       "templeTitle": null,
       "posthumousTitle": "武元王",
-      "displayTitle": "武元王",
+      "displayTitle": "乞伏乾归",
       "eraNames": [],
       "reignStartYear": 388,
       "reignEndYear": 412,
@@ -11603,7 +11605,7 @@
       "personalName": "姚兴",
       "templeTitle": "高祖",
       "posthumousTitle": "文桓帝",
-      "displayTitle": "文桓帝",
+      "displayTitle": "姚兴",
       "eraNames": [],
       "reignStartYear": 394,
       "reignEndYear": 416,
@@ -11641,7 +11643,7 @@
         "安帝"
       ],
       "uncertain": false,
-      "displayTitle": "安皇帝"
+      "displayTitle": "晋安帝"
     },
     {
       "id": "rn-后燕-慕容宝",
@@ -11649,7 +11651,7 @@
       "personalName": "慕容宝",
       "templeTitle": null,
       "posthumousTitle": "惠愍帝",
-      "displayTitle": "惠愍帝",
+      "displayTitle": "慕容宝",
       "eraNames": [],
       "reignStartYear": 396,
       "reignEndYear": 398,
@@ -11669,7 +11671,7 @@
       "personalName": "秃发乌孤",
       "templeTitle": null,
       "posthumousTitle": "武王",
-      "displayTitle": "武王",
+      "displayTitle": "秃发乌孤",
       "eraNames": [],
       "reignStartYear": 397,
       "reignEndYear": 399,
@@ -11689,7 +11691,7 @@
       "personalName": "慕容盛",
       "templeTitle": "中宗",
       "posthumousTitle": "昭武帝",
-      "displayTitle": "昭武帝",
+      "displayTitle": "慕容盛",
       "eraNames": [],
       "reignStartYear": 398,
       "reignEndYear": 401,
@@ -11709,7 +11711,7 @@
       "personalName": "慕容德",
       "templeTitle": null,
       "posthumousTitle": "献武帝",
-      "displayTitle": "献武帝",
+      "displayTitle": "慕容德",
       "eraNames": [],
       "reignStartYear": 398,
       "reignEndYear": 405,
@@ -11729,7 +11731,7 @@
       "personalName": "吕纂",
       "templeTitle": null,
       "posthumousTitle": "灵帝",
-      "displayTitle": "灵帝",
+      "displayTitle": "吕纂",
       "eraNames": [],
       "reignStartYear": 399,
       "reignEndYear": 401,
@@ -11749,7 +11751,7 @@
       "personalName": "秃发利鹿孤",
       "templeTitle": null,
       "posthumousTitle": "康王",
-      "displayTitle": "康王",
+      "displayTitle": "秃发利鹿孤",
       "eraNames": [],
       "reignStartYear": 399,
       "reignEndYear": 402,
@@ -11769,7 +11771,7 @@
       "personalName": "李暠",
       "templeTitle": null,
       "posthumousTitle": "武昭王",
-      "displayTitle": "武昭王",
+      "displayTitle": "李暠",
       "eraNames": [],
       "reignStartYear": 400,
       "reignEndYear": 417,
@@ -11805,7 +11807,7 @@
       "personalName": "慕容熙",
       "templeTitle": null,
       "posthumousTitle": "昭文帝",
-      "displayTitle": "昭文帝",
+      "displayTitle": "慕容熙",
       "eraNames": [],
       "reignStartYear": 401,
       "reignEndYear": 407,
@@ -11841,7 +11843,7 @@
       "personalName": "沮渠蒙逊",
       "templeTitle": null,
       "posthumousTitle": "武宣王",
-      "displayTitle": "武宣王",
+      "displayTitle": "沮渠蒙逊",
       "eraNames": [],
       "reignStartYear": 401,
       "reignEndYear": 433,
@@ -11861,7 +11863,7 @@
       "personalName": "秃发傉檀",
       "templeTitle": null,
       "posthumousTitle": "景王",
-      "displayTitle": "景王",
+      "displayTitle": "秃发傉檀",
       "eraNames": [],
       "reignStartYear": 402,
       "reignEndYear": 414,
@@ -11933,7 +11935,7 @@
       "personalName": "慕容云（高云）",
       "templeTitle": null,
       "posthumousTitle": "惠懿帝",
-      "displayTitle": "惠懿帝",
+      "displayTitle": "慕容云（高云）",
       "eraNames": [],
       "reignStartYear": 407,
       "reignEndYear": 409,
@@ -11953,7 +11955,7 @@
       "personalName": "赫连勃勃",
       "templeTitle": null,
       "posthumousTitle": "武烈帝",
-      "displayTitle": "武烈帝",
+      "displayTitle": "赫连勃勃",
       "eraNames": [],
       "reignStartYear": 407,
       "reignEndYear": 425,
@@ -11992,7 +11994,7 @@
         "明元帝"
       ],
       "uncertain": false,
-      "displayTitle": "明元皇帝"
+      "displayTitle": "北魏明元帝"
     },
     {
       "id": "rn-北燕-冯跋",
@@ -12000,7 +12002,7 @@
       "personalName": "冯跋",
       "templeTitle": null,
       "posthumousTitle": "文成帝",
-      "displayTitle": "文成帝",
+      "displayTitle": "冯跋",
       "eraNames": [],
       "reignStartYear": 409,
       "reignEndYear": 430,
@@ -12037,7 +12039,7 @@
       "personalName": "乞伏炽磐",
       "templeTitle": null,
       "posthumousTitle": "文昭王",
-      "displayTitle": "文昭王",
+      "displayTitle": "乞伏炽磐",
       "eraNames": [],
       "reignStartYear": 412,
       "reignEndYear": 428,
@@ -12171,7 +12173,7 @@
         "恭帝"
       ],
       "uncertain": false,
-      "displayTitle": "恭皇帝"
+      "displayTitle": "晋恭帝"
     },
     {
       "id": "rn-刘裕",
@@ -12196,7 +12198,7 @@
         "武帝"
       ],
       "uncertain": false,
-      "displayTitle": "武皇帝"
+      "displayTitle": "刘宋武帝"
     },
     {
       "id": "rn-西凉-李恂",
@@ -12242,7 +12244,7 @@
         "太武帝"
       ],
       "uncertain": false,
-      "displayTitle": "太武皇帝"
+      "displayTitle": "北魏太武帝"
     },
     {
       "id": "rn-刘宋-少帝",
@@ -12250,7 +12252,7 @@
       "personalName": "刘义符",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "刘义符",
+      "displayTitle": "刘宋少帝",
       "reignStartYear": 423,
       "reignEndYear": 423,
       "aliases": [
@@ -12287,7 +12289,7 @@
         "文帝"
       ],
       "uncertain": false,
-      "displayTitle": "文皇帝"
+      "displayTitle": "刘宋文帝"
     },
     {
       "id": "rn-吐谷浑-慕容慕瑰",
@@ -12376,7 +12378,7 @@
       "personalName": "冯弘",
       "templeTitle": null,
       "posthumousTitle": "昭成帝",
-      "displayTitle": "昭成帝",
+      "displayTitle": "冯弘",
       "eraNames": [],
       "reignStartYear": 430,
       "reignEndYear": 436,
@@ -12481,7 +12483,7 @@
         "文成帝"
       ],
       "uncertain": false,
-      "displayTitle": "文成皇帝"
+      "displayTitle": "北魏文成帝"
     },
     {
       "id": "rn-吐谷浑-慕容拾寅",
@@ -12525,7 +12527,7 @@
         "武帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝武皇帝"
+      "displayTitle": "刘宋孝武帝"
     },
     {
       "id": "rn-刘子业",
@@ -12547,7 +12549,7 @@
         "前废帝"
       ],
       "uncertain": false,
-      "displayTitle": "刘子业"
+      "displayTitle": "刘宋前废帝"
     },
     {
       "id": "rn-柔然-郁久闾予成",
@@ -12590,7 +12592,7 @@
         "明帝"
       ],
       "uncertain": false,
-      "displayTitle": "明皇帝"
+      "displayTitle": "刘宋明帝"
     },
     {
       "id": "rn-拓跋弘",
@@ -12616,7 +12618,7 @@
         "献文帝"
       ],
       "uncertain": false,
-      "displayTitle": "献文皇帝"
+      "displayTitle": "北魏献文帝"
     },
     {
       "id": "rn-元宏",
@@ -12645,7 +12647,7 @@
         "文帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝文皇帝"
+      "displayTitle": "北魏孝文帝"
     },
     {
       "id": "rn-刘昱",
@@ -12666,7 +12668,7 @@
         "后废帝"
       ],
       "uncertain": false,
-      "displayTitle": "刘昱"
+      "displayTitle": "刘宋后废帝"
     },
     {
       "id": "rn-刘准",
@@ -12687,7 +12689,7 @@
         "宋顺帝"
       ],
       "uncertain": false,
-      "displayTitle": "刘准"
+      "displayTitle": "刘宋顺帝"
     },
     {
       "id": "rn-萧道成",
@@ -12712,7 +12714,7 @@
         "高帝"
       ],
       "uncertain": false,
-      "displayTitle": "高皇帝"
+      "displayTitle": "南齐高帝"
     },
     {
       "id": "rn-吐谷浑-慕容度易侯",
@@ -12753,7 +12755,7 @@
         "武帝"
       ],
       "uncertain": false,
-      "displayTitle": "武皇帝"
+      "displayTitle": "南齐武帝"
     },
     {
       "id": "rn-柔然-郁久闾豆仑",
@@ -12828,7 +12830,7 @@
       "personalName": "萧鸾",
       "templeTitle": "高宗",
       "posthumousTitle": "明皇帝",
-      "displayTitle": "萧鸾",
+      "displayTitle": "南齐明帝",
       "reignStartYear": 494,
       "reignEndYear": 498,
       "aliases": [
@@ -12863,7 +12865,7 @@
         "东昏侯"
       ],
       "uncertain": false,
-      "displayTitle": "萧宝卷"
+      "displayTitle": "南齐东昏侯"
     },
     {
       "id": "rn-元恪",
@@ -12891,7 +12893,7 @@
         "宣武帝"
       ],
       "uncertain": false,
-      "displayTitle": "宣武皇帝"
+      "displayTitle": "北魏宣武帝"
     },
     {
       "id": "rn-于阗-尉迟悉都那",
@@ -12938,7 +12940,7 @@
         "武帝"
       ],
       "uncertain": false,
-      "displayTitle": "武皇帝"
+      "displayTitle": "萧梁武帝"
     },
     {
       "id": "rn-柔然-郁久闾伏图",
@@ -13003,7 +13005,7 @@
         "明帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝明皇帝"
+      "displayTitle": "北魏孝明帝"
     },
     {
       "id": "rn-高句丽-高兴安",
@@ -13065,7 +13067,7 @@
         "庄帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝庄皇帝"
+      "displayTitle": "北魏孝庄帝"
     },
     {
       "id": "rn-高句丽-高宝延",
@@ -13112,7 +13114,7 @@
         "武帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝武皇帝"
+      "displayTitle": "北魏孝武帝"
     },
     {
       "id": "rn-元善见",
@@ -13141,7 +13143,7 @@
         "静帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝静皇帝"
+      "displayTitle": "东魏孝静帝"
     },
     {
       "id": "rn-元宝炬",
@@ -13165,7 +13167,7 @@
         "文帝"
       ],
       "uncertain": false,
-      "displayTitle": "文皇帝"
+      "displayTitle": "西魏文帝"
     },
     {
       "id": "rn-吐谷浑-慕容夸吕",
@@ -13223,7 +13225,7 @@
         "简文帝"
       ],
       "uncertain": false,
-      "displayTitle": "简文皇帝"
+      "displayTitle": "萧梁简文帝"
     },
     {
       "id": "rn-高洋",
@@ -13248,7 +13250,7 @@
         "文宣帝"
       ],
       "uncertain": false,
-      "displayTitle": "文宣皇帝"
+      "displayTitle": "北齐文宣帝"
     },
     {
       "id": "rn-于阗-尉迟伏阇信",
@@ -13272,7 +13274,7 @@
       "personalName": "元钦",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "元钦",
+      "displayTitle": "西魏废帝",
       "reignStartYear": 551,
       "reignEndYear": 554,
       "aliases": [
@@ -13309,7 +13311,7 @@
         "元帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝元皇帝"
+      "displayTitle": "萧梁孝元帝"
     },
     {
       "id": "rn-柔然-郁久闾铁伐",
@@ -13414,7 +13416,7 @@
         "恭帝"
       ],
       "uncertain": false,
-      "displayTitle": "恭皇帝"
+      "displayTitle": "西魏恭帝"
     },
     {
       "id": "rn-陈霸先",
@@ -13439,7 +13441,7 @@
         "武帝"
       ],
       "uncertain": false,
-      "displayTitle": "武皇帝"
+      "displayTitle": "南陈武帝"
     },
     {
       "id": "rn-宇文觉",
@@ -13463,7 +13465,7 @@
         "闵帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝闵皇帝"
+      "displayTitle": "北周孝闵帝"
     },
     {
       "id": "rn-北周-明帝",
@@ -13471,7 +13473,7 @@
       "personalName": "宇文毓",
       "templeTitle": "世宗",
       "posthumousTitle": "明皇帝",
-      "displayTitle": "宇文毓",
+      "displayTitle": "北周明帝",
       "reignStartYear": 557,
       "reignEndYear": 560,
       "aliases": [
@@ -13511,7 +13513,7 @@
         "文帝"
       ],
       "uncertain": false,
-      "displayTitle": "文皇帝"
+      "displayTitle": "南陈文帝"
     },
     {
       "id": "rn-高句丽-高阳成",
@@ -13556,7 +13558,7 @@
         "武帝"
       ],
       "uncertain": false,
-      "displayTitle": "武皇帝"
+      "displayTitle": "北周武帝"
     },
     {
       "id": "rn-南陈-废帝",
@@ -13564,7 +13566,7 @@
       "personalName": "陈伯宗",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "陈伯宗",
+      "displayTitle": "南陈废帝",
       "reignStartYear": 567,
       "reignEndYear": 568,
       "aliases": [
@@ -13601,7 +13603,7 @@
         "宣帝"
       ],
       "uncertain": false,
-      "displayTitle": "孝宣皇帝"
+      "displayTitle": "南陈孝宣帝"
     },
     {
       "id": "rn-突厥汗国-阿史那",
@@ -13643,7 +13645,7 @@
         "静帝"
       ],
       "uncertain": false,
-      "displayTitle": "静皇帝"
+      "displayTitle": "北周静帝"
     },
     {
       "id": "rn-隋-杨坚",
@@ -13651,7 +13653,7 @@
       "personalName": "杨坚",
       "templeTitle": "高祖",
       "posthumousTitle": "文帝",
-      "displayTitle": "文帝",
+      "displayTitle": "隋文帝",
       "eraNames": [],
       "reignStartYear": 581,
       "reignEndYear": 604,
@@ -13726,7 +13728,7 @@
         "陈后主"
       ],
       "uncertain": false,
-      "displayTitle": "陈叔宝"
+      "displayTitle": "南陈后主"
     },
     {
       "id": "rn-西突厥-阿史那玷厥",
@@ -13734,7 +13736,7 @@
       "personalName": "阿史那玷厥",
       "templeTitle": null,
       "posthumousTitle": "达头可汗",
-      "displayTitle": "达头可汗",
+      "displayTitle": "突厥达头可汗",
       "eraNames": [],
       "reignStartYear": 583,
       "reignEndYear": 603,
@@ -13867,7 +13869,7 @@
       "personalName": "阿史那达漫",
       "templeTitle": null,
       "posthumousTitle": "处罗可汗",
-      "displayTitle": "处罗可汗",
+      "displayTitle": "突厥处罗可汗",
       "eraNames": [],
       "reignStartYear": 603,
       "reignEndYear": 612,
@@ -13901,7 +13903,7 @@
         "炀帝"
       ],
       "uncertain": false,
-      "displayTitle": "世祖"
+      "displayTitle": "隋炀帝"
     },
     {
       "id": "rn-隋-杨广",
@@ -13909,7 +13911,7 @@
       "personalName": "杨广",
       "templeTitle": null,
       "posthumousTitle": "炀帝",
-      "displayTitle": "炀帝",
+      "displayTitle": "隋炀帝",
       "eraNames": [],
       "reignStartYear": 604,
       "reignEndYear": 617,
@@ -13946,7 +13948,7 @@
       "personalName": "阿史那",
       "templeTitle": null,
       "posthumousTitle": "射匮可汗",
-      "displayTitle": "射匮可汗",
+      "displayTitle": "突厥射匮可汗",
       "eraNames": [],
       "reignStartYear": 612,
       "reignEndYear": 618,
@@ -13979,7 +13981,7 @@
         "恭帝"
       ],
       "uncertain": false,
-      "displayTitle": "恭皇帝"
+      "displayTitle": "隋恭帝"
     },
     {
       "id": "rn-李渊",
@@ -14003,7 +14005,7 @@
         "唐高祖"
       ],
       "uncertain": false,
-      "displayTitle": "高祖"
+      "displayTitle": "唐高祖"
     },
     {
       "id": "rn-高句丽-高建武",
@@ -14028,7 +14030,7 @@
       "personalName": "阿史那",
       "templeTitle": null,
       "posthumousTitle": "统叶护可汗",
-      "displayTitle": "统叶护可汗",
+      "displayTitle": "突厥统叶护可汗",
       "eraNames": [],
       "reignStartYear": 618,
       "reignEndYear": 628,
@@ -14116,7 +14118,7 @@
         "天可汗"
       ],
       "uncertain": false,
-      "displayTitle": "太宗"
+      "displayTitle": "唐太宗"
     },
     {
       "id": "rn-西突厥-阿史那咥力特勒",
@@ -14124,7 +14126,7 @@
       "personalName": "阿史那咥力特勒",
       "templeTitle": null,
       "posthumousTitle": "肆叶护可汗",
-      "displayTitle": "肆叶护可汗",
+      "displayTitle": "突厥肆叶护可汗",
       "eraNames": [],
       "reignStartYear": 628,
       "reignEndYear": 632,
@@ -14219,7 +14221,7 @@
         "唐高宗"
       ],
       "uncertain": false,
-      "displayTitle": "高宗"
+      "displayTitle": "唐高宗"
     },
     {
       "id": "rn-蒙舍诏-细奴逻",
@@ -14275,7 +14277,7 @@
       "personalName": "阿史那贺鲁",
       "templeTitle": null,
       "posthumousTitle": "沙钵罗可汗",
-      "displayTitle": "沙钵罗可汗",
+      "displayTitle": "突厥沙钵罗可汗",
       "eraNames": [],
       "reignStartYear": 651,
       "reignEndYear": 657,
@@ -14340,7 +14342,7 @@
       "personalName": "阿史那骨咄禄",
       "templeTitle": null,
       "posthumousTitle": "颉跌利施可汗",
-      "displayTitle": "颉跌利施可汗",
+      "displayTitle": "突厥颉跌利施可汗",
       "eraNames": [],
       "reignStartYear": 682,
       "reignEndYear": 694,
@@ -14440,7 +14442,7 @@
         "则天皇帝"
       ],
       "uncertain": false,
-      "displayTitle": "则天大圣皇帝"
+      "displayTitle": "周则天大圣帝"
     },
     {
       "id": "rn-后突厥汗国-阿史那默啜",
@@ -14536,7 +14538,7 @@
         "唐中宗"
       ],
       "uncertain": false,
-      "displayTitle": "中宗"
+      "displayTitle": "唐中宗"
     },
     {
       "id": "rn-李旦",
@@ -14563,7 +14565,7 @@
         "唐睿宗"
       ],
       "uncertain": false,
-      "displayTitle": "睿宗"
+      "displayTitle": "唐睿宗"
     },
     {
       "id": "rn-李隆基",
@@ -14591,7 +14593,7 @@
         "唐明皇"
       ],
       "uncertain": false,
-      "displayTitle": "玄宗"
+      "displayTitle": "唐玄宗"
     },
     {
       "id": "rn-蒙舍诏-盛逻皮",
@@ -14615,7 +14617,7 @@
       "personalName": "阿史那默棘连",
       "templeTitle": null,
       "posthumousTitle": "毗伽可汗",
-      "displayTitle": "毗伽可汗",
+      "displayTitle": "突厥毗伽可汗",
       "eraNames": [],
       "reignStartYear": 716,
       "reignEndYear": 734,
@@ -14674,7 +14676,7 @@
       "personalName": "阿史那",
       "templeTitle": null,
       "posthumousTitle": "伊然可汗",
-      "displayTitle": "伊然可汗",
+      "displayTitle": "突厥伊然可汗",
       "eraNames": [],
       "reignStartYear": 734,
       "reignEndYear": 741,
@@ -14742,7 +14744,7 @@
       "personalName": "药罗葛",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "骨力裴罗",
+      "displayTitle": "药罗葛",
       "eraNames": [],
       "reignStartYear": 744,
       "reignEndYear": 747,
@@ -14864,7 +14866,7 @@
         "唐肃宗"
       ],
       "uncertain": false,
-      "displayTitle": "肃宗"
+      "displayTitle": "唐肃宗"
     },
     {
       "id": "rn-回鹘汗国-药罗葛移地健",
@@ -14909,7 +14911,7 @@
         "唐代宗"
       ],
       "uncertain": false,
-      "displayTitle": "代宗"
+      "displayTitle": "唐代宗"
     },
     {
       "id": "rn-李适",
@@ -14935,7 +14937,7 @@
         "唐德宗"
       ],
       "uncertain": false,
-      "displayTitle": "德宗"
+      "displayTitle": "唐德宗"
     },
     {
       "id": "rn-回鹘汗国-药罗葛顿莫贺",
@@ -15125,7 +15127,7 @@
         "唐顺宗"
       ],
       "uncertain": false,
-      "displayTitle": "顺宗"
+      "displayTitle": "唐顺宗"
     },
     {
       "id": "rn-李纯",
@@ -15149,7 +15151,7 @@
         "唐宪宗"
       ],
       "uncertain": false,
-      "displayTitle": "宪宗"
+      "displayTitle": "唐宪宗"
     },
     {
       "id": "rn-回鹘汗国-药罗葛俱录",
@@ -15345,7 +15347,7 @@
         "唐穆宗"
       ],
       "uncertain": false,
-      "displayTitle": "穆宗"
+      "displayTitle": "唐穆宗"
     },
     {
       "id": "rn-回鹘汗国-药罗葛崇德",
@@ -15441,7 +15443,7 @@
         "唐文宗"
       ],
       "uncertain": false,
-      "displayTitle": "文宗"
+      "displayTitle": "唐文宗"
     },
     {
       "id": "rn-渤海国-大彝震",
@@ -15529,7 +15531,7 @@
         "唐武宗"
       ],
       "uncertain": false,
-      "displayTitle": "武宗"
+      "displayTitle": "唐武宗"
     },
     {
       "id": "rn-喀喇汗国-毗伽阙·卡迪尔汗",
@@ -15569,7 +15571,7 @@
         "唐宣宗"
       ],
       "uncertain": false,
-      "displayTitle": "宣宗"
+      "displayTitle": "唐宣宗"
     },
     {
       "id": "rn-于阗-尉迟僧伽罗摩-1",
@@ -15625,7 +15627,7 @@
         "唐懿宗"
       ],
       "uncertain": false,
-      "displayTitle": "懿宗"
+      "displayTitle": "唐懿宗"
     },
     {
       "id": "rn-大礼-世隆",
@@ -15708,7 +15710,7 @@
         "唐僖宗"
       ],
       "uncertain": false,
-      "displayTitle": "僖宗"
+      "displayTitle": "唐僖宗"
     },
     {
       "id": "rn-大封民-隆舜",
@@ -15758,7 +15760,7 @@
         "唐昭宗"
       ],
       "uncertain": false,
-      "displayTitle": "昭宗"
+      "displayTitle": "唐昭宗"
     },
     {
       "id": "rn-喀喇汗国-奥古尔恰克",
@@ -15830,7 +15832,7 @@
         "杨吴太祖"
       ],
       "uncertain": false,
-      "displayTitle": "太祖"
+      "displayTitle": "杨吴太祖"
     },
     {
       "id": "rn-李柷",
@@ -15854,7 +15856,7 @@
         "唐哀帝"
       ],
       "uncertain": false,
-      "displayTitle": "哀帝"
+      "displayTitle": "唐哀帝"
     },
     {
       "id": "rn-杨渥",
@@ -15878,7 +15880,7 @@
         "杨吴烈祖"
       ],
       "uncertain": false,
-      "displayTitle": "烈祖"
+      "displayTitle": "杨吴烈祖"
     },
     {
       "id": "rn-渤海国-大諲譔",
@@ -15921,7 +15923,7 @@
         "后梁太祖"
       ],
       "uncertain": false,
-      "displayTitle": "太祖"
+      "displayTitle": "后梁太祖"
     },
     {
       "id": "rn-钱镠",
@@ -15949,7 +15951,7 @@
         "吴越太祖"
       ],
       "uncertain": false,
-      "displayTitle": "太祖"
+      "displayTitle": "吴越太祖"
     },
     {
       "id": "rn-马楚-武穆王",
@@ -15970,7 +15972,7 @@
         "楚武穆王"
       ],
       "uncertain": false,
-      "displayTitle": "武穆王"
+      "displayTitle": "马楚武穆王"
     },
     {
       "id": "rn-王建",
@@ -15998,7 +16000,7 @@
         "前蜀高祖"
       ],
       "uncertain": false,
-      "displayTitle": "高祖"
+      "displayTitle": "前蜀高祖"
     },
     {
       "id": "rn-耶律阿保机",
@@ -16026,7 +16028,7 @@
         "契丹太祖"
       ],
       "uncertain": false,
-      "displayTitle": "太祖"
+      "displayTitle": "大契丹太祖"
     },
     {
       "id": "rn-杨隆演",
@@ -16050,7 +16052,7 @@
         "杨吴高祖"
       ],
       "uncertain": false,
-      "displayTitle": "高祖"
+      "displayTitle": "杨吴高祖"
     },
     {
       "id": "rn-王审知",
@@ -16072,7 +16074,7 @@
         "闽太祖"
       ],
       "uncertain": false,
-      "displayTitle": "太祖"
+      "displayTitle": "闽太祖"
     },
     {
       "id": "rn-朱友珪",
@@ -16094,7 +16096,7 @@
         "后梁郢王"
       ],
       "uncertain": false,
-      "displayTitle": "朱友珪"
+      "displayTitle": "后梁朱友珪"
     },
     {
       "id": "rn-于阗-尉迟李圣天",
@@ -16134,7 +16136,7 @@
         "后梁末帝"
       ],
       "uncertain": false,
-      "displayTitle": "朱友贞"
+      "displayTitle": "后梁末帝"
     },
     {
       "id": "rn-刘龑",
@@ -16160,7 +16162,7 @@
         "南汉高祖"
       ],
       "uncertain": false,
-      "displayTitle": "高祖"
+      "displayTitle": "南汉高祖"
     },
     {
       "id": "rn-王衍",
@@ -16183,7 +16185,7 @@
         "前蜀后主"
       ],
       "uncertain": false,
-      "displayTitle": "王衍"
+      "displayTitle": "前蜀后主"
     },
     {
       "id": "rn-喀喇汗国-萨图克·布格拉汗",
@@ -16232,7 +16234,7 @@
         "让皇帝"
       ],
       "uncertain": false,
-      "displayTitle": "睿皇帝"
+      "displayTitle": "杨吴睿帝"
     },
     {
       "id": "rn-李存勖",
@@ -16256,7 +16258,7 @@
         "后唐庄宗"
       ],
       "uncertain": false,
-      "displayTitle": "庄宗"
+      "displayTitle": "后唐庄宗"
     },
     {
       "id": "rn-高季兴",
@@ -16277,7 +16279,7 @@
         "南平武信王"
       ],
       "uncertain": false,
-      "displayTitle": "武信王"
+      "displayTitle": "南平武信王"
     },
     {
       "id": "rn-王延翰",
@@ -16297,7 +16299,7 @@
         "闽嗣王"
       ],
       "uncertain": false,
-      "displayTitle": "王延翰"
+      "displayTitle": "闽嗣王"
     },
     {
       "id": "rn-李嗣源",
@@ -16322,7 +16324,7 @@
         "后唐明宗"
       ],
       "uncertain": false,
-      "displayTitle": "明宗"
+      "displayTitle": "后唐明宗"
     },
     {
       "id": "rn-耶律德光",
@@ -16350,7 +16352,7 @@
         "契丹太宗"
       ],
       "uncertain": false,
-      "displayTitle": "太宗"
+      "displayTitle": "大契丹太宗"
     },
     {
       "id": "rn-王延钧",
@@ -16375,7 +16377,7 @@
         "闽太宗"
       ],
       "uncertain": false,
-      "displayTitle": "太宗"
+      "displayTitle": "闽太宗"
     },
     {
       "id": "rn-南平-文献王",
@@ -16383,7 +16385,7 @@
       "personalName": "高从诲",
       "templeTitle": null,
       "posthumousTitle": "文献王",
-      "displayTitle": "高从诲",
+      "displayTitle": "南平文献王",
       "reignStartYear": 928,
       "reignEndYear": 948,
       "aliases": [
@@ -16419,7 +16421,7 @@
         "吴越太宗"
       ],
       "uncertain": false,
-      "displayTitle": "太宗"
+      "displayTitle": "吴越太宗"
     },
     {
       "id": "rn-李从厚",
@@ -16442,7 +16444,7 @@
         "后唐闵帝"
       ],
       "uncertain": false,
-      "displayTitle": "闵皇帝"
+      "displayTitle": "后唐闵帝"
     },
     {
       "id": "rn-李从珂",
@@ -16464,7 +16466,7 @@
         "后唐末帝"
       ],
       "uncertain": false,
-      "displayTitle": "李从珂"
+      "displayTitle": "后唐末帝"
     },
     {
       "id": "rn-孟知祥",
@@ -16488,7 +16490,7 @@
         "后蜀高祖"
       ],
       "uncertain": false,
-      "displayTitle": "高祖"
+      "displayTitle": "后蜀高祖"
     },
     {
       "id": "rn-孟昶",
@@ -16511,7 +16513,7 @@
         "后蜀后主"
       ],
       "uncertain": false,
-      "displayTitle": "孟昶"
+      "displayTitle": "后蜀后主"
     },
     {
       "id": "rn-石敬瑭",
@@ -16535,7 +16537,7 @@
         "后晋高祖"
       ],
       "uncertain": false,
-      "displayTitle": "高祖"
+      "displayTitle": "后晋高祖"
     },
     {
       "id": "rn-李昪",
@@ -16559,7 +16561,7 @@
         "南唐烈祖"
       ],
       "uncertain": false,
-      "displayTitle": "烈祖"
+      "displayTitle": "南唐烈祖"
     },
     {
       "id": "rn-大理-段思平",
@@ -16602,7 +16604,7 @@
         "景宗"
       ],
       "uncertain": false,
-      "displayTitle": "景宗"
+      "displayTitle": "闽景宗"
     },
     {
       "id": "rn-吴越-成宗",
@@ -16610,7 +16612,7 @@
       "personalName": "钱弘佐",
       "templeTitle": "成宗",
       "posthumousTitle": "忠献王",
-      "displayTitle": "钱弘佐",
+      "displayTitle": "吴越成宗",
       "reignStartYear": 941,
       "reignEndYear": 947,
       "aliases": [
@@ -16647,7 +16649,7 @@
         "后晋出帝"
       ],
       "uncertain": false,
-      "displayTitle": "石重贵"
+      "displayTitle": "后晋出帝"
     },
     {
       "id": "rn-李璟",
@@ -16675,7 +16677,7 @@
         "中主"
       ],
       "uncertain": false,
-      "displayTitle": "元宗"
+      "displayTitle": "南唐元宗"
     },
     {
       "id": "rn-刘晟",
@@ -16699,7 +16701,7 @@
         "南汉中宗"
       ],
       "uncertain": false,
-      "displayTitle": "中宗"
+      "displayTitle": "南汉中宗"
     },
     {
       "id": "rn-大理-段思英",
@@ -16756,7 +16758,7 @@
         "后汉高祖"
       ],
       "uncertain": false,
-      "displayTitle": "高祖"
+      "displayTitle": "后汉高祖"
     },
     {
       "id": "rn-耶律阮",
@@ -16780,7 +16782,7 @@
         "辽世宗"
       ],
       "uncertain": false,
-      "displayTitle": "世宗"
+      "displayTitle": "辽世宗"
     },
     {
       "id": "rn-吴越-忠逊王",
@@ -16788,7 +16790,7 @@
       "personalName": "钱弘倧",
       "templeTitle": null,
       "posthumousTitle": "忠逊王",
-      "displayTitle": "钱弘倧",
+      "displayTitle": "吴越忠逊王",
       "reignStartYear": 947,
       "reignEndYear": 948,
       "aliases": [
@@ -16821,7 +16823,7 @@
         "后汉隐帝"
       ],
       "uncertain": false,
-      "displayTitle": "刘承祐"
+      "displayTitle": "后汉隐帝"
     },
     {
       "id": "rn-钱弘俶",
@@ -16844,7 +16846,7 @@
         "吴越忠懿王"
       ],
       "uncertain": false,
-      "displayTitle": "忠懿王"
+      "displayTitle": "吴越忠懿王"
     },
     {
       "id": "rn-高保融",
@@ -16866,7 +16868,7 @@
         "贞懿王"
       ],
       "uncertain": false,
-      "displayTitle": "贞懿王"
+      "displayTitle": "南平贞懿王"
     },
     {
       "id": "rn-郭威",
@@ -16891,7 +16893,7 @@
         "后周太祖"
       ],
       "uncertain": false,
-      "displayTitle": "太祖"
+      "displayTitle": "后周太祖"
     },
     {
       "id": "rn-刘旻",
@@ -16915,7 +16917,7 @@
         "北汉世祖"
       ],
       "uncertain": false,
-      "displayTitle": "世祖"
+      "displayTitle": "北汉世祖"
     },
     {
       "id": "rn-耶律璟",
@@ -16939,7 +16941,7 @@
         "辽穆宗"
       ],
       "uncertain": false,
-      "displayTitle": "穆宗"
+      "displayTitle": "辽穆宗"
     },
     {
       "id": "rn-大理-段思聪",
@@ -16979,7 +16981,7 @@
         "后周世宗"
       ],
       "uncertain": false,
-      "displayTitle": "世宗"
+      "displayTitle": "后周世宗"
     },
     {
       "id": "rn-刘钧",
@@ -17003,7 +17005,7 @@
         "北汉睿宗"
       ],
       "uncertain": false,
-      "displayTitle": "睿宗"
+      "displayTitle": "北汉睿宗"
     },
     {
       "id": "rn-喀喇汗国-穆萨",
@@ -17041,7 +17043,7 @@
         "南汉后主"
       ],
       "uncertain": false,
-      "displayTitle": "刘鋹"
+      "displayTitle": "南汉后主"
     },
     {
       "id": "rn-郭宗训",
@@ -17066,7 +17068,7 @@
         "后周恭帝"
       ],
       "uncertain": false,
-      "displayTitle": "恭皇帝"
+      "displayTitle": "后周恭帝"
     },
     {
       "id": "rn-赵匡胤",
@@ -17092,7 +17094,7 @@
         "宋太祖"
       ],
       "uncertain": false,
-      "displayTitle": "太祖"
+      "displayTitle": "宋太祖"
     },
     {
       "id": "rn-李煜",
@@ -17114,7 +17116,7 @@
         "李后主"
       ],
       "uncertain": false,
-      "displayTitle": "李煜"
+      "displayTitle": "南唐后主"
     },
     {
       "id": "rn-耶律贤",
@@ -17139,7 +17141,7 @@
         "辽景宗"
       ],
       "uncertain": false,
-      "displayTitle": "景宗"
+      "displayTitle": "辽景宗"
     },
     {
       "id": "rn-喀喇汗国-哈桑",
@@ -17199,7 +17201,7 @@
         "宋太宗"
       ],
       "uncertain": false,
-      "displayTitle": "太宗"
+      "displayTitle": "宋太宗"
     },
     {
       "id": "rn-耶律隆绪",
@@ -17225,7 +17227,7 @@
         "辽圣宗"
       ],
       "uncertain": false,
-      "displayTitle": "圣宗"
+      "displayTitle": "辽圣宗"
     },
     {
       "id": "rn-大理-段素英",
@@ -17285,7 +17287,7 @@
         "宋真宗"
       ],
       "uncertain": false,
-      "displayTitle": "真宗"
+      "displayTitle": "宋真宗"
     },
     {
       "id": "rn-大理-段素廉",
@@ -17333,7 +17335,7 @@
         "宋仁宗"
       ],
       "uncertain": false,
-      "displayTitle": "仁宗"
+      "displayTitle": "宋仁宗"
     },
     {
       "id": "rn-大理-段素隆",
@@ -17390,7 +17392,7 @@
         "辽兴宗"
       ],
       "uncertain": false,
-      "displayTitle": "兴宗"
+      "displayTitle": "辽兴宗"
     },
     {
       "id": "rn-喀喇汗国-马赫穆德",
@@ -17432,7 +17434,7 @@
         "夏景宗"
       ],
       "uncertain": false,
-      "displayTitle": "景宗"
+      "displayTitle": "大白高国（大夏）景宗"
     },
     {
       "id": "rn-大理-段素兴",
@@ -17492,7 +17494,7 @@
         "夏毅宗"
       ],
       "uncertain": false,
-      "displayTitle": "毅宗"
+      "displayTitle": "大白高国（大夏）毅宗"
     },
     {
       "id": "rn-耶律洪基",
@@ -17520,7 +17522,7 @@
         "辽道宗"
       ],
       "uncertain": false,
-      "displayTitle": "道宗"
+      "displayTitle": "辽道宗"
     },
     {
       "id": "rn-赵曙",
@@ -17544,7 +17546,7 @@
         "宋英宗"
       ],
       "uncertain": false,
-      "displayTitle": "英宗"
+      "displayTitle": "宋英宗"
     },
     {
       "id": "rn-赵顼",
@@ -17569,7 +17571,7 @@
         "宋神宗"
       ],
       "uncertain": false,
-      "displayTitle": "神宗"
+      "displayTitle": "宋神宗"
     },
     {
       "id": "rn-李秉常",
@@ -17596,7 +17598,7 @@
         "夏惠宗"
       ],
       "uncertain": false,
-      "displayTitle": "惠宗"
+      "displayTitle": "大白高国（大夏）惠宗"
     },
     {
       "id": "rn-喀喇汗国-哈桑-1",
@@ -17686,7 +17688,7 @@
         "宋哲宗"
       ],
       "uncertain": false,
-      "displayTitle": "哲宗"
+      "displayTitle": "宋哲宗"
     },
     {
       "id": "rn-李乾顺",
@@ -17717,7 +17719,7 @@
         "夏崇宗"
       ],
       "uncertain": false,
-      "displayTitle": "崇宗"
+      "displayTitle": "大白高国（大夏）崇宗"
     },
     {
       "id": "rn-大理-段正淳",
@@ -17762,7 +17764,7 @@
         "宋徽宗"
       ],
       "uncertain": false,
-      "displayTitle": "徽宗"
+      "displayTitle": "宋徽宗"
     },
     {
       "id": "rn-耶律延禧",
@@ -17786,7 +17788,7 @@
         "辽天祚帝"
       ],
       "uncertain": false,
-      "displayTitle": "耶律延禧"
+      "displayTitle": "辽天祚帝"
     },
     {
       "id": "rn-喀喇汗国-阿赫马德",
@@ -17846,7 +17848,7 @@
         "金太祖"
       ],
       "uncertain": false,
-      "displayTitle": "太祖"
+      "displayTitle": "金太祖"
     },
     {
       "id": "rn-完颜吴乞买",
@@ -17872,7 +17874,7 @@
         "金太宗"
       ],
       "uncertain": false,
-      "displayTitle": "太宗"
+      "displayTitle": "金太宗"
     },
     {
       "id": "rn-赵桓",
@@ -17896,7 +17898,7 @@
         "宋钦宗"
       ],
       "uncertain": false,
-      "displayTitle": "钦宗"
+      "displayTitle": "宋钦宗"
     },
     {
       "id": "rn-赵构",
@@ -17921,7 +17923,7 @@
         "宋高宗"
       ],
       "uncertain": false,
-      "displayTitle": "高宗"
+      "displayTitle": "宋高宗"
     },
     {
       "id": "rn-喀喇汗国-易卜拉欣",
@@ -17945,7 +17947,7 @@
       "personalName": "耶律大石",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "德宗",
+      "displayTitle": "耶律大石",
       "eraNames": [],
       "reignStartYear": 1132,
       "reignEndYear": 1143,
@@ -17979,7 +17981,7 @@
         "金熙宗"
       ],
       "uncertain": false,
-      "displayTitle": "熙宗"
+      "displayTitle": "金熙宗"
     },
     {
       "id": "rn-李仁孝",
@@ -18006,7 +18008,7 @@
         "夏仁宗"
       ],
       "uncertain": false,
-      "displayTitle": "仁宗"
+      "displayTitle": "大白高国（大夏）仁宗"
     },
     {
       "id": "rn-西辽-萧塔不烟",
@@ -18014,7 +18016,7 @@
       "personalName": "萧塔不烟",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "感天后",
+      "displayTitle": "萧塔不烟",
       "eraNames": [],
       "reignStartYear": 1143,
       "reignEndYear": 1150,
@@ -18062,7 +18064,7 @@
         "海陵王"
       ],
       "uncertain": false,
-      "displayTitle": "完颜亮"
+      "displayTitle": "金海陵王"
     },
     {
       "id": "rn-西辽-耶律夷列",
@@ -18070,7 +18072,7 @@
       "personalName": "耶律夷列",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "仁宗",
+      "displayTitle": "耶律夷列",
       "eraNames": [],
       "reignStartYear": 1150,
       "reignEndYear": 1164,
@@ -18119,7 +18121,7 @@
         "金世宗"
       ],
       "uncertain": false,
-      "displayTitle": "世宗"
+      "displayTitle": "金世宗"
     },
     {
       "id": "rn-赵昚",
@@ -18145,7 +18147,7 @@
         "宋孝宗"
       ],
       "uncertain": false,
-      "displayTitle": "孝宗"
+      "displayTitle": "宋孝宗"
     },
     {
       "id": "rn-西辽-耶律普速完",
@@ -18153,7 +18155,7 @@
       "personalName": "耶律普速完",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "承天后",
+      "displayTitle": "耶律普速完",
       "eraNames": [],
       "reignStartYear": 1164,
       "reignEndYear": 1178,
@@ -18186,7 +18188,7 @@
       "personalName": "耶律直鲁古",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "末主",
+      "displayTitle": "耶律直鲁古",
       "eraNames": [],
       "reignStartYear": 1178,
       "reignEndYear": 1211,
@@ -18235,7 +18237,7 @@
         "宋光宗"
       ],
       "uncertain": false,
-      "displayTitle": "光宗"
+      "displayTitle": "宋光宗"
     },
     {
       "id": "rn-完颜璟",
@@ -18261,7 +18263,7 @@
         "金章宗"
       ],
       "uncertain": false,
-      "displayTitle": "章宗"
+      "displayTitle": "金章宗"
     },
     {
       "id": "rn-李纯祐",
@@ -18285,7 +18287,7 @@
         "夏桓宗"
       ],
       "uncertain": false,
-      "displayTitle": "桓宗"
+      "displayTitle": "大白高国（大夏）桓宗"
     },
     {
       "id": "rn-赵扩",
@@ -18312,7 +18314,7 @@
         "宋宁宗"
       ],
       "uncertain": false,
-      "displayTitle": "宁宗"
+      "displayTitle": "宋宁宗"
     },
     {
       "id": "rn-大理-段智廉",
@@ -18369,7 +18371,7 @@
         "夏襄宗"
       ],
       "uncertain": false,
-      "displayTitle": "襄宗"
+      "displayTitle": "大白高国（大夏）襄宗"
     },
     {
       "id": "rn-铁木真",
@@ -18395,7 +18397,7 @@
         "蒙古太祖"
       ],
       "uncertain": false,
-      "displayTitle": "太祖"
+      "displayTitle": "成吉思汗"
     },
     {
       "id": "rn-金-卫绍王",
@@ -18403,7 +18405,7 @@
       "personalName": "完颜永济",
       "templeTitle": null,
       "posthumousTitle": "卫绍王",
-      "displayTitle": "完颜永济",
+      "displayTitle": "金卫绍王",
       "reignStartYear": 1208,
       "reignEndYear": 1213,
       "aliases": [
@@ -18439,7 +18441,7 @@
         "夏神宗"
       ],
       "uncertain": false,
-      "displayTitle": "神宗"
+      "displayTitle": "大白高国（大夏）神宗"
     },
     {
       "id": "rn-西辽-耶律屈出律",
@@ -18481,7 +18483,7 @@
         "金宣宗"
       ],
       "uncertain": false,
-      "displayTitle": "宣宗"
+      "displayTitle": "金宣宗"
     },
     {
       "id": "rn-后西辽-耶律八剌黑",
@@ -18522,7 +18524,7 @@
         "金哀宗"
       ],
       "uncertain": false,
-      "displayTitle": "哀宗"
+      "displayTitle": "金哀宗"
     },
     {
       "id": "rn-赵昀",
@@ -18553,7 +18555,7 @@
         "宋理宗"
       ],
       "uncertain": false,
-      "displayTitle": "理宗"
+      "displayTitle": "宋理宗"
     },
     {
       "id": "rn-李睍",
@@ -18572,7 +18574,7 @@
         "李睍"
       ],
       "uncertain": false,
-      "displayTitle": "李睍"
+      "displayTitle": "大白高国（大夏）李睍"
     },
     {
       "id": "rn-窝阔台",
@@ -18596,7 +18598,7 @@
         "蒙古太宗"
       ],
       "uncertain": false,
-      "displayTitle": "太宗"
+      "displayTitle": "窝阔台"
     },
     {
       "id": "rn-后西辽-穆扎法尔",
@@ -18652,7 +18654,7 @@
         "简平皇帝"
       ],
       "uncertain": false,
-      "displayTitle": "定宗"
+      "displayTitle": "贵由"
     },
     {
       "id": "rn-后西辽-忽毡",
@@ -18708,7 +18710,7 @@
         "桓肃皇帝"
       ],
       "uncertain": false,
-      "displayTitle": "宪宗"
+      "displayTitle": "蒙哥"
     },
     {
       "id": "rn-忽必烈",
@@ -18735,7 +18737,7 @@
         "薛禅汗"
       ],
       "uncertain": false,
-      "displayTitle": "世祖",
+      "displayTitle": "大元世祖",
       "personId": "person-忽必烈",
       "continuityGroup": "rule-忽必烈",
       "phaseType": "founder-transition",
@@ -18761,7 +18763,7 @@
         "元世祖"
       ],
       "uncertain": false,
-      "displayTitle": "世祖",
+      "displayTitle": "忽必烈",
       "personId": "person-忽必烈",
       "continuityGroup": "rule-忽必烈",
       "phaseType": "founder-transition",
@@ -18789,7 +18791,7 @@
         "宋度宗"
       ],
       "uncertain": false,
-      "displayTitle": "度宗"
+      "displayTitle": "宋度宗"
     },
     {
       "id": "rn-赵㬎",
@@ -18812,7 +18814,7 @@
         "宋恭帝"
       ],
       "uncertain": false,
-      "displayTitle": "恭帝"
+      "displayTitle": "宋恭帝"
     },
     {
       "id": "rn-赵昰",
@@ -18835,7 +18837,7 @@
         "宋端宗"
       ],
       "uncertain": false,
-      "displayTitle": "端宗"
+      "displayTitle": "宋端宗"
     },
     {
       "id": "rn-赵昺",
@@ -18853,7 +18855,7 @@
         "赵昺"
       ],
       "uncertain": false,
-      "displayTitle": "赵昺"
+      "displayTitle": "宋赵昺"
     },
     {
       "id": "rn-后西辽-巴拉克",
@@ -18894,7 +18896,7 @@
         "元成宗"
       ],
       "uncertain": false,
-      "displayTitle": "成宗"
+      "displayTitle": "大元成宗"
     },
     {
       "id": "rn-海山",
@@ -18918,7 +18920,7 @@
         "元武宗"
       ],
       "uncertain": false,
-      "displayTitle": "武宗"
+      "displayTitle": "大元武宗"
     },
     {
       "id": "rn-爱育黎拔力八达",
@@ -18943,7 +18945,7 @@
         "元仁宗"
       ],
       "uncertain": false,
-      "displayTitle": "仁宗"
+      "displayTitle": "大元仁宗"
     },
     {
       "id": "rn-硕德八剌",
@@ -18967,7 +18969,7 @@
         "元英宗"
       ],
       "uncertain": false,
-      "displayTitle": "英宗"
+      "displayTitle": "大元英宗"
     },
     {
       "id": "rn-也孙铁木儿",
@@ -18991,7 +18993,7 @@
         "元泰定帝"
       ],
       "uncertain": false,
-      "displayTitle": "泰定帝"
+      "displayTitle": "大元泰定帝"
     },
     {
       "id": "rn-图帖睦尔",
@@ -19016,7 +19018,7 @@
         "元文宗"
       ],
       "uncertain": false,
-      "displayTitle": "文宗"
+      "displayTitle": "大元文宗"
     },
     {
       "id": "rn-妥懽帖睦尔",
@@ -19044,7 +19046,7 @@
         "元惠宗"
       ],
       "uncertain": false,
-      "displayTitle": "惠宗"
+      "displayTitle": "大元惠宗"
     },
     {
       "id": "rn-朱元璋",
@@ -19068,7 +19070,7 @@
         "明太祖"
       ],
       "uncertain": false,
-      "displayTitle": "太祖"
+      "displayTitle": "洪武帝"
     },
     {
       "id": "rn-北元-爱猷识理达腊",
@@ -19076,7 +19078,7 @@
       "personalName": "爱猷识理达腊",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "爱猷识理达腊",
+      "displayTitle": "大元爱猷识理达腊",
       "eraNames": [],
       "reignStartYear": 1370,
       "reignEndYear": 1378,
@@ -19095,7 +19097,7 @@
       "personalName": "脱古思帖木儿",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "脱古思帖木儿",
+      "displayTitle": "大元脱古思帖木儿",
       "eraNames": [],
       "reignStartYear": 1378,
       "reignEndYear": 1388,
@@ -19125,7 +19127,7 @@
         "建文帝"
       ],
       "uncertain": false,
-      "displayTitle": "惠皇帝"
+      "displayTitle": "建文帝"
     },
     {
       "id": "rn-朱棣",
@@ -19151,7 +19153,7 @@
         "永乐帝"
       ],
       "uncertain": false,
-      "displayTitle": "成祖"
+      "displayTitle": "永乐帝"
     },
     {
       "id": "rn-朱高炽",
@@ -19175,7 +19177,7 @@
         "明仁宗"
       ],
       "uncertain": false,
-      "displayTitle": "仁宗"
+      "displayTitle": "洪熙帝"
     },
     {
       "id": "rn-朱瞻基",
@@ -19199,7 +19201,7 @@
         "明宣宗"
       ],
       "uncertain": false,
-      "displayTitle": "宣宗"
+      "displayTitle": "宣德帝"
     },
     {
       "id": "rn-朱祁镇-正统",
@@ -19227,7 +19229,7 @@
         "英宗"
       ],
       "uncertain": false,
-      "displayTitle": "英宗"
+      "displayTitle": "正统帝"
     },
     {
       "id": "rn-朱祁钰",
@@ -19253,7 +19255,7 @@
         "明代宗"
       ],
       "uncertain": false,
-      "displayTitle": "代宗"
+      "displayTitle": "景泰帝"
     },
     {
       "id": "rn-朱祁镇-天顺",
@@ -19281,7 +19283,7 @@
         "英宗"
       ],
       "uncertain": false,
-      "displayTitle": "英宗"
+      "displayTitle": "天顺帝"
     },
     {
       "id": "rn-朱见深",
@@ -19305,7 +19307,7 @@
         "明宪宗"
       ],
       "uncertain": false,
-      "displayTitle": "宪宗"
+      "displayTitle": "成化帝"
     },
     {
       "id": "rn-朱祐樘",
@@ -19329,7 +19331,7 @@
         "明孝宗"
       ],
       "uncertain": false,
-      "displayTitle": "孝宗"
+      "displayTitle": "弘治帝"
     },
     {
       "id": "rn-朱厚照",
@@ -19353,7 +19355,7 @@
         "明武宗"
       ],
       "uncertain": false,
-      "displayTitle": "武宗"
+      "displayTitle": "正德帝"
     },
     {
       "id": "rn-朱厚熜",
@@ -19377,7 +19379,7 @@
         "明世宗"
       ],
       "uncertain": false,
-      "displayTitle": "世宗"
+      "displayTitle": "嘉靖帝"
     },
     {
       "id": "rn-朱载坖",
@@ -19401,7 +19403,7 @@
         "明穆宗"
       ],
       "uncertain": false,
-      "displayTitle": "穆宗"
+      "displayTitle": "隆庆帝"
     },
     {
       "id": "rn-朱翊钧",
@@ -19425,7 +19427,7 @@
         "明神宗"
       ],
       "uncertain": false,
-      "displayTitle": "神宗"
+      "displayTitle": "万历帝"
     },
     {
       "id": "rn-努尔哈赤",
@@ -19451,7 +19453,7 @@
         "后金太祖"
       ],
       "uncertain": false,
-      "displayTitle": "太祖"
+      "displayTitle": "努尔哈赤"
     },
     {
       "id": "rn-朱常洛",
@@ -19475,7 +19477,7 @@
         "明光宗"
       ],
       "uncertain": false,
-      "displayTitle": "光宗"
+      "displayTitle": "泰昌帝"
     },
     {
       "id": "rn-朱由校",
@@ -19499,7 +19501,7 @@
         "明熹宗"
       ],
       "uncertain": false,
-      "displayTitle": "熹宗"
+      "displayTitle": "天启帝"
     },
     {
       "id": "rn-皇太极",
@@ -19524,7 +19526,7 @@
         "清太宗"
       ],
       "uncertain": false,
-      "displayTitle": "太宗",
+      "displayTitle": "皇太极",
       "personId": "person-皇太极",
       "continuityGroup": "rule-皇太极",
       "phaseType": "founder-transition",
@@ -19554,7 +19556,7 @@
         "明思宗"
       ],
       "uncertain": false,
-      "displayTitle": "思宗"
+      "displayTitle": "崇祯帝"
     },
     {
       "id": "rn-福临",
@@ -19578,7 +19580,7 @@
         "清世祖"
       ],
       "uncertain": false,
-      "displayTitle": "世祖"
+      "displayTitle": "顺治帝"
     },
     {
       "id": "rn-大顺-李自成",
@@ -19586,7 +19588,7 @@
       "personalName": "李自成",
       "templeTitle": null,
       "posthumousTitle": "闯王",
-      "displayTitle": "闯王",
+      "displayTitle": "大顺闯王",
       "eraNames": [],
       "reignStartYear": 1644,
       "reignEndYear": 1645,
@@ -19606,7 +19608,7 @@
       "personalName": "张献忠",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "张献忠",
+      "displayTitle": "大西张献忠",
       "eraNames": [],
       "reignStartYear": 1644,
       "reignEndYear": 1646,
@@ -19698,7 +19700,7 @@
         "清圣祖"
       ],
       "uncertain": false,
-      "displayTitle": "圣祖"
+      "displayTitle": "康熙帝"
     },
     {
       "id": "rn-胤禛",
@@ -19722,7 +19724,7 @@
         "清世宗"
       ],
       "uncertain": false,
-      "displayTitle": "世宗"
+      "displayTitle": "雍正帝"
     },
     {
       "id": "rn-弘历",
@@ -19746,7 +19748,7 @@
         "清高宗"
       ],
       "uncertain": false,
-      "displayTitle": "高宗"
+      "displayTitle": "乾隆帝"
     },
     {
       "id": "rn-颙琰",
@@ -19770,7 +19772,7 @@
         "清仁宗"
       ],
       "uncertain": false,
-      "displayTitle": "仁宗"
+      "displayTitle": "嘉庆帝"
     },
     {
       "id": "rn-旻宁",
@@ -19794,7 +19796,7 @@
         "清宣宗"
       ],
       "uncertain": false,
-      "displayTitle": "宣宗"
+      "displayTitle": "道光帝"
     },
     {
       "id": "rn-奕詝",
@@ -19818,7 +19820,7 @@
         "清文宗"
       ],
       "uncertain": false,
-      "displayTitle": "文宗"
+      "displayTitle": "咸丰帝"
     },
     {
       "id": "rn-载淳",
@@ -19842,7 +19844,7 @@
         "清穆宗"
       ],
       "uncertain": false,
-      "displayTitle": "穆宗"
+      "displayTitle": "同治帝"
     },
     {
       "id": "rn-载湉",
@@ -19866,7 +19868,7 @@
         "清德宗"
       ],
       "uncertain": false,
-      "displayTitle": "德宗"
+      "displayTitle": "光绪帝"
     },
     {
       "id": "rn-溥仪",
@@ -19887,7 +19889,7 @@
         "宣统帝"
       ],
       "uncertain": false,
-      "displayTitle": "溥仪"
+      "displayTitle": "宣统帝"
     }
   ]
 }

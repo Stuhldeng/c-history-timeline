@@ -1,14 +1,12 @@
 // 列管理面板 UI（C-7-5）— 筛选 + 可滚动 + 隐藏/固定/重置
 import * as S from './state.js';
 import {
-  COLUMN_STATE, hideColumn, showColumn, pinColumn, unpinColumn, resetColumns, MAX_PINNED
+  COLUMN_STATE, hideColumn, showColumn, pinColumn, unpinColumn, resetColumns, MAX_PINNED, categorizeGroup
 } from './column.js';
-import { renderAll, updateTimeline, updateStatus } from './render.js';
+import { refresh } from './render.js';
 
 const PERIODS = ['先秦', '秦汉', '魏晋南北朝', '隋唐五代', '宋辽金', '元明清'];
 let filters = { period: null, central: false, border: false, hidden: false };
-
-function rerender() { renderAll(); updateTimeline(); updateStatus(); }
 
 export function showColumnPanel() {
   const panel = document.getElementById('columnPanel');
@@ -42,7 +40,8 @@ function renderPanel() {
     if (p.isBorder) mgMap[p.mergeGroup].isBorder = true;
   }
   const columns = Object.values(mgMap).sort((a, b) => {
-    if (a.isCentral !== b.isCentral) return a.isCentral ? -1 : 1;
+    const aCat = categorizeGroup(a.members), bCat = categorizeGroup(b.members);
+    if (aCat !== bCat) return aCat - bCat;
     return Math.min(...a.members.map(p => p.startYear)) - Math.min(...b.members.map(p => p.startYear));
   });
 
@@ -104,10 +103,10 @@ function renderPanel() {
     btn.textContent = text;
     if (disabled) btn.disabled = true;
     btn.addEventListener('click', () => {
-      if (act === 'hide') { hideColumn(cid); rerender(); }
-      else if (act === 'show') { showColumn(cid); rerender(); }
-      else if (act === 'pin') { pinColumn(cid); rerender(); }
-      else if (act === 'unpin') { unpinColumn(cid); rerender(); }
+      if (act === 'hide') { hideColumn(cid); refresh(); }
+      else if (act === 'show') { showColumn(cid); refresh(); }
+      else if (act === 'pin') { pinColumn(cid); refresh(); }
+      else if (act === 'unpin') { unpinColumn(cid); refresh(); }
       renderPanel();
     });
     return btn;
@@ -144,6 +143,6 @@ function renderPanel() {
   // 重置按钮
   resetEl.textContent = '';
   const resetBtn = document.createElement('button'); resetBtn.textContent = '重置所有列设置';
-  resetBtn.addEventListener('click', () => { resetColumns(); rerender(); renderPanel(); });
+  resetBtn.addEventListener('click', () => { resetColumns(); refresh(); renderPanel(); });
   resetEl.appendChild(resetBtn);
 }

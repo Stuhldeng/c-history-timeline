@@ -4,21 +4,25 @@
 <link rel="stylesheet" href="src/styles/main.css">
 </head><body>
 <div class="top-bar">
-  <h1>中国历史年表 v0.8</h1><span class="sub" id="statusLabel">加载中...</span>
-  <label class="lock-switch"><input type="checkbox" id="lockToggle" checked onchange="window._toggleLock&&window._toggleLock(this.checked)"><span class="track"></span><span class="lock-label" id="lockLabel">锁</span></label>
-  <label>N=</label><input type="range" id="nSlider" min="0" max="10" step="1" value="5" oninput="window._updateN&&window._updateN(this.value)"><span class="n-val" id="nVal">5</span>
+  <h1>中国历史年表 v0.81</h1><span class="sub" id="statusLabel">加载中...</span>
+  <label class="lock-switch"><input type="checkbox" id="lockToggle" checked><span class="track"></span><span class="lock-label" id="lockLabel">锁</span></label>
+  <label>N=</label><input type="range" id="nSlider" min="0" max="10" step="1" value="5"><span class="n-val" id="nVal">5</span>
   <div class="search-box">
-    <input type="number" id="yearSearch" placeholder="年份" style="width:55px"><button class="btn" onclick="window._jumpYear&&window._jumpYear()">→</button>
-    <input type="text" id="keywordSearch" placeholder="政权/年号/君主" style="width:90px"><button class="btn" onclick="window._searchKeyword&&window._searchKeyword()">搜</button>
+    <input type="number" id="yearSearch" placeholder="年份" style="width:55px"><button class="btn" data-act="jumpYear">→</button>
+    <span style="position:relative;display:inline-block">
+      <kbd id="searchKbd" style="position:absolute;left:5px;top:calc(50% + 2px);transform:translateY(-50%);pointer-events:none;border:1px solid var(--topbar-text);border-radius:2px;width:12px;height:12px;display:inline-flex;align-items:center;justify-content:center;font-size:.45rem;color:var(--topbar-text);opacity:.6;line-height:1">/</kbd>
+      <input type="text" id="keywordSearch" placeholder="政权/年号/君主" style="width:90px;padding-left:18px">
+    </span>
+    <button class="btn" data-act="search">搜</button>
     <label class="chk-box"><input type="checkbox" id="chkPolity" checked><span>政权</span></label>
     <label class="chk-box"><input type="checkbox" id="chkRuler" checked><span>君主</span></label>
     <label class="chk-box"><input type="checkbox" id="chkEra" checked><span>年号</span></label>
     <span id="chkWarn" style="display:none;font-size:.6rem;color:#D3A488;margin-left:2px">请勾选搜索范围</span>
   </div>
   <div class="top-actions">
-    <button class="btn" onclick="window._showColumns&&window._showColumns()">列</button>
-    <button class="btn" onclick="window._openDatabase&&window._openDatabase()">数据库</button>
-    <button class="btn" onclick="window._showHelp&&window._showHelp()">说明</button>
+    <button class="btn" data-act="columns">列</button>
+    <button class="btn" data-act="database">数据库</button>
+    <button class="btn" data-act="help">说明</button>
   </div>
 </div>
 <div class="timeline" id="timeline"></div>
@@ -33,27 +37,27 @@
 <div class="column-panel" id="columnPanel">
   <div class="panel-header">
     <h3>列管理</h3>
-    <span class="help-close" onclick="window._closeColumns&&window._closeColumns()">✕</span>
+    <span class="help-close" id="columnClose">✕</span>
   </div>
   <div class="panel-filters" id="columnFilters"></div>
   <div class="panel-stats" id="columnStats"></div>
   <div class="panel-body" id="columnItems"></div>
   <div class="panel-reset" id="columnReset"></div>
 </div>
-<div class="search-panel" id="searchPanel"><div class="panel-header"><span class="close-btn" onclick="window._closePanel&&window._closePanel()">✕</span><h3 id="panelTitle">搜索结果</h3></div><div class="panel-body" id="panelItems"></div></div>
+<div class="search-panel" id="searchPanel"><div class="panel-header"><span class="close-btn" id="searchClose">✕</span><h3 id="panelTitle">搜索结果</h3></div><div class="panel-body" id="panelItems"></div></div>
 <div class="db-panel" id="databasePanel">
   <div class="db-header">
     <h3 id="dbTitle">数据库</h3>
-    <span class="db-close" onclick="window._closeDatabase&&window._closeDatabase()">✕</span>
+    <span class="db-close" id="dbClose">✕</span>
   </div>
   <div class="db-tabs">
-    <span class="db-tab active" data-tab="polity" onclick="window._switchDbTab&&window._switchDbTab('polity')">政权</span>
-    <span class="db-tab" data-tab="ruler" onclick="window._switchDbTab&&window._switchDbTab('ruler')">君主</span>
-    <span class="db-tab" data-tab="era" onclick="window._switchDbTab&&window._switchDbTab('era')">年号</span>
-    <span class="db-tab" data-tab="event" onclick="window._switchDbTab&&window._switchDbTab('event')">事件</span>
+    <span class="db-tab active" data-tab="polity">政权</span>
+    <span class="db-tab" data-tab="ruler">君主</span>
+    <span class="db-tab" data-tab="era">年号</span>
+    <span class="db-tab" data-tab="event">事件</span>
   </div>
   <div class="db-filter-wrap">
-    <input type="text" class="db-filter" id="dbFilter" placeholder="过滤..." oninput="window._setDbFilter&&window._setDbFilter(this.value)">
+    <input type="text" class="db-filter" id="dbFilter" placeholder="过滤...">
   </div>
   <div class="db-filter-tags" id="dbFilterTags"></div>
   <div class="db-body" id="dbBody"></div>
@@ -61,55 +65,38 @@
 <div class="help-panel" id="helpPanel">
   <div class="help-header">
     <h2>说明</h2>
-    <span class="help-close" onclick="window._closeHelp&&window._closeHelp()">✕</span>
+    <span class="help-close" id="helpClose">✕</span>
   </div>
   <div class="help-body">
     <h3>数据声明</h3>
-    <p>本页面为作者自用，所有数据由 AI 生成，包括政权信息、君主在位时间、年号等，<b>不保证完全准确</b>。如有疑问请以权威史料为准。</p>
+    <p>本页面为作者自用，所有数据由 AI 生成，仅用于个人学习和研究，<b>不保证完全准确</b>。如有疑问请以权威史料为准。</p>
     <hr>
     <h3>导航</h3>
-    <p><b>· 年份跳转：</b>输入年份数字（负数表示公元前，如 -841），点击 → 跳转；键盘 ← → 键前后移动基准年。</p>
-    <p><b>· 点击导航：</b>点击表格行、左侧时间轴刻度或朝代标记均可跳转；解锁「随」模式后滚动页面自动跟随。</p>
-    <p><b>· N 值滑块：</b>拖动 N 滑条（0~10）控制基准年附近显示的年份范围；锁定模式防止误触。</p>
+    <p><b>· 基准年份：</b>页面只显示基准年份±N范围内的政权，可通过以下方式设置基准年份。</p>
+    <p><b>· 鼠标点击：</b>鼠标左键点击表格某行，可将该行设为基准年份。</p>
+    <p><b>· 手动输入：</b>在顶部年份框输入数字（负数表示公元前），可设为基准年份并跳转。</p>
+    <p><b>· 键盘导航：</b>键盘 ← → 键可前后移动基准年份。</p>
+    <p><b>· 时间轴导航：</b>点击左侧时间轴刻度或朝代标记，可设为基准年份并跳转。</p>
+    <p><b>· N 值滑块：</b>拖动 N 滑条（0~10）控制基准年份附近的筛选范围。</p>
+    <p><b>· 跟随模式：</b>基准年份默认为「锁」模式，解锁「随」模式后滚动页面自动跟随。</p>
     <h3>搜索</h3>
-    <p><b>· 关键字搜索：</b>输入政权名、年号名或君主名（支持别名、庙号、谥号），弹出结果面板后 ↑↓ 选择、Enter 跳转。面板内 ← → 翻页，Esc 关闭。</p>
-    <p><b>· 搜索范围：</b>勾选框可限定搜索范围（政权 / 君主 / 年号），面板打开时勾选即时重搜。</p>
+    <p><b>· 关键字搜索：</b>支持政权、君主、年号搜索，可识别庙号、谥号、常见别名。</p>
+    <p><b>· 搜索跳转：</b>点击搜索结果可将其起始年份设为基准年份并跳转。</p>
     <h3>列管理</h3>
-    <p><b>· 列面板：</b>点击顶栏「列」按钮打开管理面板。可按时期筛选列，隐藏不需要的政权列，或将最多 3 列固定（📌）在最左侧。固定列不受年份范围限制始终显示。</p>
+    <p><b>· 列面板：</b>点击顶栏「列」按钮打开列管理面板。</p>
+    <p><b>· 列隐藏：</b>可隐藏不需要的政权列。</p>
+    <p><b>· 列固定：</b>可将最多 3 列固定（📌）在最左侧。固定列不受基准年份限制始终显示。</p>
     <p><b>· 右键操作：</b>右键点击表头政权列名称，可快速隐藏、固定或取消固定该列。</p>
-    <h3>信息查看</h3>
-    <p><b>· 悬浮信息卡：</b>鼠标悬停在单元格上显示当前政权、君主、年号详情。悬停时间轴可预览年份。</p>
-    <p><b>· 重大事件列：</b>表格最右侧显示该年重大事件（来自结构化事件数据，持续补全中）。</p>
     <h3>数据库</h3>
-    <p><b>· 数据库侧栏：</b>点击顶栏「数据库」按钮打开右侧面板，按政权/君主/年号/事件四类浏览全部数据实体。列表支持关键字过滤，点击查看详情。</p>
-    <p><b>· 跳转：</b>详情页点击「跳转到年表」可定位到该实体在年表中的位置。</p>
-    <p><b>· 关闭：</b>点击 ✕ 或按 Esc 键关闭数据库侧栏。</p>
+    <p><b>· 数据库：</b>点击顶栏「数据库」按钮打开面板，可浏览全部数据，点击进入详情页。</p>
+    <p><b>· 右键操作：</b>右键点击单元格可快速打开对应政权/君主/年号的详情页。</p>
+    <p><b>· 跳转：</b>详情页点击「跳转到年表」可将其起始年份设为基准年份并跳转。</p>
+    <p><b>· 验证：</b>详情页点击「标记已验证」可确认该条信息真实性，该功能仅供作者校验用。</p>
     <hr>
-    <p>本页面由 <b>七毛</b> 制作。<br>最近更新时间：2026-05-03（v0.8 数据库侧栏）</p>
+    <p>本页面由 <b>七毛</b> 制作。<br>最近更新时间：2026-05-04（v0.81 新增数据库功能）</p>
   </div>
 </div>
 <script type="module">
-import { updateN, toggleLock as _toggleLock, jumpYear, showHelp, closeHelp } from './src/interact.js';
-import { searchKeyword, closePanel } from './src/search.js';
-import { showColumnPanel, closeColumnPanel } from './src/column-ui.js';
-import { openDatabase, closeDatabase, switchTab, setFilter } from './src/database.js';
-
-// Expose onclick handlers for inline HTML
-window._updateN = updateN;
-window._toggleLock = _toggleLock;
-window._jumpYear = jumpYear;
-window._searchKeyword = searchKeyword;
-window._showHelp = showHelp;
-window._closeHelp = closeHelp;
-window._closePanel = closePanel;
-window._showColumns = showColumnPanel;
-window._closeColumns = closeColumnPanel;
-window._openDatabase = openDatabase;
-window._closeDatabase = closeDatabase;
-window._switchDbTab = switchTab;
-window._setDbFilter = setFilter;
-
-// Main init
 import('./src/app.js');
 </script>
 </body></html>

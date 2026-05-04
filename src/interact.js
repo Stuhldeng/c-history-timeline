@@ -1,6 +1,6 @@
 import * as S from './state.js';
 import { yl } from './data.js';
-import { renderAll, updateStatus, updateTimeline, navigateTo } from './render.js';
+import { renderAll, updateStatus, updateTimeline, navigateTo, refresh } from './render.js';
 import { searchKeyword } from './search.js';
 import { updateVisibleRange, getYearFromScroll } from './virtual-scroll.js';
 
@@ -67,8 +67,67 @@ function clearTooltip() {
   document.getElementById('tooltip').classList.remove('show');
 }
 
+function findEra(pid, y) {
+  const es = S.IDX.erasByPolity[pid]; if (!es) return null;
+  for (const e of es) { if (e.startYear <= y && e.endYear >= y) return e; }
+  return null;
+}
+
+function showCellCtxMenu(e) {
+  const c = e.target.closest('.cell');
+  if (!c || c.classList.contains('col-year') || c.classList.contains('col-event') || c.classList.contains('empty')) return;
+  const pid = c.dataset.pid, y = parseInt(c.dataset.year);
+  if (!pid || isNaN(y)) return;
+
+  const polity = S.IDX.polityById[pid];
+  const ruler = grfy(pid, y);
+  const era = findEra(pid, y);
+  if (!polity && !ruler && !era) return;
+
+  e.preventDefault();
+  const menu = document.getElementById('ctxMenu');
+  menu.textContent = '';
+
+  if (polity) {
+    const d = document.createElement('div');
+    d.textContent = '查看政权：' + polity.name;
+    d.addEventListener('click', () => {
+      menu.style.display = 'none';
+      import('./database.js').then(m => m.openDatabase({ tab: 'polity', selectedDetail: { type: 'polity', entity: polity } }));
+    });
+    menu.appendChild(d);
+  }
+  if (ruler) {
+    const d = document.createElement('div');
+    d.textContent = '查看君主：' + (ruler.displayTitle || ruler.personalName || ruler.id);
+    d.addEventListener('click', () => {
+      menu.style.display = 'none';
+      import('./database.js').then(m => m.openDatabase({ tab: 'ruler', selectedDetail: { type: 'ruler', entity: ruler } }));
+    });
+    menu.appendChild(d);
+  }
+  if (era) {
+    const d = document.createElement('div');
+    d.textContent = '查看年号：' + era.name;
+    d.addEventListener('click', () => {
+      menu.style.display = 'none';
+      import('./database.js').then(m => m.openDatabase({ tab: 'era', selectedDetail: { type: 'era', entity: era } }));
+    });
+    menu.appendChild(d);
+  }
+
+  menu.style.display = 'block';
+  const mw = menu.offsetWidth, mh = menu.offsetHeight;
+  const vw = window.innerWidth, vh2 = window.innerHeight;
+  menu.style.left = (e.clientX + mw > vw ? Math.max(0, e.clientX - mw) : e.clientX) + 'px';
+  menu.style.top = (e.clientY + mh > vh2 ? Math.max(0, e.clientY - mh) : e.clientY) + 'px';
+}
+
 // ===== 事件绑定 =====
 export function bindEvents() {
+  // Table body context menu
+  document.getElementById('tableBody').addEventListener('contextmenu', showCellCtxMenu);
+
   // Table body tooltip
   document.getElementById('tableBody').addEventListener('mouseover', e => {
     const c = e.target.closest('.cell');
@@ -86,6 +145,7 @@ export function bindEvents() {
   // Scroll handling: virtual scroll update + unlock follow
   let scrollPending = false;
   document.addEventListener('scroll', () => {
+    document.getElementById('ctxMenu').style.display = 'none';
     if (scrollPending) return;
     scrollPending = true;
     requestAnimationFrame(() => {
@@ -102,7 +162,7 @@ export function bindEvents() {
       if (!S.LOCKED) {
         const cy = getYearFromScroll(st);
         if (cy && cy !== S.BASE_YEAR) {
-          S.setBaseYear(cy); renderAll(); updateTimeline(); updateStatus();
+          S.setBaseYear(cy); refresh();
         }
       }
     });
@@ -137,6 +197,9 @@ export function bindEvents() {
   // Keyboard: Esc closes database/column/help panel
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') {
+      if (document.activeElement === document.getElementById('keywordSearch')) {
+        document.getElementById('keywordSearch').blur(); return;
+      }
       if (document.getElementById('databasePanel').classList.contains('open')) {
         import('./database.js').then(m => m.closeDatabase()); return;
       }
@@ -149,6 +212,12 @@ export function bindEvents() {
     }
     if (e.target.tagName === 'INPUT') return;
     if (document.getElementById('searchPanel').classList.contains('open')) return;
+    if (e.key === '/' && !e.ctrlKey && !e.metaKey) {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+      e.preventDefault();
+      document.getElementById('keywordSearch').focus();
+      return;
+    }
     if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
       const d = e.key === 'ArrowLeft' ? -1 : 1, i = S.ALL_YEARS.indexOf(S.BASE_YEAR);
       if (i >= 0) {
@@ -161,11 +230,18 @@ export function bindEvents() {
   window.addEventListener('resize', () => {
     import('./virtual-scroll.js').then(vs => {
       vs.calibrateRowHeight();
-      renderAll(); updateTimeline(); updateStatus();
+      refresh();
     });
   });
 
-  // Expose for render.js callbacks
-  window._onRowClick = onRowClick;
-  window._onTimelineClick = onTimelineClick;
+  // Event delegation: 表格行点击
+  document.getElementById('tableBody').addEventListener('click', (e) => {
+    const row = e.target.closest('.row');
+    if (row && row.dataset.year) onRowClick(parseInt(row.dataset.year));
+  });
+  // Event delegation: 时间轴点击
+  document.getElementById('timeline').addEventListener('click', (e) => {
+    const tm = e.target.closest('.tm');
+    if (tm && tm.dataset.year) onTimelineClick(parseInt(tm.dataset.year));
+  });
 }

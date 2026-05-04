@@ -120,11 +120,11 @@
         "pol-秦朝"
       ]
     },
-    "ruler:rn-西汉-汉王": {
+    "ruler:rn-汉王-汉王": {
       "type": "founder-transition",
       "reason": "刘邦先后为汉王（前206~前202）和西汉高皇帝（前202~前195），拆为两条后汉王阶段跨越西汉建立年份",
       "relatedEntities": [
-        "rn-西汉-汉王",
+        "rn-汉王-汉王",
         "rn-西汉-高皇帝",
         "pol-汉王",
         "pol-西汉"

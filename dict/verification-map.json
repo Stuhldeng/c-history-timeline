@@ -9,6 +9,11 @@
         "confidence": "absolute",
         "note": "仅限用户本人标记。AI 不得标记为 human。结构性硬错误（重复ID、JSON错误、必填缺失、引用不存在、年份非整数、startYear>endYear）不可被 human verification 豁免。"
       },
+      "error": {
+        "method": "error",
+        "confidence": "absolute",
+        "note": "仅限用户本人标记，表示该条目存在数据错误。note 字段必填，需描述具体错误内容。AI 不得标记为 error。"
+      },
       "ai": {
         "method": "ai",
         "confidence": [

@@ -1,5 +1,15 @@
 import * as S from './state.js';
 
+// ===== 硬编码标签→政权ID映射 =====
+const PID_HARDCODED = [
+  { labels: ["中央纪年"],       fn: (y) => y <= -207 ? "pol-秦朝" : (y <= 23 ? "pol-西汉" : "pol-东汉") },
+  { labels: ["中央王朝"],       fn: (y) => y <= 617 ? "pol-隋朝" : "pol-唐朝" },
+  { labels: ["后唐/后晋/后汉"], fn: (y) => y <= 936 ? "pol-后唐" : (y <= 946 ? "pol-后晋" : "pol-后汉") },
+  { labels: ["后周/北宋"],      fn: (y) => y <= 959 ? "pol-后周" : "pol-北宋" },
+  { labels: ["蒙古/元"],        fn: (y) => y <= 1271 ? "pol-蒙古" : "pol-元" },
+  { labels: ["羌乱/州牧割据"],  fn: (y) => null },
+];
+
 // ===== 中文数字 =====
 const CN = { 0: "〇", 1: "一", 2: "二", 3: "三", 4: "四", 5: "五", 6: "六", 7: "七", 8: "八", 9: "九" };
 
@@ -32,12 +42,7 @@ export function buildLabelIndex() {
 }
 
 export function getPID(label, year) {
-  if (label === "中央纪年") return year <= -207 ? "pol-秦朝" : (year <= 23 ? "pol-西汉" : "pol-东汉");
-  if (label === "中央王朝") return year <= 617 ? "pol-隋朝" : "pol-唐朝";
-  if (label === "后唐/后晋/后汉") return year <= 936 ? "pol-后唐" : (year <= 946 ? "pol-后晋" : "pol-后汉");
-  if (label === "后周/北宋") return year <= 959 ? "pol-后周" : "pol-北宋";
-  if (label === "蒙古/元") return year <= 1271 ? "pol-蒙古" : "pol-元";
-  if (label === "羌乱/州牧割据") return null;
+  for (const e of PID_HARDCODED) if (e.labels.includes(label)) return e.fn(year);
   const cand = S.LABEL_IDX[label] || [];
   if (!cand.length) return null;
   if (cand.length === 1) return cand[0];
@@ -152,7 +157,7 @@ export async function loadAll() {
   S.setLabelIdx(buildLabelIndex());
 
   } catch (e) {
-    document.getElementById('statusLabel').textContent = '加载失败：' + e.message;
+    S.setLoadError(e.message);
     console.error('loadAll failed:', e);
   }
 }
