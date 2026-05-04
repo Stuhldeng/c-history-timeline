@@ -9914,7 +9914,7 @@
         "阿斗"
       ],
       "uncertain": false,
-      "displayTitle": "汉后主"
+      "displayTitle": "蜀汉后主"
     },
     {
       "id": "rn-曹叡",
@@ -10029,7 +10029,7 @@
         "会稽王"
       ],
       "uncertain": false,
-      "displayTitle": "吴孙亮"
+      "displayTitle": "吴废帝"
     },
     {
       "id": "rn-曹髦",
@@ -10054,7 +10054,7 @@
         "高贵乡公"
       ],
       "uncertain": false,
-      "displayTitle": "魏曹髦"
+      "displayTitle": "魏高贵乡公"
     },
     {
       "id": "rn-孙休",
@@ -10132,7 +10132,7 @@
         "归命侯"
       ],
       "uncertain": false,
-      "displayTitle": "吴孙皓"
+      "displayTitle": "吴末帝"
     },
     {
       "id": "rn-司马炎",
@@ -11219,7 +11219,7 @@
         "晋废帝"
       ],
       "uncertain": true,
-      "displayTitle": "晋司马奕"
+      "displayTitle": "晋废帝"
     },
     {
       "id": "rn-司马昱",
@@ -16028,7 +16028,7 @@
         "契丹太祖"
       ],
       "uncertain": false,
-      "displayTitle": "大契丹太祖"
+      "displayTitle": "辽太祖"
     },
     {
       "id": "rn-杨隆演",
@@ -16352,7 +16352,7 @@
         "契丹太宗"
       ],
       "uncertain": false,
-      "displayTitle": "大契丹太宗"
+      "displayTitle": "辽太宗"
     },
     {
       "id": "rn-王延钧",
@@ -17434,7 +17434,7 @@
         "夏景宗"
       ],
       "uncertain": false,
-      "displayTitle": "大白高国（大夏）景宗"
+      "displayTitle": "李元昊"
     },
     {
       "id": "rn-大理-段素兴",
@@ -17494,7 +17494,7 @@
         "夏毅宗"
       ],
       "uncertain": false,
-      "displayTitle": "大白高国（大夏）毅宗"
+      "displayTitle": "李谅祚"
     },
     {
       "id": "rn-耶律洪基",
@@ -17598,7 +17598,7 @@
         "夏惠宗"
       ],
       "uncertain": false,
-      "displayTitle": "大白高国（大夏）惠宗"
+      "displayTitle": "李秉常"
     },
     {
       "id": "rn-喀喇汗国-哈桑-1",
@@ -17719,7 +17719,7 @@
         "夏崇宗"
       ],
       "uncertain": false,
-      "displayTitle": "大白高国（大夏）崇宗"
+      "displayTitle": "李乾顺"
     },
     {
       "id": "rn-大理-段正淳",
@@ -17812,15 +17812,15 @@
       "personalName": "段和誉（段正严）",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "段和誉（段正严）",
+      "displayTitle": "段正严",
       "eraNames": [],
       "reignStartYear": 1108,
       "reignEndYear": 1147,
       "aliases": [
-        "段正严"
+        "段和誉"
       ],
       "searchLabels": [
-        "段和誉（段正严）",
+        "段和誉",
         "段正严"
       ],
       "uncertain": true
@@ -18008,7 +18008,7 @@
         "夏仁宗"
       ],
       "uncertain": false,
-      "displayTitle": "大白高国（大夏）仁宗"
+      "displayTitle": "李仁孝"
     },
     {
       "id": "rn-西辽-萧塔不烟",
@@ -18287,7 +18287,7 @@
         "夏桓宗"
       ],
       "uncertain": false,
-      "displayTitle": "大白高国（大夏）桓宗"
+      "displayTitle": "李纯祐"
     },
     {
       "id": "rn-赵扩",
@@ -18371,7 +18371,7 @@
         "夏襄宗"
       ],
       "uncertain": false,
-      "displayTitle": "大白高国（大夏）襄宗"
+      "displayTitle": "李安全"
     },
     {
       "id": "rn-铁木真",
@@ -18441,7 +18441,7 @@
         "夏神宗"
       ],
       "uncertain": false,
-      "displayTitle": "大白高国（大夏）神宗"
+      "displayTitle": "李遵顼"
     },
     {
       "id": "rn-西辽-耶律屈出律",
@@ -18574,7 +18574,7 @@
         "李睍"
       ],
       "uncertain": false,
-      "displayTitle": "大白高国（大夏）李睍"
+      "displayTitle": "李睍"
     },
     {
       "id": "rn-窝阔台",
@@ -18737,7 +18737,7 @@
         "薛禅汗"
       ],
       "uncertain": false,
-      "displayTitle": "大元世祖",
+      "displayTitle": "元世祖",
       "personId": "person-忽必烈",
       "continuityGroup": "rule-忽必烈",
       "phaseType": "founder-transition",
@@ -18896,7 +18896,7 @@
         "元成宗"
       ],
       "uncertain": false,
-      "displayTitle": "大元成宗"
+      "displayTitle": "元成宗"
     },
     {
       "id": "rn-海山",
@@ -18920,7 +18920,7 @@
         "元武宗"
       ],
       "uncertain": false,
-      "displayTitle": "大元武宗"
+      "displayTitle": "元武宗"
     },
     {
       "id": "rn-爱育黎拔力八达",
@@ -18942,10 +18942,11 @@
         "爱育黎拔力八达",
         "仁宗",
         "圣文钦孝皇帝",
-        "元仁宗"
+        "元仁宗",
+        "寿山"
       ],
       "uncertain": false,
-      "displayTitle": "大元仁宗"
+      "displayTitle": "元仁宗"
     },
     {
       "id": "rn-硕德八剌",
@@ -18969,7 +18970,7 @@
         "元英宗"
       ],
       "uncertain": false,
-      "displayTitle": "大元英宗"
+      "displayTitle": "元英宗"
     },
     {
       "id": "rn-也孙铁木儿",
@@ -18993,7 +18994,7 @@
         "元泰定帝"
       ],
       "uncertain": false,
-      "displayTitle": "大元泰定帝"
+      "displayTitle": "元泰定帝"
     },
     {
       "id": "rn-图帖睦尔",
@@ -19018,7 +19019,7 @@
         "元文宗"
       ],
       "uncertain": false,
-      "displayTitle": "大元文宗"
+      "displayTitle": "元文宗"
     },
     {
       "id": "rn-妥懽帖睦尔",
@@ -19046,7 +19047,7 @@
         "元惠宗"
       ],
       "uncertain": false,
-      "displayTitle": "大元惠宗"
+      "displayTitle": "元惠宗"
     },
     {
       "id": "rn-朱元璋",
@@ -19078,7 +19079,7 @@
       "personalName": "爱猷识理达腊",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "大元爱猷识理达腊",
+      "displayTitle": "元昭宗",
       "eraNames": [],
       "reignStartYear": 1370,
       "reignEndYear": 1378,
@@ -19097,7 +19098,7 @@
       "personalName": "脱古思帖木儿",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "大元脱古思帖木儿",
+      "displayTitle": "脱古思帖木儿",
       "eraNames": [],
       "reignStartYear": 1378,
       "reignEndYear": 1388,
@@ -19588,7 +19589,7 @@
       "personalName": "李自成",
       "templeTitle": null,
       "posthumousTitle": "闯王",
-      "displayTitle": "大顺闯王",
+      "displayTitle": "李自成",
       "eraNames": [],
       "reignStartYear": 1644,
       "reignEndYear": 1645,
@@ -19608,7 +19609,7 @@
       "personalName": "张献忠",
       "templeTitle": null,
       "posthumousTitle": null,
-      "displayTitle": "大西张献忠",
+      "displayTitle": "张献忠",
       "eraNames": [],
       "reignStartYear": 1644,
       "reignEndYear": 1646,
