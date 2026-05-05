@@ -2,9 +2,9 @@
   "_meta": {
     "name": "era-map",
     "version": "0.6.0",
-    "total": 515,
+    "total": 750,
     "generatedAt": "2026-05-01T03:55:07.503Z",
-    "lastUpdated": "2026-05-02T11:03:58.785Z"
+    "lastUpdated": "2026-05-05T07:17:22.775Z"
   },
   "eras": [
     {
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "id": "era-太初",
+      "id": "era-太初-西汉",
       "name": "太初",
       "polityId": "pol-西汉",
       "startYear": -104,
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "id": "era-天汉",
+      "id": "era-天汉-西汉",
       "name": "天汉",
       "polityId": "pol-西汉",
       "startYear": -100,
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "id": "era-太始",
+      "id": "era-太始-西汉",
       "name": "太始",
       "polityId": "pol-西汉",
       "startYear": -96,
@@ -144,7 +144,7 @@
       "name": "始元",
       "polityId": "pol-西汉",
       "startYear": -86,
-      "endYear": -81,
+      "endYear": -80,
       "aliases": [],
       "searchLabels": [
         "始元"
@@ -261,7 +261,7 @@
       ]
     },
     {
-      "id": "era-永光",
+      "id": "era-永光-西汉",
       "name": "永光",
       "polityId": "pol-西汉",
       "startYear": -43,
@@ -294,7 +294,7 @@
       ]
     },
     {
-      "id": "era-建始",
+      "id": "era-建始-西汉",
       "name": "建始",
       "polityId": "pol-西汉",
       "startYear": -32,
@@ -371,7 +371,7 @@
       ]
     },
     {
-      "id": "era-建平",
+      "id": "era-建平-西汉",
       "name": "建平",
       "polityId": "pol-西汉",
       "startYear": -6,
@@ -382,7 +382,7 @@
       ]
     },
     {
-      "id": "era-元寿",
+      "id": "era-元寿-西汉",
       "name": "元寿",
       "polityId": "pol-西汉",
       "startYear": -2,
@@ -459,7 +459,7 @@
       ]
     },
     {
-      "id": "era-更始",
+      "id": "era-更始-更始",
       "name": "更始",
       "polityId": "pol-更始",
       "startYear": 23,
@@ -503,7 +503,7 @@
       ]
     },
     {
-      "id": "era-建初",
+      "id": "era-建初-东汉",
       "name": "建初",
       "polityId": "pol-东汉",
       "startYear": 76,
@@ -624,7 +624,7 @@
       ]
     },
     {
-      "id": "era-永建",
+      "id": "era-永建-东汉",
       "name": "永建",
       "polityId": "pol-东汉",
       "startYear": 126,
@@ -701,7 +701,7 @@
       ]
     },
     {
-      "id": "era-建和",
+      "id": "era-建和-东汉",
       "name": "建和",
       "polityId": "pol-东汉",
       "startYear": 147,
@@ -921,7 +921,7 @@
       ]
     },
     {
-      "id": "era-青龙",
+      "id": "era-青龙-曹魏",
       "name": "青龙",
       "polityId": "pol-曹魏",
       "startYear": 233,
@@ -943,7 +943,7 @@
       ]
     },
     {
-      "id": "era-正始",
+      "id": "era-正始-曹魏",
       "name": "正始",
       "polityId": "pol-曹魏",
       "startYear": 240,
@@ -954,7 +954,7 @@
       ]
     },
     {
-      "id": "era-嘉平",
+      "id": "era-嘉平-曹魏",
       "name": "嘉平",
       "polityId": "pol-曹魏",
       "startYear": 249,
@@ -1031,7 +1031,7 @@
       ]
     },
     {
-      "id": "era-延熙",
+      "id": "era-延熙-蜀汉",
       "name": "延熙",
       "polityId": "pol-蜀汉",
       "startYear": 238,
@@ -1240,7 +1240,7 @@
       ]
     },
     {
-      "id": "era-天玺",
+      "id": "era-天玺-东吴",
       "name": "天玺",
       "polityId": "pol-东吴",
       "startYear": 276,
@@ -1273,7 +1273,7 @@
       ]
     },
     {
-      "id": "era-咸宁",
+      "id": "era-咸宁-西晋",
       "name": "咸宁",
       "polityId": "pol-西晋",
       "startYear": 275,
@@ -1306,7 +1306,7 @@
       ]
     },
     {
-      "id": "era-永熙",
+      "id": "era-永熙-西晋",
       "name": "永熙",
       "polityId": "pol-西晋",
       "startYear": 290,
@@ -1449,7 +1449,7 @@
       ]
     },
     {
-      "id": "era-大兴",
+      "id": "era-大兴-东晋",
       "name": "大兴",
       "polityId": "pol-东晋",
       "startYear": 318,
@@ -1471,7 +1471,7 @@
       ]
     },
     {
-      "id": "era-太宁",
+      "id": "era-太宁-东晋",
       "name": "太宁",
       "polityId": "pol-东晋",
       "startYear": 323,
@@ -1482,7 +1482,7 @@
       ]
     },
     {
-      "id": "era-咸和",
+      "id": "era-咸和-东晋",
       "name": "咸和",
       "polityId": "pol-东晋",
       "startYear": 326,
@@ -1526,7 +1526,7 @@
       ]
     },
     {
-      "id": "era-升平",
+      "id": "era-升平-东晋",
       "name": "升平",
       "polityId": "pol-东晋",
       "startYear": 357,
@@ -1636,7 +1636,7 @@
       ]
     },
     {
-      "id": "era-元熙",
+      "id": "era-元熙-东晋",
       "name": "元熙",
       "polityId": "pol-东晋",
       "startYear": 419,
@@ -1834,7 +1834,7 @@
       ]
     },
     {
-      "id": "era-太清",
+      "id": "era-太清-萧梁",
       "name": "太清",
       "polityId": "pol-萧梁",
       "startYear": 547,
@@ -1933,7 +1933,7 @@
       ]
     },
     {
-      "id": "era-皇始",
+      "id": "era-皇始-北魏",
       "name": "皇始",
       "polityId": "pol-北魏",
       "startYear": 396,
@@ -2131,7 +2131,7 @@
       ]
     },
     {
-      "id": "era-延兴",
+      "id": "era-延兴-北魏",
       "name": "延兴",
       "polityId": "pol-北魏",
       "startYear": 471,
@@ -2450,7 +2450,7 @@
       ]
     },
     {
-      "id": "era-天授",
+      "id": "era-天授-武周",
       "name": "天授",
       "polityId": "pol-武周",
       "startYear": 690,
@@ -2472,7 +2472,7 @@
       ]
     },
     {
-      "id": "era-长寿",
+      "id": "era-长寿-武周",
       "name": "长寿",
       "polityId": "pol-武周",
       "startYear": 692,
@@ -2659,7 +2659,7 @@
       ]
     },
     {
-      "id": "era-天宝",
+      "id": "era-天宝-唐朝",
       "name": "天宝",
       "polityId": "pol-唐朝",
       "startYear": 742,
@@ -2714,7 +2714,7 @@
       ]
     },
     {
-      "id": "era-广德",
+      "id": "era-广德-唐朝",
       "name": "广德",
       "polityId": "pol-唐朝",
       "startYear": 763,
@@ -2725,7 +2725,7 @@
       ]
     },
     {
-      "id": "era-永泰",
+      "id": "era-永泰-唐朝",
       "name": "永泰",
       "polityId": "pol-唐朝",
       "startYear": 765,
@@ -2780,7 +2780,7 @@
       ]
     },
     {
-      "id": "era-永贞",
+      "id": "era-永贞-唐朝",
       "name": "永贞",
       "polityId": "pol-唐朝",
       "startYear": 805,
@@ -2813,7 +2813,7 @@
       ]
     },
     {
-      "id": "era-宝历",
+      "id": "era-宝历-唐朝",
       "name": "宝历",
       "polityId": "pol-唐朝",
       "startYear": 825,
@@ -2890,7 +2890,7 @@
       ]
     },
     {
-      "id": "era-广明",
+      "id": "era-广明-唐朝",
       "name": "广明",
       "polityId": "pol-唐朝",
       "startYear": 880,
@@ -2923,7 +2923,7 @@
       ]
     },
     {
-      "id": "era-文德",
+      "id": "era-文德-唐朝",
       "name": "文德",
       "polityId": "pol-唐朝",
       "startYear": 888,
@@ -2945,7 +2945,7 @@
       ]
     },
     {
-      "id": "era-大顺",
+      "id": "era-大顺-唐朝",
       "name": "大顺",
       "polityId": "pol-唐朝",
       "startYear": 890,
@@ -3000,7 +3000,7 @@
       ]
     },
     {
-      "id": "era-天祐",
+      "id": "era-天祐-唐朝",
       "name": "天祐",
       "polityId": "pol-唐朝",
       "startYear": 904,
@@ -3011,7 +3011,7 @@
       ]
     },
     {
-      "id": "era-开平",
+      "id": "era-开平-后梁",
       "name": "开平",
       "polityId": "pol-后梁",
       "startYear": 907,
@@ -3022,18 +3022,18 @@
       ]
     },
     {
-      "id": "era-乾化",
+      "id": "era-乾化-后梁",
       "name": "乾化",
       "polityId": "pol-后梁",
       "startYear": 911,
-      "endYear": 913,
+      "endYear": 915,
       "aliases": [],
       "searchLabels": [
         "乾化"
       ]
     },
     {
-      "id": "era-凤历",
+      "id": "era-凤历-后梁",
       "name": "凤历",
       "polityId": "pol-后梁",
       "startYear": 913,
@@ -3044,7 +3044,7 @@
       ]
     },
     {
-      "id": "era-贞明",
+      "id": "era-贞明-后梁",
       "name": "贞明",
       "polityId": "pol-后梁",
       "startYear": 915,
@@ -3055,7 +3055,7 @@
       ]
     },
     {
-      "id": "era-龙德",
+      "id": "era-龙德-后梁",
       "name": "龙德",
       "polityId": "pol-后梁",
       "startYear": 921,
@@ -3066,7 +3066,7 @@
       ]
     },
     {
-      "id": "era-同光",
+      "id": "era-同光-后唐",
       "name": "同光",
       "polityId": "pol-后唐",
       "startYear": 923,
@@ -3077,7 +3077,7 @@
       ]
     },
     {
-      "id": "era-天成",
+      "id": "era-天成-后唐",
       "name": "天成",
       "polityId": "pol-后唐",
       "startYear": 926,
@@ -3088,7 +3088,7 @@
       ]
     },
     {
-      "id": "era-长兴",
+      "id": "era-长兴-后唐",
       "name": "长兴",
       "polityId": "pol-后唐",
       "startYear": 930,
@@ -3176,7 +3176,7 @@
       ]
     },
     {
-      "id": "era-显德",
+      "id": "era-显德-后周",
       "name": "显德",
       "polityId": "pol-后周",
       "startYear": 954,
@@ -3264,7 +3264,7 @@
       ]
     },
     {
-      "id": "era-中兴",
+      "id": "era-中兴-南唐",
       "name": "中兴",
       "polityId": "pol-南唐",
       "startYear": 958,
@@ -3374,7 +3374,7 @@
       ]
     },
     {
-      "id": "era-明德",
+      "id": "era-明德-后蜀",
       "name": "明德",
       "polityId": "pol-后蜀",
       "startYear": 934,
@@ -3429,7 +3429,7 @@
       ]
     },
     {
-      "id": "era-建隆",
+      "id": "era-建隆-北宋",
       "name": "建隆",
       "polityId": "pol-北宋",
       "startYear": 960,
@@ -3451,7 +3451,7 @@
       ]
     },
     {
-      "id": "era-开宝",
+      "id": "era-开宝-北宋",
       "name": "开宝",
       "polityId": "pol-北宋",
       "startYear": 968,
@@ -4309,7 +4309,7 @@
       ]
     },
     {
-      "id": "era-天辅",
+      "id": "era-天辅-金",
       "name": "天辅",
       "polityId": "pol-金",
       "startYear": 1117,
@@ -4386,7 +4386,7 @@
       ]
     },
     {
-      "id": "era-大定",
+      "id": "era-大定-金",
       "name": "大定",
       "polityId": "pol-金",
       "startYear": 1161,
@@ -4498,7 +4498,7 @@
       "countStartYear": 1032
     },
     {
-      "id": "era-广运",
+      "id": "era-广运-西夏",
       "name": "广运",
       "polityId": "pol-西夏",
       "startYear": 1034,
@@ -4788,7 +4788,7 @@
       ]
     },
     {
-      "id": "era-皇建",
+      "id": "era-皇建-西夏",
       "name": "皇建",
       "polityId": "pol-西夏",
       "startYear": 1210,
@@ -4912,7 +4912,7 @@
       ]
     },
     {
-      "id": "era-至治",
+      "id": "era-至治-元",
       "name": "至治",
       "polityId": "pol-元",
       "startYear": 1321,
@@ -4993,7 +4993,7 @@
       "name": "至正",
       "polityId": "pol-元",
       "startYear": 1341,
-      "endYear": 1370,
+      "endYear": 1368,
       "aliases": [],
       "searchLabels": [
         "至正"
@@ -5168,7 +5168,7 @@
       ]
     },
     {
-      "id": "era-天启",
+      "id": "era-天启-明",
       "name": "天启",
       "polityId": "pol-明",
       "startYear": 1621,
@@ -5333,7 +5333,7 @@
       ]
     },
     {
-      "id": "era-渤海-仁安",
+      "id": "era-仁安",
       "name": "仁安",
       "polityId": "pol-渤海国",
       "startYear": 719,
@@ -5381,7 +5381,7 @@
       ]
     },
     {
-      "id": "era-渤海-正历",
+      "id": "era-正历",
       "name": "正历",
       "polityId": "pol-渤海国",
       "startYear": 795,
@@ -5393,7 +5393,7 @@
       ]
     },
     {
-      "id": "era-渤海-永德",
+      "id": "era-永德",
       "name": "永德",
       "polityId": "pol-渤海国",
       "startYear": 810,
@@ -5405,7 +5405,7 @@
       ]
     },
     {
-      "id": "era-渤海-朱雀",
+      "id": "era-朱雀",
       "name": "朱雀",
       "polityId": "pol-渤海国",
       "startYear": 812,
@@ -5453,10 +5453,10 @@
       ]
     },
     {
-      "id": "era-至元-yuan",
+      "id": "era-至元-元-2",
       "name": "至元",
       "polityId": "pol-元",
-      "startYear": 1264,
+      "startYear": 1271,
       "endYear": 1294,
       "aliases": [],
       "searchLabels": [
@@ -5533,7 +5533,7 @@
       ]
     },
     {
-      "id": "era-天统-nq",
+      "id": "era-天统",
       "name": "天统",
       "polityId": "pol-北齐",
       "startYear": 565,
@@ -5544,7 +5544,7 @@
       ]
     },
     {
-      "id": "era-武平-nq",
+      "id": "era-武平",
       "name": "武平",
       "polityId": "pol-北齐",
       "startYear": 570,
@@ -5577,7 +5577,7 @@
       ]
     },
     {
-      "id": "era-武成",
+      "id": "era-武成-北周",
       "name": "武成",
       "polityId": "pol-北周",
       "startYear": 559,
@@ -5588,7 +5588,7 @@
       ]
     },
     {
-      "id": "era-保定",
+      "id": "era-保定-北周",
       "name": "保定",
       "polityId": "pol-北周",
       "startYear": 561,
@@ -5610,7 +5610,7 @@
       ]
     },
     {
-      "id": "era-建德",
+      "id": "era-建德-北周",
       "name": "建德",
       "polityId": "pol-北周",
       "startYear": 572,
@@ -5696,6 +5696,2606 @@
       "searchLabels": [
         "至宁"
       ]
+    },
+    {
+      "id": "era-元熙-前赵汉",
+      "name": "元熙",
+      "polityId": "pol-前赵汉",
+      "startYear": 304,
+      "endYear": 308,
+      "aliases": [],
+      "searchLabels": [
+        "元熙"
+      ]
+    },
+    {
+      "id": "era-永凤",
+      "name": "永凤",
+      "polityId": "pol-前赵汉",
+      "startYear": 308,
+      "endYear": 309,
+      "aliases": [],
+      "searchLabels": [
+        "永凤"
+      ]
+    },
+    {
+      "id": "era-河瑞",
+      "name": "河瑞",
+      "polityId": "pol-前赵汉",
+      "startYear": 309,
+      "endYear": 310,
+      "aliases": [],
+      "searchLabels": [
+        "河瑞"
+      ]
+    },
+    {
+      "id": "era-光兴",
+      "name": "光兴",
+      "polityId": "pol-前赵汉",
+      "startYear": 310,
+      "endYear": 311,
+      "aliases": [],
+      "searchLabels": [
+        "光兴"
+      ]
+    },
+    {
+      "id": "era-嘉平-前赵汉",
+      "name": "嘉平",
+      "polityId": "pol-前赵汉",
+      "startYear": 311,
+      "endYear": 315,
+      "aliases": [],
+      "searchLabels": [
+        "嘉平"
+      ]
+    },
+    {
+      "id": "era-建元-前赵汉",
+      "name": "建元",
+      "polityId": "pol-前赵汉",
+      "startYear": 315,
+      "endYear": 316,
+      "aliases": [],
+      "searchLabels": [
+        "建元"
+      ]
+    },
+    {
+      "id": "era-麟嘉-前赵汉",
+      "name": "麟嘉",
+      "polityId": "pol-前赵汉",
+      "startYear": 316,
+      "endYear": 318,
+      "aliases": [],
+      "searchLabels": [
+        "麟嘉"
+      ]
+    },
+    {
+      "id": "era-汉昌",
+      "name": "汉昌",
+      "polityId": "pol-前赵汉",
+      "startYear": 318,
+      "endYear": 318,
+      "aliases": [],
+      "searchLabels": [
+        "汉昌"
+      ]
+    },
+    {
+      "id": "era-光初",
+      "name": "光初",
+      "polityId": "pol-前赵赵",
+      "startYear": 318,
+      "endYear": 329,
+      "aliases": [],
+      "searchLabels": [
+        "光初"
+      ]
+    },
+    {
+      "id": "era-建兴-成汉成",
+      "name": "建兴",
+      "polityId": "pol-成汉成",
+      "startYear": 304,
+      "endYear": 306,
+      "aliases": [],
+      "searchLabels": [
+        "建兴"
+      ]
+    },
+    {
+      "id": "era-晏平",
+      "name": "晏平",
+      "polityId": "pol-成汉成",
+      "startYear": 306,
+      "endYear": 310,
+      "aliases": [],
+      "searchLabels": [
+        "晏平"
+      ]
+    },
+    {
+      "id": "era-玉衡",
+      "name": "玉衡",
+      "polityId": "pol-成汉成",
+      "startYear": 311,
+      "endYear": 334,
+      "aliases": [],
+      "searchLabels": [
+        "玉衡"
+      ]
+    },
+    {
+      "id": "era-玉恒",
+      "name": "玉恒",
+      "polityId": "pol-成汉成",
+      "startYear": 335,
+      "endYear": 338,
+      "aliases": [],
+      "searchLabels": [
+        "玉恒"
+      ]
+    },
+    {
+      "id": "era-汉兴",
+      "name": "汉兴",
+      "polityId": "pol-成汉汉",
+      "startYear": 338,
+      "endYear": 345,
+      "aliases": [],
+      "searchLabels": [
+        "汉兴"
+      ]
+    },
+    {
+      "id": "era-太和-成汉汉",
+      "name": "太和",
+      "polityId": "pol-成汉汉",
+      "startYear": 346,
+      "endYear": 346,
+      "aliases": [],
+      "searchLabels": [
+        "太和"
+      ]
+    },
+    {
+      "id": "era-嘉宁",
+      "name": "嘉宁",
+      "polityId": "pol-成汉汉",
+      "startYear": 347,
+      "endYear": 347,
+      "aliases": [],
+      "searchLabels": [
+        "嘉宁"
+      ]
+    },
+    {
+      "id": "era-太和-后赵",
+      "name": "太和",
+      "polityId": "pol-后赵",
+      "startYear": 328,
+      "endYear": 330,
+      "aliases": [],
+      "searchLabels": [
+        "太和"
+      ]
+    },
+    {
+      "id": "era-建平-后赵",
+      "name": "建平",
+      "polityId": "pol-后赵",
+      "startYear": 330,
+      "endYear": 333,
+      "aliases": [],
+      "searchLabels": [
+        "建平"
+      ]
+    },
+    {
+      "id": "era-延熙-后赵",
+      "name": "延熙",
+      "polityId": "pol-后赵",
+      "startYear": 334,
+      "endYear": 335,
+      "aliases": [],
+      "searchLabels": [
+        "延熙"
+      ]
+    },
+    {
+      "id": "era-建武-后赵",
+      "name": "建武",
+      "polityId": "pol-后赵",
+      "startYear": 335,
+      "endYear": 348,
+      "aliases": [],
+      "searchLabels": [
+        "建武"
+      ]
+    },
+    {
+      "id": "era-太宁-后赵",
+      "name": "太宁",
+      "polityId": "pol-后赵",
+      "startYear": 349,
+      "endYear": 349,
+      "aliases": [],
+      "searchLabels": [
+        "太宁"
+      ]
+    },
+    {
+      "id": "era-青龙-后赵",
+      "name": "青龙",
+      "polityId": "pol-后赵",
+      "startYear": 350,
+      "endYear": 350,
+      "aliases": [],
+      "searchLabels": [
+        "青龙"
+      ]
+    },
+    {
+      "id": "era-永宁-后赵",
+      "name": "永宁",
+      "polityId": "pol-后赵",
+      "startYear": 350,
+      "endYear": 351,
+      "aliases": [],
+      "searchLabels": [
+        "永宁"
+      ]
+    },
+    {
+      "id": "era-元玺",
+      "name": "元玺",
+      "polityId": "pol-前燕",
+      "startYear": 352,
+      "endYear": 357,
+      "aliases": [],
+      "searchLabels": [
+        "元玺"
+      ]
+    },
+    {
+      "id": "era-光寿",
+      "name": "光寿",
+      "polityId": "pol-前燕",
+      "startYear": 357,
+      "endYear": 360,
+      "aliases": [],
+      "searchLabels": [
+        "光寿"
+      ]
+    },
+    {
+      "id": "era-建熙",
+      "name": "建熙",
+      "polityId": "pol-前燕",
+      "startYear": 360,
+      "endYear": 370,
+      "aliases": [],
+      "searchLabels": [
+        "建熙"
+      ]
+    },
+    {
+      "id": "era-皇始-前秦",
+      "name": "皇始",
+      "polityId": "pol-前秦",
+      "startYear": 351,
+      "endYear": 355,
+      "aliases": [],
+      "searchLabels": [
+        "皇始"
+      ]
+    },
+    {
+      "id": "era-寿光",
+      "name": "寿光",
+      "polityId": "pol-前秦",
+      "startYear": 355,
+      "endYear": 357,
+      "aliases": [],
+      "searchLabels": [
+        "寿光"
+      ]
+    },
+    {
+      "id": "era-永兴-前秦",
+      "name": "永兴",
+      "polityId": "pol-前秦",
+      "startYear": 357,
+      "endYear": 359,
+      "aliases": [],
+      "searchLabels": [
+        "永兴"
+      ]
+    },
+    {
+      "id": "era-甘露-前秦",
+      "name": "甘露",
+      "polityId": "pol-前秦",
+      "startYear": 359,
+      "endYear": 364,
+      "aliases": [],
+      "searchLabels": [
+        "甘露"
+      ]
+    },
+    {
+      "id": "era-建元-前秦",
+      "name": "建元",
+      "polityId": "pol-前秦",
+      "startYear": 365,
+      "endYear": 385,
+      "aliases": [],
+      "searchLabels": [
+        "建元"
+      ]
+    },
+    {
+      "id": "era-太安-前秦",
+      "name": "太安",
+      "polityId": "pol-前秦",
+      "startYear": 385,
+      "endYear": 386,
+      "aliases": [],
+      "searchLabels": [
+        "太安"
+      ]
+    },
+    {
+      "id": "era-太初-前秦",
+      "name": "太初",
+      "polityId": "pol-前秦",
+      "startYear": 386,
+      "endYear": 394,
+      "aliases": [],
+      "searchLabels": [
+        "太初"
+      ]
+    },
+    {
+      "id": "era-延初",
+      "name": "延初",
+      "polityId": "pol-前秦",
+      "startYear": 394,
+      "endYear": 394,
+      "aliases": [],
+      "searchLabels": [
+        "延初"
+      ]
+    },
+    {
+      "id": "era-永兴-冉魏",
+      "name": "永兴",
+      "polityId": "pol-冉魏",
+      "startYear": 350,
+      "endYear": 352,
+      "aliases": [],
+      "searchLabels": [
+        "永兴"
+      ]
+    },
+    {
+      "id": "era-白雀",
+      "name": "白雀",
+      "polityId": "pol-后秦",
+      "startYear": 384,
+      "endYear": 386,
+      "aliases": [],
+      "searchLabels": [
+        "白雀"
+      ]
+    },
+    {
+      "id": "era-建初-后秦",
+      "name": "建初",
+      "polityId": "pol-后秦",
+      "startYear": 386,
+      "endYear": 393,
+      "aliases": [],
+      "searchLabels": [
+        "建初"
+      ]
+    },
+    {
+      "id": "era-皇初",
+      "name": "皇初",
+      "polityId": "pol-后秦",
+      "startYear": 394,
+      "endYear": 399,
+      "aliases": [],
+      "searchLabels": [
+        "皇初"
+      ]
+    },
+    {
+      "id": "era-弘始",
+      "name": "弘始",
+      "polityId": "pol-后秦",
+      "startYear": 399,
+      "endYear": 416,
+      "aliases": [],
+      "searchLabels": [
+        "弘始"
+      ]
+    },
+    {
+      "id": "era-永和-后秦",
+      "name": "永和",
+      "polityId": "pol-后秦",
+      "startYear": 416,
+      "endYear": 417,
+      "aliases": [],
+      "searchLabels": [
+        "永和"
+      ]
+    },
+    {
+      "id": "era-燕元",
+      "name": "燕元",
+      "polityId": "pol-后燕",
+      "startYear": 384,
+      "endYear": 386,
+      "aliases": [],
+      "searchLabels": [
+        "燕元"
+      ]
+    },
+    {
+      "id": "era-建兴-后燕",
+      "name": "建兴",
+      "polityId": "pol-后燕",
+      "startYear": 386,
+      "endYear": 396,
+      "aliases": [],
+      "searchLabels": [
+        "建兴"
+      ]
+    },
+    {
+      "id": "era-永康-后燕",
+      "name": "永康",
+      "polityId": "pol-后燕",
+      "startYear": 396,
+      "endYear": 398,
+      "aliases": [],
+      "searchLabels": [
+        "永康"
+      ]
+    },
+    {
+      "id": "era-建平-后燕",
+      "name": "建平",
+      "polityId": "pol-后燕",
+      "startYear": 398,
+      "endYear": 398,
+      "aliases": [],
+      "searchLabels": [
+        "建平"
+      ]
+    },
+    {
+      "id": "era-长乐",
+      "name": "长乐",
+      "polityId": "pol-后燕",
+      "startYear": 399,
+      "endYear": 401,
+      "aliases": [],
+      "searchLabels": [
+        "长乐"
+      ]
+    },
+    {
+      "id": "era-光始",
+      "name": "光始",
+      "polityId": "pol-后燕",
+      "startYear": 401,
+      "endYear": 406,
+      "aliases": [],
+      "searchLabels": [
+        "光始"
+      ]
+    },
+    {
+      "id": "era-建始-后燕",
+      "name": "建始",
+      "polityId": "pol-后燕",
+      "startYear": 407,
+      "endYear": 407,
+      "aliases": [],
+      "searchLabels": [
+        "建始"
+      ]
+    },
+    {
+      "id": "era-正始-后燕",
+      "name": "正始",
+      "polityId": "pol-后燕",
+      "startYear": 407,
+      "endYear": 409,
+      "aliases": [],
+      "searchLabels": [
+        "正始"
+      ]
+    },
+    {
+      "id": "era-燕兴",
+      "name": "燕兴",
+      "polityId": "pol-西燕",
+      "startYear": 384,
+      "endYear": 384,
+      "aliases": [],
+      "searchLabels": [
+        "燕兴"
+      ]
+    },
+    {
+      "id": "era-更始-西燕",
+      "name": "更始",
+      "polityId": "pol-西燕",
+      "startYear": 385,
+      "endYear": 386,
+      "aliases": [],
+      "searchLabels": [
+        "更始"
+      ]
+    },
+    {
+      "id": "era-昌平",
+      "name": "昌平",
+      "polityId": "pol-西燕",
+      "startYear": 386,
+      "endYear": 386,
+      "aliases": [],
+      "searchLabels": [
+        "昌平"
+      ]
+    },
+    {
+      "id": "era-建明-西燕",
+      "name": "建明",
+      "polityId": "pol-西燕",
+      "startYear": 386,
+      "endYear": 386,
+      "aliases": [],
+      "searchLabels": [
+        "建明"
+      ]
+    },
+    {
+      "id": "era-建平-西燕",
+      "name": "建平",
+      "polityId": "pol-西燕",
+      "startYear": 386,
+      "endYear": 386,
+      "aliases": [],
+      "searchLabels": [
+        "建平"
+      ]
+    },
+    {
+      "id": "era-建武-西燕",
+      "name": "建武",
+      "polityId": "pol-西燕",
+      "startYear": 386,
+      "endYear": 386,
+      "aliases": [],
+      "searchLabels": [
+        "建武"
+      ]
+    },
+    {
+      "id": "era-中兴-西燕",
+      "name": "中兴",
+      "polityId": "pol-西燕",
+      "startYear": 386,
+      "endYear": 394,
+      "aliases": [],
+      "searchLabels": [
+        "中兴"
+      ]
+    },
+    {
+      "id": "era-建义-西秦",
+      "name": "建义",
+      "polityId": "pol-西秦",
+      "startYear": 385,
+      "endYear": 388,
+      "aliases": [],
+      "searchLabels": [
+        "建义"
+      ]
+    },
+    {
+      "id": "era-太初-西秦",
+      "name": "太初",
+      "polityId": "pol-西秦",
+      "startYear": 388,
+      "endYear": 400,
+      "aliases": [],
+      "searchLabels": [
+        "太初"
+      ]
+    },
+    {
+      "id": "era-更始-西秦",
+      "name": "更始",
+      "polityId": "pol-西秦",
+      "startYear": 409,
+      "endYear": 412,
+      "aliases": [],
+      "searchLabels": [
+        "更始"
+      ]
+    },
+    {
+      "id": "era-永康-西秦",
+      "name": "永康",
+      "polityId": "pol-西秦",
+      "startYear": 412,
+      "endYear": 419,
+      "aliases": [],
+      "searchLabels": [
+        "永康"
+      ]
+    },
+    {
+      "id": "era-建弘",
+      "name": "建弘",
+      "polityId": "pol-西秦",
+      "startYear": 420,
+      "endYear": 428,
+      "aliases": [],
+      "searchLabels": [
+        "建弘"
+      ]
+    },
+    {
+      "id": "era-永弘",
+      "name": "永弘",
+      "polityId": "pol-西秦",
+      "startYear": 428,
+      "endYear": 431,
+      "aliases": [],
+      "searchLabels": [
+        "永弘"
+      ]
+    },
+    {
+      "id": "era-太安-后凉",
+      "name": "太安",
+      "polityId": "pol-后凉",
+      "startYear": 386,
+      "endYear": 389,
+      "aliases": [],
+      "searchLabels": [
+        "太安"
+      ]
+    },
+    {
+      "id": "era-麟嘉-后凉",
+      "name": "麟嘉",
+      "polityId": "pol-后凉",
+      "startYear": 389,
+      "endYear": 396,
+      "aliases": [],
+      "searchLabels": [
+        "麟嘉"
+      ]
+    },
+    {
+      "id": "era-龙飞",
+      "name": "龙飞",
+      "polityId": "pol-后凉",
+      "startYear": 396,
+      "endYear": 399,
+      "aliases": [],
+      "searchLabels": [
+        "龙飞"
+      ]
+    },
+    {
+      "id": "era-咸宁-后凉",
+      "name": "咸宁",
+      "polityId": "pol-后凉",
+      "startYear": 399,
+      "endYear": 401,
+      "aliases": [],
+      "searchLabels": [
+        "咸宁"
+      ]
+    },
+    {
+      "id": "era-神鼎",
+      "name": "神鼎",
+      "polityId": "pol-后凉",
+      "startYear": 401,
+      "endYear": 403,
+      "aliases": [],
+      "searchLabels": [
+        "神鼎"
+      ]
+    },
+    {
+      "id": "era-太初-南凉",
+      "name": "太初",
+      "polityId": "pol-南凉",
+      "startYear": 397,
+      "endYear": 399,
+      "aliases": [],
+      "searchLabels": [
+        "太初"
+      ]
+    },
+    {
+      "id": "era-建和-南凉",
+      "name": "建和",
+      "polityId": "pol-南凉",
+      "startYear": 400,
+      "endYear": 402,
+      "aliases": [],
+      "searchLabels": [
+        "建和"
+      ]
+    },
+    {
+      "id": "era-弘昌",
+      "name": "弘昌",
+      "polityId": "pol-南凉",
+      "startYear": 402,
+      "endYear": 404,
+      "aliases": [],
+      "searchLabels": [
+        "弘昌"
+      ]
+    },
+    {
+      "id": "era-嘉平-南凉",
+      "name": "嘉平",
+      "polityId": "pol-南凉",
+      "startYear": 404,
+      "endYear": 414,
+      "aliases": [],
+      "searchLabels": [
+        "嘉平"
+      ]
+    },
+    {
+      "id": "era-神玺",
+      "name": "神玺",
+      "polityId": "pol-北凉",
+      "startYear": 397,
+      "endYear": 399,
+      "aliases": [],
+      "searchLabels": [
+        "神玺"
+      ]
+    },
+    {
+      "id": "era-天玺-北凉",
+      "name": "天玺",
+      "polityId": "pol-北凉",
+      "startYear": 399,
+      "endYear": 401,
+      "aliases": [],
+      "searchLabels": [
+        "天玺"
+      ]
+    },
+    {
+      "id": "era-永安-北凉",
+      "name": "永安",
+      "polityId": "pol-北凉",
+      "startYear": 401,
+      "endYear": 412,
+      "aliases": [],
+      "searchLabels": [
+        "永安"
+      ]
+    },
+    {
+      "id": "era-玄始",
+      "name": "玄始",
+      "polityId": "pol-北凉",
+      "startYear": 412,
+      "endYear": 428,
+      "aliases": [],
+      "searchLabels": [
+        "玄始"
+      ]
+    },
+    {
+      "id": "era-承玄",
+      "name": "承玄",
+      "polityId": "pol-北凉",
+      "startYear": 428,
+      "endYear": 431,
+      "aliases": [],
+      "searchLabels": [
+        "承玄"
+      ]
+    },
+    {
+      "id": "era-义和",
+      "name": "义和",
+      "polityId": "pol-北凉",
+      "startYear": 431,
+      "endYear": 433,
+      "aliases": [],
+      "searchLabels": [
+        "义和"
+      ]
+    },
+    {
+      "id": "era-永和-北凉",
+      "name": "永和",
+      "polityId": "pol-北凉",
+      "startYear": 433,
+      "endYear": 439,
+      "aliases": [],
+      "searchLabels": [
+        "永和"
+      ]
+    },
+    {
+      "id": "era-建平-南燕",
+      "name": "建平",
+      "polityId": "pol-南燕",
+      "startYear": 400,
+      "endYear": 405,
+      "aliases": [],
+      "searchLabels": [
+        "建平"
+      ]
+    },
+    {
+      "id": "era-太上",
+      "name": "太上",
+      "polityId": "pol-南燕",
+      "startYear": 405,
+      "endYear": 410,
+      "aliases": [],
+      "searchLabels": [
+        "太上"
+      ]
+    },
+    {
+      "id": "era-庚子",
+      "name": "庚子",
+      "polityId": "pol-西凉",
+      "startYear": 400,
+      "endYear": 404,
+      "aliases": [],
+      "searchLabels": [
+        "庚子"
+      ]
+    },
+    {
+      "id": "era-建初-西凉",
+      "name": "建初",
+      "polityId": "pol-西凉",
+      "startYear": 405,
+      "endYear": 417,
+      "aliases": [],
+      "searchLabels": [
+        "建初"
+      ]
+    },
+    {
+      "id": "era-嘉兴",
+      "name": "嘉兴",
+      "polityId": "pol-西凉",
+      "startYear": 417,
+      "endYear": 420,
+      "aliases": [],
+      "searchLabels": [
+        "嘉兴"
+      ]
+    },
+    {
+      "id": "era-永建-西凉",
+      "name": "永建",
+      "polityId": "pol-西凉",
+      "startYear": 420,
+      "endYear": 421,
+      "aliases": [],
+      "searchLabels": [
+        "永建"
+      ]
+    },
+    {
+      "id": "era-龙升",
+      "name": "龙升",
+      "polityId": "pol-胡夏",
+      "startYear": 407,
+      "endYear": 413,
+      "aliases": [],
+      "searchLabels": [
+        "龙升"
+      ]
+    },
+    {
+      "id": "era-凤翔",
+      "name": "凤翔",
+      "polityId": "pol-胡夏",
+      "startYear": 413,
+      "endYear": 418,
+      "aliases": [],
+      "searchLabels": [
+        "凤翔"
+      ]
+    },
+    {
+      "id": "era-昌武",
+      "name": "昌武",
+      "polityId": "pol-胡夏",
+      "startYear": 418,
+      "endYear": 419,
+      "aliases": [],
+      "searchLabels": [
+        "昌武"
+      ]
+    },
+    {
+      "id": "era-真兴",
+      "name": "真兴",
+      "polityId": "pol-胡夏",
+      "startYear": 419,
+      "endYear": 425,
+      "aliases": [],
+      "searchLabels": [
+        "真兴"
+      ]
+    },
+    {
+      "id": "era-承光",
+      "name": "承光",
+      "polityId": "pol-胡夏",
+      "startYear": 425,
+      "endYear": 428,
+      "aliases": [],
+      "searchLabels": [
+        "承光"
+      ]
+    },
+    {
+      "id": "era-胜光",
+      "name": "胜光",
+      "polityId": "pol-胡夏",
+      "startYear": 428,
+      "endYear": 431,
+      "aliases": [],
+      "searchLabels": [
+        "胜光"
+      ]
+    },
+    {
+      "id": "era-太平-北燕",
+      "name": "太平",
+      "polityId": "pol-北燕",
+      "startYear": 409,
+      "endYear": 430,
+      "aliases": [],
+      "searchLabels": [
+        "太平"
+      ]
+    },
+    {
+      "id": "era-大兴-北燕",
+      "name": "大兴",
+      "polityId": "pol-北燕",
+      "startYear": 431,
+      "endYear": 436,
+      "aliases": [],
+      "searchLabels": [
+        "大兴"
+      ]
+    },
+    {
+      "id": "era-天平",
+      "name": "天平",
+      "polityId": "pol-东魏",
+      "startYear": 534,
+      "endYear": 537,
+      "aliases": [],
+      "searchLabels": [
+        "天平"
+      ]
+    },
+    {
+      "id": "era-元象",
+      "name": "元象",
+      "polityId": "pol-东魏",
+      "startYear": 538,
+      "endYear": 539,
+      "aliases": [],
+      "searchLabels": [
+        "元象"
+      ]
+    },
+    {
+      "id": "era-兴和",
+      "name": "兴和",
+      "polityId": "pol-东魏",
+      "startYear": 539,
+      "endYear": 542,
+      "aliases": [],
+      "searchLabels": [
+        "兴和"
+      ]
+    },
+    {
+      "id": "era-武定",
+      "name": "武定",
+      "polityId": "pol-东魏",
+      "startYear": 543,
+      "endYear": 550,
+      "aliases": [],
+      "searchLabels": [
+        "武定"
+      ]
+    },
+    {
+      "id": "era-宣光",
+      "name": "宣光",
+      "polityId": "pol-北元",
+      "startYear": 1371,
+      "endYear": 1378,
+      "aliases": [],
+      "searchLabels": [
+        "宣光"
+      ]
+    },
+    {
+      "id": "era-天元",
+      "name": "天元",
+      "polityId": "pol-北元",
+      "startYear": 1379,
+      "endYear": 1388,
+      "aliases": [],
+      "searchLabels": [
+        "天元"
+      ]
+    },
+    {
+      "id": "era-弘光",
+      "name": "弘光",
+      "polityId": "pol-南明",
+      "startYear": 1644,
+      "endYear": 1645,
+      "aliases": [],
+      "searchLabels": [
+        "弘光"
+      ]
+    },
+    {
+      "id": "era-隆武",
+      "name": "隆武",
+      "polityId": "pol-南明",
+      "startYear": 1645,
+      "endYear": 1646,
+      "aliases": [],
+      "searchLabels": [
+        "隆武"
+      ]
+    },
+    {
+      "id": "era-绍武",
+      "name": "绍武",
+      "polityId": "pol-南明",
+      "startYear": 1646,
+      "endYear": 1646,
+      "aliases": [],
+      "searchLabels": [
+        "绍武"
+      ]
+    },
+    {
+      "id": "era-永历",
+      "name": "永历",
+      "polityId": "pol-南明",
+      "startYear": 1647,
+      "endYear": 1662,
+      "aliases": [],
+      "searchLabels": [
+        "永历"
+      ]
+    },
+    {
+      "id": "era-永昌-大顺",
+      "name": "永昌",
+      "polityId": "pol-大顺",
+      "startYear": 1644,
+      "endYear": 1645,
+      "aliases": [],
+      "searchLabels": [
+        "永昌"
+      ]
+    },
+    {
+      "id": "era-大顺-大西",
+      "name": "大顺",
+      "polityId": "pol-大西",
+      "startYear": 1644,
+      "endYear": 1646,
+      "aliases": [],
+      "searchLabels": [
+        "大顺"
+      ]
+    },
+    {
+      "id": "era-龙启",
+      "name": "龙启",
+      "polityId": "pol-闽",
+      "startYear": 933,
+      "endYear": 935,
+      "aliases": [],
+      "searchLabels": [
+        "龙启"
+      ]
+    },
+    {
+      "id": "era-永和-闽",
+      "name": "永和",
+      "polityId": "pol-闽",
+      "startYear": 935,
+      "endYear": 936,
+      "aliases": [],
+      "searchLabels": [
+        "永和"
+      ]
+    },
+    {
+      "id": "era-通文",
+      "name": "通文",
+      "polityId": "pol-闽",
+      "startYear": 936,
+      "endYear": 939,
+      "aliases": [],
+      "searchLabels": [
+        "通文"
+      ]
+    },
+    {
+      "id": "era-武成-前蜀",
+      "name": "武成",
+      "polityId": "pol-前蜀",
+      "startYear": 908,
+      "endYear": 910,
+      "aliases": [],
+      "searchLabels": [
+        "武成"
+      ]
+    },
+    {
+      "id": "era-永平-前蜀",
+      "name": "永平",
+      "polityId": "pol-前蜀",
+      "startYear": 911,
+      "endYear": 915,
+      "aliases": [],
+      "searchLabels": [
+        "永平"
+      ]
+    },
+    {
+      "id": "era-通正",
+      "name": "通正",
+      "polityId": "pol-前蜀",
+      "startYear": 916,
+      "endYear": 916,
+      "aliases": [],
+      "searchLabels": [
+        "通正"
+      ]
+    },
+    {
+      "id": "era-天汉-前蜀",
+      "name": "天汉",
+      "polityId": "pol-前蜀",
+      "startYear": 917,
+      "endYear": 917,
+      "aliases": [],
+      "searchLabels": [
+        "天汉"
+      ]
+    },
+    {
+      "id": "era-光天",
+      "name": "光天",
+      "polityId": "pol-前蜀",
+      "startYear": 918,
+      "endYear": 918,
+      "aliases": [],
+      "searchLabels": [
+        "光天"
+      ]
+    },
+    {
+      "id": "era-乾祐-北汉",
+      "name": "乾祐",
+      "polityId": "pol-北汉",
+      "startYear": 951,
+      "endYear": 956,
+      "aliases": [],
+      "searchLabels": [
+        "乾祐"
+      ]
+    },
+    {
+      "id": "era-广运-北汉",
+      "name": "广运",
+      "polityId": "pol-北汉",
+      "startYear": 974,
+      "endYear": 979,
+      "aliases": [],
+      "searchLabels": [
+        "广运"
+      ]
+    },
+    {
+      "id": "era-隆昌",
+      "name": "隆昌",
+      "polityId": "pol-南齐",
+      "startYear": 494,
+      "endYear": 494,
+      "aliases": [],
+      "searchLabels": [
+        "隆昌"
+      ]
+    },
+    {
+      "id": "era-延兴-南齐",
+      "name": "延兴",
+      "polityId": "pol-南齐",
+      "startYear": 494,
+      "endYear": 494,
+      "aliases": [],
+      "searchLabels": [
+        "延兴"
+      ]
+    },
+    {
+      "id": "era-建武-南齐",
+      "name": "建武",
+      "polityId": "pol-南齐",
+      "startYear": 494,
+      "endYear": 498,
+      "aliases": [],
+      "searchLabels": [
+        "建武"
+      ]
+    },
+    {
+      "id": "era-永泰-南齐",
+      "name": "永泰",
+      "polityId": "pol-南齐",
+      "startYear": 498,
+      "endYear": 498,
+      "aliases": [],
+      "searchLabels": [
+        "永泰"
+      ]
+    },
+    {
+      "id": "era-中兴-南齐",
+      "name": "中兴",
+      "polityId": "pol-南齐",
+      "startYear": 501,
+      "endYear": 502,
+      "aliases": [],
+      "searchLabels": [
+        "中兴"
+      ]
+    },
+    {
+      "id": "era-景明",
+      "name": "景明",
+      "polityId": "pol-北魏",
+      "startYear": 500,
+      "endYear": 503,
+      "aliases": [],
+      "searchLabels": [
+        "景明"
+      ]
+    },
+    {
+      "id": "era-正始-北魏",
+      "name": "正始",
+      "polityId": "pol-北魏",
+      "startYear": 504,
+      "endYear": 508,
+      "aliases": [],
+      "searchLabels": [
+        "正始"
+      ]
+    },
+    {
+      "id": "era-永平-北魏",
+      "name": "永平",
+      "polityId": "pol-北魏",
+      "startYear": 508,
+      "endYear": 512,
+      "aliases": [],
+      "searchLabels": [
+        "永平"
+      ]
+    },
+    {
+      "id": "era-延昌",
+      "name": "延昌",
+      "polityId": "pol-北魏",
+      "startYear": 512,
+      "endYear": 515,
+      "aliases": [],
+      "searchLabels": [
+        "延昌"
+      ]
+    },
+    {
+      "id": "era-熙平",
+      "name": "熙平",
+      "polityId": "pol-北魏",
+      "startYear": 516,
+      "endYear": 518,
+      "aliases": [],
+      "searchLabels": [
+        "熙平"
+      ]
+    },
+    {
+      "id": "era-神龟",
+      "name": "神龟",
+      "polityId": "pol-北魏",
+      "startYear": 518,
+      "endYear": 520,
+      "aliases": [],
+      "searchLabels": [
+        "神龟"
+      ]
+    },
+    {
+      "id": "era-正光",
+      "name": "正光",
+      "polityId": "pol-北魏",
+      "startYear": 520,
+      "endYear": 525,
+      "aliases": [],
+      "searchLabels": [
+        "正光"
+      ]
+    },
+    {
+      "id": "era-孝昌",
+      "name": "孝昌",
+      "polityId": "pol-北魏",
+      "startYear": 525,
+      "endYear": 527,
+      "aliases": [],
+      "searchLabels": [
+        "孝昌"
+      ]
+    },
+    {
+      "id": "era-武泰",
+      "name": "武泰",
+      "polityId": "pol-北魏",
+      "startYear": 528,
+      "endYear": 528,
+      "aliases": [],
+      "searchLabels": [
+        "武泰"
+      ]
+    },
+    {
+      "id": "era-建义-北魏",
+      "name": "建义",
+      "polityId": "pol-北魏",
+      "startYear": 528,
+      "endYear": 528,
+      "aliases": [],
+      "searchLabels": [
+        "建义"
+      ]
+    },
+    {
+      "id": "era-永安-北魏",
+      "name": "永安",
+      "polityId": "pol-北魏",
+      "startYear": 528,
+      "endYear": 530,
+      "aliases": [],
+      "searchLabels": [
+        "永安"
+      ]
+    },
+    {
+      "id": "era-建明-北魏",
+      "name": "建明",
+      "polityId": "pol-北魏",
+      "startYear": 530,
+      "endYear": 531,
+      "aliases": [],
+      "searchLabels": [
+        "建明"
+      ]
+    },
+    {
+      "id": "era-普泰",
+      "name": "普泰",
+      "polityId": "pol-北魏",
+      "startYear": 531,
+      "endYear": 532,
+      "aliases": [],
+      "searchLabels": [
+        "普泰"
+      ]
+    },
+    {
+      "id": "era-太昌",
+      "name": "太昌",
+      "polityId": "pol-北魏",
+      "startYear": 532,
+      "endYear": 532,
+      "aliases": [],
+      "searchLabels": [
+        "太昌"
+      ]
+    },
+    {
+      "id": "era-永熙-北魏",
+      "name": "永熙",
+      "polityId": "pol-北魏",
+      "startYear": 532,
+      "endYear": 534,
+      "aliases": [],
+      "searchLabels": [
+        "永熙"
+      ]
+    },
+    {
+      "id": "era-景平",
+      "name": "景平",
+      "polityId": "pol-刘宋",
+      "startYear": 423,
+      "endYear": 424,
+      "aliases": [],
+      "searchLabels": [
+        "景平"
+      ]
+    },
+    {
+      "id": "era-太平-萧梁",
+      "name": "太平",
+      "polityId": "pol-萧梁",
+      "startYear": 556,
+      "endYear": 557,
+      "aliases": [],
+      "searchLabels": [
+        "太平"
+      ]
+    },
+    {
+      "id": "era-大定-北周",
+      "name": "大定",
+      "polityId": "pol-北周",
+      "startYear": 581,
+      "endYear": 581,
+      "aliases": [],
+      "searchLabels": [
+        "大定"
+      ]
+    },
+    {
+      "id": "era-赞普钟",
+      "name": "赞普钟",
+      "polityId": "pol-大蒙",
+      "startYear": 752,
+      "endYear": 768,
+      "aliases": [],
+      "searchLabels": [
+        "赞普钟"
+      ]
+    },
+    {
+      "id": "era-长寿-大蒙",
+      "name": "长寿",
+      "polityId": "pol-大蒙",
+      "startYear": 769,
+      "endYear": 779,
+      "aliases": [],
+      "searchLabels": [
+        "长寿"
+      ]
+    },
+    {
+      "id": "era-见龙",
+      "name": "见龙",
+      "polityId": "pol-大蒙",
+      "startYear": 780,
+      "endYear": 783,
+      "aliases": [],
+      "searchLabels": [
+        "见龙"
+      ]
+    },
+    {
+      "id": "era-上元-大蒙",
+      "name": "上元",
+      "polityId": "pol-大蒙",
+      "startYear": 784,
+      "endYear": 808,
+      "aliases": [],
+      "searchLabels": [
+        "上元"
+      ]
+    },
+    {
+      "id": "era-应道",
+      "name": "应道",
+      "polityId": "pol-大蒙",
+      "startYear": 808,
+      "endYear": 809,
+      "aliases": [],
+      "searchLabels": [
+        "应道"
+      ]
+    },
+    {
+      "id": "era-龙兴-大蒙",
+      "name": "龙兴",
+      "polityId": "pol-大蒙",
+      "startYear": 809,
+      "endYear": 816,
+      "aliases": [],
+      "searchLabels": [
+        "龙兴"
+      ]
+    },
+    {
+      "id": "era-全义",
+      "name": "全义",
+      "polityId": "pol-大蒙",
+      "startYear": 816,
+      "endYear": 819,
+      "aliases": [],
+      "searchLabels": [
+        "全义"
+      ]
+    },
+    {
+      "id": "era-大丰",
+      "name": "大丰",
+      "polityId": "pol-大蒙",
+      "startYear": 820,
+      "endYear": 823,
+      "aliases": [],
+      "searchLabels": [
+        "大丰"
+      ]
+    },
+    {
+      "id": "era-保和",
+      "name": "保和",
+      "polityId": "pol-大蒙",
+      "startYear": 824,
+      "endYear": 839,
+      "aliases": [],
+      "searchLabels": [
+        "保和"
+      ]
+    },
+    {
+      "id": "era-天启-大蒙",
+      "name": "天启",
+      "polityId": "pol-大蒙",
+      "startYear": 840,
+      "endYear": 859,
+      "aliases": [],
+      "searchLabels": [
+        "天启"
+      ]
+    },
+    {
+      "id": "era-建极",
+      "name": "建极",
+      "polityId": "pol-大礼",
+      "startYear": 860,
+      "endYear": 877,
+      "aliases": [],
+      "searchLabels": [
+        "建极"
+      ]
+    },
+    {
+      "id": "era-贞明-大封民",
+      "name": "贞明",
+      "polityId": "pol-大封民",
+      "startYear": 878,
+      "endYear": 878,
+      "aliases": [],
+      "searchLabels": [
+        "贞明"
+      ]
+    },
+    {
+      "id": "era-承智",
+      "name": "承智",
+      "polityId": "pol-大封民",
+      "startYear": 878,
+      "endYear": 878,
+      "aliases": [],
+      "searchLabels": [
+        "承智"
+      ]
+    },
+    {
+      "id": "era-大同-大封民",
+      "name": "大同",
+      "polityId": "pol-大封民",
+      "startYear": 879,
+      "endYear": 888,
+      "aliases": [],
+      "searchLabels": [
+        "大同"
+      ]
+    },
+    {
+      "id": "era-嵯耶",
+      "name": "嵯耶",
+      "polityId": "pol-大封民",
+      "startYear": 889,
+      "endYear": 897,
+      "aliases": [],
+      "searchLabels": [
+        "嵯耶"
+      ]
+    },
+    {
+      "id": "era-中兴-大封民",
+      "name": "中兴",
+      "polityId": "pol-大封民",
+      "startYear": 898,
+      "endYear": 902,
+      "aliases": [],
+      "searchLabels": [
+        "中兴"
+      ]
+    },
+    {
+      "id": "era-文德-大理",
+      "name": "文德",
+      "polityId": "pol-大理",
+      "startYear": 938,
+      "endYear": 941,
+      "aliases": [],
+      "searchLabels": [
+        "文德"
+      ]
+    },
+    {
+      "id": "era-神武",
+      "name": "神武",
+      "polityId": "pol-大理",
+      "startYear": 941,
+      "endYear": 944,
+      "aliases": [],
+      "searchLabels": [
+        "神武"
+      ]
+    },
+    {
+      "id": "era-文经",
+      "name": "文经",
+      "polityId": "pol-大理",
+      "startYear": 945,
+      "endYear": 945,
+      "aliases": [],
+      "searchLabels": [
+        "文经"
+      ]
+    },
+    {
+      "id": "era-至治-大理",
+      "name": "至治",
+      "polityId": "pol-大理",
+      "startYear": 946,
+      "endYear": 951,
+      "aliases": [],
+      "searchLabels": [
+        "至治"
+      ]
+    },
+    {
+      "id": "era-明德-大理",
+      "name": "明德",
+      "polityId": "pol-大理",
+      "startYear": 952,
+      "endYear": 952,
+      "aliases": [],
+      "searchLabels": [
+        "明德"
+      ]
+    },
+    {
+      "id": "era-广德-大理",
+      "name": "广德",
+      "polityId": "pol-大理",
+      "startYear": 953,
+      "endYear": 967,
+      "aliases": [],
+      "searchLabels": [
+        "广德"
+      ]
+    },
+    {
+      "id": "era-顺德",
+      "name": "顺德",
+      "polityId": "pol-大理",
+      "startYear": 968,
+      "endYear": 968,
+      "aliases": [],
+      "searchLabels": [
+        "顺德"
+      ]
+    },
+    {
+      "id": "era-明政",
+      "name": "明政",
+      "polityId": "pol-大理",
+      "startYear": 969,
+      "endYear": 985,
+      "aliases": [],
+      "searchLabels": [
+        "明政"
+      ]
+    },
+    {
+      "id": "era-广明-大理",
+      "name": "广明",
+      "polityId": "pol-大理",
+      "startYear": 986,
+      "endYear": 988,
+      "aliases": [],
+      "searchLabels": [
+        "广明"
+      ]
+    },
+    {
+      "id": "era-明治",
+      "name": "明治",
+      "polityId": "pol-大理",
+      "startYear": 989,
+      "endYear": 996,
+      "aliases": [],
+      "searchLabels": [
+        "明治"
+      ]
+    },
+    {
+      "id": "era-明应",
+      "name": "明应",
+      "polityId": "pol-大理",
+      "startYear": 1006,
+      "endYear": 1009,
+      "aliases": [],
+      "searchLabels": [
+        "明应"
+      ]
+    },
+    {
+      "id": "era-明启",
+      "name": "明启",
+      "polityId": "pol-大理",
+      "startYear": 1010,
+      "endYear": 1022,
+      "aliases": [],
+      "searchLabels": [
+        "明启"
+      ]
+    },
+    {
+      "id": "era-明通",
+      "name": "明通",
+      "polityId": "pol-大理",
+      "startYear": 1023,
+      "endYear": 1026,
+      "aliases": [],
+      "searchLabels": [
+        "明通"
+      ]
+    },
+    {
+      "id": "era-正治",
+      "name": "正治",
+      "polityId": "pol-大理",
+      "startYear": 1027,
+      "endYear": 1041,
+      "aliases": [],
+      "searchLabels": [
+        "正治"
+      ]
+    },
+    {
+      "id": "era-圣明",
+      "name": "圣明",
+      "polityId": "pol-大理",
+      "startYear": 1042,
+      "endYear": 1042,
+      "aliases": [],
+      "searchLabels": [
+        "圣明"
+      ]
+    },
+    {
+      "id": "era-天明",
+      "name": "天明",
+      "polityId": "pol-大理",
+      "startYear": 1043,
+      "endYear": 1044,
+      "aliases": [],
+      "searchLabels": [
+        "天明"
+      ]
+    },
+    {
+      "id": "era-保安",
+      "name": "保安",
+      "polityId": "pol-大理",
+      "startYear": 1045,
+      "endYear": 1052,
+      "aliases": [],
+      "searchLabels": [
+        "保安"
+      ]
+    },
+    {
+      "id": "era-正安",
+      "name": "正安",
+      "polityId": "pol-大理",
+      "startYear": 1053,
+      "endYear": 1058,
+      "aliases": [],
+      "searchLabels": [
+        "正安"
+      ]
+    },
+    {
+      "id": "era-正德-大理",
+      "name": "正德",
+      "polityId": "pol-大理",
+      "startYear": 1059,
+      "endYear": 1064,
+      "aliases": [],
+      "searchLabels": [
+        "正德"
+      ]
+    },
+    {
+      "id": "era-保德",
+      "name": "保德",
+      "polityId": "pol-大理",
+      "startYear": 1065,
+      "endYear": 1074,
+      "aliases": [],
+      "searchLabels": [
+        "保德"
+      ]
+    },
+    {
+      "id": "era-上德",
+      "name": "上德",
+      "polityId": "pol-大理",
+      "startYear": 1075,
+      "endYear": 1076,
+      "aliases": [],
+      "searchLabels": [
+        "上德"
+      ]
+    },
+    {
+      "id": "era-广安",
+      "name": "广安",
+      "polityId": "pol-大理",
+      "startYear": 1077,
+      "endYear": 1080,
+      "aliases": [],
+      "searchLabels": [
+        "广安"
+      ]
+    },
+    {
+      "id": "era-上明",
+      "name": "上明",
+      "polityId": "pol-大理",
+      "startYear": 1080,
+      "endYear": 1081,
+      "aliases": [],
+      "searchLabels": [
+        "上明"
+      ]
+    },
+    {
+      "id": "era-保定-大理",
+      "name": "保定",
+      "polityId": "pol-大理",
+      "startYear": 1081,
+      "endYear": 1094,
+      "aliases": [],
+      "searchLabels": [
+        "保定"
+      ]
+    },
+    {
+      "id": "era-天授-大理",
+      "name": "天授",
+      "polityId": "pol-大理",
+      "startYear": 1096,
+      "endYear": 1097,
+      "aliases": [],
+      "searchLabels": [
+        "天授"
+      ]
+    },
+    {
+      "id": "era-开明",
+      "name": "开明",
+      "polityId": "pol-大理",
+      "startYear": 1098,
+      "endYear": 1100,
+      "aliases": [],
+      "searchLabels": [
+        "开明"
+      ]
+    },
+    {
+      "id": "era-天政",
+      "name": "天政",
+      "polityId": "pol-大理",
+      "startYear": 1101,
+      "endYear": 1104,
+      "aliases": [],
+      "searchLabels": [
+        "天政"
+      ]
+    },
+    {
+      "id": "era-文安",
+      "name": "文安",
+      "polityId": "pol-大理",
+      "startYear": 1105,
+      "endYear": 1108,
+      "aliases": [],
+      "searchLabels": [
+        "文安"
+      ]
+    },
+    {
+      "id": "era-日新",
+      "name": "日新",
+      "polityId": "pol-大理",
+      "startYear": 1109,
+      "endYear": 1111,
+      "aliases": [],
+      "searchLabels": [
+        "日新"
+      ]
+    },
+    {
+      "id": "era-文治",
+      "name": "文治",
+      "polityId": "pol-大理",
+      "startYear": 1112,
+      "endYear": 1119,
+      "aliases": [],
+      "searchLabels": [
+        "文治"
+      ]
+    },
+    {
+      "id": "era-永嘉-大理",
+      "name": "永嘉",
+      "polityId": "pol-大理",
+      "startYear": 1120,
+      "endYear": 1126,
+      "aliases": [],
+      "searchLabels": [
+        "永嘉"
+      ]
+    },
+    {
+      "id": "era-保天",
+      "name": "保天",
+      "polityId": "pol-大理",
+      "startYear": 1127,
+      "endYear": 1134,
+      "aliases": [],
+      "searchLabels": [
+        "保天"
+      ]
+    },
+    {
+      "id": "era-广应",
+      "name": "广应",
+      "polityId": "pol-大理",
+      "startYear": 1135,
+      "endYear": 1147,
+      "aliases": [],
+      "searchLabels": [
+        "广应"
+      ]
+    },
+    {
+      "id": "era-永贞-大理",
+      "name": "永贞",
+      "polityId": "pol-大理",
+      "startYear": 1148,
+      "endYear": 1149,
+      "aliases": [],
+      "searchLabels": [
+        "永贞"
+      ]
+    },
+    {
+      "id": "era-大宝-大理",
+      "name": "大宝",
+      "polityId": "pol-大理",
+      "startYear": 1150,
+      "endYear": 1155,
+      "aliases": [],
+      "searchLabels": [
+        "大宝"
+      ]
+    },
+    {
+      "id": "era-龙兴-大理",
+      "name": "龙兴",
+      "polityId": "pol-大理",
+      "startYear": 1156,
+      "endYear": 1159,
+      "aliases": [],
+      "searchLabels": [
+        "龙兴"
+      ]
+    },
+    {
+      "id": "era-盛明",
+      "name": "盛明",
+      "polityId": "pol-大理",
+      "startYear": 1160,
+      "endYear": 1163,
+      "aliases": [],
+      "searchLabels": [
+        "盛明"
+      ]
+    },
+    {
+      "id": "era-建德-大理",
+      "name": "建德",
+      "polityId": "pol-大理",
+      "startYear": 1164,
+      "endYear": 1171,
+      "aliases": [],
+      "searchLabels": [
+        "建德"
+      ]
+    },
+    {
+      "id": "era-利贞",
+      "name": "利贞",
+      "polityId": "pol-大理",
+      "startYear": 1172,
+      "endYear": 1175,
+      "aliases": [],
+      "searchLabels": [
+        "利贞"
+      ]
+    },
+    {
+      "id": "era-盛德",
+      "name": "盛德",
+      "polityId": "pol-大理",
+      "startYear": 1176,
+      "endYear": 1179,
+      "aliases": [],
+      "searchLabels": [
+        "盛德"
+      ]
+    },
+    {
+      "id": "era-嘉会",
+      "name": "嘉会",
+      "polityId": "pol-大理",
+      "startYear": 1180,
+      "endYear": 1184,
+      "aliases": [],
+      "searchLabels": [
+        "嘉会"
+      ]
+    },
+    {
+      "id": "era-元亨",
+      "name": "元亨",
+      "polityId": "pol-大理",
+      "startYear": 1185,
+      "endYear": 1192,
+      "aliases": [],
+      "searchLabels": [
+        "元亨"
+      ]
+    },
+    {
+      "id": "era-安定",
+      "name": "安定",
+      "polityId": "pol-大理",
+      "startYear": 1193,
+      "endYear": 1199,
+      "aliases": [],
+      "searchLabels": [
+        "安定"
+      ]
+    },
+    {
+      "id": "era-凤历-大理",
+      "name": "凤历",
+      "polityId": "pol-大理",
+      "startYear": 1201,
+      "endYear": 1202,
+      "aliases": [],
+      "searchLabels": [
+        "凤历"
+      ]
+    },
+    {
+      "id": "era-元寿-大理",
+      "name": "元寿",
+      "polityId": "pol-大理",
+      "startYear": 1203,
+      "endYear": 1204,
+      "aliases": [],
+      "searchLabels": [
+        "元寿"
+      ]
+    },
+    {
+      "id": "era-天开",
+      "name": "天开",
+      "polityId": "pol-大理",
+      "startYear": 1205,
+      "endYear": 1224,
+      "aliases": [],
+      "searchLabels": [
+        "天开"
+      ]
+    },
+    {
+      "id": "era-天辅-大理",
+      "name": "天辅",
+      "polityId": "pol-大理",
+      "startYear": 1225,
+      "endYear": 1228,
+      "aliases": [],
+      "searchLabels": [
+        "天辅"
+      ]
+    },
+    {
+      "id": "era-天寿",
+      "name": "天寿",
+      "polityId": "pol-大理",
+      "startYear": 1229,
+      "endYear": 1238,
+      "aliases": [],
+      "searchLabels": [
+        "天寿"
+      ]
+    },
+    {
+      "id": "era-道隆",
+      "name": "道隆",
+      "polityId": "pol-大理",
+      "startYear": 1239,
+      "endYear": 1251,
+      "aliases": [],
+      "searchLabels": [
+        "道隆"
+      ]
+    },
+    {
+      "id": "era-天定",
+      "name": "天定",
+      "polityId": "pol-大理",
+      "startYear": 1252,
+      "endYear": 1254,
+      "aliases": [],
+      "searchLabels": [
+        "天定"
+      ]
+    },
+    {
+      "id": "era-建国",
+      "name": "建国",
+      "polityId": "pol-代国",
+      "startYear": 338,
+      "endYear": 376,
+      "aliases": [],
+      "searchLabels": [
+        "建国"
+      ]
+    },
+    {
+      "id": "era-永光-刘宋",
+      "name": "永光",
+      "polityId": "pol-刘宋",
+      "startYear": 465,
+      "endYear": 465,
+      "aliases": [],
+      "searchLabels": [
+        "永光"
+      ]
+    },
+    {
+      "id": "era-景和",
+      "name": "景和",
+      "polityId": "pol-刘宋",
+      "startYear": 465,
+      "endYear": 465,
+      "aliases": [],
+      "searchLabels": [
+        "景和"
+      ]
+    },
+    {
+      "id": "era-天康",
+      "name": "天康",
+      "polityId": "pol-南陈",
+      "startYear": 566,
+      "endYear": 566,
+      "aliases": [],
+      "searchLabels": [
+        "天康"
+      ]
+    },
+    {
+      "id": "era-天宝-吴越",
+      "name": "天宝",
+      "polityId": "pol-吴越",
+      "startYear": 908,
+      "endYear": 912,
+      "aliases": [],
+      "searchLabels": [
+        "天宝"
+      ]
+    },
+    {
+      "id": "era-宝大",
+      "name": "宝大",
+      "polityId": "pol-吴越",
+      "startYear": 924,
+      "endYear": 925,
+      "aliases": [],
+      "searchLabels": [
+        "宝大"
+      ]
+    },
+    {
+      "id": "era-宝正",
+      "name": "宝正",
+      "polityId": "pol-吴越",
+      "startYear": 926,
+      "endYear": 931,
+      "aliases": [],
+      "searchLabels": [
+        "宝正"
+      ]
+    },
+    {
+      "id": "era-开兴",
+      "name": "开兴",
+      "polityId": "pol-金",
+      "startYear": 1232,
+      "endYear": 1232,
+      "aliases": [],
+      "searchLabels": [
+        "开兴"
+      ]
+    },
+    {
+      "id": "era-天祐-杨吴",
+      "name": "天祐",
+      "polityId": "pol-杨吴",
+      "startYear": 904,
+      "endYear": 919,
+      "aliases": [],
+      "searchLabels": [
+        "天祐"
+      ]
+    },
+    {
+      "id": "era-建隆-南唐",
+      "name": "建隆",
+      "polityId": "pol-南唐",
+      "startYear": 960,
+      "endYear": 963,
+      "aliases": [],
+      "searchLabels": [
+        "建隆"
+      ]
+    },
+    {
+      "id": "era-乾德-南唐",
+      "name": "乾德",
+      "polityId": "pol-南唐",
+      "startYear": 963,
+      "endYear": 967,
+      "aliases": [],
+      "searchLabels": [
+        "乾德"
+      ]
+    },
+    {
+      "id": "era-开宝-南唐",
+      "name": "开宝",
+      "polityId": "pol-南唐",
+      "startYear": 968,
+      "endYear": 975,
+      "aliases": [],
+      "searchLabels": [
+        "开宝"
+      ]
+    },
+    {
+      "id": "era-天会-北汉-2",
+      "name": "天会",
+      "polityId": "pol-北汉",
+      "startYear": 969,
+      "endYear": 973,
+      "aliases": [],
+      "searchLabels": [
+        "天会"
+      ]
+    },
+    {
+      "id": "era-明圣",
+      "name": "明圣",
+      "polityId": "pol-大理",
+      "startYear": 997,
+      "endYear": 1005,
+      "aliases": [],
+      "searchLabels": [
+        "明圣"
+      ]
+    },
+    {
+      "id": "era-天祐-大理",
+      "name": "天祐",
+      "polityId": "pol-大理",
+      "startYear": 1095,
+      "endYear": 1095,
+      "aliases": [],
+      "searchLabels": [
+        "天祐"
+      ]
+    },
+    {
+      "id": "era-定安",
+      "name": "定安",
+      "polityId": "pol-大理",
+      "startYear": 1200,
+      "endYear": 1200,
+      "aliases": [],
+      "searchLabels": [
+        "定安"
+      ]
+    },
+    {
+      "id": "era-显德-南唐",
+      "name": "显德",
+      "polityId": "pol-南唐",
+      "startYear": 958,
+      "endYear": 960,
+      "aliases": [],
+      "searchLabels": [
+        "显德"
+      ]
+    },
+    {
+      "id": "era-乾化-吴越",
+      "name": "乾化",
+      "polityId": "pol-吴越",
+      "startYear": 911,
+      "endYear": 915,
+      "aliases": [],
+      "searchLabels": [
+        "乾化"
+      ]
+    },
+    {
+      "id": "era-贞明-吴越",
+      "name": "贞明",
+      "polityId": "pol-吴越",
+      "startYear": 915,
+      "endYear": 921,
+      "aliases": [],
+      "searchLabels": [
+        "贞明"
+      ]
+    },
+    {
+      "id": "era-龙德-吴越",
+      "name": "龙德",
+      "polityId": "pol-吴越",
+      "startYear": 921,
+      "endYear": 923,
+      "aliases": [],
+      "searchLabels": [
+        "龙德"
+      ]
+    },
+    {
+      "id": "era-同光-吴越",
+      "name": "同光",
+      "polityId": "pol-吴越",
+      "startYear": 923,
+      "endYear": 924,
+      "aliases": [],
+      "searchLabels": [
+        "同光"
+      ]
+    },
+    {
+      "id": "era-开平-闽",
+      "name": "开平",
+      "polityId": "pol-闽",
+      "startYear": 909,
+      "endYear": 911,
+      "aliases": [],
+      "searchLabels": [
+        "开平"
+      ]
+    },
+    {
+      "id": "era-乾化-闽",
+      "name": "乾化",
+      "polityId": "pol-闽",
+      "startYear": 911,
+      "endYear": 915,
+      "aliases": [],
+      "searchLabels": [
+        "乾化"
+      ]
+    },
+    {
+      "id": "era-贞明-闽",
+      "name": "贞明",
+      "polityId": "pol-闽",
+      "startYear": 915,
+      "endYear": 921,
+      "aliases": [],
+      "searchLabels": [
+        "贞明"
+      ]
+    },
+    {
+      "id": "era-龙德-闽",
+      "name": "龙德",
+      "polityId": "pol-闽",
+      "startYear": 921,
+      "endYear": 923,
+      "aliases": [],
+      "searchLabels": [
+        "龙德"
+      ]
+    },
+    {
+      "id": "era-同光-闽",
+      "name": "同光",
+      "polityId": "pol-闽",
+      "startYear": 923,
+      "endYear": 926,
+      "aliases": [],
+      "searchLabels": [
+        "同光"
+      ]
+    },
+    {
+      "id": "era-天成-闽",
+      "name": "天成",
+      "polityId": "pol-闽",
+      "startYear": 926,
+      "endYear": 930,
+      "aliases": [],
+      "searchLabels": [
+        "天成"
+      ]
+    },
+    {
+      "id": "era-长兴-闽",
+      "name": "长兴",
+      "polityId": "pol-闽",
+      "startYear": 930,
+      "endYear": 932,
+      "aliases": [],
+      "searchLabels": [
+        "长兴"
+      ]
+    },
+    {
+      "id": "era-天祐-吴越",
+      "name": "天祐",
+      "polityId": "pol-吴越",
+      "startYear": 907,
+      "endYear": 907,
+      "aliases": [],
+      "searchLabels": [
+        "天祐"
+      ]
+    },
+    {
+      "id": "era-建兴-前凉",
+      "name": "建兴",
+      "polityId": "pol-前凉",
+      "startYear": 317,
+      "endYear": 353,
+      "aliases": [],
+      "searchLabels": [
+        "建兴"
+      ],
+      "countStartYear": 313
+    },
+    {
+      "id": "era-和平-前凉",
+      "name": "和平",
+      "polityId": "pol-前凉",
+      "startYear": 354,
+      "endYear": 355,
+      "aliases": [],
+      "searchLabels": [
+        "和平"
+      ]
+    },
+    {
+      "id": "era-建兴-前凉-2",
+      "name": "建兴",
+      "polityId": "pol-前凉",
+      "startYear": 355,
+      "endYear": 361,
+      "aliases": [],
+      "searchLabels": [
+        "建兴"
+      ],
+      "countStartYear": 313
+    },
+    {
+      "id": "era-升平-前凉",
+      "name": "升平",
+      "polityId": "pol-前凉",
+      "startYear": 361,
+      "endYear": 376,
+      "aliases": [],
+      "searchLabels": [
+        "升平"
+      ],
+      "countStartYear": 357
+    },
+    {
+      "id": "era-太清-前凉",
+      "name": "太清",
+      "polityId": "pol-前凉",
+      "startYear": 363,
+      "endYear": 376,
+      "aliases": [],
+      "searchLabels": [
+        "太清"
+      ],
+      "countStartYear": 363
     }
   ]
 }

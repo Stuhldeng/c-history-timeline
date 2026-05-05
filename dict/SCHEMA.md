@@ -1,19 +1,14 @@
 # 数据字段规范
 
-> 版本：v0.7 | 最后更新：2026-05-03
+> 版本：v0.82 | 最后更新：2026-05-05
 
-本文件定义 `dict/` 目录下四类核心数据文件（polity / ruler / era / event）的字段规范。所有字段分三级：
+本文件定义 `dict/` 目录下核心数据文件（polity / ruler / era / event）的字段规范。字段分三级：
 
 - **required** — 必须存在且非空，缺失导致构建失败
 - **optional** — 可存在，可为 null / 空字符串 / 空数组
-- **reserved** — 已定义但尚未填充数据，为后续版本预留
+- **reserved** — 已定义但尚未填充，为后续版本预留
 
-每字段标注其领域归属：
-
-- **fact** — 历史事实，保留在主 dict
-- **display** — 影响展示方式
-- **search** — 仅用于搜索匹配
-- **meta** — 管理元数据（后续应外置到对应 meta 文件）
+每字段标注领域归属：**fact**（历史事实）、**display**（展示）、**search**（搜索）、**meta**（管理元数据）。
 
 ---
 
@@ -21,23 +16,22 @@
 
 ### 年份
 
-- 公元前用**负整数**表示（如 `-841` = 公元前 841 年）
-- 公元后用**正整数**表示（如 `1644`）
+- 公元前用负整数（`-841` = 前 841 年），公元后用正整数
 - **无公元 0 年**：前 1 年的下一年直接是 1 年
-- 年份字段必须为**整数**，不接受字符串
+- 年份字段必须为整数
 
 ### ID 规则
 
 | 类型 | 格式 | 示例 | 说明 |
 |------|------|------|------|
-| polity | `pol-{史称}` | `pol-秦朝`, `pol-马楚` | 用史称，避免同名冲突 |
-| ruler | `rn-{政权名}-{称呼}` | `rn-秦朝-始皇帝` | 政权名取 polity.id 的 pol- 后缀 |
-| era | `era-{年号名}[-{政权名}]` | `era-建元-西汉`, `era-共和` | 同年号多政权时加政权名后缀 |
-| event | `evt-{year}{BC/AD}-{序号}` | `evt-841BC-01`, `evt-220-01` | BC 年加 BC 后缀，AD 年不加 |
+| polity | `pol-{史称}` | `pol-秦朝` | 用史称避免同名冲突 |
+| ruler | `rn-{政权名}-{displayTitle}[-{序号}]` | `rn-秦朝-始皇帝`, `rn-唐朝-中宗-2` | 政权名取 polity.id 的 `pol-` 后缀；同政权同 displayTitle 加序号后缀 |
+| era | `era-{年号名}[-{政权名}][-{序号}]` | `era-建元-西汉`, `era-至元-元-2` | 同年号多政权加政权名后缀；同政权同年号加序号 |
+| event | `evt-{year}{BC/AD}-{序号}` | `evt-841BC-01` | BC 年加 BC 后缀 |
 
-- id 必须在同类型内**全局唯一**（结构性硬约束，重复导致构建失败）
+- id 必须在同类型内**全局唯一**（重复导致构建失败）
 - 已有 id **不可更改**（会破坏 chronology 引用和 review 标注）
-- 如需表达同一实体的其他称呼，用 `aliases` 字段
+- 同一实体的其他称呼用 `aliases` 字段
 
 ---
 
@@ -46,54 +40,35 @@
 ### 顶层结构
 
 ```json
-{
-  "_meta": { "name": "polity-map", "version": "0.6.0", ... },
-  "polities": [ ... ]
-}
+{ "_meta": { "name": "polity-map", "version": "0.82.0", ... }, "polities": [ ... ] }
 ```
-
-`_meta` 属于构建管理元数据，后续应迁移到独立配置。
 
 ### polity 条目
 
 | 字段 | 级别 | 类型 | 领域 | 说明 |
 |------|------|------|------|------|
-| `id` | required | string | fact | `pol-{史称}`，如 `pol-西汉` |
-| `name` | required | string | fact | 通用政权名，如 `西汉` |
+| `id` | required | string | fact | `pol-{史称}` |
+| `name` | required | string | fact | 通用政权名 |
 | `startYear` | required | integer | fact | 政权起始年 |
 | `endYear` | required | integer | fact | 政权结束年 |
 | `mergeGroup` | required | string | fact | 列归并组名，同组政权同列显示 |
 | `isCentral` | required | boolean | fact | 是否中央王朝 |
 | `isBorder` | required | boolean | fact | 是否边疆政权 |
-| `period` | required | string | meta | 所属时期，用于数据库筛选。必须是下列枚举之一，不可新增时期 |
+| `period` | required | string | meta | 所属时期（6 枚举之一） |
+| `selfName` | optional | string | fact | 自称国号，如周的 `selfName: "周"` |
+| `aliases` | optional | string[] | search | 政权别名 |
+| `durationRaw` | optional | string | meta | 存续时间原文，仅供人工参考 |
 
 **时期枚举（6 个）：**
 
 | 值 | 涵盖范围 |
 |----|----------|
-| `先秦` | 西周共和元年（-841）前至秦统一（-221）前 |
-| `秦汉` | 秦统一（-221）至东汉亡（220） |
-| `魏晋南北朝` | 三国（220）至隋建（581）前 |
-| `隋唐五代` | 隋建（581）至北宋建（960）前 |
-| `宋辽金` | 北宋建（960）至元建（1271）前 |
+| `先秦` | 前 841 年至秦统一前 |
+| `秦汉` | 秦统一至东汉亡（220） |
+| `魏晋南北朝` | 三国至隋建前 |
+| `隋唐五代` | 隋建（581）至北宋建前 |
+| `宋辽金` | 北宋建（960）至元建前 |
 | `元明清` | 元建（1271）至清亡（1911） |
-
-| `selfName` | optional | string | fact | 自称国号，如周的 `selfName: "周"` |
-| `aliases` | optional | string[] | search | 政权别名（搜索匹配用） |
-| `durationRaw` | optional | string | meta | 存续时间原文表述，仅供人工参考 |
-
-### 排序规则（_meta.sortRules）
-
-```json
-{
-  "periodName": "先秦战国前",
-  "yearStart": -841,
-  "yearEnd": -454,
-  "priority": { "周": 1, "鲁": 2, ... }
-}
-```
-
-`sortRules` 后续应迁移到 `dict/sort-rules.json`。
 
 ---
 
@@ -103,53 +78,47 @@
 
 | 字段 | 级别 | 类型 | 领域 | 说明 |
 |------|------|------|------|------|
-| `id` | required | string | fact | `rn-{政权名}-{称呼}` |
+| `id` | required | string | fact | `rn-{政权名}-{displayTitle}[-{序号}]` |
 | `polityId` | required | string | fact | 所属政权 id，必须存在于 polity-map |
 | `reignStartYear` | required | integer | fact | 在位起始年 |
 | `reignEndYear` | required | integer | fact | 在位结束年 |
-| `displayTitle` | required | string | display | 显示名，详见下方填充规则 |
-| `searchLabels` | required | string[] | search | 搜索用标签（政权+称号+姓名组合） |
+| `displayTitle` | required | string | display | 显示名，详见下方规则 |
+| `searchLabels` | required | string[] | search | 搜索标签（政权+称号+姓名组合） |
 | `uncertain` | required | boolean | meta | 数据是否存疑 |
-
-| `personalName` | optional | string | fact | 本人姓名，如 `嬴政`。无法考证时可省略 |
+| `personalName` | optional | string | fact | 本人姓名，如 `嬴政` |
 | `posthumousTitle` | optional | string | fact | 谥号，如 `汉武帝` |
 | `templeTitle` | optional | string | fact | 庙号，如 `唐太宗` |
-| `aliases` | optional | string[] | search | 别名列表（搜索匹配用） |
-| `eraNames` | optional | string[] | fact | 该君主使用的年号名列表（不完整） |
+| `aliases` | optional | string[] | search | 别名列表 |
+| `eraNames` | optional | string[] | fact | 该君主**亲自启用的年号**名列表（不含即位当年沿用的旧年号） |
 
 ### displayTitle 填充规则
 
-`displayTitle` 必须非空。新增君主时按以下优先级生成默认值：
+按以下优先级生成默认值：
 
-1. **有谥号** → 政权名 + 谥号简称（如 `汉武帝`，非 `汉孝武皇帝`）
-   - "皇帝"→"帝"（如 `孝武皇帝` → `孝武帝`）
-   - 南北朝、五代十国保留"孝"字（如 `北魏孝文帝`、`东魏孝静帝`），其他时期省略"孝"（如 `汉武帝`）
+1. **有谥号** → 政权名 + 谥号简称（如 `汉武帝`）
+   - "皇帝"→"帝"；南北朝、五代保留"孝"字，其他省略
 2. **有庙号** → 政权名 + 庙号（如 `唐太宗`）
-3. **有年号**（明清君主）→ 年号 + 帝（如 `康熙帝`）
+3. **有年号**（明清）→ 年号 + 帝（如 `康熙帝`）
 4. **有 personalName**：
-   - 边疆政权（`isBorder: true`）→ 直接使用谥号/可汗号等称号（如 `东明圣王`、`伊利可汗`），不加政权名前缀
-   - 十六国政权 → 直接使用姓名（如 `刘聪`）
+   - 边疆政权 → 直接用称号（如 `东明圣王`）
+   - 十六国 → 直接用姓名（如 `刘聪`）
    - 其他 → 政权名 + 姓名（如 `秦嬴政`）
-5. 以上皆空 → 使用 id 中 `rn-{政权名}-` 之后的部分作为兜底
+5. 以上皆空 → 取 id 中 `rn-{政权名}-` 之后的部分
 
-**政权名**取 `selfName`（若有），否则取 `name`。**例外**：南北朝、五代十国政权一律取 `name`（史称），如 `北魏`、`刘宋`、`后梁`、`南唐`。
-
-以上为默认规则，人工审核后可覆盖为更合适的显示名（如惯用称呼）。
+**政权名**取 `selfName`（若有），否则取 `name`。例外：南北朝、五代十国一律取 `name`（史称）。
 
 ### displayTitle 在年表中的使用
 
-无年号时期，单元格文本 = `displayTitle` + 中文纪年（如 `汉武帝元年`）。`displayTitle` 直接作为前缀，不再额外补政权名。
+无年号时期，单元格文本 = `displayTitle` + 中文纪年（如 `汉武帝元年`）。
 
-### 后续版本预留字段（跨政权君主连续模型）
-
-以下字段 v0.7 为特殊情况（嬴政、刘邦、忽必烈等）增加：
+### 跨政权君主预留字段
 
 | 字段 | 级别 | 类型 | 说明 |
 |------|------|------|------|
 | `personId` | optional | string | 跨政权人物统一标识，如 `person-嬴政` |
 | `continuityGroup` | optional | string | 连续纪年组标识 |
-| `phaseType` | optional | string | 阶段类型枚举：`founder-transition` / `restoration` / `polity-renaming` |
-| `regnalCountStartYear` | optional | integer | 纪年起算年（用于跨政权连续纪年） |
+| `phaseType` | optional | string | `founder-transition` / `restoration` / `polity-renaming` |
+| `regnalCountStartYear` | optional | integer | 纪年起算年（跨政权连续纪年） |
 
 ---
 
@@ -159,22 +128,21 @@
 
 | 字段 | 级别 | 类型 | 领域 | 说明 |
 |------|------|------|------|------|
-| `id` | required | string | fact | `era-{年号名}[-{政权名}]` |
+| `id` | required | string | fact | `era-{年号名}[-{政权名}][-{序号}]` |
 | `name` | required | string | fact | 年号名，如 `建元` |
 | `polityId` | required | string | fact | 所属政权 id |
 | `startYear` | required | integer | fact | 年号起始年 |
 | `endYear` | required | integer | fact | 年号结束年 |
-| `searchLabels` | required | string[] | search | 搜索用标签 |
+| `searchLabels` | required | string[] | search | 搜索标签 |
+| `aliases` | optional | string[] | search | 年号别名（预留） |
+| `countStartYear` | optional | integer | fact | 纪年起算年。用于沿用他政权年号但不重置纪年的情况（如前凉沿用晋建兴，317 年为建兴五年则 countStartYear=313） |
 
-| `aliases` | optional | string[] | search | 年号别名，当前全部为空，为后续预留 |
-
-### 后续版本预留字段（跨政权年号连续模型）
+### 跨政权年号预留字段
 
 | 字段 | 级别 | 类型 | 说明 |
 |------|------|------|------|
-| `continuityGroup` | optional | string | 连续纪年组标识（如 `era-至元-忽必烈`） |
-| `phaseType` | optional | string | 阶段类型：`cross-polity` / `restoration` |
-| `countStartYear` | optional | integer | 纪年起算年（用于跨政权连续纪年） |
+| `continuityGroup` | optional | string | 连续纪年组标识 |
+| `phaseType` | optional | string | `cross-polity` / `restoration` |
 
 ---
 
@@ -186,94 +154,54 @@
 |------|------|------|------|------|
 | `id` | required | string | fact | `evt-{year}{BC/AD}-{序号}` |
 | `year` | required | integer | fact | 事件发生年 |
-| `title` | required | string | fact | 事件标题（简短，用于表格列和搜索摘要） |
-| `text` | required | string | fact | 事件文本（年表中显示的简短文本） |
-| `level` | required | string | meta | `major`（年表显示）/ `minor`（仅数据库可查） |
-
-| `type` | optional | string | meta | 事件类型，v0.7 定义枚举，v0.9 前补全 |
+| `title` | required | string | fact | 事件标题（简短） |
+| `text` | required | string | fact | 年表显示文本 |
+| `level` | required | string | meta | `major` / `minor` |
+| `type` | optional | string | meta | 事件类型枚举 |
 | `relatedPolities` | optional | string[] | fact | 关联政权 id 列表 |
-| `description` | optional | string | fact | 详细描述（用于悬浮卡和数据库详情） |
+| `description` | optional | string | fact | 详细描述 |
 | `aliases` | optional | string[] | search | 搜索别名 |
 
-### 事件类型枚举（v0.7 预定义）
-
-| 值 | 含义 |
-|----|------|
-| `political` | 政治（政权更迭、禅让、制度变革、宫廷政变） |
-| `military` | 军事（战争、战役、叛乱） |
-| `succession` | 继位（同一政权内的君主继位） |
-| `diplomacy` | 外交（和亲、会盟、朝贡） |
-| `economy` | 经济（赋税、货币、农业） |
-| `culture` | 文化（典籍、科举、宗教） |
-| `disaster` | 灾害（地震、饥荒、瘟疫） |
-| `institution` | 建制（设郡县、建都、设官制） |
-
-此枚举后续写入 `dict/event-taxonomy.json`。
+**事件类型枚举：** `political` / `military` / `succession` / `diplomacy` / `economy` / `culture` / `disaster` / `institution`
 
 ---
 
-## 六、verification-map.json（v0.7 新增）
+## 六、verification-map.json
 
 ### 顶层结构
 
 ```json
-{
-  "_meta": {
-    "name": "verification-map",
-    "version": "0.7.0",
-    "description": "人工/AI 校验结果",
-    "rules": { ... },
-    "keyFormat": "{type}:{id}",
-    "types": ["polity", "ruler", "era", "event"]
-  },
-  "items": {
-    "ruler:rn-秦朝-始皇帝": { ... }
-  }
-}
+{ "_meta": { "keyFormat": "{type}:{id}", "types": ["polity","ruler","era","event"] }, "items": { ... } }
 ```
 
 ### item 条目
 
 | 字段 | 级别 | 类型 | 说明 |
 |------|------|------|------|
-| `method` | required | string | `human`、`ai` 或 `error` |
-| `confidence` | required | string | human/error → 仅 `absolute`；ai → `high` / `medium` / `low` |
-| `verifiedBy` | required | string | 校验者标识（人工填人名，AI 填模型名） |
-| `verifiedAt` | required | string | 校验日期，ISO 格式（如 `2026-05-03`） |
+| `method` | required | string | `human` / `ai` / `error` |
+| `confidence` | required | string | human/error → `absolute`；ai → `high` / `medium` / `low` |
+| `verifiedBy` | required | string | 校验者标识 |
+| `verifiedAt` | required | string | 校验日期（ISO 格式） |
 | `note` | required | string | 校验说明 |
-| `appliesTo` | optional | string | 关联的 validation 问题类别（如 `rulerOutOfPolity`） |
+| `appliesTo` | optional | string | 关联的 validation 问题类别 |
 
 ### 校验规则
 
-1. **人工校验**：`method: "human"`, `confidence: "absolute"`。仅限用户本人标记，AI 不得使用。
-2. **错误报告**：`method: "error"`, `confidence: "absolute"`。仅限用户本人标记，表示该条目存在数据错误。`note` 字段必填，需描述具体错误内容。
-3. **AI 校验**：`method: "ai"`, `confidence: "high" | "medium" | "low"`。AI 不得使用 `absolute`。
-4. **未校验**：不在 verification-map 中的条目默认为 `unreviewed`。
-5. **豁免范围**：human verification 可豁免历史解释类异常（rulerOutOfPolity、eraOutOfPolity、yearGaps），使其不导致构建失败。但**结构性硬错误不可豁免**：
-   - 重复 id
-   - JSON 结构错误
-   - 必填字段缺失
-   - polityId 引用不存在
-   - 年份非整数
-   - `startYear > endYear`
-6. **AI 不得覆盖人工**：若某 key 已有 `method: "human"` 或 `method: "error"` 记录，AI 不可修改。
-7. **key 格式**：`{类型}:{实体 id}`，如 `ruler:rn-秦朝-始皇帝`、`era:era-至元-yuan`、`polity:pol-唐朝`。
+1. **人工校验**：`method: "human"`, `confidence: "absolute"`，仅限用户本人
+2. **错误报告**：`method: "error"`, `confidence: "absolute"`，仅限用户本人，`note` 必填
+3. **AI 校验**：`method: "ai"`, `confidence: high/medium/low`，不得使用 `absolute`
+4. **未校验**：不在 map 中的条目默认 `unreviewed`
+5. **豁免范围**：human verification 可豁免历史解释类异常（rulerOutOfPolity、eraOutOfPolity、yearGaps），但结构性硬错误不可豁免：重复 id、JSON 结构错误、必填字段缺失、polityId 引用不存在、年份非整数、startYear > endYear
+6. **AI 不得覆盖人工**：已有 `method: "human"` 或 `"error"` 的记录，AI 不可修改
+7. **key 格式**：`{类型}:{实体 id}`，如 `ruler:rn-秦朝-始皇帝`、`era:era-至元-元-2`
 
 ---
 
 ## 七、column 语义
 
-### 核心概念
+年表的"列"对应 `mergeGroup`，而非单个 polityId。同组政权在年表中合为一列展示。`columnId = col-{mergeGroup}`。
 
-年表的"列"对应 `mergeGroup`，而非单个 `polityId`。原因是部分政权在历史上是同一个政权的不同阶段（如西汉+新朝+更始+东汉共属 `汉`，北宋+南宋共属 `两宋`），在年表中应合为一列展示。
-
-```
-columnId = col-{mergeGroup}
-```
-
-### column 定义
-
-每列由 `dict/column-map.json` 定义：
+### column 定义（column-map.json）
 
 ```json
 {
@@ -292,124 +220,57 @@ columnId = col-{mergeGroup}
 
 ### 列操作规则
 
-| 操作 | 作用对象 | 说明 |
-|------|---------|------|
-| 隐藏 | columnId | 整列及其所有 member 政权不显示 |
-| 固定 | columnId | 最多 3 列，始终显示在表格最左侧 |
-| 手动排序 | columnId | 覆盖 sort-rules 的自然排序 |
+| 操作 | 说明 |
+|------|------|
+| 隐藏 | 整列及所有 member 政权不显示 |
+| 固定 | 最多 3 列，始终显示在最左侧 |
+| 手动排序 | 覆盖 sort-rules 的自然排序 |
 
-- **冲突处理**：pinned 列被 hidden 时，视为取消固定而非隐藏。即 `pinnedColumnIds` 和 `hiddenColumnIds` 不应有交集。
-- **搜索跳转**：若搜索结果指向的政权所在列已被隐藏，前端应自动临时显示该列，持续到下次用户手动调整列设置。
-- **状态持久化**：`hiddenColumnIds`、`pinnedColumnIds`、`manualOrder` 应通过 `localStorage` 持久化。
-
-### 列标签
-
-- 列的展示名称为 `label`，通常等于 `mergeGroup`
-- **多成员列**：表头 tooltip 应列出所有成员政权及其存续年份
-- **中央王朝**（`isCentral: true`）：在 UI 中可加视觉标识（如星标或加粗）
-- **边疆政权**（`isBorder: true`）：在 UI 中可用不同色调标识
-
-### 列排序
-
-列的默认显示顺序由 `sort-rules.json` 控制（按时期选取活跃规则）。规则未覆盖的列按 `startYear` 升序排列。手动排序（`manualOrder`）覆盖自然排序。
+- pinned 列被 hidden 时视为取消固定
+- 搜索结果指向已隐藏列时，前端自动临时显示该列
+- 列设置通过 `localStorage` 持久化
 
 ---
 
-## 八、外置元数据文件规划
+## 八、外置元数据文件
 
-以下字段应从主 dict 中**迁出**或**不新增**到主 dict，放入独立外置文件：
-
-| 外置文件 | 内容 | 引用方式 |
-|----------|------|----------|
-| `verification-map.json` | 人工/AI 校验记录 | `{type}:{id}`，如 `ruler:rn-秦朝-始皇帝` |
-| `exception-map.json` | 合法历史异常 | 同上 |
-| `source-map.json` | 数据来源 | 同上 |
-| `column-map.json` | columnId、列成员、默认配置 | columnId |
-| `sort-rules.json` | 时期排序规则（从 polity-map._meta 迁出） | period |
+| 文件 | 内容 | 引用方式 |
+|------|------|----------|
+| `verification-map.json` | 人工/AI 校验记录 | `{type}:{id}` |
+| `exception-map.json` | 合法历史异常 | `{type}:{id}` |
+| `source-map.json` | 数据来源 | `{type}:{id}` |
+| `column-map.json` | 列定义与配置 | columnId |
+| `sort-rules.json` | 时期排序规则 | period |
 | `event-taxonomy.json` | 事件类型枚举 | type 值 |
 | `alias-map.json` | 批量别名增强 | `{type}:{id}` |
-| `display-map.json` | 显示覆盖、tooltip 展示规则 | `{type}:{id}` |
-
-当前 `polity-map._meta.sortRules` 将在 v0.7 后续任务中迁移到 `sort-rules.json`。
+| `display-map.json` | 显示覆盖规则 | `{type}:{id}` |
 
 ---
 
-## 九、字段归属判定原则
+## 九、字段归属原则
 
-### 保留在主 dict（历史事实核心字段）
+**保留在主 dict（历史事实）：** id、name、年份、关联关系（polityId、mergeGroup）、分类标签（isCentral、isBorder）、正文内容、人名地名、eraNames、countStartYear
 
-- 实体标识：id、name
-- 时间信息：startYear、endYear、reignStartYear、reignEndYear、year
-- 关联关系：polityId、mergeGroup、relatedPolities
-- 分类标签：isCentral、isBorder、level
-- 正文内容：title、text、description
-- 人名地名：personalName、templeTitle、posthumousTitle、selfName
-- 跨政权字段（后续）：personId、continuityGroup、phaseType、countStartYear
-
-### 外置到 meta 文件（管理/校验/展示元数据）
-
-- 校验信息：method、confidence、verifiedBy、verifiedAt、note
-- 来源信息：source、sourceUrl
-- 异常说明：exceptionType、reason
-- 展示配置：displayTitle 覆盖、tooltip 字段顺序、列配置
-- 搜索增强：aliases 批量补充
-- 排序规则：sortRules 完整规则
-- 分类枚举：event type taxonomy
+**外置到 meta 文件（管理/校验/展示）：** 校验信息、来源信息、异常说明、展示配置、搜索增强、排序规则、分类枚举
 
 ---
 
-## 十、数据库展示字段（v0.8）
+## 十、数据库展示字段
 
-数据库侧栏对四种实体展示以下字段。缺失字段统一显示为 `"未补充"`。
+缺失字段统一显示为 `"未补充"`。
 
-### 政权 (polity)
+### 政权
 
-| 字段 | 标签 | 说明 |
-|------|------|------|
-| `name` | 名称 | 必填 |
-| `selfName` | 自称 | 政权自称 |
-| `aliases` | 别名 | 数组，逗号连接 |
-| `period` | 时期 | 枚举：先秦/秦汉/魏晋南北朝/隋唐五代/宋辽金/元明清 |
-| `isCentral` | 类型 | `true` 则显示"中央王朝" |
-| `isBorder` | 边疆政权 | `true` 则显示"是" |
-| `startYear` | 起始年 | 含负数（公元前） |
-| `endYear` | 终止年 | 同上 |
+name（名称）、selfName（自称）、aliases（别名）、period（时期）、isCentral（类型）、isBorder（边疆）、startYear（起始年）、endYear（终止年）
 
-### 君主 (ruler)
+### 君主
 
-| 字段 | 标签 | 说明 |
-|------|------|------|
-| `displayTitle` | 称号 | 展示用名 |
-| `personalName` | 姓名 | 本名 |
-| `templeTitle` | 庙号 | 如"太宗" |
-| `posthumousTitle` | 谥号 | 如"武皇帝" |
-| `aliases` | 别名 | 数组 |
-| `polityId` | 所属政权 | 显示名称 |
-| `reignStartYear` | 起始年 | |
-| `reignEndYear` | 终止年 | |
-| `personId` | 人物ID | 跨政权人物标识 |
-| `phaseType` | 阶段类型 | 如 founder-transition |
+displayTitle（称号）、personalName（姓名）、templeTitle（庙号）、posthumousTitle（谥号）、aliases（别名）、polityId（所属政权）、reignStartYear（起始年）、reignEndYear（终止年）、personId（人物ID）、phaseType（阶段类型）
 
-### 年号 (era)
+### 年号
 
-| 字段 | 标签 | 说明 |
-|------|------|------|
-| `name` | 年号 | 必填 |
-| `aliases` | 别名 | |
-| `polityId` | 所属政权 | |
-| `startYear` | 起始年 | |
-| `endYear` | 终止年 | |
-| `countStartYear` | 纪年起算年 | 连续纪年时使用 |
-| `continuityGroup` | 连续纪年组 | 至元等跨政权年号 |
+name（年号）、aliases（别名）、polityId（所属政权）、startYear（起始年）、endYear（终止年）、countStartYear（纪年起算年）、continuityGroup（连续纪年组）
 
-### 事件 (event)
+### 事件
 
-| 字段 | 标签 | 说明 |
-|------|------|------|
-| `title` | 标题 | |
-| `text` | 简述 | |
-| `year` | 年份 | |
-| `level` | 级别 | major/minor |
-| `type` | 类型 | political/military/... |
-| `relatedPolities` | 关联政权 | 多个用逗号连接 |
-| `description` | 详细描述 | |
+title（标题）、text（简述）、year（年份）、level（级别）、type（类型）、relatedPolities（关联政权）、description（详细描述）

@@ -5,11 +5,11 @@
     "total": 1018,
     "generatedAt": "2026-05-01T02:41:35.397Z",
     "mergedAt": "2026-05-01T03:45:46.050Z",
-    "lastUpdated": "2026-05-02T11:03:58.785Z"
+    "lastUpdated": "2026-05-05T07:17:22.777Z"
   },
   "rulers": [
     {
-      "id": "rn-曹国-曹叔振铎",
+      "id": "rn-曹-曹叔振铎",
       "polityId": "pol-曹",
       "personalName": "姬振铎",
       "templeTitle": null,
@@ -27,7 +27,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-召公奭",
+      "id": "rn-燕-燕召公奭",
       "polityId": "pol-燕",
       "personalName": "姬奭",
       "templeTitle": null,
@@ -45,7 +45,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-西周-武王",
+      "id": "rn-西周-周武王",
       "polityId": "pol-西周",
       "personalName": "姬发",
       "templeTitle": null,
@@ -63,7 +63,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-胡公",
+      "id": "rn-陈-陈胡公",
       "polityId": "pol-陈",
       "personalName": "妫满",
       "templeTitle": null,
@@ -81,7 +81,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-叔度",
+      "id": "rn-蔡-蔡叔度",
       "polityId": "pol-蔡",
       "personalName": "姬度",
       "templeTitle": null,
@@ -99,7 +99,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-伯禽（鲁公）",
+      "id": "rn-鲁-伯禽",
       "polityId": "pol-鲁",
       "personalName": "姬禽",
       "templeTitle": null,
@@ -117,7 +117,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-熊绎",
+      "id": "rn-楚-熊绎",
       "polityId": "pol-楚",
       "personalName": "熊绎",
       "templeTitle": null,
@@ -135,7 +135,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-西周-成王",
+      "id": "rn-西周-周成王",
       "polityId": "pol-西周",
       "personalName": "姬诵",
       "templeTitle": null,
@@ -153,7 +153,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-微子启",
+      "id": "rn-宋-微子启",
       "polityId": "pol-宋",
       "personalName": "子启",
       "templeTitle": null,
@@ -171,7 +171,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-太伯",
+      "id": "rn-曹-曹太伯",
       "polityId": "pol-曹",
       "personalName": "姬脾",
       "templeTitle": null,
@@ -189,7 +189,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-微仲衍",
+      "id": "rn-宋-微仲衍",
       "polityId": "pol-宋",
       "personalName": "子衍",
       "templeTitle": null,
@@ -207,7 +207,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-西周-康王",
+      "id": "rn-西周-周康王",
       "polityId": "pol-西周",
       "personalName": "姬钊",
       "templeTitle": null,
@@ -225,7 +225,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-蔡仲",
+      "id": "rn-蔡-蔡仲",
       "polityId": "pol-蔡",
       "personalName": "姬胡",
       "templeTitle": null,
@@ -243,7 +243,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-燕侯克",
+      "id": "rn-燕-燕侯克",
       "polityId": "pol-燕",
       "personalName": "姬克",
       "templeTitle": null,
@@ -261,7 +261,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-申公",
+      "id": "rn-陈-陈申公",
       "polityId": "pol-陈",
       "personalName": "妫犀侯",
       "templeTitle": null,
@@ -279,7 +279,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-熊艾",
+      "id": "rn-楚-熊艾",
       "polityId": "pol-楚",
       "personalName": "熊艾",
       "templeTitle": null,
@@ -297,7 +297,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-宋公稽",
+      "id": "rn-宋-宋公稽",
       "polityId": "pol-宋",
       "personalName": "子稽",
       "templeTitle": null,
@@ -315,7 +315,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-仲君",
+      "id": "rn-曹-曹仲君",
       "polityId": "pol-曹",
       "personalName": "姬平",
       "templeTitle": null,
@@ -333,7 +333,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-考公",
+      "id": "rn-鲁-鲁考公",
       "polityId": "pol-鲁",
       "personalName": "姬酋",
       "templeTitle": null,
@@ -351,7 +351,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-西周-昭王",
+      "id": "rn-西周-周昭王",
       "polityId": "pol-西周",
       "personalName": "姬瑕",
       "templeTitle": null,
@@ -369,7 +369,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-炀公",
+      "id": "rn-鲁-鲁炀公",
       "polityId": "pol-鲁",
       "personalName": "姬熙",
       "templeTitle": null,
@@ -387,7 +387,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-相公",
+      "id": "rn-陈-陈相公",
       "polityId": "pol-陈",
       "personalName": "妫皋羊",
       "templeTitle": null,
@@ -405,7 +405,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-幽公",
+      "id": "rn-鲁-鲁幽公",
       "polityId": "pol-鲁",
       "personalName": "姬宰",
       "templeTitle": null,
@@ -423,7 +423,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-蔡伯",
+      "id": "rn-蔡-蔡蔡伯",
       "polityId": "pol-蔡",
       "personalName": "姬荒",
       "templeTitle": null,
@@ -441,7 +441,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-熊黵",
+      "id": "rn-楚-熊䵣",
       "polityId": "pol-楚",
       "personalName": "熊䵣",
       "templeTitle": null,
@@ -459,7 +459,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-燕侯旨",
+      "id": "rn-燕-燕侯旨",
       "polityId": "pol-燕",
       "personalName": "姬旨",
       "templeTitle": null,
@@ -477,7 +477,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-西周-穆王",
+      "id": "rn-西周-周穆王",
       "polityId": "pol-西周",
       "personalName": "姬满",
       "templeTitle": null,
@@ -495,7 +495,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-宫伯",
+      "id": "rn-曹-曹宫伯",
       "polityId": "pol-曹",
       "personalName": "姬侯",
       "templeTitle": null,
@@ -513,7 +513,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-魏公",
+      "id": "rn-鲁-鲁魏公",
       "polityId": "pol-鲁",
       "personalName": "姬沸",
       "templeTitle": null,
@@ -531,7 +531,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-丁公",
+      "id": "rn-宋-宋丁公",
       "polityId": "pol-宋",
       "personalName": "子申",
       "templeTitle": null,
@@ -549,7 +549,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-孝公",
+      "id": "rn-陈-陈孝公",
       "polityId": "pol-陈",
       "personalName": "妫突",
       "templeTitle": null,
@@ -567,7 +567,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-宫侯",
+      "id": "rn-蔡-蔡宫侯",
       "polityId": "pol-蔡",
       "personalName": null,
       "templeTitle": null,
@@ -584,7 +584,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-燕侯舞",
+      "id": "rn-燕-燕侯舞",
       "polityId": "pol-燕",
       "personalName": "姬舞",
       "templeTitle": null,
@@ -602,7 +602,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-慎公",
+      "id": "rn-陈-陈慎公",
       "polityId": "pol-陈",
       "personalName": "妫圉戎",
       "templeTitle": null,
@@ -620,7 +620,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-熊胜",
+      "id": "rn-楚-熊胜",
       "polityId": "pol-楚",
       "personalName": "熊胜",
       "templeTitle": null,
@@ -638,7 +638,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-孝伯",
+      "id": "rn-曹-曹孝伯",
       "polityId": "pol-曹",
       "personalName": "姬云",
       "templeTitle": null,
@@ -656,7 +656,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-湣公",
+      "id": "rn-宋-宋湣公-1",
       "polityId": "pol-宋",
       "personalName": "子共",
       "templeTitle": null,
@@ -674,7 +674,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-厉侯",
+      "id": "rn-蔡-蔡厉侯",
       "polityId": "pol-蔡",
       "personalName": null,
       "templeTitle": null,
@@ -691,7 +691,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-厉公",
+      "id": "rn-鲁-鲁厉公",
       "polityId": "pol-鲁",
       "personalName": "姬擢",
       "templeTitle": null,
@@ -709,7 +709,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-西周-共王",
+      "id": "rn-西周-周共王",
       "polityId": "pol-西周",
       "personalName": "姬繄扈",
       "templeTitle": null,
@@ -727,7 +727,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-幽公",
+      "id": "rn-陈-陈幽公",
       "polityId": "pol-陈",
       "personalName": "妫宁",
       "templeTitle": null,
@@ -745,7 +745,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-燕侯宪",
+      "id": "rn-燕-燕侯宪",
       "polityId": "pol-燕",
       "personalName": "姬宪",
       "templeTitle": null,
@@ -763,7 +763,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-熊杨",
+      "id": "rn-楚-熊杨",
       "polityId": "pol-楚",
       "personalName": "熊杨",
       "templeTitle": null,
@@ -781,7 +781,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-炀公",
+      "id": "rn-宋-宋炀公",
       "polityId": "pol-宋",
       "personalName": "子熙",
       "templeTitle": null,
@@ -799,7 +799,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-夷伯",
+      "id": "rn-曹-曹夷伯",
       "polityId": "pol-曹",
       "personalName": "姬喜",
       "templeTitle": null,
@@ -817,7 +817,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-非子",
+      "id": "rn-秦-非子",
       "polityId": "pol-秦",
       "personalName": "嬴非",
       "templeTitle": null,
@@ -835,7 +835,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-僖公",
+      "id": "rn-陈-陈僖公",
       "polityId": "pol-陈",
       "personalName": "妫孝",
       "templeTitle": null,
@@ -853,7 +853,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-武侯",
+      "id": "rn-蔡-蔡武侯",
       "polityId": "pol-蔡",
       "personalName": null,
       "templeTitle": null,
@@ -870,7 +870,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-西周-懿王",
+      "id": "rn-西周-周懿王",
       "polityId": "pol-西周",
       "personalName": "姬囏",
       "templeTitle": null,
@@ -888,7 +888,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-厉公",
+      "id": "rn-宋-宋厉公",
       "polityId": "pol-宋",
       "personalName": "子鲋祀",
       "templeTitle": null,
@@ -906,7 +906,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-西周-孝王",
+      "id": "rn-西周-周孝王",
       "polityId": "pol-西周",
       "personalName": "姬辟方",
       "templeTitle": null,
@@ -924,7 +924,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-燕侯和",
+      "id": "rn-燕-燕侯和",
       "polityId": "pol-燕",
       "personalName": "姬和",
       "templeTitle": null,
@@ -942,7 +942,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-献公",
+      "id": "rn-鲁-鲁献公",
       "polityId": "pol-鲁",
       "personalName": "姬具",
       "templeTitle": null,
@@ -960,7 +960,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-熊渠",
+      "id": "rn-楚-熊渠",
       "polityId": "pol-楚",
       "personalName": "熊渠",
       "templeTitle": null,
@@ -978,7 +978,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-西周-夷王",
+      "id": "rn-西周-周夷王",
       "polityId": "pol-西周",
       "personalName": "姬燮",
       "templeTitle": null,
@@ -996,7 +996,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-武公",
+      "id": "rn-陈-陈武公",
       "polityId": "pol-陈",
       "personalName": "妫灵",
       "templeTitle": null,
@@ -1014,7 +1014,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-幽伯",
+      "id": "rn-曹-曹幽伯",
       "polityId": "pol-曹",
       "personalName": "姬强",
       "templeTitle": null,
@@ -1032,13 +1032,15 @@
       "uncertain": false
     },
     {
-      "id": "rn-西周-厉王",
+      "id": "rn-西周-周厉王",
       "polityId": "pol-西周",
       "personalName": "姬胡",
       "templeTitle": null,
       "posthumousTitle": "厉王",
       "displayTitle": "周厉王",
-      "eraNames": [],
+      "eraNames": [
+        "共和"
+      ],
       "reignStartYear": -877,
       "reignEndYear": -841,
       "aliases": [],
@@ -1050,7 +1052,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-熊延",
+      "id": "rn-楚-熊延",
       "polityId": "pol-楚",
       "personalName": "熊延",
       "templeTitle": null,
@@ -1068,7 +1070,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-夷侯",
+      "id": "rn-蔡-蔡夷侯",
       "polityId": "pol-蔡",
       "personalName": null,
       "templeTitle": null,
@@ -1085,7 +1087,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-柯相",
+      "id": "rn-吴-柯相",
       "polityId": "pol-吴",
       "personalName": null,
       "templeTitle": null,
@@ -1102,7 +1104,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫岫",
+      "id": "rn-卫-卫顷侯",
       "polityId": "pol-卫",
       "personalName": "卫岫",
       "templeTitle": null,
@@ -1119,7 +1121,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-惠侯",
+      "id": "rn-燕-燕惠侯",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -1136,7 +1138,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-献公",
+      "id": "rn-姜齐-齐献公",
       "polityId": "pol-姜齐",
       "personalName": "吕山",
       "templeTitle": null,
@@ -1157,7 +1159,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-戴伯",
+      "id": "rn-曹-曹戴伯",
       "polityId": "pol-曹",
       "personalName": "姬鲜",
       "templeTitle": null,
@@ -1175,7 +1177,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-靖侯",
+      "id": "rn-晋-晋靖侯",
       "polityId": "pol-晋",
       "personalName": "姬宜臼",
       "templeTitle": null,
@@ -1193,7 +1195,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-僖公",
+      "id": "rn-宋-宋僖公",
       "polityId": "pol-宋",
       "personalName": "子举",
       "templeTitle": null,
@@ -1211,7 +1213,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-秦侯",
+      "id": "rn-秦-秦秦侯",
       "polityId": "pol-秦",
       "personalName": null,
       "templeTitle": null,
@@ -1228,7 +1230,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫甸",
+      "id": "rn-卫-卫釐侯",
       "polityId": "pol-卫",
       "personalName": "卫甸",
       "templeTitle": null,
@@ -1245,7 +1247,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-真公",
+      "id": "rn-鲁-鲁真公",
       "polityId": "pol-鲁",
       "personalName": "姬濞",
       "templeTitle": null,
@@ -1263,7 +1265,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-夷公",
+      "id": "rn-陈-陈夷公",
       "polityId": "pol-陈",
       "personalName": "妫说",
       "templeTitle": null,
@@ -1281,7 +1283,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-武公",
+      "id": "rn-姜齐-齐武公",
       "polityId": "pol-姜齐",
       "personalName": "吕寿",
       "templeTitle": null,
@@ -1302,7 +1304,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-公伯",
+      "id": "rn-秦-秦公伯",
       "polityId": "pol-秦",
       "personalName": null,
       "templeTitle": null,
@@ -1319,7 +1321,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-熊勇",
+      "id": "rn-楚-熊勇",
       "polityId": "pol-楚",
       "personalName": "熊勇",
       "templeTitle": null,
@@ -1337,7 +1339,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-秦仲",
+      "id": "rn-秦-秦仲",
       "polityId": "pol-秦",
       "personalName": null,
       "templeTitle": null,
@@ -1354,7 +1356,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-僖侯",
+      "id": "rn-晋-晋僖侯",
       "polityId": "pol-晋",
       "personalName": "姬司徒",
       "templeTitle": null,
@@ -1372,7 +1374,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-僖侯",
+      "id": "rn-蔡-蔡僖侯",
       "polityId": "pol-蔡",
       "personalName": "姬所事",
       "templeTitle": null,
@@ -1390,7 +1392,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-疆鸠夷",
+      "id": "rn-吴-疆鸠夷",
       "polityId": "pol-吴",
       "personalName": null,
       "templeTitle": null,
@@ -1407,7 +1409,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-熊严",
+      "id": "rn-楚-熊严",
       "polityId": "pol-楚",
       "personalName": "熊严",
       "templeTitle": null,
@@ -1425,7 +1427,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-惠伯",
+      "id": "rn-曹-曹惠伯",
       "polityId": "pol-曹",
       "personalName": "姬雉",
       "templeTitle": null,
@@ -1443,7 +1445,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-平公",
+      "id": "rn-陈-陈平公",
       "polityId": "pol-陈",
       "personalName": "妫燮",
       "templeTitle": null,
@@ -1461,7 +1463,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-惠公",
+      "id": "rn-宋-宋惠公",
       "polityId": "pol-宋",
       "personalName": "子覵",
       "templeTitle": null,
@@ -1479,7 +1481,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-西周-宣王",
+      "id": "rn-西周-周宣王",
       "polityId": "pol-西周",
       "personalName": "姬静",
       "templeTitle": null,
@@ -1497,7 +1499,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-熊霜",
+      "id": "rn-楚-熊霜",
       "polityId": "pol-楚",
       "personalName": "熊霜",
       "templeTitle": null,
@@ -1515,7 +1517,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-僖侯",
+      "id": "rn-燕-燕僖侯",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -1532,7 +1534,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-厉公",
+      "id": "rn-姜齐-齐厉公",
       "polityId": "pol-姜齐",
       "personalName": "吕无忌",
       "templeTitle": null,
@@ -1553,7 +1555,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-武公",
+      "id": "rn-鲁-鲁武公",
       "polityId": "pol-鲁",
       "personalName": "姬敖",
       "templeTitle": null,
@@ -1571,7 +1573,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-共侯",
+      "id": "rn-蔡-蔡共侯",
       "polityId": "pol-蔡",
       "personalName": "姬兴",
       "templeTitle": null,
@@ -1589,7 +1591,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-献侯",
+      "id": "rn-晋-晋献侯",
       "polityId": "pol-晋",
       "personalName": "姬籍",
       "templeTitle": null,
@@ -1607,7 +1609,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-庄公",
+      "id": "rn-秦-秦庄公",
       "polityId": "pol-秦",
       "personalName": "嬴其",
       "templeTitle": null,
@@ -1625,7 +1627,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-熊徇",
+      "id": "rn-楚-熊徇",
       "polityId": "pol-楚",
       "personalName": "熊徇",
       "templeTitle": null,
@@ -1643,7 +1645,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-文公",
+      "id": "rn-姜齐-齐文公",
       "polityId": "pol-姜齐",
       "personalName": "吕赤",
       "templeTitle": null,
@@ -1664,7 +1666,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-懿公",
+      "id": "rn-鲁-鲁懿公",
       "polityId": "pol-鲁",
       "personalName": "姬戏",
       "templeTitle": null,
@@ -1682,7 +1684,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫余",
+      "id": "rn-卫-卫共伯",
       "polityId": "pol-卫",
       "personalName": "卫余",
       "templeTitle": null,
@@ -1699,7 +1701,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫和",
+      "id": "rn-卫-卫武公",
       "polityId": "pol-卫",
       "personalName": "卫和",
       "templeTitle": null,
@@ -1716,7 +1718,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-穆侯",
+      "id": "rn-晋-晋穆侯",
       "polityId": "pol-晋",
       "personalName": "姬费王",
       "templeTitle": null,
@@ -1734,7 +1736,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-戴侯",
+      "id": "rn-蔡-蔡戴侯",
       "polityId": "pol-蔡",
       "personalName": null,
       "templeTitle": null,
@@ -1751,7 +1753,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-石甫",
+      "id": "rn-曹-石甫",
       "polityId": "pol-曹",
       "personalName": null,
       "templeTitle": null,
@@ -1768,7 +1770,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-余桥疑吾",
+      "id": "rn-吴-余桥疑吾",
       "polityId": "pol-吴",
       "personalName": null,
       "templeTitle": null,
@@ -1785,7 +1787,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-穆公",
+      "id": "rn-曹-曹穆公",
       "polityId": "pol-曹",
       "personalName": "姬武",
       "templeTitle": null,
@@ -1803,7 +1805,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-伯御",
+      "id": "rn-鲁-伯御",
       "polityId": "pol-鲁",
       "personalName": null,
       "templeTitle": null,
@@ -1820,7 +1822,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-桓公",
+      "id": "rn-郑-郑桓公",
       "polityId": "pol-郑",
       "personalName": "姬友",
       "templeTitle": null,
@@ -1838,7 +1840,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-成公",
+      "id": "rn-姜齐-齐成公",
       "polityId": "pol-姜齐",
       "personalName": "吕说",
       "templeTitle": null,
@@ -1859,7 +1861,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-熊咢",
+      "id": "rn-楚-熊咢",
       "polityId": "pol-楚",
       "personalName": "熊咢",
       "templeTitle": null,
@@ -1877,7 +1879,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-哀公",
+      "id": "rn-宋-宋哀公",
       "polityId": "pol-宋",
       "personalName": null,
       "templeTitle": null,
@@ -1894,7 +1896,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-孝公",
+      "id": "rn-鲁-鲁孝公",
       "polityId": "pol-鲁",
       "personalName": "姬称",
       "templeTitle": null,
@@ -1912,7 +1914,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-文公",
+      "id": "rn-陈-陈文公",
       "polityId": "pol-陈",
       "personalName": "妫圉",
       "templeTitle": null,
@@ -1930,7 +1932,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-庄公",
+      "id": "rn-姜齐-齐庄公-1",
       "polityId": "pol-姜齐",
       "personalName": "吕赎",
       "templeTitle": null,
@@ -1951,7 +1953,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-若敖",
+      "id": "rn-楚-若敖",
       "polityId": "pol-楚",
       "personalName": "熊仪",
       "templeTitle": null,
@@ -1969,7 +1971,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-桓公",
+      "id": "rn-曹-曹桓公",
       "polityId": "pol-曹",
       "personalName": "姬终生",
       "templeTitle": null,
@@ -1987,7 +1989,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-顷侯",
+      "id": "rn-燕-燕顷侯",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -2004,7 +2006,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-殇叔",
+      "id": "rn-晋-殇叔",
       "polityId": "pol-晋",
       "personalName": null,
       "templeTitle": null,
@@ -2021,7 +2023,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-西周-幽王",
+      "id": "rn-西周-周幽王",
       "polityId": "pol-西周",
       "personalName": "姬宫湦",
       "templeTitle": null,
@@ -2039,7 +2041,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-文侯",
+      "id": "rn-晋-晋文侯",
       "polityId": "pol-晋",
       "personalName": "姬仇",
       "templeTitle": null,
@@ -2057,7 +2059,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-桓公",
+      "id": "rn-陈-陈桓公",
       "polityId": "pol-陈",
       "personalName": "妫鲍",
       "templeTitle": null,
@@ -2075,7 +2077,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-宣侯",
+      "id": "rn-蔡-蔡宣侯",
       "polityId": "pol-蔡",
       "personalName": "姬措父",
       "templeTitle": null,
@@ -2093,7 +2095,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-柯卢",
+      "id": "rn-吴-柯卢",
       "polityId": "pol-吴",
       "personalName": null,
       "templeTitle": null,
@@ -2110,7 +2112,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-襄公",
+      "id": "rn-秦-秦襄公",
       "polityId": "pol-秦",
       "personalName": "嬴开",
       "templeTitle": null,
@@ -2128,7 +2130,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-武公",
+      "id": "rn-郑-郑武公",
       "polityId": "pol-郑",
       "personalName": "姬掘突",
       "templeTitle": null,
@@ -2146,7 +2148,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-平王",
+      "id": "rn-东周-周平王",
       "polityId": "pol-东周",
       "personalName": "姬宜臼",
       "templeTitle": null,
@@ -2164,7 +2166,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-惠公",
+      "id": "rn-鲁-鲁惠公",
       "polityId": "pol-鲁",
       "personalName": "姬弗湟",
       "templeTitle": null,
@@ -2182,7 +2184,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-哀侯",
+      "id": "rn-燕-燕哀侯",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -2199,7 +2201,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-文公",
+      "id": "rn-秦-秦文公",
       "polityId": "pol-秦",
       "personalName": "嬴康",
       "templeTitle": null,
@@ -2217,7 +2219,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-戴公",
+      "id": "rn-宋-宋戴公",
       "polityId": "pol-宋",
       "personalName": "子白",
       "templeTitle": null,
@@ -2235,7 +2237,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-郑侯",
+      "id": "rn-燕-燕郑侯",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -2252,7 +2254,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-霄敖",
+      "id": "rn-楚-霄敖",
       "polityId": "pol-楚",
       "personalName": "熊坎",
       "templeTitle": null,
@@ -2270,7 +2272,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-庄公",
+      "id": "rn-曹-曹庄公",
       "polityId": "pol-曹",
       "personalName": "姬射姑",
       "templeTitle": null,
@@ -2288,7 +2290,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-蚡冒",
+      "id": "rn-楚-蚡冒",
       "polityId": "pol-楚",
       "personalName": "熊眴",
       "templeTitle": null,
@@ -2306,7 +2308,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫扬",
+      "id": "rn-卫-卫庄公-1",
       "polityId": "pol-卫",
       "personalName": "卫扬",
       "templeTitle": null,
@@ -2323,7 +2325,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-厉公",
+      "id": "rn-陈-陈厉公",
       "polityId": "pol-陈",
       "personalName": "妫佗",
       "templeTitle": null,
@@ -2341,7 +2343,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-利公",
+      "id": "rn-陈-陈利公",
       "polityId": "pol-陈",
       "personalName": "妫跃",
       "templeTitle": null,
@@ -2359,7 +2361,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-庄公",
+      "id": "rn-陈-陈庄公",
       "polityId": "pol-陈",
       "personalName": "妫林",
       "templeTitle": null,
@@ -2377,7 +2379,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-周繇",
+      "id": "rn-吴-周繇",
       "polityId": "pol-吴",
       "personalName": null,
       "templeTitle": null,
@@ -2394,7 +2396,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-桓侯",
+      "id": "rn-蔡-蔡桓侯",
       "polityId": "pol-蔡",
       "personalName": "姬封人",
       "templeTitle": null,
@@ -2412,7 +2414,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-武公",
+      "id": "rn-宋-宋武公",
       "polityId": "pol-宋",
       "personalName": "子司空",
       "templeTitle": null,
@@ -2430,7 +2432,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-昭侯",
+      "id": "rn-晋-晋昭侯",
       "polityId": "pol-晋",
       "personalName": "姬伯",
       "templeTitle": null,
@@ -2448,7 +2450,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-宣公",
+      "id": "rn-陈-陈宣公",
       "polityId": "pol-陈",
       "personalName": "妫杵臼",
       "templeTitle": null,
@@ -2466,7 +2468,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-僖公",
+      "id": "rn-曹-曹僖公",
       "polityId": "pol-曹",
       "personalName": "姬夷",
       "templeTitle": null,
@@ -2484,7 +2486,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-庄公",
+      "id": "rn-郑-郑庄公",
       "polityId": "pol-郑",
       "personalName": "姬寤生",
       "templeTitle": null,
@@ -2502,7 +2504,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-武王",
+      "id": "rn-楚-楚武王",
       "polityId": "pol-楚",
       "personalName": "熊通",
       "templeTitle": null,
@@ -2520,7 +2522,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-孝侯",
+      "id": "rn-晋-晋孝侯",
       "polityId": "pol-晋",
       "personalName": "姬平",
       "templeTitle": null,
@@ -2538,7 +2540,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-穆侯",
+      "id": "rn-燕-燕穆侯",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -2555,7 +2557,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫完",
+      "id": "rn-卫-卫桓公",
       "polityId": "pol-卫",
       "personalName": "卫完",
       "templeTitle": null,
@@ -2572,7 +2574,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-釐公",
+      "id": "rn-姜齐-齐釐公",
       "polityId": "pol-姜齐",
       "personalName": "吕禄甫",
       "templeTitle": null,
@@ -2593,7 +2595,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-宣公",
+      "id": "rn-宋-宋宣公",
       "polityId": "pol-宋",
       "personalName": "子力",
       "templeTitle": null,
@@ -2611,7 +2613,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-昭公",
+      "id": "rn-曹-曹昭公",
       "polityId": "pol-曹",
       "personalName": "姬班",
       "templeTitle": null,
@@ -2629,7 +2631,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-鄂侯",
+      "id": "rn-晋-晋鄂侯",
       "polityId": "pol-晋",
       "personalName": "姬郤",
       "templeTitle": null,
@@ -2647,7 +2649,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-隐公",
+      "id": "rn-鲁-鲁隐公",
       "polityId": "pol-鲁",
       "personalName": "姬息姑",
       "templeTitle": null,
@@ -2665,7 +2667,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-哀侯",
+      "id": "rn-蔡-蔡哀侯",
       "polityId": "pol-蔡",
       "personalName": "姬献舞",
       "templeTitle": null,
@@ -2683,7 +2685,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-穆公",
+      "id": "rn-宋-宋穆公",
       "polityId": "pol-宋",
       "personalName": "子和",
       "templeTitle": null,
@@ -2701,7 +2703,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-屈羽",
+      "id": "rn-吴-屈羽",
       "polityId": "pol-吴",
       "personalName": null,
       "templeTitle": null,
@@ -2718,7 +2720,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-桓王",
+      "id": "rn-东周-周桓王",
       "polityId": "pol-东周",
       "personalName": "姬林",
       "templeTitle": null,
@@ -2736,7 +2738,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫晋",
+      "id": "rn-卫-卫宣公",
       "polityId": "pol-卫",
       "personalName": "卫晋",
       "templeTitle": null,
@@ -2753,7 +2755,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-哀侯",
+      "id": "rn-晋-晋哀侯",
       "polityId": "pol-晋",
       "personalName": "姬光",
       "templeTitle": null,
@@ -2771,7 +2773,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-宁公",
+      "id": "rn-秦-秦宁公",
       "polityId": "pol-秦",
       "personalName": "嬴立",
       "templeTitle": null,
@@ -2789,7 +2791,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-桓公",
+      "id": "rn-鲁-鲁桓公",
       "polityId": "pol-鲁",
       "personalName": "姬允",
       "templeTitle": null,
@@ -2807,7 +2809,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-殇公",
+      "id": "rn-宋-宋殇公",
       "polityId": "pol-宋",
       "personalName": "子与夷",
       "templeTitle": null,
@@ -2825,7 +2827,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-宣侯",
+      "id": "rn-燕-燕宣侯",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -2842,7 +2844,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-小子侯",
+      "id": "rn-晋-晋小子侯",
       "polityId": "pol-晋",
       "personalName": "姬小子",
       "templeTitle": null,
@@ -2860,7 +2862,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-穆公",
+      "id": "rn-陈-陈穆公",
       "polityId": "pol-陈",
       "personalName": "妫款",
       "templeTitle": null,
@@ -2878,7 +2880,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-侯缗",
+      "id": "rn-晋-晋侯缗",
       "polityId": "pol-晋",
       "personalName": "姬缗",
       "templeTitle": null,
@@ -2896,7 +2898,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-出子",
+      "id": "rn-秦-出子",
       "polityId": "pol-秦",
       "personalName": "嬴曼",
       "templeTitle": null,
@@ -2914,7 +2916,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-共公",
+      "id": "rn-曹-曹共公",
       "polityId": "pol-曹",
       "personalName": "姬襄",
       "templeTitle": null,
@@ -2932,7 +2934,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-厉公",
+      "id": "rn-郑-郑厉公-1",
       "polityId": "pol-郑",
       "personalName": "姬突",
       "templeTitle": null,
@@ -2950,7 +2952,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫朔",
+      "id": "rn-卫-卫惠公-1",
       "polityId": "pol-卫",
       "personalName": "卫朔",
       "templeTitle": null,
@@ -2970,7 +2972,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-襄公",
+      "id": "rn-姜齐-齐襄公",
       "polityId": "pol-姜齐",
       "personalName": "吕诸儿",
       "templeTitle": null,
@@ -2991,7 +2993,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-武公",
+      "id": "rn-秦-秦武公",
       "polityId": "pol-秦",
       "personalName": "嬴说",
       "templeTitle": null,
@@ -3009,7 +3011,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-桓侯",
+      "id": "rn-燕-燕桓侯",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -3026,7 +3028,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-昭公",
+      "id": "rn-郑-郑昭公",
       "polityId": "pol-郑",
       "personalName": "姬忽",
       "templeTitle": null,
@@ -3044,7 +3046,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-庄王",
+      "id": "rn-东周-周庄王",
       "polityId": "pol-东周",
       "personalName": "姬佗",
       "templeTitle": null,
@@ -3062,7 +3064,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫黔牟",
+      "id": "rn-卫-卫君黔牟",
       "polityId": "pol-卫",
       "personalName": "卫黔牟",
       "templeTitle": null,
@@ -3079,7 +3081,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-共公",
+      "id": "rn-陈-陈共公",
       "polityId": "pol-陈",
       "personalName": "妫朔",
       "templeTitle": null,
@@ -3097,7 +3099,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-子亹",
+      "id": "rn-郑-郑子亹",
       "polityId": "pol-郑",
       "personalName": "姬亹",
       "templeTitle": null,
@@ -3115,7 +3117,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-庄公",
+      "id": "rn-鲁-鲁庄公",
       "polityId": "pol-鲁",
       "personalName": "姬同",
       "templeTitle": null,
@@ -3133,7 +3135,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-穆侯",
+      "id": "rn-蔡-蔡穆侯",
       "polityId": "pol-蔡",
       "personalName": "姬肸",
       "templeTitle": null,
@@ -3151,7 +3153,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-子仪",
+      "id": "rn-郑-郑子仪",
       "polityId": "pol-郑",
       "personalName": "姬仪",
       "templeTitle": null,
@@ -3169,7 +3171,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-庄公",
+      "id": "rn-宋-宋庄公",
       "polityId": "pol-宋",
       "personalName": "子冯",
       "templeTitle": null,
@@ -3187,7 +3189,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-庄公",
+      "id": "rn-燕-燕庄公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -3204,7 +3206,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-文王",
+      "id": "rn-楚-楚文王",
       "polityId": "pol-楚",
       "personalName": "熊赀",
       "templeTitle": null,
@@ -3222,7 +3224,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-夷吾",
+      "id": "rn-吴-夷吾",
       "polityId": "pol-吴",
       "personalName": null,
       "templeTitle": null,
@@ -3239,7 +3241,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫朔-1",
+      "id": "rn-卫-卫惠公-2",
       "polityId": "pol-卫",
       "personalName": "卫朔",
       "templeTitle": null,
@@ -3259,7 +3261,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-文公",
+      "id": "rn-曹-曹文公",
       "polityId": "pol-曹",
       "personalName": "姬寿",
       "templeTitle": null,
@@ -3277,7 +3279,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-桓公",
+      "id": "rn-姜齐-齐桓公",
       "polityId": "pol-姜齐",
       "personalName": "吕小白",
       "templeTitle": null,
@@ -3298,7 +3300,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-湣公-子捷",
+      "id": "rn-宋-宋湣公-2",
       "polityId": "pol-宋",
       "personalName": "子捷",
       "templeTitle": null,
@@ -3316,7 +3318,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-釐王",
+      "id": "rn-东周-周釐王",
       "polityId": "pol-东周",
       "personalName": "姬胡齐",
       "templeTitle": null,
@@ -3334,7 +3336,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-灵公",
+      "id": "rn-陈-陈灵公",
       "polityId": "pol-陈",
       "personalName": "妫平国",
       "templeTitle": null,
@@ -3352,7 +3354,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-武公",
+      "id": "rn-晋-晋武公",
       "polityId": "pol-晋",
       "personalName": "姬称",
       "templeTitle": null,
@@ -3370,7 +3372,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-厉公-姬突",
+      "id": "rn-郑-郑厉公-2",
       "polityId": "pol-郑",
       "personalName": "姬突",
       "templeTitle": null,
@@ -3388,7 +3390,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-献公",
+      "id": "rn-晋-晋献公",
       "polityId": "pol-晋",
       "personalName": "姬诡诸",
       "templeTitle": null,
@@ -3406,7 +3408,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-德公",
+      "id": "rn-秦-秦德公",
       "polityId": "pol-秦",
       "personalName": "嬴嘉",
       "templeTitle": null,
@@ -3424,7 +3426,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-堵敖",
+      "id": "rn-楚-堵敖",
       "polityId": "pol-楚",
       "personalName": "熊艰",
       "templeTitle": null,
@@ -3442,7 +3444,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-惠王",
+      "id": "rn-东周-周惠王",
       "polityId": "pol-东周",
       "personalName": "姬阆",
       "templeTitle": null,
@@ -3460,7 +3462,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-宣公",
+      "id": "rn-秦-秦宣公",
       "polityId": "pol-秦",
       "personalName": "嬴恬",
       "templeTitle": null,
@@ -3478,7 +3480,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-文公",
+      "id": "rn-郑-郑文公",
       "polityId": "pol-郑",
       "personalName": "姬踕",
       "templeTitle": null,
@@ -3496,7 +3498,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-成王",
+      "id": "rn-楚-楚成王",
       "polityId": "pol-楚",
       "personalName": "熊恽",
       "templeTitle": null,
@@ -3514,7 +3516,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-庄侯",
+      "id": "rn-蔡-蔡庄侯",
       "polityId": "pol-蔡",
       "personalName": "姬甲午",
       "templeTitle": null,
@@ -3532,7 +3534,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-禽处",
+      "id": "rn-吴-禽处",
       "polityId": "pol-吴",
       "personalName": null,
       "templeTitle": null,
@@ -3549,7 +3551,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫赤",
+      "id": "rn-卫-卫懿公",
       "polityId": "pol-卫",
       "personalName": "卫赤",
       "templeTitle": null,
@@ -3566,7 +3568,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-成公",
+      "id": "rn-秦-秦成公",
       "polityId": "pol-秦",
       "personalName": "嬴载",
       "templeTitle": null,
@@ -3584,7 +3586,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-宣公",
+      "id": "rn-曹-曹宣公",
       "polityId": "pol-曹",
       "personalName": "姬强",
       "templeTitle": null,
@@ -3602,7 +3604,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-闵公",
+      "id": "rn-鲁-鲁闵公",
       "polityId": "pol-鲁",
       "personalName": "姬启方",
       "templeTitle": null,
@@ -3620,7 +3622,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫申",
+      "id": "rn-卫-卫戴公",
       "polityId": "pol-卫",
       "personalName": "卫申",
       "templeTitle": null,
@@ -3637,7 +3639,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-僖公",
+      "id": "rn-鲁-鲁僖公",
       "polityId": "pol-鲁",
       "personalName": "姬申",
       "templeTitle": null,
@@ -3655,7 +3657,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-穆公",
+      "id": "rn-秦-秦穆公",
       "polityId": "pol-秦",
       "personalName": "嬴任好",
       "templeTitle": null,
@@ -3673,7 +3675,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫毁",
+      "id": "rn-卫-卫文公",
       "polityId": "pol-卫",
       "personalName": "卫毁",
       "templeTitle": null,
@@ -3690,7 +3692,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-成公",
+      "id": "rn-陈-陈成公",
       "polityId": "pol-陈",
       "personalName": "妫午",
       "templeTitle": null,
@@ -3708,7 +3710,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-文侯",
+      "id": "rn-蔡-蔡文侯",
       "polityId": "pol-蔡",
       "personalName": "姬申",
       "templeTitle": null,
@@ -3726,7 +3728,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-成公",
+      "id": "rn-曹-曹成公",
       "polityId": "pol-曹",
       "personalName": "姬负刍",
       "templeTitle": null,
@@ -3744,7 +3746,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-襄公",
+      "id": "rn-燕-燕襄公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -3761,7 +3763,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-襄王",
+      "id": "rn-东周-周襄王",
       "polityId": "pol-东周",
       "personalName": "姬郑",
       "templeTitle": null,
@@ -3779,7 +3781,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-惠公",
+      "id": "rn-晋-晋惠公",
       "polityId": "pol-晋",
       "personalName": "姬夷吾",
       "templeTitle": null,
@@ -3797,7 +3799,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-桓公",
+      "id": "rn-宋-宋桓公",
       "polityId": "pol-宋",
       "personalName": "子御说",
       "templeTitle": null,
@@ -3815,7 +3817,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-转",
+      "id": "rn-吴-转",
       "polityId": "pol-吴",
       "personalName": null,
       "templeTitle": null,
@@ -3832,7 +3834,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-哀公",
+      "id": "rn-陈-陈哀公",
       "polityId": "pol-陈",
       "personalName": "妫弱",
       "templeTitle": null,
@@ -3850,7 +3852,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-武公",
+      "id": "rn-曹-曹武公",
       "polityId": "pol-曹",
       "personalName": "姬胜",
       "templeTitle": null,
@@ -3868,7 +3870,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-孝公",
+      "id": "rn-姜齐-齐孝公",
       "polityId": "pol-姜齐",
       "personalName": "吕昭",
       "templeTitle": null,
@@ -3889,7 +3891,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-景侯",
+      "id": "rn-蔡-蔡景侯",
       "polityId": "pol-蔡",
       "personalName": "姬固",
       "templeTitle": null,
@@ -3907,7 +3909,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-文公",
+      "id": "rn-晋-晋文公",
       "polityId": "pol-晋",
       "personalName": "姬重耳",
       "templeTitle": null,
@@ -3925,7 +3927,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-襄公",
+      "id": "rn-宋-宋襄公",
       "polityId": "pol-宋",
       "personalName": "子兹父",
       "templeTitle": null,
@@ -3943,7 +3945,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-平公",
+      "id": "rn-曹-曹平公",
       "polityId": "pol-曹",
       "personalName": "姬须",
       "templeTitle": null,
@@ -3961,7 +3963,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫郑",
+      "id": "rn-卫-卫成公",
       "polityId": "pol-卫",
       "personalName": "卫郑",
       "templeTitle": null,
@@ -3978,7 +3980,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-昭公",
+      "id": "rn-姜齐-齐昭公",
       "polityId": "pol-姜齐",
       "personalName": "吕潘",
       "templeTitle": null,
@@ -3999,7 +4001,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-颇高",
+      "id": "rn-吴-颇高",
       "polityId": "pol-吴",
       "personalName": null,
       "templeTitle": null,
@@ -4016,7 +4018,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-襄公",
+      "id": "rn-晋-晋襄公",
       "polityId": "pol-晋",
       "personalName": "姬欢",
       "templeTitle": null,
@@ -4034,7 +4036,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-穆公",
+      "id": "rn-郑-郑穆公",
       "polityId": "pol-郑",
       "personalName": "姬兰",
       "templeTitle": null,
@@ -4052,7 +4054,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-文公",
+      "id": "rn-鲁-鲁文公",
       "polityId": "pol-鲁",
       "personalName": "姬兴",
       "templeTitle": null,
@@ -4070,7 +4072,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-穆王",
+      "id": "rn-楚-楚穆王",
       "polityId": "pol-楚",
       "personalName": "熊商臣",
       "templeTitle": null,
@@ -4088,7 +4090,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-灵侯",
+      "id": "rn-蔡-蔡灵侯",
       "polityId": "pol-蔡",
       "personalName": "姬般",
       "templeTitle": null,
@@ -4106,7 +4108,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-灵公",
+      "id": "rn-晋-晋灵公",
       "polityId": "pol-晋",
       "personalName": "姬夷皋",
       "templeTitle": null,
@@ -4124,7 +4126,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-康公",
+      "id": "rn-秦-秦康公",
       "polityId": "pol-秦",
       "personalName": "嬴罃",
       "templeTitle": null,
@@ -4142,7 +4144,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-成公",
+      "id": "rn-宋-宋成公",
       "polityId": "pol-宋",
       "personalName": "子王臣",
       "templeTitle": null,
@@ -4160,7 +4162,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-顷王",
+      "id": "rn-东周-周顷王",
       "polityId": "pol-东周",
       "personalName": "姬壬臣",
       "templeTitle": null,
@@ -4178,7 +4180,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-悼公",
+      "id": "rn-曹-曹悼公",
       "polityId": "pol-曹",
       "personalName": "姬午",
       "templeTitle": null,
@@ -4196,7 +4198,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-桓公",
+      "id": "rn-燕-燕桓公-1",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -4213,7 +4215,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-懿公",
+      "id": "rn-姜齐-齐懿公",
       "polityId": "pol-姜齐",
       "personalName": "吕商人",
       "templeTitle": null,
@@ -4234,7 +4236,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-庄王",
+      "id": "rn-楚-楚庄王",
       "polityId": "pol-楚",
       "personalName": "熊侣",
       "templeTitle": null,
@@ -4252,7 +4254,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-惠公",
+      "id": "rn-陈-陈惠公",
       "polityId": "pol-陈",
       "personalName": "妫吴",
       "templeTitle": null,
@@ -4270,7 +4272,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-匡王",
+      "id": "rn-东周-周匡王",
       "polityId": "pol-东周",
       "personalName": "姬班",
       "templeTitle": null,
@@ -4288,7 +4290,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-昭公",
+      "id": "rn-宋-宋昭公-1",
       "polityId": "pol-宋",
       "personalName": "子杵臼",
       "templeTitle": null,
@@ -4306,7 +4308,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-惠公",
+      "id": "rn-姜齐-齐惠公",
       "polityId": "pol-姜齐",
       "personalName": "吕元",
       "templeTitle": null,
@@ -4327,7 +4329,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-句卑",
+      "id": "rn-吴-句卑",
       "polityId": "pol-吴",
       "personalName": null,
       "templeTitle": null,
@@ -4344,7 +4346,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-宣公",
+      "id": "rn-鲁-鲁宣公",
       "polityId": "pol-鲁",
       "personalName": "姬馁",
       "templeTitle": null,
@@ -4362,7 +4364,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-共公",
+      "id": "rn-秦-秦共公",
       "polityId": "pol-秦",
       "personalName": "嬴稻",
       "templeTitle": null,
@@ -4380,7 +4382,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-成公",
+      "id": "rn-晋-晋成公",
       "polityId": "pol-晋",
       "personalName": "姬黑臀",
       "templeTitle": null,
@@ -4398,7 +4400,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-声公",
+      "id": "rn-曹-曹声公",
       "polityId": "pol-曹",
       "personalName": "姬野",
       "templeTitle": null,
@@ -4416,7 +4418,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-定王",
+      "id": "rn-东周-周定王",
       "polityId": "pol-东周",
       "personalName": "姬瑜",
       "templeTitle": null,
@@ -4434,7 +4436,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-灵公",
+      "id": "rn-郑-郑灵公",
       "polityId": "pol-郑",
       "personalName": "姬夷",
       "templeTitle": null,
@@ -4452,7 +4454,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-桓公",
+      "id": "rn-秦-秦桓公",
       "polityId": "pol-秦",
       "personalName": "嬴荣",
       "templeTitle": null,
@@ -4470,7 +4472,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-襄公",
+      "id": "rn-郑-郑襄公",
       "polityId": "pol-郑",
       "personalName": "姬坚",
       "templeTitle": null,
@@ -4488,7 +4490,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-宣公",
+      "id": "rn-燕-燕宣公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -4505,7 +4507,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-隐公",
+      "id": "rn-曹-曹隐公",
       "polityId": "pol-曹",
       "personalName": "姬通",
       "templeTitle": null,
@@ -4523,7 +4525,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-顷公",
+      "id": "rn-姜齐-齐顷公",
       "polityId": "pol-姜齐",
       "personalName": "吕无野",
       "templeTitle": null,
@@ -4544,7 +4546,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-景公",
+      "id": "rn-晋-晋景公",
       "polityId": "pol-晋",
       "personalName": "姬据",
       "templeTitle": null,
@@ -4562,7 +4564,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫遫",
+      "id": "rn-卫-卫穆公",
       "polityId": "pol-卫",
       "personalName": "卫遫",
       "templeTitle": null,
@@ -4579,7 +4581,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-怀公",
+      "id": "rn-陈-陈怀公",
       "polityId": "pol-陈",
       "personalName": "妫柳",
       "templeTitle": null,
@@ -4597,7 +4599,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-靖公",
+      "id": "rn-曹-曹靖公",
       "polityId": "pol-曹",
       "personalName": "姬路",
       "templeTitle": null,
@@ -4615,7 +4617,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹国-伯阳",
+      "id": "rn-曹-曹伯阳",
       "polityId": "pol-曹",
       "personalName": "姬伯阳",
       "templeTitle": null,
@@ -4633,7 +4635,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-陈国-湣公",
+      "id": "rn-陈-陈湣公",
       "polityId": "pol-陈",
       "personalName": "妫越",
       "templeTitle": null,
@@ -4651,7 +4653,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-成公",
+      "id": "rn-鲁-鲁成公",
       "polityId": "pol-鲁",
       "personalName": "姬黑肱",
       "templeTitle": null,
@@ -4669,7 +4671,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-共王",
+      "id": "rn-楚-楚共王",
       "polityId": "pol-楚",
       "personalName": "熊审",
       "templeTitle": null,
@@ -4687,7 +4689,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-平侯",
+      "id": "rn-蔡-蔡平侯",
       "polityId": "pol-蔡",
       "personalName": "姬庐",
       "templeTitle": null,
@@ -4705,7 +4707,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-去齐",
+      "id": "rn-吴-去齐",
       "polityId": "pol-吴",
       "personalName": null,
       "templeTitle": null,
@@ -4722,7 +4724,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-文公",
+      "id": "rn-宋-宋文公",
       "polityId": "pol-宋",
       "personalName": "子鲍",
       "templeTitle": null,
@@ -4740,7 +4742,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫臧",
+      "id": "rn-卫-卫定公",
       "polityId": "pol-卫",
       "personalName": "卫臧",
       "templeTitle": null,
@@ -4757,7 +4759,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-悼公",
+      "id": "rn-郑-郑悼公",
       "polityId": "pol-郑",
       "personalName": "姬沸",
       "templeTitle": null,
@@ -4775,7 +4777,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-昭公",
+      "id": "rn-燕-燕昭公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -4792,7 +4794,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-简王",
+      "id": "rn-东周-周简王",
       "polityId": "pol-东周",
       "personalName": "姬夷",
       "templeTitle": null,
@@ -4810,7 +4812,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-成公",
+      "id": "rn-郑-郑成公",
       "polityId": "pol-郑",
       "personalName": "姬睔",
       "templeTitle": null,
@@ -4828,7 +4830,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-灵公",
+      "id": "rn-姜齐-齐灵公",
       "polityId": "pol-姜齐",
       "personalName": "吕环",
       "templeTitle": null,
@@ -4849,7 +4851,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-厉公",
+      "id": "rn-晋-晋厉公",
       "polityId": "pol-晋",
       "personalName": "姬寿曼",
       "templeTitle": null,
@@ -4867,7 +4869,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-景公",
+      "id": "rn-秦-秦景公",
       "polityId": "pol-秦",
       "personalName": "嬴石",
       "templeTitle": null,
@@ -4885,7 +4887,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫衎",
+      "id": "rn-卫-卫献公-1",
       "polityId": "pol-卫",
       "personalName": "卫衎",
       "templeTitle": null,
@@ -4905,7 +4907,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-共公",
+      "id": "rn-宋-宋共公",
       "polityId": "pol-宋",
       "personalName": "子瑕",
       "templeTitle": null,
@@ -4923,7 +4925,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-武公",
+      "id": "rn-燕-燕武公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -4940,7 +4942,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-襄公",
+      "id": "rn-鲁-鲁襄公",
       "polityId": "pol-鲁",
       "personalName": "姬午",
       "templeTitle": null,
@@ -4958,7 +4960,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-悼公",
+      "id": "rn-晋-晋悼公",
       "polityId": "pol-晋",
       "personalName": "姬周",
       "templeTitle": null,
@@ -4976,7 +4978,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-灵王",
+      "id": "rn-东周-周灵王",
       "polityId": "pol-东周",
       "personalName": "姬泄心",
       "templeTitle": null,
@@ -4994,7 +4996,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-僖公",
+      "id": "rn-郑-郑僖公",
       "polityId": "pol-郑",
       "personalName": "姬恽",
       "templeTitle": null,
@@ -5012,7 +5014,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-寿梦",
+      "id": "rn-吴-寿梦",
       "polityId": "pol-吴",
       "personalName": "姬乘",
       "templeTitle": null,
@@ -5030,7 +5032,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-简公",
+      "id": "rn-郑-郑简公",
       "polityId": "pol-郑",
       "personalName": "姬嘉",
       "templeTitle": null,
@@ -5048,7 +5050,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-悼侯",
+      "id": "rn-蔡-蔡悼侯",
       "polityId": "pol-蔡",
       "personalName": "姬东国",
       "templeTitle": null,
@@ -5066,7 +5068,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-诸樊",
+      "id": "rn-吴-诸樊",
       "polityId": "pol-吴",
       "personalName": "姬遏",
       "templeTitle": null,
@@ -5084,7 +5086,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-康王",
+      "id": "rn-楚-楚康王",
       "polityId": "pol-楚",
       "personalName": "熊招",
       "templeTitle": null,
@@ -5102,7 +5104,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫秋",
+      "id": "rn-卫-卫殇公",
       "polityId": "pol-卫",
       "personalName": "卫秋",
       "templeTitle": null,
@@ -5119,7 +5121,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-平公",
+      "id": "rn-晋-晋平公",
       "polityId": "pol-晋",
       "personalName": "姬彪",
       "templeTitle": null,
@@ -5137,7 +5139,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-平公",
+      "id": "rn-宋-宋平公",
       "polityId": "pol-宋",
       "personalName": "子成",
       "templeTitle": null,
@@ -5155,7 +5157,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-昭侯",
+      "id": "rn-蔡-蔡昭侯",
       "polityId": "pol-蔡",
       "personalName": "姬申",
       "templeTitle": null,
@@ -5173,7 +5175,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-庄公-吕光",
+      "id": "rn-姜齐-齐庄公-2",
       "polityId": "pol-姜齐",
       "personalName": "吕光",
       "templeTitle": null,
@@ -5194,7 +5196,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-文公",
+      "id": "rn-燕-燕文公-1",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -5211,7 +5213,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-景公",
+      "id": "rn-姜齐-齐景公",
       "polityId": "pol-姜齐",
       "personalName": "吕杵臼",
       "templeTitle": null,
@@ -5232,7 +5234,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-懿公",
+      "id": "rn-燕-燕懿公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -5249,7 +5251,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-余祭",
+      "id": "rn-吴-余祭",
       "polityId": "pol-吴",
       "personalName": "姬余祭",
       "templeTitle": null,
@@ -5267,7 +5269,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫衎-1",
+      "id": "rn-卫-卫献公-2",
       "polityId": "pol-卫",
       "personalName": "卫衎",
       "templeTitle": null,
@@ -5287,7 +5289,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-郏敖",
+      "id": "rn-楚-郏敖",
       "polityId": "pol-楚",
       "personalName": "熊员",
       "templeTitle": null,
@@ -5305,7 +5307,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-惠公",
+      "id": "rn-燕-燕惠公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -5322,7 +5324,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-景王",
+      "id": "rn-东周-周景王",
       "polityId": "pol-东周",
       "personalName": "姬贵",
       "templeTitle": null,
@@ -5340,7 +5342,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫恶",
+      "id": "rn-卫-卫襄公",
       "polityId": "pol-卫",
       "personalName": "卫恶",
       "templeTitle": null,
@@ -5357,7 +5359,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-昭公",
+      "id": "rn-鲁-鲁昭公",
       "polityId": "pol-鲁",
       "personalName": "姬稠",
       "templeTitle": null,
@@ -5375,7 +5377,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-灵王",
+      "id": "rn-楚-楚灵王",
       "polityId": "pol-楚",
       "personalName": "熊围",
       "templeTitle": null,
@@ -5393,7 +5395,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-成侯",
+      "id": "rn-蔡-蔡成侯",
       "polityId": "pol-蔡",
       "personalName": "姬朔",
       "templeTitle": null,
@@ -5411,7 +5413,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-哀公",
+      "id": "rn-秦-秦哀公",
       "polityId": "pol-秦",
       "personalName": "嬴籍",
       "templeTitle": null,
@@ -5429,7 +5431,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-悼公",
+      "id": "rn-燕-燕悼公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -5446,7 +5448,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫元",
+      "id": "rn-卫-卫灵公",
       "polityId": "pol-卫",
       "personalName": "卫元",
       "templeTitle": null,
@@ -5463,7 +5465,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-昭公",
+      "id": "rn-晋-晋昭公",
       "polityId": "pol-晋",
       "personalName": "姬夷",
       "templeTitle": null,
@@ -5481,7 +5483,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-元公",
+      "id": "rn-宋-宋元公",
       "polityId": "pol-宋",
       "personalName": "子佐",
       "templeTitle": null,
@@ -5499,7 +5501,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-余昧",
+      "id": "rn-吴-余昧",
       "polityId": "pol-吴",
       "personalName": "姬余昧",
       "templeTitle": null,
@@ -5517,7 +5519,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-定公",
+      "id": "rn-郑-郑定公",
       "polityId": "pol-郑",
       "personalName": "姬宁",
       "templeTitle": null,
@@ -5535,7 +5537,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-平王",
+      "id": "rn-楚-楚平王",
       "polityId": "pol-楚",
       "personalName": "熊居",
       "templeTitle": null,
@@ -5553,7 +5555,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-共公",
+      "id": "rn-燕-燕共公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -5570,7 +5572,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-王僚",
+      "id": "rn-吴-吴王僚",
       "polityId": "pol-吴",
       "personalName": "姬僚",
       "templeTitle": null,
@@ -5588,7 +5590,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-顷公",
+      "id": "rn-晋-晋顷公",
       "polityId": "pol-晋",
       "personalName": "姬弃疾",
       "templeTitle": null,
@@ -5606,7 +5608,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-平公",
+      "id": "rn-燕-燕平公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -5623,7 +5625,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-声侯",
+      "id": "rn-蔡-蔡声侯",
       "polityId": "pol-蔡",
       "personalName": "姬产",
       "templeTitle": null,
@@ -5641,7 +5643,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-悼王",
+      "id": "rn-东周-周悼王",
       "polityId": "pol-东周",
       "personalName": "姬猛",
       "templeTitle": null,
@@ -5659,7 +5661,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-敬王",
+      "id": "rn-东周-周敬王",
       "polityId": "pol-东周",
       "personalName": "姬匄",
       "templeTitle": null,
@@ -5677,7 +5679,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-景公",
+      "id": "rn-宋-宋景公",
       "polityId": "pol-宋",
       "personalName": "子头曼",
       "templeTitle": null,
@@ -5695,7 +5697,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-昭王",
+      "id": "rn-楚-楚昭王",
       "polityId": "pol-楚",
       "personalName": "熊珍",
       "templeTitle": null,
@@ -5713,7 +5715,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-阖闾",
+      "id": "rn-吴-阖闾",
       "polityId": "pol-吴",
       "personalName": "姬光",
       "templeTitle": null,
@@ -5731,7 +5733,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-献公",
+      "id": "rn-郑-郑献公",
       "polityId": "pol-郑",
       "personalName": "姬虿",
       "templeTitle": null,
@@ -5749,7 +5751,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-定公",
+      "id": "rn-晋-晋定公",
       "polityId": "pol-晋",
       "personalName": "姬午",
       "templeTitle": null,
@@ -5767,7 +5769,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-定公",
+      "id": "rn-鲁-鲁定公",
       "polityId": "pol-鲁",
       "personalName": "姬宋",
       "templeTitle": null,
@@ -5785,7 +5787,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-元侯",
+      "id": "rn-蔡-蔡元侯",
       "polityId": "pol-蔡",
       "personalName": null,
       "templeTitle": null,
@@ -5802,7 +5804,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-简公",
+      "id": "rn-燕-燕简公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -5819,7 +5821,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-惠公",
+      "id": "rn-秦-秦惠公-1",
       "polityId": "pol-秦",
       "personalName": "嬴宁",
       "templeTitle": null,
@@ -5837,7 +5839,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-声公",
+      "id": "rn-郑-郑声公",
       "polityId": "pol-郑",
       "personalName": "姬胜",
       "templeTitle": null,
@@ -5855,7 +5857,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-越国-勾践",
+      "id": "rn-越-勾践",
       "polityId": "pol-越",
       "personalName": "姒勾践",
       "templeTitle": null,
@@ -5875,7 +5877,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-吴国-夫差",
+      "id": "rn-吴-夫差",
       "polityId": "pol-吴",
       "personalName": "姬夫差",
       "templeTitle": null,
@@ -5893,7 +5895,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-哀公",
+      "id": "rn-鲁-鲁哀公",
       "polityId": "pol-鲁",
       "personalName": "姬将",
       "templeTitle": null,
@@ -5911,7 +5913,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-蔡国-侯齐",
+      "id": "rn-蔡-蔡侯齐",
       "polityId": "pol-蔡",
       "personalName": "姬齐",
       "templeTitle": null,
@@ -5929,7 +5931,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫辄",
+      "id": "rn-卫-卫出公-1",
       "polityId": "pol-卫",
       "personalName": "卫辄",
       "templeTitle": null,
@@ -5949,7 +5951,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-悼公",
+      "id": "rn-秦-秦悼公",
       "polityId": "pol-秦",
       "personalName": "嬴盘",
       "templeTitle": null,
@@ -5967,7 +5969,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-悼公",
+      "id": "rn-姜齐-齐悼公",
       "polityId": "pol-姜齐",
       "personalName": "吕阳生",
       "templeTitle": null,
@@ -5988,7 +5990,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-惠王",
+      "id": "rn-楚-楚惠王",
       "polityId": "pol-楚",
       "personalName": "熊章",
       "templeTitle": null,
@@ -6006,7 +6008,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-简公",
+      "id": "rn-姜齐-齐简公",
       "polityId": "pol-姜齐",
       "personalName": "吕壬",
       "templeTitle": null,
@@ -6027,7 +6029,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-献公",
+      "id": "rn-燕-燕献公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -6044,7 +6046,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-平公",
+      "id": "rn-姜齐-齐平公",
       "polityId": "pol-姜齐",
       "personalName": "吕敖",
       "templeTitle": null,
@@ -6065,7 +6067,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫蒯聩",
+      "id": "rn-卫-卫庄公-2",
       "polityId": "pol-卫",
       "personalName": "卫蒯聩",
       "templeTitle": null,
@@ -6082,7 +6084,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫起",
+      "id": "rn-卫-卫君起",
       "polityId": "pol-卫",
       "personalName": "卫起",
       "templeTitle": null,
@@ -6099,7 +6101,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-厉共公",
+      "id": "rn-秦-秦厉共公",
       "polityId": "pol-秦",
       "personalName": "嬴刺",
       "templeTitle": null,
@@ -6117,7 +6119,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫辄-1",
+      "id": "rn-卫-卫出公-2",
       "polityId": "pol-卫",
       "personalName": "卫辄",
       "templeTitle": null,
@@ -6137,7 +6139,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-元王",
+      "id": "rn-东周-周元王",
       "polityId": "pol-东周",
       "personalName": "姬仁",
       "templeTitle": null,
@@ -6155,7 +6157,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-出公",
+      "id": "rn-晋-晋出公",
       "polityId": "pol-晋",
       "personalName": "姬凿",
       "templeTitle": null,
@@ -6173,7 +6175,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫黔",
+      "id": "rn-卫-卫悼公",
       "polityId": "pol-卫",
       "personalName": "卫黔",
       "templeTitle": null,
@@ -6190,7 +6192,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-贞定王",
+      "id": "rn-东周-周贞定王",
       "polityId": "pol-东周",
       "personalName": "姬介",
       "templeTitle": null,
@@ -6208,7 +6210,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-悼公",
+      "id": "rn-鲁-鲁悼公",
       "polityId": "pol-鲁",
       "personalName": "姬宁",
       "templeTitle": null,
@@ -6226,7 +6228,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-孝公",
+      "id": "rn-燕-燕孝公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -6243,7 +6245,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-越国-鹿郢",
+      "id": "rn-越-鹿郢",
       "polityId": "pol-越",
       "personalName": "姒鹿郢",
       "templeTitle": null,
@@ -6261,7 +6263,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫弗",
+      "id": "rn-卫-卫敬公",
       "polityId": "pol-卫",
       "personalName": "卫弗",
       "templeTitle": null,
@@ -6278,7 +6280,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-哀公",
+      "id": "rn-郑-郑哀公",
       "polityId": "pol-郑",
       "personalName": "姬易",
       "templeTitle": null,
@@ -6296,7 +6298,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-越国-不寿",
+      "id": "rn-越-不寿",
       "polityId": "pol-越",
       "personalName": "姒不寿",
       "templeTitle": null,
@@ -6314,7 +6316,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-宣公",
+      "id": "rn-姜齐-齐宣公",
       "polityId": "pol-姜齐",
       "personalName": "吕积",
       "templeTitle": null,
@@ -6335,7 +6337,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-共公",
+      "id": "rn-郑-郑共公",
       "polityId": "pol-郑",
       "personalName": "姬丑",
       "templeTitle": null,
@@ -6353,7 +6355,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-哀公",
+      "id": "rn-晋-晋哀公",
       "polityId": "pol-晋",
       "personalName": "姬骄",
       "templeTitle": null,
@@ -6371,7 +6373,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-昭公-子得",
+      "id": "rn-宋-宋昭公-2",
       "polityId": "pol-宋",
       "personalName": "子得",
       "templeTitle": null,
@@ -6389,7 +6391,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-成公",
+      "id": "rn-燕-燕成公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -6406,7 +6408,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-越国-朱勾",
+      "id": "rn-越-朱勾",
       "polityId": "pol-越",
       "personalName": "姒朱勾",
       "templeTitle": null,
@@ -6424,7 +6426,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-躁公",
+      "id": "rn-秦-秦躁公",
       "polityId": "pol-秦",
       "personalName": "嬴欣",
       "templeTitle": null,
@@ -6442,7 +6444,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-哀王",
+      "id": "rn-东周-周哀王",
       "polityId": "pol-东周",
       "personalName": "姬去疾",
       "templeTitle": null,
@@ -6460,7 +6462,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-思王",
+      "id": "rn-东周-周思王",
       "polityId": "pol-东周",
       "personalName": "姬叔",
       "templeTitle": null,
@@ -6478,7 +6480,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-考王",
+      "id": "rn-东周-周考王",
       "polityId": "pol-东周",
       "personalName": "姬嵬",
       "templeTitle": null,
@@ -6496,7 +6498,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-元公",
+      "id": "rn-鲁-鲁元公",
       "polityId": "pol-鲁",
       "personalName": "姬嘉",
       "templeTitle": null,
@@ -6514,7 +6516,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-幽公",
+      "id": "rn-晋-晋幽公",
       "polityId": "pol-晋",
       "personalName": "姬柳",
       "templeTitle": null,
@@ -6532,7 +6534,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-湣公",
+      "id": "rn-燕-燕湣公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -6549,7 +6551,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-简王",
+      "id": "rn-楚-楚简王",
       "polityId": "pol-楚",
       "personalName": "熊中",
       "templeTitle": null,
@@ -6567,7 +6569,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫纠",
+      "id": "rn-卫-卫昭公",
       "polityId": "pol-卫",
       "personalName": "卫纠",
       "templeTitle": null,
@@ -6584,7 +6586,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-怀公",
+      "id": "rn-秦-秦怀公",
       "polityId": "pol-秦",
       "personalName": "嬴封",
       "templeTitle": null,
@@ -6602,7 +6604,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-威烈王",
+      "id": "rn-东周-周威烈王",
       "polityId": "pol-东周",
       "personalName": "姬午",
       "templeTitle": null,
@@ -6620,7 +6622,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫亶",
+      "id": "rn-卫-卫怀公",
       "polityId": "pol-卫",
       "personalName": "卫亶",
       "templeTitle": null,
@@ -6637,7 +6639,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-灵公",
+      "id": "rn-秦-秦灵公",
       "polityId": "pol-秦",
       "personalName": "嬴肃",
       "templeTitle": null,
@@ -6655,7 +6657,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-幽公",
+      "id": "rn-郑-郑幽公",
       "polityId": "pol-郑",
       "personalName": "姬已",
       "templeTitle": null,
@@ -6673,7 +6675,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-繻公",
+      "id": "rn-郑-郑繻公",
       "polityId": "pol-郑",
       "personalName": "姬骀",
       "templeTitle": null,
@@ -6691,7 +6693,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-穆公",
+      "id": "rn-鲁-鲁穆公",
       "polityId": "pol-鲁",
       "personalName": "姬显",
       "templeTitle": null,
@@ -6709,7 +6711,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-烈公",
+      "id": "rn-晋-晋烈公",
       "polityId": "pol-晋",
       "personalName": "姬止",
       "templeTitle": null,
@@ -6727,7 +6729,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-简公",
+      "id": "rn-秦-秦简公",
       "polityId": "pol-秦",
       "personalName": "嬴悼子",
       "templeTitle": null,
@@ -6745,7 +6747,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫颓",
+      "id": "rn-卫-卫慎公",
       "polityId": "pol-卫",
       "personalName": "卫颓",
       "templeTitle": null,
@@ -6762,7 +6764,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-越国-翳",
+      "id": "rn-越-翳",
       "polityId": "pol-越",
       "personalName": "姒翳",
       "templeTitle": null,
@@ -6780,7 +6782,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-声王",
+      "id": "rn-楚-楚声王",
       "polityId": "pol-楚",
       "personalName": "熊当",
       "templeTitle": null,
@@ -6798,7 +6800,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-姜齐-康公",
+      "id": "rn-姜齐-齐康公",
       "polityId": "pol-姜齐",
       "personalName": "吕贷",
       "templeTitle": null,
@@ -6819,7 +6821,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-悼公",
+      "id": "rn-宋-宋悼公",
       "polityId": "pol-宋",
       "personalName": "子购由",
       "templeTitle": null,
@@ -6837,7 +6839,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-僖公",
+      "id": "rn-燕-燕僖公",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -6854,7 +6856,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-韩国-景侯",
+      "id": "rn-韩-韩景侯",
       "polityId": "pol-韩",
       "personalName": "韩虔",
       "templeTitle": null,
@@ -6875,7 +6877,7 @@
       "regnalCountStartYear": -408
     },
     {
-      "id": "rn-赵国-烈侯",
+      "id": "rn-赵-赵烈侯",
       "polityId": "pol-赵",
       "personalName": "赵籍",
       "templeTitle": null,
@@ -6896,7 +6898,7 @@
       "regnalCountStartYear": -408
     },
     {
-      "id": "rn-魏国-文侯",
+      "id": "rn-魏-魏文侯",
       "polityId": "pol-魏",
       "personalName": "魏斯",
       "templeTitle": null,
@@ -6917,7 +6919,7 @@
       "regnalCountStartYear": -445
     },
     {
-      "id": "rn-楚国-悼王",
+      "id": "rn-楚-楚悼王",
       "polityId": "pol-楚",
       "personalName": "熊疑",
       "templeTitle": null,
@@ -6935,7 +6937,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-安王",
+      "id": "rn-东周-周安王",
       "polityId": "pol-东周",
       "personalName": "姬骄",
       "templeTitle": null,
@@ -6953,7 +6955,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-惠公-嬴仁",
+      "id": "rn-秦-秦惠公-2",
       "polityId": "pol-秦",
       "personalName": "嬴仁",
       "templeTitle": null,
@@ -6971,7 +6973,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-韩国-烈侯",
+      "id": "rn-韩-韩烈侯",
       "polityId": "pol-韩",
       "personalName": "韩取",
       "templeTitle": null,
@@ -6989,7 +6991,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-赵国-武侯",
+      "id": "rn-赵-赵武侯",
       "polityId": "pol-赵",
       "personalName": null,
       "templeTitle": null,
@@ -7006,7 +7008,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-休公",
+      "id": "rn-宋-宋休公",
       "polityId": "pol-宋",
       "personalName": "子田",
       "templeTitle": null,
@@ -7024,7 +7026,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-郑国-康公",
+      "id": "rn-郑-郑康公",
       "polityId": "pol-郑",
       "personalName": "姬乙",
       "templeTitle": null,
@@ -7042,7 +7044,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-孝公",
+      "id": "rn-晋-晋孝公",
       "polityId": "pol-晋",
       "personalName": "姬颀",
       "templeTitle": null,
@@ -7063,7 +7065,7 @@
       "regnalCountStartYear": -388
     },
     {
-      "id": "rn-田齐-太公",
+      "id": "rn-田齐-齐太公",
       "polityId": "pol-田齐",
       "personalName": "田和",
       "templeTitle": null,
@@ -7081,7 +7083,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-出公",
+      "id": "rn-秦-秦出公",
       "polityId": "pol-秦",
       "personalName": "嬴昌",
       "templeTitle": null,
@@ -7099,7 +7101,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-韩国-文侯",
+      "id": "rn-韩-韩文侯",
       "polityId": "pol-韩",
       "personalName": null,
       "templeTitle": null,
@@ -7116,7 +7118,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-赵国-敬侯",
+      "id": "rn-赵-赵敬侯",
       "polityId": "pol-赵",
       "personalName": "赵章",
       "templeTitle": null,
@@ -7134,7 +7136,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-魏国-武侯",
+      "id": "rn-魏-魏武侯",
       "polityId": "pol-魏",
       "personalName": "魏击",
       "templeTitle": null,
@@ -7152,7 +7154,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-田齐-桓公",
+      "id": "rn-田齐-齐桓公",
       "polityId": "pol-田齐",
       "personalName": "田午",
       "templeTitle": null,
@@ -7170,7 +7172,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-献公",
+      "id": "rn-秦-秦献公",
       "polityId": "pol-秦",
       "personalName": "嬴师隰",
       "templeTitle": null,
@@ -7188,7 +7190,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-桓公-姬",
+      "id": "rn-燕-燕桓公-2",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -7205,7 +7207,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-共公",
+      "id": "rn-鲁-鲁共公",
       "polityId": "pol-鲁",
       "personalName": "姬奋",
       "templeTitle": null,
@@ -7223,7 +7225,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-肃王",
+      "id": "rn-楚-楚肃王",
       "polityId": "pol-楚",
       "personalName": "熊臧",
       "templeTitle": null,
@@ -7241,7 +7243,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-韩国-哀侯",
+      "id": "rn-韩-韩哀侯",
       "polityId": "pol-韩",
       "personalName": null,
       "templeTitle": null,
@@ -7258,7 +7260,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-越国-诸咎",
+      "id": "rn-越-诸咎",
       "polityId": "pol-越",
       "personalName": "姒诸咎",
       "templeTitle": null,
@@ -7276,7 +7278,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-烈王",
+      "id": "rn-东周-周烈王",
       "polityId": "pol-东周",
       "personalName": "姬喜",
       "templeTitle": null,
@@ -7294,7 +7296,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-越国-错枝",
+      "id": "rn-越-错枝",
       "polityId": "pol-越",
       "personalName": "姒错枝",
       "templeTitle": null,
@@ -7312,7 +7314,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-韩国-懿侯",
+      "id": "rn-韩-韩懿侯",
       "polityId": "pol-韩",
       "personalName": null,
       "templeTitle": null,
@@ -7329,7 +7331,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-赵国-成侯",
+      "id": "rn-赵-赵成侯",
       "polityId": "pol-赵",
       "personalName": "赵种",
       "templeTitle": null,
@@ -7347,7 +7349,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-辟公",
+      "id": "rn-宋-宋辟公",
       "polityId": "pol-宋",
       "personalName": "子辟兵",
       "templeTitle": null,
@@ -7365,7 +7367,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-越国-无余-姒无余",
+      "id": "rn-越-无余",
       "polityId": "pol-越",
       "personalName": "姒无余",
       "templeTitle": null,
@@ -7383,7 +7385,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫训",
+      "id": "rn-卫-卫声公",
       "polityId": "pol-卫",
       "personalName": "卫训",
       "templeTitle": null,
@@ -7400,7 +7402,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-魏国-惠王",
+      "id": "rn-魏-魏惠王",
       "polityId": "pol-魏",
       "personalName": "魏罃",
       "templeTitle": null,
@@ -7418,7 +7420,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-宣王",
+      "id": "rn-楚-楚宣王",
       "polityId": "pol-楚",
       "personalName": "熊良夫",
       "templeTitle": null,
@@ -7436,7 +7438,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-剔成",
+      "id": "rn-宋-剔成",
       "polityId": "pol-宋",
       "personalName": "子剔成",
       "templeTitle": null,
@@ -7454,7 +7456,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-显王",
+      "id": "rn-东周-周显王",
       "polityId": "pol-东周",
       "personalName": "姬扁",
       "templeTitle": null,
@@ -7472,7 +7474,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-文公-姬",
+      "id": "rn-燕-燕文公-2",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -7489,7 +7491,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-韩国-昭侯",
+      "id": "rn-韩-韩昭侯",
       "polityId": "pol-韩",
       "personalName": null,
       "templeTitle": null,
@@ -7506,7 +7508,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-孝公",
+      "id": "rn-秦-秦孝公",
       "polityId": "pol-秦",
       "personalName": "嬴渠梁",
       "templeTitle": null,
@@ -7524,7 +7526,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-卫遫-1",
+      "id": "rn-卫-卫成侯",
       "polityId": "pol-卫",
       "personalName": "卫遫",
       "templeTitle": null,
@@ -7541,7 +7543,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-越国-无颛",
+      "id": "rn-越-无颛",
       "polityId": "pol-越",
       "personalName": "姒无颛",
       "templeTitle": null,
@@ -7559,7 +7561,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-田齐-威王",
+      "id": "rn-田齐-齐威王",
       "polityId": "pol-田齐",
       "personalName": "田因齐",
       "templeTitle": null,
@@ -7577,7 +7579,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-晋国-静公",
+      "id": "rn-晋-晋静公",
       "polityId": "pol-晋",
       "personalName": "姬俱酒",
       "templeTitle": null,
@@ -7598,7 +7600,7 @@
       "regnalCountStartYear": -356
     },
     {
-      "id": "rn-鲁国-康公",
+      "id": "rn-鲁-鲁康公",
       "polityId": "pol-鲁",
       "personalName": "姬屯",
       "templeTitle": null,
@@ -7616,7 +7618,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-易王",
+      "id": "rn-燕-燕易王",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -7633,7 +7635,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-赵国-肃侯",
+      "id": "rn-赵-赵肃侯",
       "polityId": "pol-赵",
       "personalName": "赵语",
       "templeTitle": null,
@@ -7651,7 +7653,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-景公",
+      "id": "rn-鲁-鲁景公",
       "polityId": "pol-鲁",
       "personalName": "姬偃",
       "templeTitle": null,
@@ -7669,7 +7671,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-越国-王",
+      "id": "rn-越-无彊",
       "polityId": "pol-越",
       "personalName": "无彊",
       "templeTitle": null,
@@ -7689,7 +7691,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-威王",
+      "id": "rn-楚-楚威王",
       "polityId": "pol-楚",
       "personalName": "熊商",
       "templeTitle": null,
@@ -7707,7 +7709,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-惠文王",
+      "id": "rn-秦-秦惠文王",
       "polityId": "pol-秦",
       "personalName": "嬴驷",
       "templeTitle": null,
@@ -7725,7 +7727,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-王哙",
+      "id": "rn-燕-燕王哙",
       "polityId": "pol-燕",
       "personalName": "姬哙",
       "templeTitle": null,
@@ -7743,7 +7745,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-韩国-宣惠王",
+      "id": "rn-韩-韩宣惠王",
       "polityId": "pol-韩",
       "personalName": null,
       "templeTitle": null,
@@ -7760,7 +7762,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-子南劲",
+      "id": "rn-卫-卫平侯",
       "polityId": "pol-卫",
       "personalName": "子南劲",
       "templeTitle": null,
@@ -7777,7 +7779,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-怀王",
+      "id": "rn-楚-楚怀王",
       "polityId": "pol-楚",
       "personalName": "熊槐",
       "templeTitle": null,
@@ -7795,7 +7797,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宋国-君偃",
+      "id": "rn-宋-宋君偃",
       "polityId": "pol-宋",
       "personalName": "子偃",
       "templeTitle": null,
@@ -7813,7 +7815,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-赵国-武灵王",
+      "id": "rn-赵-赵武灵王",
       "polityId": "pol-赵",
       "personalName": "赵雍",
       "templeTitle": null,
@@ -7831,7 +7833,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-null",
+      "id": "rn-卫-卫嗣君",
       "polityId": "pol-卫",
       "personalName": null,
       "templeTitle": null,
@@ -7850,7 +7852,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-平公",
+      "id": "rn-鲁-鲁平公",
       "polityId": "pol-鲁",
       "personalName": "姬叔",
       "templeTitle": null,
@@ -7868,7 +7870,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-田齐-宣王",
+      "id": "rn-田齐-齐宣王",
       "polityId": "pol-田齐",
       "personalName": "田辟疆",
       "templeTitle": null,
@@ -7886,7 +7888,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-慎靓王",
+      "id": "rn-东周-周慎靓王",
       "polityId": "pol-东周",
       "personalName": "姬定",
       "templeTitle": null,
@@ -7904,7 +7906,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-魏国-襄王",
+      "id": "rn-魏-魏襄王",
       "polityId": "pol-魏",
       "personalName": "魏嗣",
       "templeTitle": null,
@@ -7922,7 +7924,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-东周-赧王",
+      "id": "rn-东周-周赧王",
       "polityId": "pol-东周",
       "personalName": "姬延",
       "templeTitle": null,
@@ -7940,7 +7942,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-昭王",
+      "id": "rn-燕-燕昭王",
       "polityId": "pol-燕",
       "personalName": "姬职",
       "templeTitle": null,
@@ -7958,7 +7960,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-韩国-襄王",
+      "id": "rn-韩-韩襄王",
       "polityId": "pol-韩",
       "personalName": null,
       "templeTitle": null,
@@ -7975,7 +7977,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-武王",
+      "id": "rn-秦-秦武王",
       "polityId": "pol-秦",
       "personalName": "嬴荡",
       "templeTitle": null,
@@ -7993,7 +7995,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-昭襄王",
+      "id": "rn-秦-秦昭襄王",
       "polityId": "pol-秦",
       "personalName": "嬴稷",
       "templeTitle": null,
@@ -8011,7 +8013,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-湣公",
+      "id": "rn-鲁-鲁湣公",
       "polityId": "pol-鲁",
       "personalName": "姬贾",
       "templeTitle": null,
@@ -8029,7 +8031,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-田齐-湣王",
+      "id": "rn-田齐-齐湣王",
       "polityId": "pol-田齐",
       "personalName": "田地",
       "templeTitle": null,
@@ -8047,7 +8049,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-顷襄王",
+      "id": "rn-楚-楚顷襄王",
       "polityId": "pol-楚",
       "personalName": "熊横",
       "templeTitle": null,
@@ -8065,7 +8067,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-赵国-惠文王",
+      "id": "rn-赵-赵惠文王",
       "polityId": "pol-赵",
       "personalName": "赵何",
       "templeTitle": null,
@@ -8083,7 +8085,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-韩国-僖王",
+      "id": "rn-韩-韩僖王",
       "polityId": "pol-韩",
       "personalName": null,
       "templeTitle": null,
@@ -8100,7 +8102,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-魏国-昭王",
+      "id": "rn-魏-魏昭王",
       "polityId": "pol-魏",
       "personalName": "魏遫",
       "templeTitle": null,
@@ -8118,7 +8120,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-田齐-襄王",
+      "id": "rn-田齐-齐襄王",
       "polityId": "pol-田齐",
       "personalName": "田法章",
       "templeTitle": null,
@@ -8136,7 +8138,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-子南公期",
+      "id": "rn-卫-卫怀君",
       "polityId": "pol-卫",
       "personalName": "子南公期",
       "templeTitle": null,
@@ -8153,7 +8155,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-鲁国-顷公",
+      "id": "rn-鲁-鲁顷公",
       "polityId": "pol-鲁",
       "personalName": "姬仇",
       "templeTitle": null,
@@ -8171,7 +8173,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-惠王",
+      "id": "rn-燕-燕惠王",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -8188,7 +8190,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-魏国-安僖王",
+      "id": "rn-魏-魏安僖王",
       "polityId": "pol-魏",
       "personalName": "魏圉",
       "templeTitle": null,
@@ -8206,7 +8208,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-韩国-桓惠王",
+      "id": "rn-韩-韩桓惠王",
       "polityId": "pol-韩",
       "personalName": null,
       "templeTitle": null,
@@ -8223,7 +8225,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-武成王",
+      "id": "rn-燕-燕武成王",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -8240,7 +8242,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-赵国-孝成王",
+      "id": "rn-赵-赵孝成王",
       "polityId": "pol-赵",
       "personalName": "赵丹",
       "templeTitle": null,
@@ -8258,7 +8260,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-田齐-王建",
+      "id": "rn-田齐-齐王建",
       "polityId": "pol-田齐",
       "personalName": "田建",
       "templeTitle": null,
@@ -8276,7 +8278,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-考烈王",
+      "id": "rn-楚-楚考烈王",
       "polityId": "pol-楚",
       "personalName": "熊完",
       "templeTitle": null,
@@ -8294,7 +8296,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-孝王",
+      "id": "rn-燕-燕孝王",
       "polityId": "pol-燕",
       "personalName": null,
       "templeTitle": null,
@@ -8311,7 +8313,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-燕国-王喜",
+      "id": "rn-燕-燕王喜",
       "polityId": "pol-燕",
       "personalName": "姬喜",
       "templeTitle": null,
@@ -8329,7 +8331,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-卫-null-1",
+      "id": "rn-卫-卫元君",
       "polityId": "pol-卫",
       "personalName": null,
       "templeTitle": null,
@@ -8348,7 +8350,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-孝文王",
+      "id": "rn-秦-秦孝文王",
       "polityId": "pol-秦",
       "personalName": "嬴柱",
       "templeTitle": null,
@@ -8366,7 +8368,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-秦国-庄襄王",
+      "id": "rn-秦-秦庄襄王",
       "polityId": "pol-秦",
       "personalName": "嬴异人",
       "templeTitle": null,
@@ -8408,7 +8410,7 @@
       "regnalCountStartYear": -246
     },
     {
-      "id": "rn-秦朝-始皇帝",
+      "id": "rn-秦朝-秦始皇",
       "polityId": "pol-秦朝",
       "personalName": "嬴政",
       "templeTitle": null,
@@ -8434,7 +8436,7 @@
       "regnalCountStartYear": -246
     },
     {
-      "id": "rn-赵国-悼襄王",
+      "id": "rn-赵-赵悼襄王",
       "polityId": "pol-赵",
       "personalName": "赵偃",
       "templeTitle": null,
@@ -8452,7 +8454,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-魏国-景湣王",
+      "id": "rn-魏-魏景湣王",
       "polityId": "pol-魏",
       "personalName": "魏增",
       "templeTitle": null,
@@ -8470,7 +8472,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-韩国-韩王安",
+      "id": "rn-韩-韩王安",
       "polityId": "pol-韩",
       "personalName": "韩安",
       "templeTitle": null,
@@ -8488,7 +8490,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-幽王",
+      "id": "rn-楚-楚幽王",
       "polityId": "pol-楚",
       "personalName": "熊悍",
       "templeTitle": null,
@@ -8506,7 +8508,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-赵国-王迁",
+      "id": "rn-赵-赵王迁",
       "polityId": "pol-赵",
       "personalName": "赵迁",
       "templeTitle": null,
@@ -8540,7 +8542,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-卫-子南角",
+      "id": "rn-卫-卫君角",
       "polityId": "pol-卫",
       "personalName": "子南角",
       "templeTitle": null,
@@ -8557,7 +8559,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-哀王",
+      "id": "rn-楚-楚哀王",
       "polityId": "pol-楚",
       "personalName": "熊犹",
       "templeTitle": null,
@@ -8575,7 +8577,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-楚国-负刍",
+      "id": "rn-楚-负刍",
       "polityId": "pol-楚",
       "personalName": "熊负刍",
       "templeTitle": null,
@@ -8593,7 +8595,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-赵国-代王嘉",
+      "id": "rn-赵-赵代王嘉",
       "polityId": "pol-赵",
       "personalName": "赵嘉",
       "templeTitle": null,
@@ -8611,7 +8613,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-魏国-王假",
+      "id": "rn-魏-魏王假",
       "polityId": "pol-魏",
       "personalName": "魏假",
       "templeTitle": null,
@@ -8629,7 +8631,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-胡亥",
+      "id": "rn-秦朝-秦二世",
       "polityId": "pol-秦朝",
       "personalName": "胡亥",
       "templeTitle": null,
@@ -8649,7 +8651,7 @@
       "displayTitle": "秦二世"
     },
     {
-      "id": "rn-匈奴-头曼",
+      "id": "rn-匈奴-头曼单于",
       "polityId": "pol-匈奴",
       "personalName": "头曼",
       "templeTitle": null,
@@ -8665,7 +8667,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-匈奴-冒顿",
+      "id": "rn-匈奴-冒顿单于",
       "polityId": "pol-匈奴",
       "personalName": "冒顿",
       "templeTitle": null,
@@ -8681,7 +8683,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-嬴子婴",
+      "id": "rn-秦朝-子婴",
       "polityId": "pol-秦朝",
       "personalName": "嬴子婴",
       "templeTitle": null,
@@ -8702,7 +8704,7 @@
       "displayTitle": "子婴"
     },
     {
-      "id": "rn-汉王-汉王",
+      "id": "rn-汉王-汉王刘邦",
       "polityId": "pol-汉王",
       "personalName": "刘邦",
       "templeTitle": null,
@@ -8728,7 +8730,7 @@
       "regnalCountStartYear": -206
     },
     {
-      "id": "rn-西汉-高皇帝",
+      "id": "rn-西汉-汉高祖",
       "polityId": "pol-西汉",
       "personalName": "刘邦",
       "templeTitle": "太祖",
@@ -8773,7 +8775,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-刘盈",
+      "id": "rn-西汉-汉惠帝",
       "polityId": "pol-西汉",
       "personalName": "刘盈",
       "templeTitle": null,
@@ -8795,7 +8797,7 @@
       "displayTitle": "汉惠帝"
     },
     {
-      "id": "rn-西汉-吕雉",
+      "id": "rn-西汉-汉高后",
       "polityId": "pol-西汉",
       "personalName": "吕雉",
       "templeTitle": null,
@@ -8817,7 +8819,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-刘恒",
+      "id": "rn-西汉-汉文帝",
       "polityId": "pol-西汉",
       "personalName": "刘恒",
       "templeTitle": "太宗",
@@ -8840,7 +8842,7 @@
       "displayTitle": "汉文帝"
     },
     {
-      "id": "rn-匈奴-老上",
+      "id": "rn-匈奴-老上单于",
       "polityId": "pol-匈奴",
       "personalName": "老上",
       "templeTitle": null,
@@ -8856,7 +8858,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-匈奴-军臣",
+      "id": "rn-匈奴-军臣单于",
       "polityId": "pol-匈奴",
       "personalName": "军臣",
       "templeTitle": null,
@@ -8872,7 +8874,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-刘启",
+      "id": "rn-西汉-汉景帝",
       "polityId": "pol-西汉",
       "personalName": "刘启",
       "templeTitle": null,
@@ -8910,7 +8912,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-刘彻",
+      "id": "rn-西汉-汉武帝",
       "polityId": "pol-西汉",
       "personalName": "刘彻",
       "templeTitle": "世宗",
@@ -8945,7 +8947,7 @@
       "displayTitle": "汉武帝"
     },
     {
-      "id": "rn-匈奴-伊稚斜",
+      "id": "rn-匈奴-伊稚斜单于",
       "polityId": "pol-匈奴",
       "personalName": "伊稚斜",
       "templeTitle": null,
@@ -8961,7 +8963,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-匈奴-乌维",
+      "id": "rn-匈奴-乌维单于",
       "polityId": "pol-匈奴",
       "personalName": "乌维",
       "templeTitle": null,
@@ -8993,7 +8995,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-匈奴-且鞮侯",
+      "id": "rn-匈奴-且鞮侯单于",
       "polityId": "pol-匈奴",
       "personalName": "且鞮侯",
       "templeTitle": null,
@@ -9009,7 +9011,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-匈奴-狐鹿姑",
+      "id": "rn-匈奴-狐鹿姑单于",
       "polityId": "pol-匈奴",
       "personalName": "狐鹿姑",
       "templeTitle": null,
@@ -9025,7 +9027,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-刘弗陵",
+      "id": "rn-西汉-汉昭帝",
       "polityId": "pol-西汉",
       "personalName": "刘弗陵",
       "templeTitle": null,
@@ -9051,7 +9053,7 @@
       "displayTitle": "汉昭帝"
     },
     {
-      "id": "rn-匈奴-壶衍鞮",
+      "id": "rn-匈奴-壶衍鞮单于",
       "polityId": "pol-匈奴",
       "personalName": "壶衍鞮",
       "templeTitle": null,
@@ -9067,7 +9069,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-刘询",
+      "id": "rn-西汉-汉宣帝",
       "polityId": "pol-西汉",
       "personalName": "刘询",
       "templeTitle": "中宗",
@@ -9098,7 +9100,7 @@
       "displayTitle": "汉宣帝"
     },
     {
-      "id": "rn-匈奴-虚闾权渠",
+      "id": "rn-匈奴-虚闾权渠单于",
       "polityId": "pol-匈奴",
       "personalName": "虚闾权渠",
       "templeTitle": null,
@@ -9114,7 +9116,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-匈奴-握衍朐鞮",
+      "id": "rn-匈奴-握衍朐鞮单于",
       "polityId": "pol-匈奴",
       "personalName": "握衍朐鞮",
       "templeTitle": null,
@@ -9130,7 +9132,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-匈奴-呼韩邪",
+      "id": "rn-匈奴-呼韩邪单于",
       "polityId": "pol-匈奴",
       "personalName": "呼韩邪",
       "templeTitle": null,
@@ -9146,7 +9148,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-刘奭",
+      "id": "rn-西汉-汉元帝",
       "polityId": "pol-西汉",
       "personalName": "刘奭",
       "templeTitle": "高宗",
@@ -9174,7 +9176,7 @@
       "displayTitle": "汉元帝"
     },
     {
-      "id": "rn-高句丽-高朱蒙",
+      "id": "rn-高句丽-东明圣王",
       "polityId": "pol-高句丽",
       "personalName": "高朱蒙",
       "templeTitle": null,
@@ -9194,7 +9196,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-刘骜",
+      "id": "rn-西汉-汉成帝",
       "polityId": "pol-西汉",
       "personalName": "刘骜",
       "templeTitle": "统宗",
@@ -9225,7 +9227,7 @@
       "displayTitle": "汉成帝"
     },
     {
-      "id": "rn-匈奴-复株累",
+      "id": "rn-匈奴-复株累单于",
       "polityId": "pol-匈奴",
       "personalName": "复株累",
       "templeTitle": null,
@@ -9241,7 +9243,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-匈奴-搜谐",
+      "id": "rn-匈奴-搜谐单于",
       "polityId": "pol-匈奴",
       "personalName": "搜谐",
       "templeTitle": null,
@@ -9257,7 +9259,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-高句丽-高类利",
+      "id": "rn-高句丽-琉璃王",
       "polityId": "pol-高句丽",
       "personalName": "高类利",
       "templeTitle": null,
@@ -9274,7 +9276,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-匈奴-车牙",
+      "id": "rn-匈奴-车牙单于",
       "polityId": "pol-匈奴",
       "personalName": "车牙",
       "templeTitle": null,
@@ -9290,7 +9292,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-匈奴-乌珠留",
+      "id": "rn-匈奴-乌珠留单于",
       "polityId": "pol-匈奴",
       "personalName": "乌珠留",
       "templeTitle": null,
@@ -9306,7 +9308,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-刘欣",
+      "id": "rn-西汉-汉哀帝",
       "polityId": "pol-西汉",
       "personalName": "刘欣",
       "templeTitle": null,
@@ -9331,7 +9333,7 @@
       "displayTitle": "汉哀帝"
     },
     {
-      "id": "rn-刘衎",
+      "id": "rn-西汉-汉平帝",
       "polityId": "pol-西汉",
       "personalName": "刘衎",
       "templeTitle": null,
@@ -9355,7 +9357,7 @@
       "displayTitle": "汉平帝"
     },
     {
-      "id": "rn-刘婴",
+      "id": "rn-西汉-汉孺子婴",
       "polityId": "pol-西汉",
       "personalName": "刘婴",
       "templeTitle": null,
@@ -9379,7 +9381,7 @@
       "displayTitle": "汉孺子婴"
     },
     {
-      "id": "rn-王莽",
+      "id": "rn-新朝-新王莽",
       "polityId": "pol-新朝",
       "personalName": "王莽",
       "templeTitle": null,
@@ -9405,7 +9407,7 @@
       "displayTitle": "新王莽"
     },
     {
-      "id": "rn-匈奴-乌累",
+      "id": "rn-匈奴-乌累单于",
       "polityId": "pol-匈奴",
       "personalName": "乌累",
       "templeTitle": null,
@@ -9421,7 +9423,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-高句丽-高无恤",
+      "id": "rn-高句丽-大武神王",
       "polityId": "pol-高句丽",
       "personalName": "高无恤",
       "templeTitle": null,
@@ -9438,7 +9440,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-匈奴-呼都而尸",
+      "id": "rn-匈奴-呼都而尸单于",
       "polityId": "pol-匈奴",
       "personalName": "呼都而尸",
       "templeTitle": null,
@@ -9454,7 +9456,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-刘玄",
+      "id": "rn-更始-汉刘玄",
       "polityId": "pol-更始",
       "personalName": "刘玄",
       "templeTitle": null,
@@ -9476,7 +9478,7 @@
       "displayTitle": "汉刘玄"
     },
     {
-      "id": "rn-刘秀",
+      "id": "rn-东汉-汉光武帝",
       "polityId": "pol-东汉",
       "personalName": "刘秀",
       "templeTitle": "世祖",
@@ -9502,7 +9504,7 @@
       "displayTitle": "汉光武帝"
     },
     {
-      "id": "rn-匈奴-蒲奴",
+      "id": "rn-匈奴-蒲奴单于",
       "polityId": "pol-匈奴",
       "personalName": "蒲奴",
       "templeTitle": null,
@@ -9518,7 +9520,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-高句丽-高宫",
+      "id": "rn-高句丽-太祖王",
       "polityId": "pol-高句丽",
       "personalName": "高宫",
       "templeTitle": null,
@@ -9538,7 +9540,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-刘庄",
+      "id": "rn-东汉-汉明帝",
       "polityId": "pol-东汉",
       "personalName": "刘庄",
       "templeTitle": "显宗",
@@ -9563,7 +9565,7 @@
       "displayTitle": "汉明帝"
     },
     {
-      "id": "rn-刘炟",
+      "id": "rn-东汉-汉章帝",
       "polityId": "pol-东汉",
       "personalName": "刘炟",
       "templeTitle": "肃宗",
@@ -9590,7 +9592,7 @@
       "displayTitle": "汉章帝"
     },
     {
-      "id": "rn-刘肇",
+      "id": "rn-东汉-汉和帝",
       "polityId": "pol-东汉",
       "personalName": "刘肇",
       "templeTitle": "穆宗",
@@ -9616,7 +9618,7 @@
       "displayTitle": "汉和帝"
     },
     {
-      "id": "rn-刘祜",
+      "id": "rn-东汉-汉安帝",
       "polityId": "pol-东汉",
       "personalName": "刘祜",
       "templeTitle": "恭宗",
@@ -9645,7 +9647,7 @@
       "displayTitle": "汉安帝"
     },
     {
-      "id": "rn-刘保",
+      "id": "rn-东汉-汉顺帝",
       "polityId": "pol-东汉",
       "personalName": "刘保",
       "templeTitle": "敬宗",
@@ -9674,7 +9676,7 @@
       "displayTitle": "汉顺帝"
     },
     {
-      "id": "rn-刘志",
+      "id": "rn-东汉-汉桓帝",
       "polityId": "pol-东汉",
       "personalName": "刘志",
       "templeTitle": "威宗",
@@ -9705,7 +9707,7 @@
       "displayTitle": "汉桓帝"
     },
     {
-      "id": "rn-刘宏",
+      "id": "rn-东汉-汉灵帝",
       "polityId": "pol-东汉",
       "personalName": "刘宏",
       "templeTitle": null,
@@ -9732,7 +9734,7 @@
       "displayTitle": "汉灵帝"
     },
     {
-      "id": "rn-高句丽-高男武",
+      "id": "rn-高句丽-故国川王",
       "polityId": "pol-高句丽",
       "personalName": "高男武",
       "templeTitle": null,
@@ -9749,7 +9751,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-刘协",
+      "id": "rn-东汉-汉献帝",
       "polityId": "pol-东汉",
       "personalName": "刘协",
       "templeTitle": null,
@@ -9776,7 +9778,7 @@
       "displayTitle": "汉献帝"
     },
     {
-      "id": "rn-高句丽-高延优",
+      "id": "rn-高句丽-山上王",
       "polityId": "pol-高句丽",
       "personalName": "高延优",
       "templeTitle": null,
@@ -9793,7 +9795,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-于阗-尉迟僧伽罗摩",
+      "id": "rn-于阗-尉迟僧伽罗摩-1",
       "polityId": "pol-于阗",
       "personalName": "尉迟僧伽罗摩",
       "templeTitle": null,
@@ -9809,7 +9811,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-曹丕",
+      "id": "rn-曹魏-魏文帝",
       "polityId": "pol-曹魏",
       "personalName": "曹丕",
       "templeTitle": "高祖",
@@ -9834,7 +9836,7 @@
       "displayTitle": "魏文帝"
     },
     {
-      "id": "rn-刘备",
+      "id": "rn-蜀汉-汉昭烈帝",
       "polityId": "pol-蜀汉",
       "personalName": "刘备",
       "templeTitle": "先主",
@@ -9859,7 +9861,7 @@
       "displayTitle": "汉昭烈帝"
     },
     {
-      "id": "rn-孙权",
+      "id": "rn-东吴-吴大帝",
       "polityId": "pol-东吴",
       "personalName": "孙权",
       "templeTitle": "太祖",
@@ -9889,7 +9891,7 @@
       "displayTitle": "吴大帝"
     },
     {
-      "id": "rn-刘禅",
+      "id": "rn-蜀汉-蜀汉后主",
       "polityId": "pol-蜀汉",
       "personalName": "刘禅",
       "templeTitle": "后主",
@@ -9917,7 +9919,7 @@
       "displayTitle": "蜀汉后主"
     },
     {
-      "id": "rn-曹叡",
+      "id": "rn-曹魏-魏明帝",
       "polityId": "pol-曹魏",
       "personalName": "曹叡",
       "templeTitle": "烈祖",
@@ -9944,7 +9946,7 @@
       "displayTitle": "魏明帝"
     },
     {
-      "id": "rn-高句丽-高位宫",
+      "id": "rn-高句丽-东川王",
       "polityId": "pol-高句丽",
       "personalName": "高位宫",
       "templeTitle": null,
@@ -9961,7 +9963,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-曹芳",
+      "id": "rn-曹魏-魏厉公",
       "polityId": "pol-曹魏",
       "personalName": "曹芳",
       "templeTitle": null,
@@ -10004,7 +10006,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-孙亮",
+      "id": "rn-东吴-吴废帝",
       "polityId": "pol-东吴",
       "personalName": "孙亮",
       "templeTitle": null,
@@ -10032,7 +10034,7 @@
       "displayTitle": "吴废帝"
     },
     {
-      "id": "rn-曹髦",
+      "id": "rn-曹魏-魏高贵乡公",
       "polityId": "pol-曹魏",
       "personalName": "曹髦",
       "templeTitle": null,
@@ -10057,7 +10059,7 @@
       "displayTitle": "魏高贵乡公"
     },
     {
-      "id": "rn-孙休",
+      "id": "rn-东吴-吴景帝",
       "polityId": "pol-东吴",
       "personalName": "孙休",
       "templeTitle": null,
@@ -10080,7 +10082,7 @@
       "displayTitle": "吴景帝"
     },
     {
-      "id": "rn-曹奂",
+      "id": "rn-曹魏-魏元帝",
       "polityId": "pol-曹魏",
       "personalName": "曹奂",
       "templeTitle": null,
@@ -10104,7 +10106,7 @@
       "displayTitle": "魏元帝"
     },
     {
-      "id": "rn-孙皓",
+      "id": "rn-东吴-吴末帝",
       "polityId": "pol-东吴",
       "personalName": "孙皓",
       "templeTitle": null,
@@ -10135,7 +10137,7 @@
       "displayTitle": "吴末帝"
     },
     {
-      "id": "rn-司马炎",
+      "id": "rn-西晋-晋武帝",
       "polityId": "pol-西晋",
       "personalName": "司马炎",
       "templeTitle": "世祖",
@@ -10163,7 +10165,7 @@
       "displayTitle": "晋武帝"
     },
     {
-      "id": "rn-司马衷",
+      "id": "rn-西晋-晋惠帝",
       "polityId": "pol-西晋",
       "personalName": "司马衷",
       "templeTitle": null,
@@ -10196,7 +10198,7 @@
       "displayTitle": "晋惠帝"
     },
     {
-      "id": "rn-高句丽-高乙弗",
+      "id": "rn-高句丽-美川王",
       "polityId": "pol-高句丽",
       "personalName": "高乙弗",
       "templeTitle": null,
@@ -10252,33 +10254,18 @@
       "regnalCountStartYear": 301
     },
     {
-      "id": "rn-成汉-李雄",
-      "polityId": "pol-成汉成",
-      "personalName": "李雄",
-      "templeTitle": null,
-      "posthumousTitle": "成武帝",
-      "displayTitle": "李雄",
-      "eraNames": [],
-      "reignStartYear": 304,
-      "reignEndYear": 334,
-      "aliases": [
-        "成汉武帝"
-      ],
-      "searchLabels": [
-        "成武帝",
-        "李雄",
-        "成汉武帝"
-      ],
-      "uncertain": false
-    },
-    {
       "id": "rn-前赵汉-刘渊",
       "polityId": "pol-前赵汉",
       "personalName": "刘渊",
       "templeTitle": "高祖",
       "posthumousTitle": "光文帝",
       "displayTitle": "刘渊",
-      "eraNames": [],
+      "eraNames": [
+        "元熙",
+        "永凤",
+        "河瑞",
+        "光兴"
+      ],
       "reignStartYear": 304,
       "reignEndYear": 310,
       "aliases": [
@@ -10298,7 +10285,11 @@
       "templeTitle": null,
       "posthumousTitle": "武帝",
       "displayTitle": "李雄",
-      "eraNames": [],
+      "eraNames": [
+        "建兴",
+        "晏平",
+        "玉衡"
+      ],
       "reignStartYear": 304,
       "reignEndYear": 334,
       "aliases": [
@@ -10312,7 +10303,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-司马炽",
+      "id": "rn-西晋-晋怀帝",
       "polityId": "pol-西晋",
       "personalName": "司马炽",
       "templeTitle": null,
@@ -10342,7 +10333,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "刘和",
-      "eraNames": [],
+      "eraNames": [
+        "光兴"
+      ],
       "reignStartYear": 310,
       "reignEndYear": 310,
       "aliases": [],
@@ -10358,7 +10351,13 @@
       "templeTitle": null,
       "posthumousTitle": "昭武帝",
       "displayTitle": "刘聪",
-      "eraNames": [],
+      "eraNames": [
+        "光兴",
+        "嘉平",
+        "建元",
+        "麟嘉",
+        "汉昌"
+      ],
       "reignStartYear": 310,
       "reignEndYear": 318,
       "aliases": [
@@ -10372,7 +10371,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-司马邺",
+      "id": "rn-西晋-晋愍帝",
       "polityId": "pol-西晋",
       "personalName": "司马邺",
       "templeTitle": null,
@@ -10418,7 +10417,9 @@
       "templeTitle": null,
       "posthumousTitle": "昭公",
       "displayTitle": "张寔",
-      "eraNames": [],
+      "eraNames": [
+        "建兴"
+      ],
       "reignStartYear": 314,
       "reignEndYear": 320,
       "aliases": [
@@ -10435,7 +10436,7 @@
       "regnalCountStartYear": 314
     },
     {
-      "id": "rn-司马睿",
+      "id": "rn-东晋-晋元帝",
       "polityId": "pol-东晋",
       "personalName": "司马睿",
       "templeTitle": "中宗",
@@ -10484,7 +10485,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "刘粲",
-      "eraNames": [],
+      "eraNames": [
+        "汉昌"
+      ],
       "reignStartYear": 318,
       "reignEndYear": 318,
       "aliases": [],
@@ -10500,7 +10503,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "刘曜",
-      "eraNames": [],
+      "eraNames": [
+        "光初"
+      ],
       "reignStartYear": 318,
       "reignEndYear": 329,
       "aliases": [],
@@ -10516,7 +10521,10 @@
       "templeTitle": "高祖",
       "posthumousTitle": "明帝",
       "displayTitle": "石勒",
-      "eraNames": [],
+      "eraNames": [
+        "太和",
+        "建平"
+      ],
       "reignStartYear": 319,
       "reignEndYear": 333,
       "aliases": [
@@ -10550,7 +10558,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-司马绍",
+      "id": "rn-东晋-晋明帝",
       "polityId": "pol-东晋",
       "personalName": "司马绍",
       "templeTitle": "肃宗",
@@ -10595,7 +10603,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-司马衍",
+      "id": "rn-东晋-晋成帝",
       "polityId": "pol-东晋",
       "personalName": "司马衍",
       "templeTitle": "显宗",
@@ -10637,7 +10645,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-高句丽-高斯由",
+      "id": "rn-高句丽-故国原王",
       "polityId": "pol-高句丽",
       "personalName": "高斯由",
       "templeTitle": null,
@@ -10660,32 +10668,14 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "石弘",
-      "eraNames": [],
+      "eraNames": [
+        "延熙"
+      ],
       "reignStartYear": 333,
       "reignEndYear": 334,
       "aliases": [],
       "searchLabels": [
         "石弘"
-      ],
-      "uncertain": false
-    },
-    {
-      "id": "rn-成汉-李期",
-      "polityId": "pol-成汉成",
-      "personalName": "李期",
-      "templeTitle": null,
-      "posthumousTitle": "成幽公",
-      "displayTitle": "李期",
-      "eraNames": [],
-      "reignStartYear": 334,
-      "reignEndYear": 338,
-      "aliases": [
-        "成汉幽公"
-      ],
-      "searchLabels": [
-        "成幽公",
-        "李期",
-        "成汉幽公"
       ],
       "uncertain": false
     },
@@ -10696,7 +10686,11 @@
       "templeTitle": "太祖",
       "posthumousTitle": "武帝",
       "displayTitle": "石虎",
-      "eraNames": [],
+      "eraNames": [
+        "延熙",
+        "建武",
+        "太宁"
+      ],
       "reignStartYear": 334,
       "reignEndYear": 349,
       "aliases": [
@@ -10716,7 +10710,9 @@
       "templeTitle": null,
       "posthumousTitle": "幽公",
       "displayTitle": "李期",
-      "eraNames": [],
+      "eraNames": [
+        "玉恒"
+      ],
       "reignStartYear": 334,
       "reignEndYear": 338,
       "aliases": [
@@ -10750,7 +10746,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-拓跋什翼犍",
+      "id": "rn-代国-拓跋什翼犍",
       "polityId": "pol-代国",
       "personalName": "拓跋什翼犍",
       "templeTitle": "高祖",
@@ -10781,7 +10777,9 @@
       "templeTitle": null,
       "posthumousTitle": "昭文帝",
       "displayTitle": "李寿",
-      "eraNames": [],
+      "eraNames": [
+        "汉兴"
+      ],
       "reignStartYear": 338,
       "reignEndYear": 343,
       "aliases": [
@@ -10795,7 +10793,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-司马岳",
+      "id": "rn-东晋-晋康帝",
       "polityId": "pol-东晋",
       "personalName": "司马岳",
       "templeTitle": null,
@@ -10825,7 +10823,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "李势",
-      "eraNames": [],
+      "eraNames": [
+        "太和",
+        "嘉宁"
+      ],
       "reignStartYear": 343,
       "reignEndYear": 347,
       "aliases": [
@@ -10839,7 +10840,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-司马聃",
+      "id": "rn-东晋-晋穆帝",
       "polityId": "pol-东晋",
       "personalName": "司马聃",
       "templeTitle": null,
@@ -10890,7 +10891,11 @@
       "templeTitle": "烈祖",
       "posthumousTitle": "景昭帝",
       "displayTitle": "慕容儁",
-      "eraNames": [],
+      "eraNames": [
+        "元玺",
+        "光寿",
+        "建熙"
+      ],
       "reignStartYear": 348,
       "reignEndYear": 360,
       "aliases": [
@@ -10910,7 +10915,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "石世",
-      "eraNames": [],
+      "eraNames": [
+        "太宁"
+      ],
       "reignStartYear": 349,
       "reignEndYear": 349,
       "aliases": [],
@@ -10926,7 +10933,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "石遵",
-      "eraNames": [],
+      "eraNames": [
+        "太宁"
+      ],
       "reignStartYear": 349,
       "reignEndYear": 349,
       "aliases": [],
@@ -10942,7 +10951,11 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "石鉴",
-      "eraNames": [],
+      "eraNames": [
+        "太宁",
+        "青龙",
+        "永宁"
+      ],
       "reignStartYear": 349,
       "reignEndYear": 350,
       "aliases": [],
@@ -10958,7 +10971,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "石祗",
-      "eraNames": [],
+      "eraNames": [
+        "青龙",
+        "永宁"
+      ],
       "reignStartYear": 350,
       "reignEndYear": 351,
       "aliases": [],
@@ -10974,7 +10990,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "苻洪",
-      "eraNames": [],
+      "eraNames": [
+        "皇始"
+      ],
       "reignStartYear": 350,
       "reignEndYear": 351,
       "aliases": [],
@@ -10990,7 +11008,9 @@
       "templeTitle": null,
       "posthumousTitle": "武悼天王",
       "displayTitle": "冉闵",
-      "eraNames": [],
+      "eraNames": [
+        "永兴"
+      ],
       "reignStartYear": 350,
       "reignEndYear": 352,
       "aliases": [
@@ -11026,7 +11046,10 @@
       "templeTitle": "高祖",
       "posthumousTitle": "景明帝",
       "displayTitle": "苻健",
-      "eraNames": [],
+      "eraNames": [
+        "皇始",
+        "寿光"
+      ],
       "reignStartYear": 351,
       "reignEndYear": 355,
       "aliases": [
@@ -11062,7 +11085,10 @@
       "templeTitle": null,
       "posthumousTitle": "威王",
       "displayTitle": "张祚",
-      "eraNames": [],
+      "eraNames": [
+        "和平",
+        "建兴"
+      ],
       "reignStartYear": 354,
       "reignEndYear": 355,
       "aliases": [
@@ -11082,7 +11108,10 @@
       "templeTitle": null,
       "posthumousTitle": "厉王",
       "displayTitle": "苻生",
-      "eraNames": [],
+      "eraNames": [
+        "寿光",
+        "永兴"
+      ],
       "reignStartYear": 355,
       "reignEndYear": 357,
       "aliases": [
@@ -11102,7 +11131,11 @@
       "templeTitle": null,
       "posthumousTitle": "冲公",
       "displayTitle": "张玄靓",
-      "eraNames": [],
+      "eraNames": [
+        "建兴",
+        "升平",
+        "太清"
+      ],
       "reignStartYear": 355,
       "reignEndYear": 363,
       "aliases": [
@@ -11122,7 +11155,12 @@
       "templeTitle": "世祖",
       "posthumousTitle": "宣昭帝",
       "displayTitle": "苻坚",
-      "eraNames": [],
+      "eraNames": [
+        "永兴",
+        "甘露",
+        "建元",
+        "太安"
+      ],
       "reignStartYear": 357,
       "reignEndYear": 385,
       "aliases": [
@@ -11142,7 +11180,9 @@
       "templeTitle": null,
       "posthumousTitle": "幽帝",
       "displayTitle": "慕容暐",
-      "eraNames": [],
+      "eraNames": [
+        "建熙"
+      ],
       "reignStartYear": 360,
       "reignEndYear": 370,
       "aliases": [
@@ -11156,7 +11196,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-司马丕",
+      "id": "rn-东晋-晋哀帝",
       "polityId": "pol-东晋",
       "personalName": "司马丕",
       "templeTitle": null,
@@ -11187,7 +11227,9 @@
       "templeTitle": null,
       "posthumousTitle": "悼公",
       "displayTitle": "张天锡",
-      "eraNames": [],
+      "eraNames": [
+        "太清"
+      ],
       "reignStartYear": 363,
       "reignEndYear": 376,
       "aliases": [
@@ -11201,7 +11243,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-司马奕",
+      "id": "rn-东晋-晋废帝",
       "polityId": "pol-东晋",
       "personalName": "司马奕",
       "templeTitle": null,
@@ -11222,7 +11264,7 @@
       "displayTitle": "晋废帝"
     },
     {
-      "id": "rn-司马昱",
+      "id": "rn-东晋-晋简文帝",
       "polityId": "pol-东晋",
       "personalName": "司马昱",
       "templeTitle": "太宗",
@@ -11263,7 +11305,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-司马曜",
+      "id": "rn-东晋-晋武帝",
       "polityId": "pol-东晋",
       "personalName": "司马曜",
       "templeTitle": "烈宗",
@@ -11297,7 +11339,10 @@
       "templeTitle": "太祖",
       "posthumousTitle": "武昭帝",
       "displayTitle": "姚苌",
-      "eraNames": [],
+      "eraNames": [
+        "白雀",
+        "建初"
+      ],
       "reignStartYear": 384,
       "reignEndYear": 393,
       "aliases": [
@@ -11317,7 +11362,11 @@
       "templeTitle": "世祖",
       "posthumousTitle": "成武帝",
       "displayTitle": "慕容垂",
-      "eraNames": [],
+      "eraNames": [
+        "燕元",
+        "建兴",
+        "永康"
+      ],
       "reignStartYear": 384,
       "reignEndYear": 396,
       "aliases": [
@@ -11337,7 +11386,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "慕容泓",
-      "eraNames": [],
+      "eraNames": [
+        "燕兴"
+      ],
       "reignStartYear": 384,
       "reignEndYear": 384,
       "aliases": [],
@@ -11353,7 +11404,15 @@
       "templeTitle": null,
       "posthumousTitle": "威帝",
       "displayTitle": "慕容冲",
-      "eraNames": [],
+      "eraNames": [
+        "燕兴",
+        "更始",
+        "昌平",
+        "建明",
+        "建平",
+        "建武",
+        "中兴"
+      ],
       "reignStartYear": 384,
       "reignEndYear": 386,
       "aliases": [
@@ -11373,7 +11432,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "苻丕",
-      "eraNames": [],
+      "eraNames": [
+        "太安",
+        "太初"
+      ],
       "reignStartYear": 385,
       "reignEndYear": 386,
       "aliases": [],
@@ -11389,7 +11451,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "乞伏国仁",
-      "eraNames": [],
+      "eraNames": [
+        "建义",
+        "太初"
+      ],
       "reignStartYear": 385,
       "reignEndYear": 388,
       "aliases": [],
@@ -11399,7 +11464,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-拓跋珪",
+      "id": "rn-北魏-北魏道武帝",
       "polityId": "pol-北魏",
       "personalName": "拓跋珪",
       "templeTitle": "太祖",
@@ -11433,7 +11498,10 @@
       "templeTitle": "太宗",
       "posthumousTitle": "高帝",
       "displayTitle": "苻登",
-      "eraNames": [],
+      "eraNames": [
+        "太初",
+        "延初"
+      ],
       "reignStartYear": 386,
       "reignEndYear": 394,
       "aliases": [
@@ -11453,7 +11521,12 @@
       "templeTitle": "太祖",
       "posthumousTitle": "懿武帝",
       "displayTitle": "吕光",
-      "eraNames": [],
+      "eraNames": [
+        "太安",
+        "麟嘉",
+        "龙飞",
+        "咸宁"
+      ],
       "reignStartYear": 386,
       "reignEndYear": 399,
       "aliases": [
@@ -11473,7 +11546,13 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段随",
-      "eraNames": [],
+      "eraNames": [
+        "昌平",
+        "建明",
+        "建平",
+        "建武",
+        "中兴"
+      ],
       "reignStartYear": 386,
       "reignEndYear": 386,
       "aliases": [],
@@ -11489,7 +11568,13 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "慕容顗",
-      "eraNames": [],
+      "eraNames": [
+        "昌平",
+        "建明",
+        "建平",
+        "建武",
+        "中兴"
+      ],
       "reignStartYear": 386,
       "reignEndYear": 386,
       "aliases": [],
@@ -11505,7 +11590,13 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "慕容瑶",
-      "eraNames": [],
+      "eraNames": [
+        "昌平",
+        "建明",
+        "建平",
+        "建武",
+        "中兴"
+      ],
       "reignStartYear": 386,
       "reignEndYear": 386,
       "aliases": [],
@@ -11521,7 +11612,13 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "慕容忠",
-      "eraNames": [],
+      "eraNames": [
+        "昌平",
+        "建明",
+        "建平",
+        "建武",
+        "中兴"
+      ],
       "reignStartYear": 386,
       "reignEndYear": 386,
       "aliases": [],
@@ -11537,7 +11634,13 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "慕容永",
-      "eraNames": [],
+      "eraNames": [
+        "昌平",
+        "建明",
+        "建平",
+        "建武",
+        "中兴"
+      ],
       "reignStartYear": 386,
       "reignEndYear": 394,
       "aliases": [],
@@ -11553,7 +11656,11 @@
       "templeTitle": null,
       "posthumousTitle": "武元王",
       "displayTitle": "乞伏乾归",
-      "eraNames": [],
+      "eraNames": [
+        "太初",
+        "更始",
+        "永康"
+      ],
       "reignStartYear": 388,
       "reignEndYear": 412,
       "aliases": [
@@ -11583,7 +11690,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-高句丽-高谈德",
+      "id": "rn-高句丽-广开土好太王",
       "polityId": "pol-高句丽",
       "personalName": "高谈德",
       "templeTitle": null,
@@ -11606,7 +11713,11 @@
       "templeTitle": "高祖",
       "posthumousTitle": "文桓帝",
       "displayTitle": "姚兴",
-      "eraNames": [],
+      "eraNames": [
+        "皇初",
+        "弘始",
+        "永和"
+      ],
       "reignStartYear": 394,
       "reignEndYear": 416,
       "aliases": [
@@ -11620,7 +11731,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-司马德宗",
+      "id": "rn-东晋-晋安帝",
       "polityId": "pol-东晋",
       "personalName": "司马德宗",
       "templeTitle": null,
@@ -11652,7 +11763,10 @@
       "templeTitle": null,
       "posthumousTitle": "惠愍帝",
       "displayTitle": "慕容宝",
-      "eraNames": [],
+      "eraNames": [
+        "永康",
+        "建平"
+      ],
       "reignStartYear": 396,
       "reignEndYear": 398,
       "aliases": [
@@ -11672,7 +11786,9 @@
       "templeTitle": null,
       "posthumousTitle": "武王",
       "displayTitle": "秃发乌孤",
-      "eraNames": [],
+      "eraNames": [
+        "太初"
+      ],
       "reignStartYear": 397,
       "reignEndYear": 399,
       "aliases": [
@@ -11692,7 +11808,11 @@
       "templeTitle": "中宗",
       "posthumousTitle": "昭武帝",
       "displayTitle": "慕容盛",
-      "eraNames": [],
+      "eraNames": [
+        "建平",
+        "长乐",
+        "光始"
+      ],
       "reignStartYear": 398,
       "reignEndYear": 401,
       "aliases": [
@@ -11712,7 +11832,10 @@
       "templeTitle": null,
       "posthumousTitle": "献武帝",
       "displayTitle": "慕容德",
-      "eraNames": [],
+      "eraNames": [
+        "建平",
+        "太上"
+      ],
       "reignStartYear": 398,
       "reignEndYear": 405,
       "aliases": [
@@ -11732,7 +11855,10 @@
       "templeTitle": null,
       "posthumousTitle": "灵帝",
       "displayTitle": "吕纂",
-      "eraNames": [],
+      "eraNames": [
+        "咸宁",
+        "神鼎"
+      ],
       "reignStartYear": 399,
       "reignEndYear": 401,
       "aliases": [
@@ -11752,7 +11878,10 @@
       "templeTitle": null,
       "posthumousTitle": "康王",
       "displayTitle": "秃发利鹿孤",
-      "eraNames": [],
+      "eraNames": [
+        "建和",
+        "弘昌"
+      ],
       "reignStartYear": 399,
       "reignEndYear": 402,
       "aliases": [
@@ -11772,7 +11901,11 @@
       "templeTitle": null,
       "posthumousTitle": "武昭王",
       "displayTitle": "李暠",
-      "eraNames": [],
+      "eraNames": [
+        "庚子",
+        "建初",
+        "嘉兴"
+      ],
       "reignStartYear": 400,
       "reignEndYear": 417,
       "aliases": [
@@ -11808,7 +11941,11 @@
       "templeTitle": null,
       "posthumousTitle": "昭文帝",
       "displayTitle": "慕容熙",
-      "eraNames": [],
+      "eraNames": [
+        "光始",
+        "建始",
+        "正始"
+      ],
       "reignStartYear": 401,
       "reignEndYear": 407,
       "aliases": [
@@ -11828,7 +11965,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "吕隆",
-      "eraNames": [],
+      "eraNames": [
+        "神鼎"
+      ],
       "reignStartYear": 401,
       "reignEndYear": 403,
       "aliases": [],
@@ -11844,7 +11983,13 @@
       "templeTitle": null,
       "posthumousTitle": "武宣王",
       "displayTitle": "沮渠蒙逊",
-      "eraNames": [],
+      "eraNames": [
+        "永安",
+        "玄始",
+        "承玄",
+        "义和",
+        "永和"
+      ],
       "reignStartYear": 401,
       "reignEndYear": 433,
       "aliases": [
@@ -11864,7 +12009,10 @@
       "templeTitle": null,
       "posthumousTitle": "景王",
       "displayTitle": "秃发傉檀",
-      "eraNames": [],
+      "eraNames": [
+        "弘昌",
+        "嘉平"
+      ],
       "reignStartYear": 402,
       "reignEndYear": 414,
       "aliases": [
@@ -11878,7 +12026,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-柔然-郁久闾社仑",
+      "id": "rn-柔然-丘豆伐可汗",
       "polityId": "pol-柔然",
       "personalName": "郁久闾社仑",
       "templeTitle": null,
@@ -11901,7 +12049,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "慕容超",
-      "eraNames": [],
+      "eraNames": [
+        "太上"
+      ],
       "reignStartYear": 405,
       "reignEndYear": 410,
       "aliases": [],
@@ -11936,7 +12086,10 @@
       "templeTitle": null,
       "posthumousTitle": "惠懿帝",
       "displayTitle": "慕容云（高云）",
-      "eraNames": [],
+      "eraNames": [
+        "建始",
+        "正始"
+      ],
       "reignStartYear": 407,
       "reignEndYear": 409,
       "aliases": [
@@ -11956,7 +12109,13 @@
       "templeTitle": null,
       "posthumousTitle": "武烈帝",
       "displayTitle": "赫连勃勃",
-      "eraNames": [],
+      "eraNames": [
+        "龙升",
+        "凤翔",
+        "昌武",
+        "真兴",
+        "承光"
+      ],
       "reignStartYear": 407,
       "reignEndYear": 425,
       "aliases": [
@@ -11970,7 +12129,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-拓跋嗣",
+      "id": "rn-北魏-北魏明元帝",
       "polityId": "pol-北魏",
       "personalName": "拓跋嗣",
       "templeTitle": "太宗",
@@ -12003,7 +12162,9 @@
       "templeTitle": null,
       "posthumousTitle": "文成帝",
       "displayTitle": "冯跋",
-      "eraNames": [],
+      "eraNames": [
+        "太平"
+      ],
       "reignStartYear": 409,
       "reignEndYear": 430,
       "aliases": [
@@ -12017,7 +12178,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-柔然-郁久闾斛律",
+      "id": "rn-柔然-蔼苦盖可汗",
       "polityId": "pol-柔然",
       "personalName": "郁久闾斛律",
       "templeTitle": null,
@@ -12040,7 +12201,11 @@
       "templeTitle": null,
       "posthumousTitle": "文昭王",
       "displayTitle": "乞伏炽磐",
-      "eraNames": [],
+      "eraNames": [
+        "永康",
+        "建弘",
+        "永弘"
+      ],
       "reignStartYear": 412,
       "reignEndYear": 428,
       "aliases": [
@@ -12054,7 +12219,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-高句丽-高雄莲",
+      "id": "rn-高句丽-长寿王",
       "polityId": "pol-高句丽",
       "personalName": "高雄莲",
       "templeTitle": null,
@@ -12087,7 +12252,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-柔然-郁久闾大檀",
+      "id": "rn-柔然-牟汗纥升盖可汗",
       "polityId": "pol-柔然",
       "personalName": "郁久闾大檀",
       "templeTitle": null,
@@ -12110,7 +12275,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "姚泓",
-      "eraNames": [],
+      "eraNames": [
+        "永和"
+      ],
       "reignStartYear": 416,
       "reignEndYear": 417,
       "aliases": [],
@@ -12126,7 +12293,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "李歆",
-      "eraNames": [],
+      "eraNames": [
+        "嘉兴",
+        "永建"
+      ],
       "reignStartYear": 417,
       "reignEndYear": 420,
       "aliases": [],
@@ -12152,7 +12322,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-司马德文",
+      "id": "rn-东晋-晋恭帝",
       "polityId": "pol-东晋",
       "personalName": "司马德文",
       "templeTitle": null,
@@ -12176,7 +12346,7 @@
       "displayTitle": "晋恭帝"
     },
     {
-      "id": "rn-刘裕",
+      "id": "rn-刘宋-刘宋武帝",
       "polityId": "pol-刘宋",
       "personalName": "刘裕",
       "templeTitle": "高祖",
@@ -12207,7 +12377,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "李恂",
-      "eraNames": [],
+      "eraNames": [
+        "永建"
+      ],
       "reignStartYear": 420,
       "reignEndYear": 421,
       "aliases": [],
@@ -12217,7 +12389,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-拓跋焘",
+      "id": "rn-北魏-北魏太武帝",
       "polityId": "pol-北魏",
       "personalName": "拓跋焘",
       "templeTitle": "世祖",
@@ -12247,7 +12419,7 @@
       "displayTitle": "北魏太武帝"
     },
     {
-      "id": "rn-刘宋-少帝",
+      "id": "rn-刘宋-刘宋少帝",
       "polityId": "pol-刘宋",
       "personalName": "刘义符",
       "templeTitle": null,
@@ -12264,10 +12436,13 @@
         "少帝",
         "营阳王"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "eraNames": [
+        "景平"
+      ]
     },
     {
-      "id": "rn-刘义隆",
+      "id": "rn-刘宋-刘宋文帝",
       "polityId": "pol-刘宋",
       "personalName": "刘义隆",
       "templeTitle": "太祖",
@@ -12314,7 +12489,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "赫连昌",
-      "eraNames": [],
+      "eraNames": [
+        "承光",
+        "胜光"
+      ],
       "reignStartYear": 425,
       "reignEndYear": 428,
       "aliases": [],
@@ -12330,7 +12508,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "乞伏暮末",
-      "eraNames": [],
+      "eraNames": [
+        "永弘"
+      ],
       "reignStartYear": 428,
       "reignEndYear": 431,
       "aliases": [],
@@ -12346,7 +12526,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "赫连定",
-      "eraNames": [],
+      "eraNames": [
+        "胜光"
+      ],
       "reignStartYear": 428,
       "reignEndYear": 431,
       "aliases": [],
@@ -12356,7 +12538,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-柔然-郁久闾吴提",
+      "id": "rn-柔然-敕连可汗",
       "polityId": "pol-柔然",
       "personalName": "郁久闾吴提",
       "templeTitle": null,
@@ -12379,7 +12561,9 @@
       "templeTitle": null,
       "posthumousTitle": "昭成帝",
       "displayTitle": "冯弘",
-      "eraNames": [],
+      "eraNames": [
+        "大兴"
+      ],
       "reignStartYear": 430,
       "reignEndYear": 436,
       "aliases": [
@@ -12399,7 +12583,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "沮渠牧犍",
-      "eraNames": [],
+      "eraNames": [
+        "永和"
+      ],
       "reignStartYear": 433,
       "reignEndYear": 439,
       "aliases": [],
@@ -12425,7 +12611,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-柔然-郁久闾吐贺真",
+      "id": "rn-柔然-处可汗",
       "polityId": "pol-柔然",
       "personalName": "郁久闾吐贺真",
       "templeTitle": null,
@@ -12458,7 +12644,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-拓跋濬",
+      "id": "rn-北魏-北魏文成帝",
       "polityId": "pol-北魏",
       "personalName": "拓跋濬",
       "templeTitle": "高宗",
@@ -12502,7 +12688,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-刘骏",
+      "id": "rn-刘宋-刘宋孝武帝",
       "polityId": "pol-刘宋",
       "personalName": "刘骏",
       "templeTitle": "世祖",
@@ -12530,7 +12716,7 @@
       "displayTitle": "刘宋孝武帝"
     },
     {
-      "id": "rn-刘子业",
+      "id": "rn-刘宋-刘宋前废帝",
       "polityId": "pol-刘宋",
       "personalName": "刘子业",
       "templeTitle": null,
@@ -12552,7 +12738,7 @@
       "displayTitle": "刘宋前废帝"
     },
     {
-      "id": "rn-柔然-郁久闾予成",
+      "id": "rn-柔然-受罗部真可汗",
       "polityId": "pol-柔然",
       "personalName": "郁久闾予成",
       "templeTitle": null,
@@ -12569,7 +12755,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-刘彧",
+      "id": "rn-刘宋-刘宋明帝",
       "polityId": "pol-刘宋",
       "personalName": "刘彧",
       "templeTitle": "太宗",
@@ -12595,7 +12781,7 @@
       "displayTitle": "刘宋明帝"
     },
     {
-      "id": "rn-拓跋弘",
+      "id": "rn-北魏-北魏献文帝",
       "polityId": "pol-北魏",
       "personalName": "拓跋弘",
       "templeTitle": "显祖",
@@ -12621,7 +12807,7 @@
       "displayTitle": "北魏献文帝"
     },
     {
-      "id": "rn-元宏",
+      "id": "rn-北魏-北魏孝文帝",
       "polityId": "pol-北魏",
       "personalName": "元宏",
       "templeTitle": "高祖",
@@ -12650,7 +12836,7 @@
       "displayTitle": "北魏孝文帝"
     },
     {
-      "id": "rn-刘昱",
+      "id": "rn-刘宋-刘宋后废帝",
       "polityId": "pol-刘宋",
       "personalName": "刘昱",
       "templeTitle": null,
@@ -12671,7 +12857,7 @@
       "displayTitle": "刘宋后废帝"
     },
     {
-      "id": "rn-刘准",
+      "id": "rn-刘宋-刘宋顺帝",
       "polityId": "pol-刘宋",
       "personalName": "刘准",
       "templeTitle": null,
@@ -12692,7 +12878,7 @@
       "displayTitle": "刘宋顺帝"
     },
     {
-      "id": "rn-萧道成",
+      "id": "rn-南齐-南齐高帝",
       "polityId": "pol-南齐",
       "personalName": "萧道成",
       "templeTitle": "太祖",
@@ -12733,7 +12919,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-萧赜",
+      "id": "rn-南齐-南齐武帝",
       "polityId": "pol-南齐",
       "personalName": "萧赜",
       "templeTitle": "世祖",
@@ -12758,7 +12944,7 @@
       "displayTitle": "南齐武帝"
     },
     {
-      "id": "rn-柔然-郁久闾豆仑",
+      "id": "rn-柔然-伏名敦可汗",
       "polityId": "pol-柔然",
       "personalName": "郁久闾豆仑",
       "templeTitle": null,
@@ -12791,7 +12977,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-高句丽-高罗云",
+      "id": "rn-高句丽-文咨王",
       "polityId": "pol-高句丽",
       "personalName": "高罗云",
       "templeTitle": null,
@@ -12808,7 +12994,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-柔然-郁久闾那盖",
+      "id": "rn-柔然-候其伏代库者可汗",
       "polityId": "pol-柔然",
       "personalName": "郁久闾那盖",
       "templeTitle": null,
@@ -12825,7 +13011,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-南齐-明帝",
+      "id": "rn-南齐-南齐明帝",
       "polityId": "pol-南齐",
       "personalName": "萧鸾",
       "templeTitle": "高宗",
@@ -12844,10 +13030,16 @@
         "齐明帝",
         "明皇帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "eraNames": [
+        "隆昌",
+        "延兴",
+        "建武",
+        "永泰"
+      ]
     },
     {
-      "id": "rn-萧宝卷",
+      "id": "rn-南齐-南齐东昏侯",
       "polityId": "pol-南齐",
       "personalName": "萧宝卷",
       "templeTitle": null,
@@ -12868,7 +13060,7 @@
       "displayTitle": "南齐东昏侯"
     },
     {
-      "id": "rn-元恪",
+      "id": "rn-北魏-北魏宣武帝",
       "polityId": "pol-北魏",
       "personalName": "元恪",
       "templeTitle": "世宗",
@@ -12912,7 +13104,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-萧衍",
+      "id": "rn-萧梁-萧梁武帝",
       "polityId": "pol-萧梁",
       "personalName": "萧衍",
       "templeTitle": "高祖",
@@ -12943,7 +13135,7 @@
       "displayTitle": "萧梁武帝"
     },
     {
-      "id": "rn-柔然-郁久闾伏图",
+      "id": "rn-柔然-佗汗可汗",
       "polityId": "pol-柔然",
       "personalName": "郁久闾伏图",
       "templeTitle": null,
@@ -12960,7 +13152,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-柔然-郁久闾丑奴",
+      "id": "rn-柔然-豆罗伏跋豆伐可汗",
       "polityId": "pol-柔然",
       "personalName": "郁久闾丑奴",
       "templeTitle": null,
@@ -12977,7 +13169,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-元诩",
+      "id": "rn-北魏-北魏孝明帝",
       "polityId": "pol-北魏",
       "personalName": "元诩",
       "templeTitle": "肃宗",
@@ -13008,7 +13200,7 @@
       "displayTitle": "北魏孝明帝"
     },
     {
-      "id": "rn-高句丽-高兴安",
+      "id": "rn-高句丽-安藏王",
       "polityId": "pol-高句丽",
       "personalName": "高兴安",
       "templeTitle": null,
@@ -13025,7 +13217,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-柔然-郁久闾阿那瑰",
+      "id": "rn-柔然-敕连头兵豆伐可汗",
       "polityId": "pol-柔然",
       "personalName": "郁久闾阿那瑰",
       "templeTitle": null,
@@ -13042,7 +13234,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-元子攸",
+      "id": "rn-北魏-北魏孝庄帝",
       "polityId": "pol-北魏",
       "personalName": "元子攸",
       "templeTitle": "敬宗",
@@ -13070,7 +13262,7 @@
       "displayTitle": "北魏孝庄帝"
     },
     {
-      "id": "rn-高句丽-高宝延",
+      "id": "rn-高句丽-安原王",
       "polityId": "pol-高句丽",
       "personalName": "高宝延",
       "templeTitle": null,
@@ -13087,14 +13279,13 @@
       "uncertain": false
     },
     {
-      "id": "rn-元修",
+      "id": "rn-北魏-北魏孝武帝",
       "polityId": "pol-北魏",
       "personalName": "元修",
       "templeTitle": null,
       "posthumousTitle": "孝武皇帝",
       "eraNames": [
         "太昌",
-        "永兴",
         "永熙"
       ],
       "reignStartYear": 532,
@@ -13117,7 +13308,7 @@
       "displayTitle": "北魏孝武帝"
     },
     {
-      "id": "rn-元善见",
+      "id": "rn-东魏-东魏孝静帝",
       "polityId": "pol-东魏",
       "personalName": "元善见",
       "templeTitle": null,
@@ -13146,7 +13337,7 @@
       "displayTitle": "东魏孝静帝"
     },
     {
-      "id": "rn-元宝炬",
+      "id": "rn-西魏-西魏文帝",
       "polityId": "pol-西魏",
       "personalName": "元宝炬",
       "templeTitle": null,
@@ -13186,7 +13377,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-高句丽-平成",
+      "id": "rn-高句丽-阳原王",
       "polityId": "pol-高句丽",
       "personalName": "平成",
       "templeTitle": null,
@@ -13203,7 +13394,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-萧纲",
+      "id": "rn-萧梁-萧梁简文帝",
       "polityId": "pol-萧梁",
       "personalName": "萧纲",
       "templeTitle": "太宗",
@@ -13228,7 +13419,7 @@
       "displayTitle": "萧梁简文帝"
     },
     {
-      "id": "rn-高洋",
+      "id": "rn-北齐-北齐文宣帝",
       "polityId": "pol-北齐",
       "personalName": "高洋",
       "templeTitle": "显祖",
@@ -13269,7 +13460,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-西魏-废帝",
+      "id": "rn-西魏-西魏废帝",
       "polityId": "pol-西魏",
       "personalName": "元钦",
       "templeTitle": null,
@@ -13286,10 +13477,11 @@
         "废帝",
         "魏废帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "eraNames": []
     },
     {
-      "id": "rn-萧绎",
+      "id": "rn-萧梁-萧梁孝元帝",
       "polityId": "pol-萧梁",
       "personalName": "萧绎",
       "templeTitle": "世祖",
@@ -13330,7 +13522,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-突厥汗国-阿史那土门",
+      "id": "rn-突厥汗国-伊利可汗",
       "polityId": "pol-突厥汗国",
       "personalName": "阿史那土门",
       "templeTitle": null,
@@ -13363,7 +13555,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-突厥汗国-阿史那科罗",
+      "id": "rn-突厥汗国-乙息记可汗",
       "polityId": "pol-突厥汗国",
       "personalName": "阿史那科罗",
       "templeTitle": null,
@@ -13380,7 +13572,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-突厥汗国-阿史那俟斤",
+      "id": "rn-突厥汗国-木杆可汗",
       "polityId": "pol-突厥汗国",
       "personalName": "阿史那俟斤",
       "templeTitle": null,
@@ -13397,7 +13589,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-元廓",
+      "id": "rn-西魏-西魏恭帝",
       "polityId": "pol-西魏",
       "personalName": "元廓",
       "templeTitle": null,
@@ -13419,7 +13611,7 @@
       "displayTitle": "西魏恭帝"
     },
     {
-      "id": "rn-陈霸先",
+      "id": "rn-南陈-南陈武帝",
       "polityId": "pol-南陈",
       "personalName": "陈霸先",
       "templeTitle": "高祖",
@@ -13444,7 +13636,7 @@
       "displayTitle": "南陈武帝"
     },
     {
-      "id": "rn-宇文觉",
+      "id": "rn-北周-北周孝闵帝",
       "polityId": "pol-北周",
       "personalName": "宇文觉",
       "templeTitle": null,
@@ -13468,7 +13660,7 @@
       "displayTitle": "北周孝闵帝"
     },
     {
-      "id": "rn-北周-明帝",
+      "id": "rn-北周-北周明帝",
       "polityId": "pol-北周",
       "personalName": "宇文毓",
       "templeTitle": "世宗",
@@ -13487,10 +13679,13 @@
         "周明帝",
         "明皇帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "eraNames": [
+        "武成"
+      ]
     },
     {
-      "id": "rn-陈蒨",
+      "id": "rn-南陈-南陈文帝",
       "polityId": "pol-南陈",
       "personalName": "陈蒨",
       "templeTitle": "世祖",
@@ -13516,7 +13711,7 @@
       "displayTitle": "南陈文帝"
     },
     {
-      "id": "rn-高句丽-高阳成",
+      "id": "rn-高句丽-平原王",
       "polityId": "pol-高句丽",
       "personalName": "高阳成",
       "templeTitle": null,
@@ -13533,7 +13728,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-宇文邕",
+      "id": "rn-北周-北周武帝",
       "polityId": "pol-北周",
       "personalName": "宇文邕",
       "templeTitle": "高祖",
@@ -13561,7 +13756,7 @@
       "displayTitle": "北周武帝"
     },
     {
-      "id": "rn-南陈-废帝",
+      "id": "rn-南陈-南陈废帝",
       "polityId": "pol-南陈",
       "personalName": "陈伯宗",
       "templeTitle": null,
@@ -13578,10 +13773,13 @@
         "废帝",
         "陈废帝"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "eraNames": [
+        "光大"
+      ]
     },
     {
-      "id": "rn-陈顼",
+      "id": "rn-南陈-南陈孝宣帝",
       "polityId": "pol-南陈",
       "personalName": "陈顼",
       "templeTitle": "高宗",
@@ -13606,7 +13804,7 @@
       "displayTitle": "南陈孝宣帝"
     },
     {
-      "id": "rn-突厥汗国-阿史那",
+      "id": "rn-突厥汗国-佗钵可汗",
       "polityId": "pol-突厥汗国",
       "personalName": "阿史那",
       "templeTitle": null,
@@ -13623,7 +13821,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-宇文阐",
+      "id": "rn-北周-北周静帝",
       "polityId": "pol-北周",
       "personalName": "宇文阐",
       "templeTitle": null,
@@ -13648,13 +13846,16 @@
       "displayTitle": "北周静帝"
     },
     {
-      "id": "rn-隋-杨坚",
+      "id": "rn-隋朝-隋文帝",
       "polityId": "pol-隋朝",
       "personalName": "杨坚",
       "templeTitle": "高祖",
       "posthumousTitle": "文帝",
       "displayTitle": "隋文帝",
-      "eraNames": [],
+      "eraNames": [
+        "开皇",
+        "仁寿"
+      ],
       "reignStartYear": 581,
       "reignEndYear": 604,
       "aliases": [
@@ -13668,7 +13869,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-突厥汗国-阿史那摄图",
+      "id": "rn-突厥汗国-沙钵略可汗",
       "polityId": "pol-突厥汗国",
       "personalName": "阿史那摄图",
       "templeTitle": null,
@@ -13685,31 +13886,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-杨坚",
-      "polityId": "pol-隋朝",
-      "personalName": "杨坚",
-      "templeTitle": "高祖",
-      "posthumousTitle": "文皇帝",
-      "displayTitle": "隋文帝",
-      "eraNames": [
-        "开皇"
-      ],
-      "reignStartYear": 581,
-      "reignEndYear": 604,
-      "aliases": [
-        "隋文帝",
-        "文帝"
-      ],
-      "searchLabels": [
-        "杨坚",
-        "隋文帝",
-        "高祖",
-        "文帝"
-      ],
-      "uncertain": false
-    },
-    {
-      "id": "rn-陈叔宝",
+      "id": "rn-南陈-南陈后主",
       "polityId": "pol-南陈",
       "personalName": "陈叔宝",
       "templeTitle": null,
@@ -13731,7 +13908,7 @@
       "displayTitle": "南陈后主"
     },
     {
-      "id": "rn-西突厥-阿史那玷厥",
+      "id": "rn-西突厥-突厥达头可汗",
       "polityId": "pol-西突厥",
       "personalName": "阿史那玷厥",
       "templeTitle": null,
@@ -13748,7 +13925,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-突厥汗国-阿史那处罗侯",
+      "id": "rn-突厥汗国-莫何可汗",
       "polityId": "pol-突厥汗国",
       "personalName": "阿史那处罗侯",
       "templeTitle": null,
@@ -13765,7 +13942,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-突厥汗国-阿史那雍虞闾",
+      "id": "rn-突厥汗国-都蓝可汗",
       "polityId": "pol-突厥汗国",
       "personalName": "阿史那雍虞闾",
       "templeTitle": null,
@@ -13782,7 +13959,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-高句丽-高元",
+      "id": "rn-高句丽-婴阳王",
       "polityId": "pol-高句丽",
       "personalName": "高元",
       "templeTitle": null,
@@ -13815,7 +13992,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-突厥汗国-阿史那染干",
+      "id": "rn-突厥汗国-启民可汗",
       "polityId": "pol-突厥汗国",
       "personalName": "阿史那染干",
       "templeTitle": null,
@@ -13864,7 +14041,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-西突厥-阿史那达漫",
+      "id": "rn-西突厥-突厥处罗可汗",
       "polityId": "pol-西突厥",
       "personalName": "阿史那达漫",
       "templeTitle": null,
@@ -13881,38 +14058,16 @@
       "uncertain": true
     },
     {
-      "id": "rn-杨广",
-      "polityId": "pol-隋朝",
-      "personalName": "杨广",
-      "templeTitle": "世祖",
-      "posthumousTitle": "炀皇帝",
-      "eraNames": [
-        "大业"
-      ],
-      "reignStartYear": 604,
-      "reignEndYear": 617,
-      "aliases": [
-        "隋炀帝",
-        "炀帝"
-      ],
-      "searchLabels": [
-        "杨广",
-        "世祖",
-        "炀皇帝",
-        "隋炀帝",
-        "炀帝"
-      ],
-      "uncertain": false,
-      "displayTitle": "隋炀帝"
-    },
-    {
-      "id": "rn-隋-杨广",
+      "id": "rn-隋朝-隋炀帝",
       "polityId": "pol-隋朝",
       "personalName": "杨广",
       "templeTitle": null,
       "posthumousTitle": "炀帝",
       "displayTitle": "隋炀帝",
-      "eraNames": [],
+      "eraNames": [
+        "大业",
+        "义宁"
+      ],
       "reignStartYear": 604,
       "reignEndYear": 617,
       "aliases": [
@@ -13926,7 +14081,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-突厥汗国-阿史那咄吉世",
+      "id": "rn-突厥汗国-始毕可汗",
       "polityId": "pol-突厥汗国",
       "personalName": "阿史那咄吉世",
       "templeTitle": null,
@@ -13943,7 +14098,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-西突厥-阿史那",
+      "id": "rn-西突厥-突厥射匮可汗",
       "polityId": "pol-西突厥",
       "personalName": "阿史那",
       "templeTitle": null,
@@ -13960,7 +14115,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-杨侑",
+      "id": "rn-隋朝-隋恭帝",
       "polityId": "pol-隋朝",
       "personalName": "杨侑",
       "templeTitle": null,
@@ -13984,7 +14139,7 @@
       "displayTitle": "隋恭帝"
     },
     {
-      "id": "rn-李渊",
+      "id": "rn-唐朝-唐高祖",
       "polityId": "pol-唐朝",
       "personalName": "李渊",
       "templeTitle": "高祖",
@@ -14008,7 +14163,7 @@
       "displayTitle": "唐高祖"
     },
     {
-      "id": "rn-高句丽-高建武",
+      "id": "rn-高句丽-荣留王",
       "polityId": "pol-高句丽",
       "personalName": "高建武",
       "templeTitle": null,
@@ -14025,7 +14180,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-西突厥-阿史那-1",
+      "id": "rn-西突厥-突厥统叶护可汗",
       "polityId": "pol-西突厥",
       "personalName": "阿史那",
       "templeTitle": null,
@@ -14061,7 +14216,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-突厥汗国-阿史那俟利弗设",
+      "id": "rn-突厥汗国-处罗可汗",
       "polityId": "pol-突厥汗国",
       "personalName": "阿史那俟利弗设",
       "templeTitle": null,
@@ -14078,7 +14233,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-突厥汗国-阿史那咄苾",
+      "id": "rn-突厥汗国-颉利可汗",
       "polityId": "pol-突厥汗国",
       "personalName": "阿史那咄苾",
       "templeTitle": null,
@@ -14095,7 +14250,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-李世民",
+      "id": "rn-唐朝-唐太宗",
       "polityId": "pol-唐朝",
       "personalName": "李世民",
       "templeTitle": "太宗",
@@ -14121,7 +14276,7 @@
       "displayTitle": "唐太宗"
     },
     {
-      "id": "rn-西突厥-阿史那咥力特勒",
+      "id": "rn-西突厥-突厥肆叶护可汗",
       "polityId": "pol-西突厥",
       "personalName": "阿史那咥力特勒",
       "templeTitle": null,
@@ -14170,7 +14325,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-高句丽-高藏",
+      "id": "rn-高句丽-宝藏王",
       "polityId": "pol-高句丽",
       "personalName": "高藏",
       "templeTitle": null,
@@ -14187,7 +14342,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-李治",
+      "id": "rn-唐朝-唐高宗",
       "polityId": "pol-唐朝",
       "personalName": "李治",
       "templeTitle": "高宗",
@@ -14272,7 +14427,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-西突厥-阿史那贺鲁",
+      "id": "rn-西突厥-突厥沙钵罗可汗",
       "polityId": "pol-西突厥",
       "personalName": "阿史那贺鲁",
       "templeTitle": null,
@@ -14337,7 +14492,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-后突厥汗国-阿史那骨咄禄",
+      "id": "rn-后突厥汗国-突厥颉跌利施可汗",
       "polityId": "pol-后突厥汗国",
       "personalName": "阿史那骨咄禄",
       "templeTitle": null,
@@ -14354,13 +14509,18 @@
       "uncertain": true
     },
     {
-      "id": "rn-唐朝-中宗初",
+      "id": "rn-唐朝-唐中宗-1",
       "polityId": "pol-唐朝",
       "personalName": "李显",
       "templeTitle": "中宗",
       "posthumousTitle": "孝和皇帝",
       "displayTitle": "唐中宗",
-      "eraNames": [],
+      "eraNames": [
+        "弘道",
+        "嗣圣",
+        "文明",
+        "光宅"
+      ],
       "reignStartYear": 683,
       "reignEndYear": 684,
       "aliases": [
@@ -14380,13 +14540,20 @@
       "uncertain": false
     },
     {
-      "id": "rn-唐朝-睿宗初",
+      "id": "rn-唐朝-唐睿宗-1",
       "polityId": "pol-唐朝",
       "personalName": "李旦",
       "templeTitle": "睿宗",
       "posthumousTitle": "玄真皇帝",
       "displayTitle": "唐睿宗",
-      "eraNames": [],
+      "eraNames": [
+        "嗣圣",
+        "文明",
+        "光宅",
+        "垂拱",
+        "永昌",
+        "载初"
+      ],
       "reignStartYear": 684,
       "reignEndYear": 690,
       "aliases": [
@@ -14404,16 +14571,12 @@
       "uncertain": false
     },
     {
-      "id": "rn-武曌",
+      "id": "rn-武周-周则天大圣帝",
       "polityId": "pol-武周",
       "personalName": "武曌",
       "templeTitle": null,
       "posthumousTitle": "则天大圣皇帝",
       "eraNames": [
-        "光宅",
-        "垂拱",
-        "永昌",
-        "载初",
         "天授",
         "如意",
         "长寿",
@@ -14470,7 +14633,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "大祚荣",
-      "eraNames": [],
+      "eraNames": [
+        "仁安"
+      ],
       "reignStartYear": 698,
       "reignEndYear": 719,
       "aliases": [
@@ -14515,13 +14680,12 @@
       "uncertain": true
     },
     {
-      "id": "rn-李显",
+      "id": "rn-唐朝-唐中宗-2",
       "polityId": "pol-唐朝",
       "personalName": "李显",
       "templeTitle": "中宗",
       "posthumousTitle": "孝和皇帝",
       "eraNames": [
-        "嗣圣",
         "神龙",
         "景龙"
       ],
@@ -14541,13 +14705,12 @@
       "displayTitle": "唐中宗"
     },
     {
-      "id": "rn-李旦",
+      "id": "rn-唐朝-唐睿宗-2",
       "polityId": "pol-唐朝",
       "personalName": "李旦",
       "templeTitle": "睿宗",
       "posthumousTitle": "玄真皇帝",
       "eraNames": [
-        "文明",
         "景云",
         "太极",
         "延和"
@@ -14568,7 +14731,7 @@
       "displayTitle": "唐睿宗"
     },
     {
-      "id": "rn-李隆基",
+      "id": "rn-唐朝-唐玄宗",
       "polityId": "pol-唐朝",
       "personalName": "李隆基",
       "templeTitle": "玄宗",
@@ -14612,7 +14775,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-后突厥汗国-阿史那默棘连",
+      "id": "rn-后突厥汗国-突厥毗伽可汗",
       "polityId": "pol-后突厥汗国",
       "personalName": "阿史那默棘连",
       "templeTitle": null,
@@ -14635,7 +14798,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "大武艺",
-      "eraNames": [],
+      "eraNames": [
+        "仁安"
+      ],
       "reignStartYear": 719,
       "reignEndYear": 737,
       "aliases": [
@@ -14671,7 +14836,7 @@
       "regnalCountStartYear": 728
     },
     {
-      "id": "rn-后突厥汗国-阿史那",
+      "id": "rn-后突厥汗国-突厥伊然可汗",
       "polityId": "pol-后突厥汗国",
       "personalName": "阿史那",
       "templeTitle": null,
@@ -14694,7 +14859,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "大钦茂",
-      "eraNames": [],
+      "eraNames": [
+        "大兴",
+        "宝历"
+      ],
       "reignStartYear": 737,
       "reignEndYear": 793,
       "aliases": [
@@ -14800,7 +14968,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "阁罗凤",
-      "eraNames": [],
+      "eraNames": [
+        "赞普钟",
+        "长寿"
+      ],
       "reignStartYear": 748,
       "reignEndYear": 779,
       "aliases": [],
@@ -14842,7 +15013,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-李亨",
+      "id": "rn-唐朝-唐肃宗",
       "polityId": "pol-唐朝",
       "personalName": "李亨",
       "templeTitle": "肃宗",
@@ -14888,7 +15059,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-李豫",
+      "id": "rn-唐朝-唐代宗",
       "polityId": "pol-唐朝",
       "personalName": "李豫",
       "templeTitle": "代宗",
@@ -14914,7 +15085,7 @@
       "displayTitle": "唐代宗"
     },
     {
-      "id": "rn-李适",
+      "id": "rn-唐朝-唐德宗",
       "polityId": "pol-唐朝",
       "personalName": "李适",
       "templeTitle": "德宗",
@@ -14965,7 +15136,12 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "异牟寻",
-      "eraNames": [],
+      "eraNames": [
+        "见龙",
+        "上元",
+        "应道",
+        "龙兴"
+      ],
       "reignStartYear": 779,
       "reignEndYear": 809,
       "aliases": [],
@@ -15013,7 +15189,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "大华玙",
-      "eraNames": [],
+      "eraNames": [
+        "中兴"
+      ],
       "reignStartYear": 793,
       "reignEndYear": 794,
       "aliases": [],
@@ -15029,7 +15207,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "大嵩璘",
-      "eraNames": [],
+      "eraNames": [
+        "中兴",
+        "正历"
+      ],
       "reignStartYear": 794,
       "reignEndYear": 809,
       "aliases": [
@@ -15106,7 +15287,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-李诵",
+      "id": "rn-唐朝-唐顺宗",
       "polityId": "pol-唐朝",
       "personalName": "李诵",
       "templeTitle": "顺宗",
@@ -15130,7 +15311,7 @@
       "displayTitle": "唐顺宗"
     },
     {
-      "id": "rn-李纯",
+      "id": "rn-唐朝-唐宪宗",
       "polityId": "pol-唐朝",
       "personalName": "李纯",
       "templeTitle": "宪宗",
@@ -15192,7 +15373,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "寻阁劝",
-      "eraNames": [],
+      "eraNames": [
+        "龙兴"
+      ],
       "reignStartYear": 809,
       "reignEndYear": 809,
       "aliases": [],
@@ -15208,7 +15391,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "劝龙晟",
-      "eraNames": [],
+      "eraNames": [
+        "龙兴",
+        "全义"
+      ],
       "reignStartYear": 809,
       "reignEndYear": 816,
       "aliases": [],
@@ -15224,7 +15410,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "大元瑜",
-      "eraNames": [],
+      "eraNames": [
+        "永德",
+        "朱雀"
+      ],
       "reignStartYear": 809,
       "reignEndYear": 812,
       "aliases": [
@@ -15243,7 +15432,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "大言义",
-      "eraNames": [],
+      "eraNames": [
+        "朱雀",
+        "太始"
+      ],
       "reignStartYear": 812,
       "reignEndYear": 817,
       "aliases": [
@@ -15278,7 +15470,11 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "劝利晟",
-      "eraNames": [],
+      "eraNames": [
+        "全义",
+        "大丰",
+        "保和"
+      ],
       "reignStartYear": 816,
       "reignEndYear": 824,
       "aliases": [],
@@ -15294,7 +15490,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "大明忠",
-      "eraNames": [],
+      "eraNames": [
+        "太始",
+        "建兴"
+      ],
       "reignStartYear": 817,
       "reignEndYear": 818,
       "aliases": [
@@ -15313,7 +15512,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "大仁秀",
-      "eraNames": [],
+      "eraNames": [
+        "建兴"
+      ],
       "reignStartYear": 818,
       "reignEndYear": 830,
       "aliases": [
@@ -15326,7 +15527,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-李恒",
+      "id": "rn-唐朝-唐穆宗",
       "polityId": "pol-唐朝",
       "personalName": "李恒",
       "templeTitle": "穆宗",
@@ -15388,7 +15589,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "丰佑",
-      "eraNames": [],
+      "eraNames": [
+        "保和",
+        "天启"
+      ],
       "reignStartYear": 824,
       "reignEndYear": 859,
       "aliases": [],
@@ -15398,13 +15602,15 @@
       "uncertain": true
     },
     {
-      "id": "rn-唐朝-敬宗",
+      "id": "rn-唐朝-唐敬宗",
       "polityId": "pol-唐朝",
       "personalName": "李湛",
       "templeTitle": "敬宗",
       "posthumousTitle": "睿武昭愍孝皇帝",
       "displayTitle": "唐敬宗",
-      "eraNames": [],
+      "eraNames": [
+        "宝历"
+      ],
       "reignStartYear": 824,
       "reignEndYear": 826,
       "aliases": [
@@ -15420,13 +15626,12 @@
       "uncertain": false
     },
     {
-      "id": "rn-李昂",
+      "id": "rn-唐朝-唐文宗",
       "polityId": "pol-唐朝",
       "personalName": "李昂",
       "templeTitle": "文宗",
       "posthumousTitle": "昭献皇帝",
       "eraNames": [
-        "宝历",
         "太和",
         "开成"
       ],
@@ -15452,7 +15657,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "大彝震",
-      "eraNames": [],
+      "eraNames": [
+        "咸和"
+      ],
       "reignStartYear": 830,
       "reignEndYear": 857,
       "aliases": [],
@@ -15510,7 +15717,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-李炎",
+      "id": "rn-唐朝-唐武宗",
       "polityId": "pol-唐朝",
       "personalName": "李炎",
       "templeTitle": "武宗",
@@ -15550,7 +15757,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-李忱",
+      "id": "rn-唐朝-唐宣宗",
       "polityId": "pol-唐朝",
       "personalName": "李忱",
       "templeTitle": "宣宗",
@@ -15574,7 +15781,7 @@
       "displayTitle": "唐宣宗"
     },
     {
-      "id": "rn-于阗-尉迟僧伽罗摩-1",
+      "id": "rn-于阗-尉迟僧伽罗摩-2",
       "polityId": "pol-于阗",
       "personalName": "尉迟僧伽罗摩",
       "templeTitle": null,
@@ -15606,7 +15813,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-李漼",
+      "id": "rn-唐朝-唐懿宗",
       "polityId": "pol-唐朝",
       "personalName": "李漼",
       "templeTitle": "懿宗",
@@ -15636,7 +15843,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "世隆",
-      "eraNames": [],
+      "eraNames": [
+        "建极"
+      ],
       "reignStartYear": 859,
       "reignEndYear": 877,
       "aliases": [
@@ -15685,7 +15894,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-李儇",
+      "id": "rn-唐朝-唐僖宗",
       "polityId": "pol-唐朝",
       "personalName": "李儇",
       "templeTitle": "僖宗",
@@ -15719,7 +15928,12 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "隆舜",
-      "eraNames": [],
+      "eraNames": [
+        "贞明",
+        "承智",
+        "大同",
+        "嵯耶"
+      ],
       "reignStartYear": 877,
       "reignEndYear": 897,
       "aliases": [],
@@ -15733,7 +15947,7 @@
       "regnalCountStartYear": 877
     },
     {
-      "id": "rn-李晔",
+      "id": "rn-唐朝-唐昭宗",
       "polityId": "pol-唐朝",
       "personalName": "李晔",
       "templeTitle": "昭宗",
@@ -15801,7 +16015,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "舜化贞",
-      "eraNames": [],
+      "eraNames": [
+        "中兴"
+      ],
       "reignStartYear": 897,
       "reignEndYear": 902,
       "aliases": [],
@@ -15811,7 +16027,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-杨行密",
+      "id": "rn-杨吴-杨吴太祖",
       "polityId": "pol-杨吴",
       "personalName": "杨行密",
       "templeTitle": "太祖",
@@ -15835,7 +16051,7 @@
       "displayTitle": "杨吴太祖"
     },
     {
-      "id": "rn-李柷",
+      "id": "rn-唐朝-唐哀帝",
       "polityId": "pol-唐朝",
       "personalName": "李柷",
       "templeTitle": "哀帝",
@@ -15859,7 +16075,7 @@
       "displayTitle": "唐哀帝"
     },
     {
-      "id": "rn-杨渥",
+      "id": "rn-杨吴-杨吴烈祖",
       "polityId": "pol-杨吴",
       "personalName": "杨渥",
       "templeTitle": "烈祖",
@@ -15899,7 +16115,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-朱温",
+      "id": "rn-后梁-后梁太祖",
       "polityId": "pol-后梁",
       "personalName": "朱温",
       "templeTitle": "太祖",
@@ -15926,7 +16142,7 @@
       "displayTitle": "后梁太祖"
     },
     {
-      "id": "rn-钱镠",
+      "id": "rn-吴越-吴越太祖",
       "polityId": "pol-吴越",
       "personalName": "钱镠",
       "templeTitle": "太祖",
@@ -15954,7 +16170,7 @@
       "displayTitle": "吴越太祖"
     },
     {
-      "id": "rn-马楚-武穆王",
+      "id": "rn-马楚-马楚武穆王",
       "polityId": "pol-马楚",
       "personalName": "马殷",
       "templeTitle": null,
@@ -15975,7 +16191,7 @@
       "displayTitle": "马楚武穆王"
     },
     {
-      "id": "rn-王建",
+      "id": "rn-前蜀-前蜀高祖",
       "polityId": "pol-前蜀",
       "personalName": "王建",
       "templeTitle": "高祖",
@@ -16003,7 +16219,7 @@
       "displayTitle": "前蜀高祖"
     },
     {
-      "id": "rn-耶律阿保机",
+      "id": "rn-契丹-辽太祖",
       "polityId": "pol-契丹",
       "personalName": "耶律阿保机",
       "templeTitle": "太祖",
@@ -16031,7 +16247,7 @@
       "displayTitle": "辽太祖"
     },
     {
-      "id": "rn-杨隆演",
+      "id": "rn-杨吴-杨吴高祖",
       "polityId": "pol-杨吴",
       "personalName": "杨隆演",
       "templeTitle": "高祖",
@@ -16055,7 +16271,7 @@
       "displayTitle": "杨吴高祖"
     },
     {
-      "id": "rn-王审知",
+      "id": "rn-闽-闽太祖",
       "polityId": "pol-闽",
       "personalName": "王审知",
       "templeTitle": "太祖",
@@ -16077,7 +16293,7 @@
       "displayTitle": "闽太祖"
     },
     {
-      "id": "rn-朱友珪",
+      "id": "rn-后梁-后梁朱友珪",
       "polityId": "pol-后梁",
       "personalName": "朱友珪",
       "templeTitle": null,
@@ -16115,13 +16331,13 @@
       "uncertain": true
     },
     {
-      "id": "rn-朱友贞",
+      "id": "rn-后梁-后梁末帝",
       "polityId": "pol-后梁",
       "personalName": "朱友贞",
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
-        "乾化",
+        "凤历",
         "贞明",
         "龙德"
       ],
@@ -16139,7 +16355,7 @@
       "displayTitle": "后梁末帝"
     },
     {
-      "id": "rn-刘龑",
+      "id": "rn-南汉-南汉高祖",
       "polityId": "pol-南汉",
       "personalName": "刘龑",
       "templeTitle": "高祖",
@@ -16165,7 +16381,7 @@
       "displayTitle": "南汉高祖"
     },
     {
-      "id": "rn-王衍",
+      "id": "rn-前蜀-前蜀后主",
       "polityId": "pol-前蜀",
       "personalName": "王衍",
       "templeTitle": null,
@@ -16207,7 +16423,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-杨溥",
+      "id": "rn-杨吴-杨吴睿帝",
       "polityId": "pol-杨吴",
       "personalName": "杨溥",
       "templeTitle": null,
@@ -16237,7 +16453,7 @@
       "displayTitle": "杨吴睿帝"
     },
     {
-      "id": "rn-李存勖",
+      "id": "rn-后唐-后唐庄宗",
       "polityId": "pol-后唐",
       "personalName": "李存勖",
       "templeTitle": "庄宗",
@@ -16261,7 +16477,7 @@
       "displayTitle": "后唐庄宗"
     },
     {
-      "id": "rn-高季兴",
+      "id": "rn-南平-南平武信王",
       "polityId": "pol-南平",
       "personalName": "高季兴",
       "templeTitle": null,
@@ -16282,7 +16498,7 @@
       "displayTitle": "南平武信王"
     },
     {
-      "id": "rn-王延翰",
+      "id": "rn-闽-闽嗣王",
       "polityId": "pol-闽",
       "personalName": "王延翰",
       "templeTitle": null,
@@ -16302,7 +16518,7 @@
       "displayTitle": "闽嗣王"
     },
     {
-      "id": "rn-李嗣源",
+      "id": "rn-后唐-后唐明宗",
       "polityId": "pol-后唐",
       "personalName": "李嗣源",
       "templeTitle": "明宗",
@@ -16327,7 +16543,7 @@
       "displayTitle": "后唐明宗"
     },
     {
-      "id": "rn-耶律德光",
+      "id": "rn-契丹-辽太宗",
       "polityId": "pol-契丹",
       "personalName": "耶律德光",
       "templeTitle": "太宗",
@@ -16355,7 +16571,7 @@
       "displayTitle": "辽太宗"
     },
     {
-      "id": "rn-王延钧",
+      "id": "rn-闽-闽太宗",
       "polityId": "pol-闽",
       "personalName": "王延钧",
       "templeTitle": "太宗",
@@ -16380,7 +16596,7 @@
       "displayTitle": "闽太宗"
     },
     {
-      "id": "rn-南平-文献王",
+      "id": "rn-南平-南平文献王",
       "polityId": "pol-南平",
       "personalName": "高从诲",
       "templeTitle": null,
@@ -16400,7 +16616,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-钱元瓘",
+      "id": "rn-吴越-吴越太宗",
       "polityId": "pol-吴越",
       "personalName": "钱元瓘",
       "templeTitle": "太宗",
@@ -16424,7 +16640,7 @@
       "displayTitle": "吴越太宗"
     },
     {
-      "id": "rn-李从厚",
+      "id": "rn-后唐-后唐闵帝",
       "polityId": "pol-后唐",
       "personalName": "李从厚",
       "templeTitle": null,
@@ -16447,7 +16663,7 @@
       "displayTitle": "后唐闵帝"
     },
     {
-      "id": "rn-李从珂",
+      "id": "rn-后唐-后唐末帝",
       "polityId": "pol-后唐",
       "personalName": "李从珂",
       "templeTitle": null,
@@ -16469,7 +16685,7 @@
       "displayTitle": "后唐末帝"
     },
     {
-      "id": "rn-孟知祥",
+      "id": "rn-后蜀-后蜀高祖",
       "polityId": "pol-后蜀",
       "personalName": "孟知祥",
       "templeTitle": "高祖",
@@ -16493,7 +16709,7 @@
       "displayTitle": "后蜀高祖"
     },
     {
-      "id": "rn-孟昶",
+      "id": "rn-后蜀-后蜀后主",
       "polityId": "pol-后蜀",
       "personalName": "孟昶",
       "templeTitle": null,
@@ -16516,7 +16732,7 @@
       "displayTitle": "后蜀后主"
     },
     {
-      "id": "rn-石敬瑭",
+      "id": "rn-后晋-后晋高祖",
       "polityId": "pol-后晋",
       "personalName": "石敬瑭",
       "templeTitle": "高祖",
@@ -16540,7 +16756,7 @@
       "displayTitle": "后晋高祖"
     },
     {
-      "id": "rn-李昪",
+      "id": "rn-南唐-南唐烈祖",
       "polityId": "pol-南唐",
       "personalName": "李昪",
       "templeTitle": "烈祖",
@@ -16570,7 +16786,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段思平",
-      "eraNames": [],
+      "eraNames": [
+        "文德",
+        "神武"
+      ],
       "reignStartYear": 937,
       "reignEndYear": 944,
       "aliases": [
@@ -16583,13 +16802,14 @@
       "uncertain": true
     },
     {
-      "id": "rn-王延羲",
+      "id": "rn-闽-闽景宗",
       "polityId": "pol-闽",
       "personalName": "王延羲",
       "templeTitle": "景宗",
       "posthumousTitle": null,
       "eraNames": [
-        "永隆"
+        "永隆",
+        "天德"
       ],
       "reignStartYear": 939,
       "reignEndYear": 944,
@@ -16607,7 +16827,7 @@
       "displayTitle": "闽景宗"
     },
     {
-      "id": "rn-吴越-成宗",
+      "id": "rn-吴越-吴越成宗",
       "polityId": "pol-吴越",
       "personalName": "钱弘佐",
       "templeTitle": "成宗",
@@ -16629,13 +16849,12 @@
       "uncertain": false
     },
     {
-      "id": "rn-石重贵",
+      "id": "rn-后晋-后晋出帝",
       "polityId": "pol-后晋",
       "personalName": "石重贵",
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
-        "天福",
         "开运"
       ],
       "reignStartYear": 942,
@@ -16652,7 +16871,7 @@
       "displayTitle": "后晋出帝"
     },
     {
-      "id": "rn-李璟",
+      "id": "rn-南唐-南唐元宗",
       "polityId": "pol-南唐",
       "personalName": "李璟",
       "templeTitle": "元宗",
@@ -16680,7 +16899,7 @@
       "displayTitle": "南唐元宗"
     },
     {
-      "id": "rn-刘晟",
+      "id": "rn-南汉-南汉中宗",
       "polityId": "pol-南汉",
       "personalName": "刘晟",
       "templeTitle": "中宗",
@@ -16710,7 +16929,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段思英",
-      "eraNames": [],
+      "eraNames": [
+        "文经"
+      ],
       "reignStartYear": 944,
       "reignEndYear": 945,
       "aliases": [],
@@ -16726,7 +16947,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段思良",
-      "eraNames": [],
+      "eraNames": [
+        "文经",
+        "至治"
+      ],
       "reignStartYear": 945,
       "reignEndYear": 951,
       "aliases": [],
@@ -16736,7 +16960,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-刘知远",
+      "id": "rn-后汉-后汉高祖",
       "polityId": "pol-后汉",
       "personalName": "刘知远",
       "templeTitle": "高祖",
@@ -16761,7 +16985,7 @@
       "displayTitle": "后汉高祖"
     },
     {
-      "id": "rn-耶律阮",
+      "id": "rn-辽-辽世宗",
       "polityId": "pol-辽",
       "personalName": "耶律阮",
       "templeTitle": "世宗",
@@ -16785,7 +17009,7 @@
       "displayTitle": "辽世宗"
     },
     {
-      "id": "rn-吴越-忠逊王",
+      "id": "rn-吴越-吴越忠逊王",
       "polityId": "pol-吴越",
       "personalName": "钱弘倧",
       "templeTitle": null,
@@ -16804,7 +17028,7 @@
       "uncertain": false
     },
     {
-      "id": "rn-刘承祐",
+      "id": "rn-后汉-后汉隐帝",
       "polityId": "pol-后汉",
       "personalName": "刘承祐",
       "templeTitle": null,
@@ -16826,7 +17050,7 @@
       "displayTitle": "后汉隐帝"
     },
     {
-      "id": "rn-钱弘俶",
+      "id": "rn-吴越-吴越忠懿王",
       "polityId": "pol-吴越",
       "personalName": "钱弘俶",
       "templeTitle": null,
@@ -16849,7 +17073,7 @@
       "displayTitle": "吴越忠懿王"
     },
     {
-      "id": "rn-高保融",
+      "id": "rn-南平-南平贞懿王",
       "polityId": "pol-南平",
       "personalName": "高保融",
       "templeTitle": null,
@@ -16871,7 +17095,7 @@
       "displayTitle": "南平贞懿王"
     },
     {
-      "id": "rn-郭威",
+      "id": "rn-后周-后周太祖",
       "polityId": "pol-后周",
       "personalName": "郭威",
       "templeTitle": "太祖",
@@ -16896,7 +17120,7 @@
       "displayTitle": "后周太祖"
     },
     {
-      "id": "rn-刘旻",
+      "id": "rn-北汉-北汉世祖",
       "polityId": "pol-北汉",
       "personalName": "刘旻",
       "templeTitle": "世祖",
@@ -16920,7 +17144,7 @@
       "displayTitle": "北汉世祖"
     },
     {
-      "id": "rn-耶律璟",
+      "id": "rn-辽-辽穆宗",
       "polityId": "pol-辽",
       "personalName": "耶律璟",
       "templeTitle": "穆宗",
@@ -16950,7 +17174,12 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段思聪",
-      "eraNames": [],
+      "eraNames": [
+        "明德",
+        "广德",
+        "顺德",
+        "明政"
+      ],
       "reignStartYear": 951,
       "reignEndYear": 973,
       "aliases": [],
@@ -16960,7 +17189,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-柴荣",
+      "id": "rn-后周-后周世宗",
       "polityId": "pol-后周",
       "personalName": "柴荣",
       "templeTitle": "世宗",
@@ -16984,7 +17213,7 @@
       "displayTitle": "后周世宗"
     },
     {
-      "id": "rn-刘钧",
+      "id": "rn-北汉-北汉睿宗",
       "polityId": "pol-北汉",
       "personalName": "刘钧",
       "templeTitle": "睿宗",
@@ -17024,7 +17253,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-刘鋹",
+      "id": "rn-南汉-南汉后主",
       "polityId": "pol-南汉",
       "personalName": "刘鋹",
       "templeTitle": null,
@@ -17046,14 +17275,12 @@
       "displayTitle": "南汉后主"
     },
     {
-      "id": "rn-郭宗训",
+      "id": "rn-后周-后周恭帝",
       "polityId": "pol-后周",
       "personalName": "郭宗训",
       "templeTitle": null,
       "posthumousTitle": "恭皇帝",
-      "eraNames": [
-        "显德"
-      ],
+      "eraNames": [],
       "reignStartYear": 959,
       "reignEndYear": 960,
       "aliases": [
@@ -17071,7 +17298,7 @@
       "displayTitle": "后周恭帝"
     },
     {
-      "id": "rn-赵匡胤",
+      "id": "rn-北宋-宋太祖",
       "polityId": "pol-北宋",
       "personalName": "赵匡胤",
       "templeTitle": "太祖",
@@ -17097,7 +17324,7 @@
       "displayTitle": "宋太祖"
     },
     {
-      "id": "rn-李煜",
+      "id": "rn-南唐-南唐后主",
       "polityId": "pol-南唐",
       "personalName": "李煜",
       "templeTitle": null,
@@ -17119,7 +17346,7 @@
       "displayTitle": "南唐后主"
     },
     {
-      "id": "rn-耶律贤",
+      "id": "rn-辽-辽景宗",
       "polityId": "pol-辽",
       "personalName": "耶律贤",
       "templeTitle": "景宗",
@@ -17144,7 +17371,7 @@
       "displayTitle": "辽景宗"
     },
     {
-      "id": "rn-喀喇汗国-哈桑",
+      "id": "rn-喀喇汗国-哈桑-1",
       "polityId": "pol-喀喇汗国",
       "personalName": "哈桑",
       "templeTitle": null,
@@ -17176,7 +17403,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-赵光义",
+      "id": "rn-北宋-宋太宗",
       "polityId": "pol-北宋",
       "personalName": "赵光义",
       "templeTitle": "太宗",
@@ -17204,7 +17431,7 @@
       "displayTitle": "宋太宗"
     },
     {
-      "id": "rn-耶律隆绪",
+      "id": "rn-辽-辽圣宗",
       "polityId": "pol-辽",
       "personalName": "耶律隆绪",
       "templeTitle": "圣宗",
@@ -17236,7 +17463,12 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段素英",
-      "eraNames": [],
+      "eraNames": [
+        "广明",
+        "明治",
+        "明圣",
+        "明应"
+      ],
       "reignStartYear": 985,
       "reignEndYear": 1009,
       "aliases": [],
@@ -17262,7 +17494,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-赵恒",
+      "id": "rn-北宋-宋真宗",
       "polityId": "pol-北宋",
       "personalName": "赵恒",
       "templeTitle": "真宗",
@@ -17296,7 +17528,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段素廉",
-      "eraNames": [],
+      "eraNames": [
+        "明启"
+      ],
       "reignStartYear": 1009,
       "reignEndYear": 1022,
       "aliases": [],
@@ -17306,7 +17540,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-赵祯",
+      "id": "rn-北宋-宋仁宗",
       "polityId": "pol-北宋",
       "personalName": "赵祯",
       "templeTitle": "仁宗",
@@ -17344,7 +17578,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段素隆",
-      "eraNames": [],
+      "eraNames": [
+        "明通"
+      ],
       "reignStartYear": 1022,
       "reignEndYear": 1026,
       "aliases": [],
@@ -17360,7 +17596,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段素真",
-      "eraNames": [],
+      "eraNames": [
+        "正治"
+      ],
       "reignStartYear": 1026,
       "reignEndYear": 1041,
       "aliases": [],
@@ -17370,7 +17608,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-耶律宗真",
+      "id": "rn-辽-辽兴宗",
       "polityId": "pol-辽",
       "personalName": "耶律宗真",
       "templeTitle": "兴宗",
@@ -17395,7 +17633,7 @@
       "displayTitle": "辽兴宗"
     },
     {
-      "id": "rn-喀喇汗国-马赫穆德",
+      "id": "rn-喀喇汗国-马赫穆德-1",
       "polityId": "pol-喀喇汗国",
       "personalName": "马赫穆德",
       "templeTitle": null,
@@ -17411,14 +17649,12 @@
       "uncertain": true
     },
     {
-      "id": "rn-李元昊",
+      "id": "rn-西夏-李元昊",
       "polityId": "pol-西夏",
       "personalName": "李元昊",
       "templeTitle": "景宗",
       "posthumousTitle": "武烈皇帝",
       "eraNames": [
-        "广运",
-        "大庆",
         "天授礼法延祚"
       ],
       "reignStartYear": 1038,
@@ -17443,7 +17679,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段素兴",
-      "eraNames": [],
+      "eraNames": [
+        "圣明",
+        "天明"
+      ],
       "reignStartYear": 1041,
       "reignEndYear": 1044,
       "aliases": [],
@@ -17459,7 +17698,13 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段思廉",
-      "eraNames": [],
+      "eraNames": [
+        "保安",
+        "正安",
+        "正德",
+        "保德",
+        "上德"
+      ],
       "reignStartYear": 1044,
       "reignEndYear": 1075,
       "aliases": [],
@@ -17469,7 +17714,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-李谅祚",
+      "id": "rn-西夏-李谅祚",
       "polityId": "pol-西夏",
       "personalName": "李谅祚",
       "templeTitle": "毅宗",
@@ -17497,7 +17742,7 @@
       "displayTitle": "李谅祚"
     },
     {
-      "id": "rn-耶律洪基",
+      "id": "rn-辽-辽道宗",
       "polityId": "pol-辽",
       "personalName": "耶律洪基",
       "templeTitle": "道宗",
@@ -17525,7 +17770,7 @@
       "displayTitle": "辽道宗"
     },
     {
-      "id": "rn-赵曙",
+      "id": "rn-北宋-宋英宗",
       "polityId": "pol-北宋",
       "personalName": "赵曙",
       "templeTitle": "英宗",
@@ -17549,7 +17794,7 @@
       "displayTitle": "宋英宗"
     },
     {
-      "id": "rn-赵顼",
+      "id": "rn-北宋-宋神宗",
       "polityId": "pol-北宋",
       "personalName": "赵顼",
       "templeTitle": "神宗",
@@ -17574,7 +17819,7 @@
       "displayTitle": "宋神宗"
     },
     {
-      "id": "rn-李秉常",
+      "id": "rn-西夏-李秉常",
       "polityId": "pol-西夏",
       "personalName": "李秉常",
       "templeTitle": "惠宗",
@@ -17601,7 +17846,7 @@
       "displayTitle": "李秉常"
     },
     {
-      "id": "rn-喀喇汗国-哈桑-1",
+      "id": "rn-喀喇汗国-哈桑-2",
       "polityId": "pol-喀喇汗国",
       "personalName": "哈桑",
       "templeTitle": null,
@@ -17623,7 +17868,11 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段连义",
-      "eraNames": [],
+      "eraNames": [
+        "上德",
+        "广安",
+        "上明"
+      ],
       "reignStartYear": 1075,
       "reignEndYear": 1080,
       "aliases": [],
@@ -17639,7 +17888,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段寿辉",
-      "eraNames": [],
+      "eraNames": [
+        "上明",
+        "保定"
+      ],
       "reignStartYear": 1080,
       "reignEndYear": 1081,
       "aliases": [],
@@ -17655,7 +17907,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段正明",
-      "eraNames": [],
+      "eraNames": [
+        "保定"
+      ],
       "reignStartYear": 1081,
       "reignEndYear": 1094,
       "aliases": [],
@@ -17665,7 +17919,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-赵煦",
+      "id": "rn-北宋-宋哲宗",
       "polityId": "pol-北宋",
       "personalName": "赵煦",
       "templeTitle": "哲宗",
@@ -17691,7 +17945,7 @@
       "displayTitle": "宋哲宗"
     },
     {
-      "id": "rn-李乾顺",
+      "id": "rn-西夏-李乾顺",
       "polityId": "pol-西夏",
       "personalName": "李乾顺",
       "templeTitle": "崇宗",
@@ -17728,7 +17982,12 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段正淳",
-      "eraNames": [],
+      "eraNames": [
+        "天授",
+        "开明",
+        "天政",
+        "文安"
+      ],
       "reignStartYear": 1096,
       "reignEndYear": 1108,
       "aliases": [],
@@ -17738,7 +17997,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-赵佶",
+      "id": "rn-北宋-宋徽宗",
       "polityId": "pol-北宋",
       "personalName": "赵佶",
       "templeTitle": "徽宗",
@@ -17767,7 +18026,7 @@
       "displayTitle": "宋徽宗"
     },
     {
-      "id": "rn-耶律延禧",
+      "id": "rn-辽-辽天祚帝",
       "polityId": "pol-辽",
       "personalName": "耶律延禧",
       "templeTitle": null,
@@ -17807,13 +18066,19 @@
       "uncertain": true
     },
     {
-      "id": "rn-大理-段和誉（段正严）",
+      "id": "rn-大理-段正严",
       "polityId": "pol-大理",
       "personalName": "段和誉（段正严）",
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段正严",
-      "eraNames": [],
+      "eraNames": [
+        "日新",
+        "文治",
+        "永嘉",
+        "保天",
+        "广应"
+      ],
       "reignStartYear": 1108,
       "reignEndYear": 1147,
       "aliases": [
@@ -17826,7 +18091,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-完颜阿骨打",
+      "id": "rn-金-金太祖",
       "polityId": "pol-金",
       "personalName": "完颜阿骨打",
       "templeTitle": "太祖",
@@ -17851,7 +18116,7 @@
       "displayTitle": "金太祖"
     },
     {
-      "id": "rn-完颜吴乞买",
+      "id": "rn-金-金太宗",
       "polityId": "pol-金",
       "personalName": "完颜吴乞买",
       "templeTitle": "太宗",
@@ -17877,7 +18142,7 @@
       "displayTitle": "金太宗"
     },
     {
-      "id": "rn-赵桓",
+      "id": "rn-北宋-宋钦宗",
       "polityId": "pol-北宋",
       "personalName": "赵桓",
       "templeTitle": "钦宗",
@@ -17901,7 +18166,7 @@
       "displayTitle": "宋钦宗"
     },
     {
-      "id": "rn-赵构",
+      "id": "rn-南宋-宋高宗",
       "polityId": "pol-南宋",
       "personalName": "赵构",
       "templeTitle": "高宗",
@@ -17959,7 +18224,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-完颜亶",
+      "id": "rn-金-金熙宗",
       "polityId": "pol-金",
       "personalName": "完颜亶",
       "templeTitle": "熙宗",
@@ -17984,7 +18249,7 @@
       "displayTitle": "金熙宗"
     },
     {
-      "id": "rn-李仁孝",
+      "id": "rn-西夏-李仁孝",
       "polityId": "pol-西夏",
       "personalName": "李仁孝",
       "templeTitle": "仁宗",
@@ -18034,7 +18299,13 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段正兴",
-      "eraNames": [],
+      "eraNames": [
+        "永贞",
+        "大宝",
+        "龙兴",
+        "盛明",
+        "建德"
+      ],
       "reignStartYear": 1147,
       "reignEndYear": 1171,
       "aliases": [],
@@ -18044,7 +18315,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-完颜亮",
+      "id": "rn-金-金海陵王",
       "polityId": "pol-金",
       "personalName": "完颜亮",
       "templeTitle": null,
@@ -18084,7 +18355,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-喀喇汗国-马赫穆德-1",
+      "id": "rn-喀喇汗国-马赫穆德-2",
       "polityId": "pol-喀喇汗国",
       "personalName": "马赫穆德",
       "templeTitle": null,
@@ -18100,7 +18371,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-完颜雍",
+      "id": "rn-金-金世宗",
       "polityId": "pol-金",
       "personalName": "完颜雍",
       "templeTitle": "世宗",
@@ -18124,7 +18395,7 @@
       "displayTitle": "金世宗"
     },
     {
-      "id": "rn-赵昚",
+      "id": "rn-南宋-宋孝宗",
       "polityId": "pol-南宋",
       "personalName": "赵昚",
       "templeTitle": "孝宗",
@@ -18173,7 +18444,13 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段智兴",
-      "eraNames": [],
+      "eraNames": [
+        "利贞",
+        "盛德",
+        "嘉会",
+        "元亨",
+        "安定"
+      ],
       "reignStartYear": 1171,
       "reignEndYear": 1200,
       "aliases": [],
@@ -18216,7 +18493,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-赵惇",
+      "id": "rn-南宋-宋光宗",
       "polityId": "pol-南宋",
       "personalName": "赵惇",
       "templeTitle": "光宗",
@@ -18240,7 +18517,7 @@
       "displayTitle": "宋光宗"
     },
     {
-      "id": "rn-完颜璟",
+      "id": "rn-金-金章宗",
       "polityId": "pol-金",
       "personalName": "完颜璟",
       "templeTitle": "章宗",
@@ -18266,7 +18543,7 @@
       "displayTitle": "金章宗"
     },
     {
-      "id": "rn-李纯祐",
+      "id": "rn-西夏-李纯祐",
       "polityId": "pol-西夏",
       "personalName": "李纯祐",
       "templeTitle": "桓宗",
@@ -18290,7 +18567,7 @@
       "displayTitle": "李纯祐"
     },
     {
-      "id": "rn-赵扩",
+      "id": "rn-南宋-宋宁宗",
       "polityId": "pol-南宋",
       "personalName": "赵扩",
       "templeTitle": "宁宗",
@@ -18323,7 +18600,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段智廉",
-      "eraNames": [],
+      "eraNames": [
+        "凤历",
+        "元寿"
+      ],
       "reignStartYear": 1200,
       "reignEndYear": 1204,
       "aliases": [],
@@ -18339,7 +18619,11 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段智祥",
-      "eraNames": [],
+      "eraNames": [
+        "天开",
+        "天辅",
+        "天寿"
+      ],
       "reignStartYear": 1204,
       "reignEndYear": 1238,
       "aliases": [],
@@ -18349,7 +18633,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-李安全",
+      "id": "rn-西夏-李安全",
       "polityId": "pol-西夏",
       "personalName": "李安全",
       "templeTitle": "襄宗",
@@ -18374,7 +18658,7 @@
       "displayTitle": "李安全"
     },
     {
-      "id": "rn-铁木真",
+      "id": "rn-蒙古-成吉思汗",
       "polityId": "pol-蒙古",
       "personalName": "铁木真",
       "templeTitle": "太祖",
@@ -18400,7 +18684,7 @@
       "displayTitle": "成吉思汗"
     },
     {
-      "id": "rn-金-卫绍王",
+      "id": "rn-金-金卫绍王",
       "polityId": "pol-金",
       "personalName": "完颜永济",
       "templeTitle": null,
@@ -18417,10 +18701,16 @@
         "卫绍王",
         "金卫绍王"
       ],
-      "uncertain": false
+      "uncertain": false,
+      "eraNames": [
+        "贞祐",
+        "大安",
+        "崇庆",
+        "至宁"
+      ]
     },
     {
-      "id": "rn-李遵顼",
+      "id": "rn-西夏-李遵顼",
       "polityId": "pol-西夏",
       "personalName": "李遵顼",
       "templeTitle": "神宗",
@@ -18460,7 +18750,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-完颜珣",
+      "id": "rn-金-金宣宗",
       "polityId": "pol-金",
       "personalName": "完颜珣",
       "templeTitle": "宣宗",
@@ -18502,7 +18792,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-完颜守绪",
+      "id": "rn-金-金哀宗",
       "polityId": "pol-金",
       "personalName": "完颜守绪",
       "templeTitle": "哀宗",
@@ -18527,7 +18817,7 @@
       "displayTitle": "金哀宗"
     },
     {
-      "id": "rn-赵昀",
+      "id": "rn-南宋-宋理宗",
       "polityId": "pol-南宋",
       "personalName": "赵昀",
       "templeTitle": "理宗",
@@ -18558,13 +18848,12 @@
       "displayTitle": "宋理宗"
     },
     {
-      "id": "rn-李睍",
+      "id": "rn-西夏-李睍",
       "polityId": "pol-西夏",
       "personalName": "李睍",
       "templeTitle": null,
       "posthumousTitle": null,
       "eraNames": [
-        "乾定",
         "宝义"
       ],
       "reignStartYear": 1226,
@@ -18577,7 +18866,7 @@
       "displayTitle": "李睍"
     },
     {
-      "id": "rn-窝阔台",
+      "id": "rn-蒙古-窝阔台",
       "polityId": "pol-蒙古",
       "personalName": "窝阔台",
       "templeTitle": "太宗",
@@ -18623,7 +18912,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段祥兴",
-      "eraNames": [],
+      "eraNames": [
+        "道隆"
+      ],
       "reignStartYear": 1238,
       "reignEndYear": 1251,
       "aliases": [],
@@ -18633,7 +18924,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-贵由",
+      "id": "rn-蒙古-贵由",
       "polityId": "pol-蒙古",
       "personalName": "贵由",
       "templeTitle": "定宗",
@@ -18679,7 +18970,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "段兴智",
-      "eraNames": [],
+      "eraNames": [
+        "天定"
+      ],
       "reignStartYear": 1251,
       "reignEndYear": 1254,
       "aliases": [],
@@ -18689,7 +18982,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-蒙哥",
+      "id": "rn-蒙古-蒙哥",
       "polityId": "pol-蒙古",
       "personalName": "蒙哥",
       "templeTitle": "宪宗",
@@ -18713,13 +19006,12 @@
       "displayTitle": "蒙哥"
     },
     {
-      "id": "rn-忽必烈",
+      "id": "rn-元-元世祖",
       "polityId": "pol-元",
       "personalName": "忽必烈",
       "templeTitle": "世祖",
       "posthumousTitle": "圣德神功文武皇帝",
       "eraNames": [
-        "中统",
         "至元"
       ],
       "reignStartYear": 1260,
@@ -18749,7 +19041,10 @@
       "personalName": "忽必烈",
       "templeTitle": "世祖",
       "posthumousTitle": "圣德神功文武皇帝",
-      "eraNames": [],
+      "eraNames": [
+        "中统",
+        "至元"
+      ],
       "reignStartYear": 1260,
       "reignEndYear": 1270,
       "aliases": [
@@ -18770,7 +19065,7 @@
       "regnalCountStartYear": 1260
     },
     {
-      "id": "rn-赵禥",
+      "id": "rn-南宋-宋度宗",
       "polityId": "pol-南宋",
       "personalName": "赵禥",
       "templeTitle": "度宗",
@@ -18794,7 +19089,7 @@
       "displayTitle": "宋度宗"
     },
     {
-      "id": "rn-赵㬎",
+      "id": "rn-南宋-宋恭帝",
       "polityId": "pol-南宋",
       "personalName": "赵㬎",
       "templeTitle": "恭帝",
@@ -18817,7 +19112,7 @@
       "displayTitle": "宋恭帝"
     },
     {
-      "id": "rn-赵昰",
+      "id": "rn-南宋-宋端宗",
       "polityId": "pol-南宋",
       "personalName": "赵昰",
       "templeTitle": "端宗",
@@ -18840,7 +19135,7 @@
       "displayTitle": "宋端宗"
     },
     {
-      "id": "rn-赵昺",
+      "id": "rn-南宋-宋赵昺",
       "polityId": "pol-南宋",
       "personalName": "赵昺",
       "templeTitle": null,
@@ -18874,7 +19169,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-铁穆耳",
+      "id": "rn-元-元成宗",
       "polityId": "pol-元",
       "personalName": "铁穆耳",
       "templeTitle": "成宗",
@@ -18899,7 +19194,7 @@
       "displayTitle": "元成宗"
     },
     {
-      "id": "rn-海山",
+      "id": "rn-元-元武宗",
       "polityId": "pol-元",
       "personalName": "海山",
       "templeTitle": "武宗",
@@ -18923,7 +19218,7 @@
       "displayTitle": "元武宗"
     },
     {
-      "id": "rn-爱育黎拔力八达",
+      "id": "rn-元-元仁宗",
       "polityId": "pol-元",
       "personalName": "爱育黎拔力八达",
       "templeTitle": "仁宗",
@@ -18949,7 +19244,7 @@
       "displayTitle": "元仁宗"
     },
     {
-      "id": "rn-硕德八剌",
+      "id": "rn-元-元英宗",
       "polityId": "pol-元",
       "personalName": "硕德八剌",
       "templeTitle": "英宗",
@@ -18973,7 +19268,7 @@
       "displayTitle": "元英宗"
     },
     {
-      "id": "rn-也孙铁木儿",
+      "id": "rn-元-元泰定帝",
       "polityId": "pol-元",
       "personalName": "也孙铁木儿",
       "templeTitle": "泰定帝",
@@ -18997,7 +19292,7 @@
       "displayTitle": "元泰定帝"
     },
     {
-      "id": "rn-图帖睦尔",
+      "id": "rn-元-元文宗",
       "polityId": "pol-元",
       "personalName": "图帖睦尔",
       "templeTitle": "文宗",
@@ -19022,7 +19317,7 @@
       "displayTitle": "元文宗"
     },
     {
-      "id": "rn-妥懽帖睦尔",
+      "id": "rn-元-元惠宗",
       "polityId": "pol-元",
       "personalName": "妥懽帖睦尔",
       "templeTitle": "惠宗",
@@ -19050,7 +19345,7 @@
       "displayTitle": "元惠宗"
     },
     {
-      "id": "rn-朱元璋",
+      "id": "rn-明-洪武帝",
       "polityId": "pol-明",
       "personalName": "朱元璋",
       "templeTitle": "太祖",
@@ -19074,13 +19369,15 @@
       "displayTitle": "洪武帝"
     },
     {
-      "id": "rn-北元-爱猷识理达腊",
+      "id": "rn-北元-元昭宗",
       "polityId": "pol-北元",
       "personalName": "爱猷识理达腊",
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "元昭宗",
-      "eraNames": [],
+      "eraNames": [
+        "宣光"
+      ],
       "reignStartYear": 1370,
       "reignEndYear": 1378,
       "aliases": [
@@ -19099,7 +19396,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "脱古思帖木儿",
-      "eraNames": [],
+      "eraNames": [
+        "天元"
+      ],
       "reignStartYear": 1378,
       "reignEndYear": 1388,
       "aliases": [],
@@ -19109,7 +19408,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-朱允炆",
+      "id": "rn-明-建文帝",
       "polityId": "pol-明",
       "personalName": "朱允炆",
       "templeTitle": null,
@@ -19131,7 +19430,7 @@
       "displayTitle": "建文帝"
     },
     {
-      "id": "rn-朱棣",
+      "id": "rn-明-永乐帝",
       "polityId": "pol-明",
       "personalName": "朱棣",
       "templeTitle": "成祖",
@@ -19157,7 +19456,7 @@
       "displayTitle": "永乐帝"
     },
     {
-      "id": "rn-朱高炽",
+      "id": "rn-明-洪熙帝",
       "polityId": "pol-明",
       "personalName": "朱高炽",
       "templeTitle": "仁宗",
@@ -19181,7 +19480,7 @@
       "displayTitle": "洪熙帝"
     },
     {
-      "id": "rn-朱瞻基",
+      "id": "rn-明-宣德帝",
       "polityId": "pol-明",
       "personalName": "朱瞻基",
       "templeTitle": "宣宗",
@@ -19205,7 +19504,7 @@
       "displayTitle": "宣德帝"
     },
     {
-      "id": "rn-朱祁镇-正统",
+      "id": "rn-明-正统帝",
       "polityId": "pol-明",
       "personalName": "朱祁镇",
       "templeTitle": "英宗",
@@ -19233,7 +19532,7 @@
       "displayTitle": "正统帝"
     },
     {
-      "id": "rn-朱祁钰",
+      "id": "rn-明-景泰帝",
       "polityId": "pol-明",
       "personalName": "朱祁钰",
       "templeTitle": "代宗",
@@ -19259,7 +19558,7 @@
       "displayTitle": "景泰帝"
     },
     {
-      "id": "rn-朱祁镇-天顺",
+      "id": "rn-明-天顺帝",
       "polityId": "pol-明",
       "personalName": "朱祁镇",
       "templeTitle": "英宗",
@@ -19287,7 +19586,7 @@
       "displayTitle": "天顺帝"
     },
     {
-      "id": "rn-朱见深",
+      "id": "rn-明-成化帝",
       "polityId": "pol-明",
       "personalName": "朱见深",
       "templeTitle": "宪宗",
@@ -19311,7 +19610,7 @@
       "displayTitle": "成化帝"
     },
     {
-      "id": "rn-朱祐樘",
+      "id": "rn-明-弘治帝",
       "polityId": "pol-明",
       "personalName": "朱祐樘",
       "templeTitle": "孝宗",
@@ -19335,7 +19634,7 @@
       "displayTitle": "弘治帝"
     },
     {
-      "id": "rn-朱厚照",
+      "id": "rn-明-正德帝",
       "polityId": "pol-明",
       "personalName": "朱厚照",
       "templeTitle": "武宗",
@@ -19359,7 +19658,7 @@
       "displayTitle": "正德帝"
     },
     {
-      "id": "rn-朱厚熜",
+      "id": "rn-明-嘉靖帝",
       "polityId": "pol-明",
       "personalName": "朱厚熜",
       "templeTitle": "世宗",
@@ -19383,7 +19682,7 @@
       "displayTitle": "嘉靖帝"
     },
     {
-      "id": "rn-朱载坖",
+      "id": "rn-明-隆庆帝",
       "polityId": "pol-明",
       "personalName": "朱载坖",
       "templeTitle": "穆宗",
@@ -19407,7 +19706,7 @@
       "displayTitle": "隆庆帝"
     },
     {
-      "id": "rn-朱翊钧",
+      "id": "rn-明-万历帝",
       "polityId": "pol-明",
       "personalName": "朱翊钧",
       "templeTitle": "神宗",
@@ -19431,7 +19730,7 @@
       "displayTitle": "万历帝"
     },
     {
-      "id": "rn-努尔哈赤",
+      "id": "rn-后金-努尔哈赤",
       "polityId": "pol-后金",
       "personalName": "努尔哈赤",
       "templeTitle": "太祖",
@@ -19457,7 +19756,7 @@
       "displayTitle": "努尔哈赤"
     },
     {
-      "id": "rn-朱常洛",
+      "id": "rn-明-泰昌帝",
       "polityId": "pol-明",
       "personalName": "朱常洛",
       "templeTitle": "光宗",
@@ -19481,7 +19780,7 @@
       "displayTitle": "泰昌帝"
     },
     {
-      "id": "rn-朱由校",
+      "id": "rn-明-天启帝",
       "polityId": "pol-明",
       "personalName": "朱由校",
       "templeTitle": "熹宗",
@@ -19505,13 +19804,12 @@
       "displayTitle": "天启帝"
     },
     {
-      "id": "rn-皇太极",
+      "id": "rn-清-皇太极",
       "polityId": "pol-清",
       "personalName": "皇太极",
       "templeTitle": "太宗",
       "posthumousTitle": "文皇帝",
       "eraNames": [
-        "天聪",
         "崇德"
       ],
       "reignStartYear": 1626,
@@ -19534,7 +19832,7 @@
       "regnalCountStartYear": 1626
     },
     {
-      "id": "rn-朱由检",
+      "id": "rn-明-崇祯帝",
       "polityId": "pol-明",
       "personalName": "朱由检",
       "templeTitle": "思宗",
@@ -19560,7 +19858,7 @@
       "displayTitle": "崇祯帝"
     },
     {
-      "id": "rn-福临",
+      "id": "rn-清-顺治帝",
       "polityId": "pol-清",
       "personalName": "福临",
       "templeTitle": "世祖",
@@ -19590,7 +19888,9 @@
       "templeTitle": null,
       "posthumousTitle": "闯王",
       "displayTitle": "李自成",
-      "eraNames": [],
+      "eraNames": [
+        "永昌"
+      ],
       "reignStartYear": 1644,
       "reignEndYear": 1645,
       "aliases": [
@@ -19610,7 +19910,9 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "张献忠",
-      "eraNames": [],
+      "eraNames": [
+        "大顺"
+      ],
       "reignStartYear": 1644,
       "reignEndYear": 1646,
       "aliases": [
@@ -19629,7 +19931,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "朱由崧",
-      "eraNames": [],
+      "eraNames": [
+        "弘光",
+        "隆武"
+      ],
       "reignStartYear": 1644,
       "reignEndYear": 1645,
       "aliases": [
@@ -19648,7 +19953,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "朱聿键",
-      "eraNames": [],
+      "eraNames": [
+        "隆武",
+        "绍武"
+      ],
       "reignStartYear": 1645,
       "reignEndYear": 1646,
       "aliases": [
@@ -19667,7 +19975,10 @@
       "templeTitle": null,
       "posthumousTitle": null,
       "displayTitle": "朱由榔",
-      "eraNames": [],
+      "eraNames": [
+        "绍武",
+        "永历"
+      ],
       "reignStartYear": 1646,
       "reignEndYear": 1662,
       "aliases": [
@@ -19680,7 +19991,7 @@
       "uncertain": true
     },
     {
-      "id": "rn-玄烨",
+      "id": "rn-清-康熙帝",
       "polityId": "pol-清",
       "personalName": "玄烨",
       "templeTitle": "圣祖",
@@ -19704,7 +20015,7 @@
       "displayTitle": "康熙帝"
     },
     {
-      "id": "rn-胤禛",
+      "id": "rn-清-雍正帝",
       "polityId": "pol-清",
       "personalName": "胤禛",
       "templeTitle": "世宗",
@@ -19728,7 +20039,7 @@
       "displayTitle": "雍正帝"
     },
     {
-      "id": "rn-弘历",
+      "id": "rn-清-乾隆帝",
       "polityId": "pol-清",
       "personalName": "弘历",
       "templeTitle": "高宗",
@@ -19752,7 +20063,7 @@
       "displayTitle": "乾隆帝"
     },
     {
-      "id": "rn-颙琰",
+      "id": "rn-清-嘉庆帝",
       "polityId": "pol-清",
       "personalName": "颙琰",
       "templeTitle": "仁宗",
@@ -19776,7 +20087,7 @@
       "displayTitle": "嘉庆帝"
     },
     {
-      "id": "rn-旻宁",
+      "id": "rn-清-道光帝",
       "polityId": "pol-清",
       "personalName": "旻宁",
       "templeTitle": "宣宗",
@@ -19800,7 +20111,7 @@
       "displayTitle": "道光帝"
     },
     {
-      "id": "rn-奕詝",
+      "id": "rn-清-咸丰帝",
       "polityId": "pol-清",
       "personalName": "奕詝",
       "templeTitle": "文宗",
@@ -19824,7 +20135,7 @@
       "displayTitle": "咸丰帝"
     },
     {
-      "id": "rn-载淳",
+      "id": "rn-清-同治帝",
       "polityId": "pol-清",
       "personalName": "载淳",
       "templeTitle": "穆宗",
@@ -19848,7 +20159,7 @@
       "displayTitle": "同治帝"
     },
     {
-      "id": "rn-载湉",
+      "id": "rn-清-光绪帝",
       "polityId": "pol-清",
       "personalName": "载湉",
       "templeTitle": "德宗",
@@ -19872,7 +20183,7 @@
       "displayTitle": "光绪帝"
     },
     {
-      "id": "rn-溥仪",
+      "id": "rn-清-宣统帝",
       "polityId": "pol-清",
       "personalName": "溥仪",
       "templeTitle": null,

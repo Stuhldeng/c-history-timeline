@@ -13,16 +13,16 @@
     }
   },
   "items": {
-    "ruler:rn-忽必烈": {
+    "ruler:rn-元-元世祖": {
       "type": "founder-transition",
       "reason": "忽必烈先后为大蒙古国大汗（1260~1270）和元朝皇帝（1271~1294），拆为两条后蒙古阶段跨越元朝建立年份",
       "relatedEntities": [
-        "rn-忽必烈-蒙古",
+        "rn-元-元世祖-蒙古",
         "pol-蒙古",
         "pol-元"
       ]
     },
-    "ruler:rn-皇太极": {
+    "ruler:rn-清-皇太极": {
       "type": "founder-transition",
       "reason": "皇太极先后为后金汗（1626~1636）和清朝皇帝（1636~1643），后金阶段跨越清朝建立年份",
       "relatedEntities": [
@@ -46,19 +46,19 @@
         "pol-前凉"
       ]
     },
-    "ruler:rn-晋国-孝公": {
+    "ruler:rn-晋-晋孝公": {
       "type": "overlap-by-design",
       "reason": "晋国孝公、静公在位期间晋国名义上仍存续，但政权拆分导致在位年份超出pol-晋的endYear",
       "relatedEntities": [
-        "ruler:rn-晋国-静公",
+        "ruler:rn-晋-晋静公",
         "pol-晋"
       ]
     },
-    "ruler:rn-晋国-静公": {
+    "ruler:rn-晋-晋静公": {
       "type": "overlap-by-design",
       "reason": "同上，与晋国孝公同属政权拆分设计",
       "relatedEntities": [
-        "ruler:rn-晋国-孝公",
+        "ruler:rn-晋-晋孝公",
         "pol-晋"
       ]
     },
@@ -84,7 +84,7 @@
         "pol-大封民"
       ]
     },
-    "era:era-至元-yuan": {
+    "era:era-至元-元-2": {
       "type": "post-collapse-era",
       "reason": "至元年号始于1264（蒙古时期），1271年元朝建立后继续使用至1294年。年号整体跨越政权边界",
       "relatedEntities": [
@@ -115,17 +115,17 @@
       "type": "founder-transition",
       "reason": "嬴政先后为秦王（前246~前221）和秦始皇帝（前221~前210），拆为两条ruler记录后，秦王阶段仍跨越秦朝建立年份",
       "relatedEntities": [
-        "rn-秦朝-始皇帝",
+        "rn-秦朝-秦始皇",
         "pol-秦",
         "pol-秦朝"
       ]
     },
-    "ruler:rn-汉王-汉王": {
+    "ruler:rn-汉王-汉王刘邦": {
       "type": "founder-transition",
       "reason": "刘邦先后为汉王（前206~前202）和西汉高皇帝（前202~前195），拆为两条后汉王阶段跨越西汉建立年份",
       "relatedEntities": [
-        "rn-汉王-汉王",
-        "rn-西汉-高皇帝",
+        "rn-汉王-汉王刘邦",
+        "rn-西汉-汉高祖",
         "pol-汉王",
         "pol-西汉"
       ]
@@ -134,12 +134,12 @@
       "type": "founder-transition",
       "reason": "显道、广运、大庆为西夏正式建国（1038）前李元昊使用的年号，1032~1038属奠基阶段。越界为政权拆分的设计结果",
       "relatedEntities": [
-        "era-广运",
+        "era-广运-西夏",
         "era-大庆-西夏",
         "pol-西夏"
       ]
     },
-    "era:era-广运": {
+    "era:era-广运-西夏": {
       "type": "founder-transition",
       "reason": "同显道，西夏前建国年号",
       "relatedEntities": [
@@ -153,7 +153,7 @@
       "reason": "同显道，西夏前建国年号。注意：era-大庆-西夏 于1036~1038，西夏1038年建国",
       "relatedEntities": [
         "era-显道",
-        "era-广运",
+        "era-广运-西夏",
         "pol-西夏"
       ]
     },
@@ -185,21 +185,21 @@
       "reason": "西突厥为边疆政权，633~650年存在18年数据空白，属历史记录缺失。此期间为西突厥分裂后的混乱时期",
       "relatedEntities": []
     },
-    "ruler:rn-魏国-文侯": {
+    "ruler:rn-魏-魏文侯": {
       "type": "founder-transition",
       "reason": "魏文侯在前403年被周威烈王正式册封为侯，此前已实际统治魏地。在位前445~前396，越界为历史事实",
       "relatedEntities": [
         "pol-魏"
       ]
     },
-    "ruler:rn-韩国-景侯": {
+    "ruler:rn-韩-韩景侯": {
       "type": "founder-transition",
       "reason": "韩景侯在前403年被正式册封为侯，此前已实际统治韩地。在位前408~前400，越界为历史事实",
       "relatedEntities": [
         "pol-韩"
       ]
     },
-    "ruler:rn-赵国-烈侯": {
+    "ruler:rn-赵-赵烈侯": {
       "type": "founder-transition",
       "reason": "赵烈侯在前403年被正式册封为侯，此前已实际统治赵地。在位前408~前400，越界为历史事实",
       "relatedEntities": [

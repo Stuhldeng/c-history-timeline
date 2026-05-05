@@ -36,28 +36,28 @@
     ]
   },
   "items": {
-    "ruler:rn-晋国-孝公": {
+    "ruler:rn-晋-晋孝公": {
       "method": "human",
       "confidence": "absolute",
       "verifiedBy": "七毛",
       "verifiedAt": "2026-05-03",
-      "note": "已接受此越界：晋结束时间及末两代君主有争议。rn-晋国-孝公 在位 -388~-357，超出 晋 存续年 -1033~-376",
+      "note": "已接受此越界：晋结束时间及末两代君主有争议。rn-晋-晋孝公 在位 -388~-357，超出 晋 存续年 -1033~-376",
       "appliesTo": "rulerOutOfPolity"
     },
-    "ruler:rn-晋国-静公": {
+    "ruler:rn-晋-晋静公": {
       "method": "human",
       "confidence": "absolute",
       "verifiedBy": "七毛",
       "verifiedAt": "2026-05-03",
-      "note": "已接受此越界：晋结束时间及末两代君主有争议。rn-晋国-静公 在位 -356~-349，超出 晋 存续年 -1033~-376",
+      "note": "已接受此越界：晋结束时间及末两代君主有争议。rn-晋-晋静公 在位 -356~-349，超出 晋 存续年 -1033~-376",
       "appliesTo": "rulerOutOfPolity"
     },
-    "ruler:rn-秦朝-始皇帝": {
+    "ruler:rn-秦朝-秦始皇": {
       "method": "human",
       "confidence": "absolute",
       "verifiedBy": "七毛",
       "verifiedAt": "2026-05-03",
-      "note": "已接受此越界：属政权拆分设计或跨政权阶段。rn-秦朝-始皇帝 在位 -246~-210，超出 秦朝 存续年 -221~-207",
+      "note": "已接受此越界：属政权拆分设计或跨政权阶段。rn-秦朝-秦始皇 在位 -246~-210，超出 秦朝 存续年 -221~-207",
       "appliesTo": "rulerOutOfPolity"
     },
     "ruler:rn-前凉-张轨": {
@@ -100,28 +100,28 @@
       "note": "已接受此越界：属政权拆分设计或跨政权阶段。rn-大封民-隆舜 在位 877~897，超出 大封民 存续年 878~902",
       "appliesTo": "rulerOutOfPolity"
     },
-    "ruler:rn-忽必烈": {
+    "ruler:rn-元-元世祖": {
       "method": "human",
       "confidence": "absolute",
       "verifiedBy": "七毛",
       "verifiedAt": "2026-05-03",
-      "note": "已接受此越界：属政权拆分设计或跨政权阶段。rn-忽必烈 在位 1260~1294，超出 元 存续年 1271~1368",
+      "note": "已接受此越界：属政权拆分设计或跨政权阶段。rn-元-元世祖 在位 1260~1294，超出 元 存续年 1271~1368",
       "appliesTo": "rulerOutOfPolity"
     },
-    "ruler:rn-皇太极": {
+    "ruler:rn-清-皇太极": {
       "method": "human",
       "confidence": "absolute",
       "verifiedBy": "七毛",
       "verifiedAt": "2026-05-03",
-      "note": "已接受此越界：属政权拆分设计或跨政权阶段。rn-皇太极 在位 1626~1643，超出 清 存续年 1636~1912",
+      "note": "已接受此越界：属政权拆分设计或跨政权阶段。rn-清-皇太极 在位 1626~1643，超出 清 存续年 1636~1912",
       "appliesTo": "rulerOutOfPolity"
     },
-    "era:era-至元-yuan": {
+    "era:era-至元-元-2": {
       "method": "human",
       "confidence": "absolute",
       "verifiedBy": "七毛",
       "verifiedAt": "2026-05-03",
-      "note": "已接受此越界：年号跨政权阶段。至元(era-至元-yuan) 年号 1264~1294，超出 元 存续年 1271~1368",
+      "note": "已接受此越界：年号跨政权阶段。至元(era-至元-元-2) 年号 1264~1294，超出 元 存续年 1271~1368",
       "appliesTo": "eraOutOfPolity"
     },
     "polity:pol-燕": {
@@ -148,7 +148,7 @@
       "note": "已接受此处年份空白：武周时期。唐朝 691~704年（14年）无数据",
       "appliesTo": "yearGaps"
     },
-    "ruler:rn-刘秀": {
+    "ruler:rn-东汉-汉光武帝": {
       "method": "ai",
       "confidence": "high",
       "verifiedBy": "Claude",
